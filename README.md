@@ -499,6 +499,12 @@ CSV 會先存到頭顯的 App 專屬資料夾：
 [EyeResearch] Recording started
 /storage/emulated/0/Android/data/.../files/EyeTrackingData/TEST001_T01_GazeCSVTest_20260725_072454.csv
 ```
+## 初始化好adb工具 (方能取得VR內資料)
+```powershell
+$adb = "C:\Program Files\Unity\Hub\Editor\6000.4.4f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platform-tools\adb.exe"
+
+Test-Path $adb
+```
 
 ## 查看頭顯內的 CSV
 
