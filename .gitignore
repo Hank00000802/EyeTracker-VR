@@ -1,3 +1,4 @@
+# Unity generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -8,6 +9,7 @@
 [Mm]emoryCaptures/
 [Rr]ecordings/
 
+# IDE / generated project files
 *.csproj
 *.unityproj
 *.sln
@@ -31,3 +33,12 @@ ExportedObj/
 
 sysinfo.txt
 crashlytics-build.properties
+
+# ---------------------------------------------------------------------------
+# Third-party Asset Store content (do not publish / redistribute)
+# Install from Unity Asset Store after clone, then reopen affected scenes.
+# ---------------------------------------------------------------------------
+
+# TMI - Kitchen (Asset Store kitchen props)
+Assets/TMI - Kitchen/
+Assets/TMI - Kitchen.meta

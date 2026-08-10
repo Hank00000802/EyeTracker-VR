@@ -1057,7 +1057,7 @@ MonoBehaviour:
   conditionId: GazeCSVTest
   trackingSpace: {fileID: 396065619}
   headTransform: {fileID: 390954935}
-  sampleRateHz: 2
+  sampleRateHz: 6
   flushEverySamples: 120
   maxRayDistance: 20
   hitLayers:
