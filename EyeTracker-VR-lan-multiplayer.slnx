@@ -1,0 +1,9 @@
+﻿<Solution>
+  <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
+  <Project Path="VIVE.OpenXR.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="ithappy.Creative_Characters_FREE.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="VIVE.OpenXR.Editor.csproj" />
+  <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj" />
+</Solution>

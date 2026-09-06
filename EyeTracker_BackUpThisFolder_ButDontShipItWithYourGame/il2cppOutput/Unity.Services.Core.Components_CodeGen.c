@@ -1,0 +1,135 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA347E420C42AE02E1309EFE8A445211B3827AA3F (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3F020A1075D1B06EF6E69CF148F5B8407A50152A (void);
+extern void ServicesBehaviour_get_Services_m327DDF51CB2EDA4FFCE0C533255DB018F8C79289 (void);
+extern void ServicesBehaviour_set_Services_mD885EEEC53CE791F72BA3E989A9F97FF6660513B (void);
+extern void ServicesBehaviour_Start_mF7E98B4599DBED13F2081D85441603D12C0C6E7F (void);
+extern void ServicesBehaviour_OnDestroy_m34FCFC3CC644EBE729A64F2031E39ADCD98B9BBD (void);
+extern void ServicesBehaviour_SetRegistry_m84EE8F16EB380240761F3E2E2C93766F6C923FAB (void);
+extern void ServicesBehaviour__ctor_m5102C2B7108C9999ABE07EE09B53900BCEF9624A (void);
+extern void ServicesInitialization_get_IsSetupDone_mD01838FFF2C7E6A9B2AAB3EB548865874D22FC14 (void);
+extern void ServicesInitialization_set_IsSetupDone_m4E24962819758DA151F00DD39083E4F178B16AB1 (void);
+extern void ServicesInitialization__ctor_mC55F22EC64B85C839BC12168E8DD7EE81975B28F (void);
+extern void ServicesInitialization_OnServicesReady_m182D6FC5504BA7B4A88FC3B975E5AEBF6CF7D1B3 (void);
+extern void ServicesInitialization_OnServicesInitialized_mCD392E5CCA8772AE48BDF7E9D0EE45ED200F4ADE (void);
+extern void ServicesInitialization_Cleanup_mEE6EC4586E2FF434A30382D9D623D3A2FF71D0D0 (void);
+extern void ServicesInitialization_SetupAsync_mD848E29CD1DE3C08FF43D402726BA9A2FCAA6E5F (void);
+extern void ServicesInitialization_InitializeOnStartAsync_mF1D17B473A34695A8734A9D6CCB52E9D11A93C98 (void);
+extern void ServicesInitialization_BuildInitializationOptions_mCC49852AB109F36AF17CB44E6AD09CDFD23AE826 (void);
+extern void ServicesInitialization_OnInitialized_mFBA5D0D8FE7BEEA6FB4C5F5D343B5D74CFD1792E (void);
+extern void ServicesInitialization_OnInitializeFailed_m77B8BBE8BEA19794B7A387270C50FBDA6519E921 (void);
+extern void U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA (void);
+extern void U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F (void);
+extern void U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF (void);
+extern void U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68 (void);
+extern void U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699 (void);
+extern void U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25 (void);
+extern void ServicesInitializationEvents__ctor_m6E2A274328DAF745CEB9826E55B37B2048836796 (void);
+static Il2CppMethodPointer s_methodPointers[29] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mA347E420C42AE02E1309EFE8A445211B3827AA3F,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m3F020A1075D1B06EF6E69CF148F5B8407A50152A,
+	ServicesBehaviour_get_Services_m327DDF51CB2EDA4FFCE0C533255DB018F8C79289,
+	ServicesBehaviour_set_Services_mD885EEEC53CE791F72BA3E989A9F97FF6660513B,
+	ServicesBehaviour_Start_mF7E98B4599DBED13F2081D85441603D12C0C6E7F,
+	ServicesBehaviour_OnDestroy_m34FCFC3CC644EBE729A64F2031E39ADCD98B9BBD,
+	ServicesBehaviour_SetRegistry_m84EE8F16EB380240761F3E2E2C93766F6C923FAB,
+	NULL,
+	NULL,
+	NULL,
+	ServicesBehaviour__ctor_m5102C2B7108C9999ABE07EE09B53900BCEF9624A,
+	ServicesInitialization_get_IsSetupDone_mD01838FFF2C7E6A9B2AAB3EB548865874D22FC14,
+	ServicesInitialization_set_IsSetupDone_m4E24962819758DA151F00DD39083E4F178B16AB1,
+	ServicesInitialization__ctor_mC55F22EC64B85C839BC12168E8DD7EE81975B28F,
+	ServicesInitialization_OnServicesReady_m182D6FC5504BA7B4A88FC3B975E5AEBF6CF7D1B3,
+	ServicesInitialization_OnServicesInitialized_mCD392E5CCA8772AE48BDF7E9D0EE45ED200F4ADE,
+	ServicesInitialization_Cleanup_mEE6EC4586E2FF434A30382D9D623D3A2FF71D0D0,
+	ServicesInitialization_SetupAsync_mD848E29CD1DE3C08FF43D402726BA9A2FCAA6E5F,
+	ServicesInitialization_InitializeOnStartAsync_mF1D17B473A34695A8734A9D6CCB52E9D11A93C98,
+	ServicesInitialization_BuildInitializationOptions_mCC49852AB109F36AF17CB44E6AD09CDFD23AE826,
+	ServicesInitialization_OnInitialized_mFBA5D0D8FE7BEEA6FB4C5F5D343B5D74CFD1792E,
+	ServicesInitialization_OnInitializeFailed_m77B8BBE8BEA19794B7A387270C50FBDA6519E921,
+	U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA,
+	U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F,
+	U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF,
+	U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68,
+	U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699,
+	U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25,
+	ServicesInitializationEvents__ctor_m6E2A274328DAF745CEB9826E55B37B2048836796,
+};
+extern void U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA_AdjustorThunk (void);
+extern void U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F_AdjustorThunk (void);
+extern void U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF_AdjustorThunk (void);
+extern void U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68_AdjustorThunk (void);
+extern void U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699_AdjustorThunk (void);
+extern void U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[6] = 
+{
+	{ 0x06000017, U3CInitializeOnStartAsyncU3Ed__13_MoveNext_m01ED5ABCD403B04ECE61D4AFACB57170C5C680EA_AdjustorThunk },
+	{ 0x06000018, U3CInitializeOnStartAsyncU3Ed__13_SetStateMachine_m4426AB91B58C58B67D20791111ADE8611C8BF16F_AdjustorThunk },
+	{ 0x06000019, U3COnServicesReadyU3Ed__9_MoveNext_m244D865603DB4E4CEE1DCDD5028A9C7E5AC7D9EF_AdjustorThunk },
+	{ 0x0600001A, U3COnServicesReadyU3Ed__9_SetStateMachine_m782C155B9A43C1001243108988C17C161F7D3B68_AdjustorThunk },
+	{ 0x0600001B, U3CSetupAsyncU3Ed__12_MoveNext_m937E72D665DA5981B2E5FA23F1BCE8B2696E4699_AdjustorThunk },
+	{ 0x0600001C, U3CSetupAsyncU3Ed__12_SetStateMachine_m9AA49ABF10AEF8EB53043223C5E7F59DB376EE25_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[29] = 
+{
+	33352,
+	19600,
+	19352,
+	14811,
+	19600,
+	19600,
+	19600,
+	-1,
+	-1,
+	-1,
+	19600,
+	19108,
+	14570,
+	19600,
+	19600,
+	19600,
+	19600,
+	19352,
+	19352,
+	19352,
+	19600,
+	14811,
+	19600,
+	14811,
+	19600,
+	14811,
+	19600,
+	14811,
+	19600,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Services_Core_Components_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_Services_Core_Components_CodeGenModule = 
+{
+	"Unity.Services.Core.Components.dll",
+	29,
+	s_methodPointers,
+	6,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
