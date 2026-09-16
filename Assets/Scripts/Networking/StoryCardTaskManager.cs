@@ -17,6 +17,8 @@ public class StoryCardTaskManager : NetworkBehaviour
     [Header("Narration")]
     [SerializeField] private Button nextCardButton;
     [SerializeField] private TMP_Text narrationStatusText;
+    [SerializeField] private float narrationNextCardUnlockSeconds = 40f;
+    [SerializeField] private float narrationAutoAdvanceSeconds = 180f;
 
     [Header("Board")]
     [SerializeField] private StoryCardBoardManager storyCardBoardManager;
@@ -29,8 +31,21 @@ public class StoryCardTaskManager : NetworkBehaviour
             NetworkVariableWritePermission.Server
         );
 
+    private readonly NetworkVariable<double> narrationCardStartServerTime =
+        new NetworkVariable<double>(
+            -1d,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Server
+        );
+
     private bool isAdvancingPhase;
+    private bool hasAutoAdvancedThisCard;
     private ExperimentPhase lastPhase = (ExperimentPhase)255;
+    private bool lastSelectingStory;
+
+    public int CurrentNarrationCardIndex => currentNarrationCard.Value;
+
+    public bool IsOnLastNarrationCard => currentNarrationCard.Value == 4;
 
     private void Awake()
     {
@@ -74,6 +89,15 @@ public class StoryCardTaskManager : NetworkBehaviour
 
         if (experimentFlowManager.CurrentPhase != lastPhase)
             RefreshUI();
+        else if (experimentFlowManager.IsSelectingStory != lastSelectingStory)
+            UpdateDrawAndNextCardForSelection();
+        else if (ExperimentFlowManager.IsNarrationPhase(experimentFlowManager.CurrentPhase))
+            UpdateNextCardButtonVisibility(experimentFlowManager.CurrentPhase);
+
+        lastSelectingStory = experimentFlowManager.IsSelectingStory;
+
+        if (IsServer)
+            TryAutoAdvanceNarrationCard();
     }
 
     private void RefreshUI()
@@ -87,21 +111,30 @@ public class StoryCardTaskManager : NetworkBehaviour
 
         if (IsServer)
         {
-            if (phase == ExperimentPhase.StoryADraw)
-                currentNarrationCard.Value = 0;
-
-            if (phase == ExperimentPhase.StoryNarration &&
-                previousPhase != ExperimentPhase.StoryNarration)
+            if (ExperimentFlowManager.IsDrawAPhase(phase) &&
+                !ExperimentFlowManager.IsDrawBPhase(previousPhase))
             {
-                currentNarrationCard.Value = 1;
+                currentNarrationCard.Value = 0;
+                isAdvancingPhase = false;
+                if (storyCardBoardManager != null)
+                    storyCardBoardManager.ResetBoardForNewDealServer();
+            }
+
+            if (ExperimentFlowManager.IsNarrationPhase(phase) &&
+                !ExperimentFlowManager.IsNarrationPhase(previousPhase))
+            {
+                StartNarrationCardServer(1);
+            }
+
+            if (!ExperimentFlowManager.IsNarrationPhase(phase) &&
+                ExperimentFlowManager.IsNarrationPhase(previousPhase))
+            {
+                narrationCardStartServerTime.Value = -1d;
+                hasAutoAdvancedThisCard = false;
             }
         }
 
-        bool isStoryPhase =
-            phase == ExperimentPhase.StoryADraw ||
-            phase == ExperimentPhase.StoryBDraw ||
-            phase == ExperimentPhase.StoryDiscussion ||
-            phase == ExperimentPhase.StoryNarration;
+        bool isStoryPhase = ExperimentFlowManager.IsStoryPhase(phase);
 
         if (storyInteractionPanel != null)
             storyInteractionPanel.SetActive(isStoryPhase);
@@ -134,10 +167,12 @@ public class StoryCardTaskManager : NetworkBehaviour
 
         bool localIsA = IsLocalParticipantA();
         bool localIsB = IsLocalParticipantB();
+        bool selectingStory = experimentFlowManager.IsSelectingStory;
 
         bool canDraw =
-            (phase == ExperimentPhase.StoryADraw && localIsA) ||
-            (phase == ExperimentPhase.StoryBDraw && localIsB);
+            !selectingStory &&
+            ((ExperimentFlowManager.IsDrawAPhase(phase) && localIsA) ||
+             (ExperimentFlowManager.IsDrawBPhase(phase) && localIsB));
 
         if (drawButton != null)
         {
@@ -148,51 +183,182 @@ public class StoryCardTaskManager : NetworkBehaviour
         if (drawStatusText == null)
             return;
 
-        switch (phase)
+        if (ExperimentFlowManager.IsDrawAPhase(phase))
         {
-            case ExperimentPhase.StoryADraw:
-
-                drawStatusText.text = localIsA
-                    ? "Participant A: Draw your cards."
-                    : "Waiting for Participant A...";
-
-                break;
-
-            case ExperimentPhase.StoryBDraw:
-
-                drawStatusText.text = localIsB
-                    ? "Participant B: Draw your cards."
-                    : "Waiting for Participant B...";
-
-                break;
-
-            case ExperimentPhase.StoryDiscussion:
-
-                drawStatusText.text =
-                    "Discuss the four cards together.";
-
-                break;
-
-            case ExperimentPhase.StoryNarration:
-
-                drawStatusText.text =
-                    "Tell the story in order: 1 → 2 → 3 → 4.";
-
-                break;
+            drawStatusText.text = localIsA
+                ? "Participant A: Draw your cards."
+                : "Waiting for Participant A...";
+        }
+        else if (ExperimentFlowManager.IsDrawBPhase(phase))
+        {
+            drawStatusText.text = localIsB
+                ? "Participant B: Draw your cards."
+                : "Waiting for Participant B...";
+        }
+        else if (ExperimentFlowManager.IsDiscussionPhase(phase))
+        {
+            drawStatusText.text = "Discuss the four cards together.";
+        }
+        else if (ExperimentFlowManager.IsNarrationPhase(phase))
+        {
+            drawStatusText.text = "Tell the story in order: 1 → 2 → 3 → 4.";
         }
     }
 
     private void UpdateNextCardButtonVisibility(ExperimentPhase phase)
     {
-        if (nextCardButton == null)
+        if (nextCardButton == null || experimentFlowManager == null)
             return;
 
+        int cardIndex = currentNarrationCard.Value;
         bool showNext =
-            phase == ExperimentPhase.StoryNarration &&
-            CanControlCurrentNarrationCard();
+            !experimentFlowManager.IsSelectingStory &&
+            ExperimentFlowManager.IsNarrationPhase(phase) &&
+            cardIndex >= 1 &&
+            cardIndex <= 3 &&
+            CanControlCurrentNarrationCard() &&
+            IsNarrationUnlockElapsed();
 
-        nextCardButton.gameObject.SetActive(showNext);
+        if (nextCardButton.gameObject.activeSelf != showNext)
+            nextCardButton.gameObject.SetActive(showNext);
+
         nextCardButton.interactable = showNext;
+    }
+
+    private void UpdateDrawAndNextCardForSelection()
+    {
+        ExperimentPhase phase = experimentFlowManager.CurrentPhase;
+        UpdateNextCardButtonVisibility(phase);
+
+        if (drawButton == null)
+            return;
+
+        bool localIsA = IsLocalParticipantA();
+        bool localIsB = IsLocalParticipantB();
+        bool canDraw =
+            !experimentFlowManager.IsSelectingStory &&
+            ((ExperimentFlowManager.IsDrawAPhase(phase) && localIsA) ||
+             (ExperimentFlowManager.IsDrawBPhase(phase) && localIsB));
+
+        drawButton.gameObject.SetActive(canDraw);
+        drawButton.interactable = canDraw;
+    }
+
+    public bool TryGetNarrationElapsedSeconds(out int elapsedSeconds)
+    {
+        elapsedSeconds = 0;
+
+        if (experimentFlowManager == null ||
+            !ExperimentFlowManager.IsNarrationPhase(experimentFlowManager.CurrentPhase))
+        {
+            return false;
+        }
+
+        if (!TryGetNarrationElapsed(out double elapsed))
+            return false;
+
+        elapsedSeconds = (int)elapsed;
+        if (elapsedSeconds < 0)
+            elapsedSeconds = 0;
+        return true;
+    }
+
+    public bool TryGetNarrationRemainingSeconds(out double remainingSeconds)
+    {
+        remainingSeconds = 0d;
+
+        if (experimentFlowManager == null ||
+            !ExperimentFlowManager.IsNarrationPhase(experimentFlowManager.CurrentPhase))
+        {
+            return false;
+        }
+
+        if (!TryGetNarrationElapsed(out double elapsed))
+            return false;
+
+        remainingSeconds = narrationAutoAdvanceSeconds - elapsed;
+        if (remainingSeconds < 0d)
+            remainingSeconds = 0d;
+
+        return true;
+    }
+
+    public bool IsNarrationUnlockElapsed()
+    {
+        return TryGetNarrationElapsed(out double elapsed) &&
+               elapsed >= narrationNextCardUnlockSeconds;
+    }
+
+    bool TryGetNarrationElapsed(out double elapsed)
+    {
+        elapsed = 0d;
+
+        if (NetworkManager == null)
+            return false;
+
+        double startTime = narrationCardStartServerTime.Value;
+        if (startTime < 0d)
+            return false;
+
+        int cardIndex = currentNarrationCard.Value;
+        if (cardIndex < 1 || cardIndex > 4)
+            return false;
+
+        double maxSeconds = narrationAutoAdvanceSeconds;
+        if (maxSeconds < 0d)
+            maxSeconds = 0d;
+
+        elapsed = NetworkManager.ServerTime.Time - startTime;
+        if (elapsed < 0d)
+            elapsed = 0d;
+        if (elapsed > maxSeconds)
+            elapsed = maxSeconds;
+
+        return true;
+    }
+
+    void StartNarrationCardServer(int cardIndex)
+    {
+        int clamped = Mathf.Clamp(cardIndex, 1, 4);
+        currentNarrationCard.Value = clamped;
+        hasAutoAdvancedThisCard = false;
+        narrationCardStartServerTime.Value = NetworkManager.ServerTime.Time;
+    }
+
+    void TryAutoAdvanceNarrationCard()
+    {
+        if (experimentFlowManager == null ||
+            !ExperimentFlowManager.IsNarrationPhase(experimentFlowManager.CurrentPhase))
+        {
+            return;
+        }
+
+        if (hasAutoAdvancedThisCard)
+            return;
+
+        if (!TryGetNarrationElapsed(out double elapsed) ||
+            elapsed < narrationAutoAdvanceSeconds)
+        {
+            return;
+        }
+
+        hasAutoAdvancedThisCard = true;
+        AdvanceNarrationCardServer();
+    }
+
+    void AdvanceNarrationCardServer()
+    {
+        int cardIndex = currentNarrationCard.Value;
+        if (cardIndex < 4)
+        {
+            StartNarrationCardServer(cardIndex + 1);
+            return;
+        }
+
+        experimentFlowManager.SetPhase(
+            experimentFlowManager.CurrentPhase == ExperimentPhase.PracticeNarration
+                ? ExperimentPhase.StoryADraw
+                : ExperimentPhase.Finished);
     }
 
     private bool IsLocalParticipantA()
@@ -264,7 +430,8 @@ public class StoryCardTaskManager : NetworkBehaviour
     {
         if (!IsSpawned ||
             experimentFlowManager == null ||
-            experimentFlowManager.CurrentPhase != ExperimentPhase.StoryNarration)
+            experimentFlowManager.IsSelectingStory ||
+            !ExperimentFlowManager.IsNarrationPhase(experimentFlowManager.CurrentPhase))
         {
             return;
         }
@@ -279,7 +446,8 @@ public class StoryCardTaskManager : NetworkBehaviour
     private void RequestNextCardRpc(RpcParams rpcParams = default)
     {
         if (experimentFlowManager == null ||
-            experimentFlowManager.CurrentPhase != ExperimentPhase.StoryNarration)
+            experimentFlowManager.IsSelectingStory ||
+            !ExperimentFlowManager.IsNarrationPhase(experimentFlowManager.CurrentPhase))
         {
             return;
         }
@@ -291,9 +459,12 @@ public class StoryCardTaskManager : NetworkBehaviour
 
         bool allowed =
             ((cardIndex == 1 || cardIndex == 3) && senderIsA) ||
-            ((cardIndex == 2 || cardIndex == 4) && senderIsB);
+            (cardIndex == 2 && senderIsB);
 
-        if (!allowed)
+        if (!allowed ||
+            cardIndex < 1 ||
+            cardIndex > 3 ||
+            !IsNarrationUnlockElapsed())
         {
             Debug.LogWarning(
                 $"[StoryCard] Invalid next-card request. " +
@@ -302,19 +473,16 @@ public class StoryCardTaskManager : NetworkBehaviour
             return;
         }
 
-        if (cardIndex < 4)
-        {
-            currentNarrationCard.Value++;
-            return;
-        }
-
-        currentNarrationCard.Value = 0;
-        experimentFlowManager.SetPhase(ExperimentPhase.Finished);
+        StartNarrationCardServer(cardIndex + 1);
     }
 
     private void OnDrawButtonClicked()
     {
         if (!IsSpawned)
+            return;
+
+        if (experimentFlowManager != null &&
+            experimentFlowManager.IsSelectingStory)
             return;
 
         if (drawButton != null)
@@ -341,7 +509,13 @@ public class StoryCardTaskManager : NetworkBehaviour
         ExperimentPhase phase =
             experimentFlowManager.CurrentPhase;
 
-        if (phase == ExperimentPhase.StoryADraw &&
+        if (experimentFlowManager.IsSelectingStory)
+        {
+            Debug.LogWarning("[StoryCard] Draw ignored: story selection in progress.");
+            return;
+        }
+
+        if (ExperimentFlowManager.IsDrawAPhase(phase) &&
             senderIsA)
         {
             Debug.Log(
@@ -352,13 +526,16 @@ public class StoryCardTaskManager : NetworkBehaviour
                 storyCardBoardManager.DrawCardsForParticipantAServer();
 
             StartCoroutine(
-                AdvancePhaseAfterDelay(ExperimentPhase.StoryBDraw)
+                AdvancePhaseAfterDelay(
+                    phase == ExperimentPhase.PracticeADraw
+                        ? ExperimentPhase.PracticeBDraw
+                        : ExperimentPhase.StoryBDraw)
             );
 
             return;
         }
 
-        if (phase == ExperimentPhase.StoryBDraw &&
+        if (ExperimentFlowManager.IsDrawBPhase(phase) &&
             senderIsB)
         {
             Debug.Log(
@@ -369,7 +546,10 @@ public class StoryCardTaskManager : NetworkBehaviour
                 storyCardBoardManager.DrawCardsForParticipantBServer();
 
             StartCoroutine(
-                AdvancePhaseAfterDelay(ExperimentPhase.StoryDiscussion)
+                AdvancePhaseAfterDelay(
+                    phase == ExperimentPhase.PracticeBDraw
+                        ? ExperimentPhase.PracticeDiscussion
+                        : ExperimentPhase.StoryDiscussion)
             );
 
             return;

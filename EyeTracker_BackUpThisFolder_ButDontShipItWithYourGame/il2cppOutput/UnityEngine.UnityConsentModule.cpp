@@ -237,7 +237,7 @@ inline void Action_1_Invoke_mA0C49E7E3E4E856769E5D6FC5DF7CB90A95E28AB_inline (Ac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130452
+// Method Definition Index: 131780
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0B7103D0FED6E4EEA6D2F21449DE391A4127DCD1 (EmbeddedAttribute_t2D4F1F0FFB2E85678CD7847C4EEAF4C2310B8104* __this, const RuntimeMethod* method) 
 {
 	{
@@ -253,7 +253,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m0B7103D0FED6E4E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130453
+// Method Definition Index: 131781
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m43EE5945539D1DA178D5E0C476BC55CFC3370C63 (RefSafetyRulesAttribute_t8BBAC91199463222A52CDDDD50F86AD91912ECFF* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -271,7 +271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m43EE59455
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130454
+// Method Definition Index: 131782
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -287,7 +287,7 @@ IL2CPP_EXTERN_C  void ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72
 	_thisAdjusted = reinterpret_cast<ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF*>(__this + _offset);
 	ConsentState__ctor_mB3407A219590592A7EF832910F3CCD58F9FE72C1(_thisAdjusted, method);
 }
-// Method Definition Index: 130455
+// Method Definition Index: 131783
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B1906810146665 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -354,7 +354,7 @@ IL2CPP_EXTERN_C  String_t* ConsentState_ToString_mEDD4D983C94831BA4C151A6D05B190
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130456
+// Method Definition Index: 131784
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF EndUserConsent_GetConsentState_mD5E805A905B376D596AAF31A4AB4344535F7CD8E (const RuntimeMethod* method) 
 {
 	ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF V_0;
@@ -365,7 +365,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ConsentState_t20D6467F75E4F212880A838770B6584
 		return L_0;
 	}
 }
-// Method Definition Index: 130457
+// Method Definition Index: 131785
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_OnConsentStateChanged_m7A2FD500C237FDAE46112404721227038A7A259A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -394,7 +394,7 @@ IL_0016:
 		return;
 	}
 }
-// Method Definition Index: 130458
+// Method Definition Index: 131786
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53 (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF* ___0_ret, const RuntimeMethod* method) 
 {
 	typedef void (*EndUserConsent_GetConsentState_Injected_mFF5752BD0372E6E5E859F47B97185C71D2094D53_ftn) (ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF*);
@@ -406,7 +406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EndUserConsent_GetConsentState_Injected_
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 878
+// Method Definition Index: 879
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mA0C49E7E3E4E856769E5D6FC5DF7CB90A95E28AB_gshared_inline (Action_1_t9B103DCF4DCA2ADAA12800C4794084698B517900* __this, ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF ___0_obj, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, ConsentState_t20D6467F75E4F212880A838770B6584FD88FC8DF, const RuntimeMethod*);

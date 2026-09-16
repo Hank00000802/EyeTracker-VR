@@ -97,7 +97,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Identifiers_GetInstallationId_Injected_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130480
+// Method Definition Index: 131808
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m23ADF1498B8192FF483B16671176A23FF080A473 (EmbeddedAttribute_t3A55882D1943AA20098488558D3A36CAB83E27C0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -113,7 +113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m23ADF1498B8192F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130481
+// Method Definition Index: 131809
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m17AB5F5781C187C96BA0D7009156058E4949AEAE (RefSafetyRulesAttribute_t5EDDD0FC3B4950DE440176C5EC0781219D958800* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -131,7 +131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m17AB5F578
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130482
+// Method Definition Index: 131810
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_get_installationId_mD3ECC6BF716CA29158D977D82861214A105AA6B9 (const RuntimeMethod* method) 
 {
 	{
@@ -140,7 +140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_get_installationId_mD3E
 		return L_0;
 	}
 }
-// Method Definition Index: 130483
+// Method Definition Index: 131811
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Identifiers_GetInstallationId_mE83CB40B3E23BE88A50981DF00B8806D654D0A81 (const RuntimeMethod* method) 
 {
 	ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E V_0;
@@ -176,7 +176,7 @@ IL_0011:
 		return L_2;
 	}
 }
-// Method Definition Index: 130484
+// Method Definition Index: 131812
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Identifiers_GetInstallationId_Injected_mE29A1BB73C1587EACFF0A6104DD068DB4FA711CC (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E* ___0_ret, const RuntimeMethod* method) 
 {
 	typedef void (*Identifiers_GetInstallationId_Injected_mE29A1BB73C1587EACFF0A6104DD068DB4FA711CC_ftn) (ManagedSpanWrapper_tE7FC4BBB631B130757F8DEB15853D98FD3D5DC0E*);

@@ -518,6 +518,11 @@ Test-Path $adb
 & $adb shell wc -l /sdcard/Android/data/com.hank.viveeyetracking/files/EyeTrackingData/<檔名>.csv
 ```
 
+## 刪除所有檔案
+```powershell
+& $adb.exe shell "rm -f /sdcard/Android/data/com.hank.viveeyetracking/files/EyeTrackingData/*.csv" 
+```
+
 ## 整體獲取眼動數據指令
 
 ```powershell
@@ -558,6 +563,8 @@ foreach ($remoteFile in $remoteFiles)
     }
 }
 ```
+
+
 
 完成後資料通常位於：
 

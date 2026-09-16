@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2a32ad872b2248c28acad1ab61b5d395
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 304841
+  packageName: Creative Characters FREE - Animated Pack
+  packageVersion: 2.3
+  assetPath: Assets/ithappy/Creative_Characters_FREE/Scripts/Editor/Character/SlotVariant.cs
+  uploadId: 927690

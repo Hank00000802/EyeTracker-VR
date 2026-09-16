@@ -18,7 +18,9 @@
           },
           {
             "name": "Animator",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/EyeTrackingTest.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -33,6 +35,14 @@
           {
             "name": "AnimatorOverrideController",
             "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Avatar",
+            "scenes": [
+              "Assets/Scenes/EyeTrackingTest.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

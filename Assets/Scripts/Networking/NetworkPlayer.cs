@@ -3,20 +3,35 @@ using Unity.Netcode;
 
 public class NetworkVRPlayer : NetworkBehaviour
 {
-    [Header("Remote Visuals")]
+    [Header("Pose Proxies")]
     [SerializeField] private GameObject headVisual;
     [SerializeField] private GameObject leftHandVisual;
     [SerializeField] private GameObject rightHandVisual;
+    [SerializeField] private GameObject bodyVisual;
+
+    [Header("Remote Avatar")]
+    [SerializeField] private GameObject remoteAvatarVisual;
+    [SerializeField] private Transform remoteHeadTarget;
+    [SerializeField] private Transform remoteLeftHandTarget;
+    [SerializeField] private Transform remoteRightHandTarget;
+
+    [Header("Role Outerwear")]
+    [SerializeField] private Material hostOuterwearMaterial;
+    [SerializeField] private Material clientOuterwearMaterial;
 
     [Header("Network")]
     [SerializeField] private float sendRate = 20f;
     [SerializeField] private float interpolationSpeed = 20f;
 
-    private Transform localHead;
-    private Transform localLeftController;
-    private Transform localRightController;
+    private Transform localBodyRoot;
+    private Transform localHeadTarget;
+    private Transform localLeftHandTarget;
+    private Transform localRightHandTarget;
+    private bool ownerSourcesResolved;
 
     private float nextSendTime;
+    private float nextOwnerDebugTime;
+    private bool remoteSnapped;
 
     private readonly NetworkVariable<Vector3> headPosition =
         new NetworkVariable<Vector3>(
@@ -60,190 +75,396 @@ public class NetworkVRPlayer : NetworkBehaviour
             NetworkVariableWritePermission.Owner
         );
 
+    private readonly NetworkVariable<Vector3> bodyPosition =
+        new NetworkVariable<Vector3>(
+            Vector3.zero,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Owner
+        );
+
+    private readonly NetworkVariable<float> bodyYaw =
+        new NetworkVariable<float>(
+            0f,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Owner
+        );
+
     public override void OnNetworkSpawn()
     {
+        ResolvePrefabHierarchy();
+        DisableRemoteLocalDrivers();
+        HideProxyRenderers();
+        EnsureRemotePoseDriver();
+        ApplyRoleOuterwear();
+
         if (IsOwner)
         {
-            FindLocalXRObjects();
-
-            // 自己不需要看到自己的 Debug Avatar
-            SetVisuals(false);
+            ResolveOwnerSourcesOnce();
+            SetRenderersEnabled(remoteAvatarVisual, false);
         }
         else
         {
-            // Remote Player 要顯示
-            SetVisuals(true);
+            SetRenderersEnabled(remoteAvatarVisual, true);
         }
 
         Debug.Log(
             $"[NETWORK VR PLAYER] Spawned | " +
             $"OwnerClientId={OwnerClientId} | " +
-            $"IsOwner={IsOwner}"
+            $"IsOwner={IsOwner} | " +
+            $"bodyVisual={(bodyVisual != null)} | " +
+            $"remoteAvatar={(remoteAvatarVisual != null)}"
         );
     }
 
     private void Update()
     {
-        if (!IsSpawned)
+        if (!IsSpawned || IsOwner)
             return;
 
-        if (IsOwner)
-        {
-            UpdateOwnerPose();
-        }
-        else
-        {
-            UpdateRemoteVisuals();
-        }
+        UpdateRemoteProxies();
+    }
+
+    private void LateUpdate()
+    {
+        if (!IsSpawned || !IsOwner)
+            return;
+
+        UpdateOwnerPose();
     }
 
     private void UpdateOwnerPose()
     {
-        if (localHead == null ||
-            localLeftController == null ||
-            localRightController == null)
-        {
-            FindLocalXRObjects();
-        }
+        if (!ownerSourcesResolved)
+            ResolveOwnerSourcesOnce();
 
         if (Time.unscaledTime < nextSendTime)
+        {
+            LogOwnerDebug();
+            return;
+        }
+
+        nextSendTime = Time.unscaledTime + (1f / sendRate);
+
+        if (localHeadTarget != null)
+        {
+            headPosition.Value = localHeadTarget.position;
+            headRotation.Value = localHeadTarget.rotation;
+        }
+
+        if (localLeftHandTarget != null)
+        {
+            leftHandPosition.Value = localLeftHandTarget.position;
+            leftHandRotation.Value = localLeftHandTarget.rotation;
+        }
+
+        if (localRightHandTarget != null)
+        {
+            rightHandPosition.Value = localRightHandTarget.position;
+            rightHandRotation.Value = localRightHandTarget.rotation;
+        }
+
+        if (localBodyRoot != null)
+        {
+            bodyPosition.Value = localBodyRoot.position;
+            bodyYaw.Value = localBodyRoot.eulerAngles.y;
+        }
+
+        LogOwnerDebug();
+    }
+
+    private void UpdateRemoteProxies()
+    {
+        float t = remoteSnapped
+            ? 1f - Mathf.Exp(-interpolationSpeed * Time.deltaTime)
+            : 1f;
+
+        ApplyPose(headVisual, headPosition.Value, headRotation.Value, t);
+        ApplyPose(leftHandVisual, leftHandPosition.Value, leftHandRotation.Value, t);
+        ApplyPose(rightHandVisual, rightHandPosition.Value, rightHandRotation.Value, t);
+        ApplyBodyPose(t);
+
+        remoteSnapped = true;
+    }
+
+    private static void ApplyPose(
+        GameObject visual,
+        Vector3 targetPosition,
+        Quaternion targetRotation,
+        float t)
+    {
+        if (visual == null)
             return;
 
-        nextSendTime =
-            Time.unscaledTime + (1f / sendRate);
-
-        if (localHead != null)
-        {
-            headPosition.Value =
-                localHead.position;
-
-            headRotation.Value =
-                localHead.rotation;
-        }
-
-        if (localLeftController != null)
-        {
-            leftHandPosition.Value =
-                localLeftController.position;
-
-            leftHandRotation.Value =
-                localLeftController.rotation;
-        }
-
-        if (localRightController != null)
-        {
-            rightHandPosition.Value =
-                localRightController.position;
-
-            rightHandRotation.Value =
-                localRightController.rotation;
-        }
+        Transform tf = visual.transform;
+        tf.position = Vector3.Lerp(tf.position, targetPosition, t);
+        tf.rotation = Quaternion.Slerp(tf.rotation, targetRotation, t);
     }
 
-    private void UpdateRemoteVisuals()
+    private void ApplyBodyPose(float t)
     {
-        float t =
-            1f - Mathf.Exp(
-                -interpolationSpeed * Time.deltaTime
-            );
+        if (bodyVisual == null)
+            return;
 
-        if (headVisual != null)
-        {
-            headVisual.transform.position =
-                Vector3.Lerp(
-                    headVisual.transform.position,
-                    headPosition.Value,
-                    t
-                );
+        Transform tf = bodyVisual.transform;
+        tf.position = Vector3.Lerp(tf.position, bodyPosition.Value, t);
 
-            headVisual.transform.rotation =
-                Quaternion.Slerp(
-                    headVisual.transform.rotation,
-                    headRotation.Value,
-                    t
-                );
-        }
-
-        if (leftHandVisual != null)
-        {
-            leftHandVisual.transform.position =
-                Vector3.Lerp(
-                    leftHandVisual.transform.position,
-                    leftHandPosition.Value,
-                    t
-                );
-
-            leftHandVisual.transform.rotation =
-                Quaternion.Slerp(
-                    leftHandVisual.transform.rotation,
-                    leftHandRotation.Value,
-                    t
-                );
-        }
-
-        if (rightHandVisual != null)
-        {
-            rightHandVisual.transform.position =
-                Vector3.Lerp(
-                    rightHandVisual.transform.position,
-                    rightHandPosition.Value,
-                    t
-                );
-
-            rightHandVisual.transform.rotation =
-                Quaternion.Slerp(
-                    rightHandVisual.transform.rotation,
-                    rightHandRotation.Value,
-                    t
-                );
-        }
+        float yaw = Mathf.LerpAngle(tf.eulerAngles.y, bodyYaw.Value, t);
+        tf.rotation = Quaternion.Euler(0f, yaw, 0f);
     }
 
-    private void FindLocalXRObjects()
+    private void ResolvePrefabHierarchy()
     {
-        Camera mainCamera = Camera.main;
+        if (headVisual == null)
+            headVisual = FindDirectChild("Head");
+        if (leftHandVisual == null)
+            leftHandVisual = FindDirectChild("Left");
+        if (rightHandVisual == null)
+            rightHandVisual = FindDirectChild("Right");
+        if (bodyVisual == null)
+            bodyVisual = FindDirectChild("Body");
+        if (remoteAvatarVisual == null)
+            remoteAvatarVisual = FindDirectChild("RemoteAvatarVisual");
 
-        if (mainCamera != null)
+        Transform remoteRoot = remoteAvatarVisual != null
+            ? remoteAvatarVisual.transform
+            : null;
+
+        if (remoteHeadTarget == null && remoteRoot != null)
+            remoteHeadTarget = FindDeepChild(remoteRoot, "HeadTarget");
+        if (remoteLeftHandTarget == null && remoteRoot != null)
+            remoteLeftHandTarget = FindDeepChild(remoteRoot, "LeftHandTarget");
+        if (remoteRightHandTarget == null && remoteRoot != null)
+            remoteRightHandTarget = FindDeepChild(remoteRoot, "RightHandTarget");
+    }
+
+    private void ResolveOwnerSourcesOnce()
+    {
+        if (ownerSourcesResolved)
+            return;
+
+        LocalAvatarIKDriver localDriver = null;
+        LocalAvatarIKDriver[] drivers =
+            FindObjectsByType<LocalAvatarIKDriver>(FindObjectsSortMode.None);
+
+        for (int i = 0; i < drivers.Length; i++)
         {
-            localHead =
-                mainCamera.transform;
+            LocalAvatarIKDriver driver = drivers[i];
+            if (driver == null || !driver.isActiveAndEnabled)
+                continue;
+            if (driver.transform.IsChildOf(transform))
+                continue;
+
+            localDriver = driver;
+            break;
         }
 
-        GameObject left =
-            GameObject.Find("Left Controller");
-
-        GameObject right =
-            GameObject.Find("Right Controller");
-
-        if (left != null)
+        if (localDriver == null)
         {
-            localLeftController =
-                left.transform;
+            GameObject sceneAvatar = GameObject.Find("AvatarPlayerVisual");
+            if (sceneAvatar != null)
+                localDriver = sceneAvatar.GetComponent<LocalAvatarIKDriver>();
         }
 
-        if (right != null)
+        if (localDriver != null)
         {
-            localRightController =
-                right.transform;
+            localBodyRoot = localDriver.bodyRoot != null
+                ? localDriver.bodyRoot
+                : localDriver.transform;
+            localHeadTarget = localDriver.headTarget;
+            localLeftHandTarget = localDriver.leftHandTarget;
+            localRightHandTarget = localDriver.rightHandTarget;
         }
+
+        ownerSourcesResolved = true;
 
         Debug.Log(
-            $"[NETWORK VR PLAYER] XR refs | " +
-            $"Head={localHead != null} | " +
-            $"Left={localLeftController != null} | " +
-            $"Right={localRightController != null}"
+            $"[NET AVATAR OWNER] resolved IsOwner={IsOwner} " +
+            $"driver={(localDriver != null)} " +
+            $"bodySource={(localBodyRoot != null)} " +
+            $"headSource={(localHeadTarget != null)} " +
+            $"leftSource={(localLeftHandTarget != null)} " +
+            $"rightSource={(localRightHandTarget != null)}"
         );
     }
 
-    private void SetVisuals(bool visible)
+    private void EnsureRemotePoseDriver()
     {
-        if (headVisual != null)
-            headVisual.SetActive(visible);
+        if (remoteAvatarVisual == null)
+            return;
 
-        if (leftHandVisual != null)
-            leftHandVisual.SetActive(visible);
+        RemoteAvatarPoseDriver driver =
+            remoteAvatarVisual.GetComponent<RemoteAvatarPoseDriver>();
+        if (driver == null)
+            driver = remoteAvatarVisual.AddComponent<RemoteAvatarPoseDriver>();
 
-        if (rightHandVisual != null)
-            rightHandVisual.SetActive(visible);
+        driver.Bind(
+            bodyVisual != null ? bodyVisual.transform : null,
+            headVisual != null ? headVisual.transform : null,
+            leftHandVisual != null ? leftHandVisual.transform : null,
+            rightHandVisual != null ? rightHandVisual.transform : null,
+            remoteAvatarVisual.transform,
+            remoteHeadTarget,
+            remoteLeftHandTarget,
+            remoteRightHandTarget
+        );
+        driver.enabled = true;
+    }
+
+    private void ApplyRoleOuterwear()
+    {
+        bool ownerIsHost =
+            NetworkManager != null &&
+            OwnerClientId == NetworkManager.ServerClientId;
+
+        Material material = ownerIsHost
+            ? hostOuterwearMaterial
+            : clientOuterwearMaterial;
+
+        if (material == null)
+        {
+            Debug.LogWarning(
+                $"[NET AVATAR] Outerwear material missing. " +
+                $"ownerIsHost={ownerIsHost} OwnerClientId={OwnerClientId}"
+            );
+            return;
+        }
+
+        Transform searchRoot = remoteAvatarVisual != null
+            ? remoteAvatarVisual.transform
+            : transform;
+
+        int applied = 0;
+        Renderer[] renderers = searchRoot.GetComponentsInChildren<Renderer>(true);
+        for (int i = 0; i < renderers.Length; i++)
+        {
+            Renderer renderer = renderers[i];
+            if (renderer == null || !IsOuterwearRenderer(renderer))
+                continue;
+
+            Material[] materials = renderer.sharedMaterials;
+            if (materials == null || materials.Length == 0)
+            {
+                renderer.sharedMaterial = material;
+            }
+            else
+            {
+                materials[0] = material;
+                renderer.sharedMaterials = materials;
+            }
+
+            applied++;
+        }
+
+        Debug.Log(
+            $"[NET AVATAR] Outerwear applied | " +
+            $"ownerIsHost={ownerIsHost} | material={material.name} | count={applied}"
+        );
+    }
+
+    private static bool IsOuterwearRenderer(Renderer renderer)
+    {
+        string name = renderer.gameObject.name;
+        if (string.IsNullOrEmpty(name))
+            return false;
+
+        return name.IndexOf("Outerwear", System.StringComparison.OrdinalIgnoreCase) >= 0 ||
+               name.IndexOf("Outwear", System.StringComparison.OrdinalIgnoreCase) >= 0;
+    }
+
+    private GameObject FindDirectChild(string childName)
+    {
+        Transform child = transform.Find(childName);
+        return child != null ? child.gameObject : null;
+    }
+
+    private static Transform FindDeepChild(Transform parent, string childName)
+    {
+        if (parent.name == childName)
+            return parent;
+
+        for (int i = 0; i < parent.childCount; i++)
+        {
+            Transform found = FindDeepChild(parent.GetChild(i), childName);
+            if (found != null)
+                return found;
+        }
+
+        return null;
+    }
+
+    private void LogOwnerDebug()
+    {
+        if (Time.unscaledTime < nextOwnerDebugTime)
+            return;
+
+        nextOwnerDebugTime = Time.unscaledTime + 0.5f;
+
+        Vector3 bodySourcePos = localBodyRoot != null ? localBodyRoot.position : Vector3.zero;
+        Vector3 leftSourcePos = localLeftHandTarget != null
+            ? localLeftHandTarget.position
+            : Vector3.zero;
+
+        Debug.Log(
+            $"[NET AVATAR OWNER] IsOwner={IsOwner} " +
+            $"bodySource={(localBodyRoot != null)} " +
+            $"headSource={(localHeadTarget != null)} " +
+            $"leftSource={(localLeftHandTarget != null)} " +
+            $"rightSource={(localRightHandTarget != null)} " +
+            $"bodySourcePos={bodySourcePos} " +
+            $"networkBodyPos={bodyPosition.Value} " +
+            $"leftSourcePos={leftSourcePos} " +
+            $"networkLeftPos={leftHandPosition.Value}"
+        );
+    }
+
+    private void DisableRemoteLocalDrivers()
+    {
+        if (remoteAvatarVisual == null)
+            return;
+
+        LocalAvatarIKDriver[] drivers =
+            remoteAvatarVisual.GetComponentsInChildren<LocalAvatarIKDriver>(true);
+
+        for (int i = 0; i < drivers.Length; i++)
+        {
+            if (drivers[i] != null)
+                drivers[i].enabled = false;
+        }
+    }
+
+    private void HideProxyRenderers()
+    {
+        SetRenderersEnabled(headVisual, false);
+        SetRenderersEnabled(leftHandVisual, false);
+        SetRenderersEnabled(rightHandVisual, false);
+        DisableColliders(headVisual);
+        DisableColliders(leftHandVisual);
+        DisableColliders(rightHandVisual);
+    }
+
+    private static void SetRenderersEnabled(GameObject root, bool enabled)
+    {
+        if (root == null)
+            return;
+
+        Renderer[] renderers = root.GetComponentsInChildren<Renderer>(true);
+        for (int i = 0; i < renderers.Length; i++)
+        {
+            if (renderers[i] != null)
+                renderers[i].enabled = enabled;
+        }
+    }
+
+    private static void DisableColliders(GameObject root)
+    {
+        if (root == null)
+            return;
+
+        Collider[] colliders = root.GetComponentsInChildren<Collider>(true);
+        for (int i = 0; i < colliders.Length; i++)
+        {
+            if (colliders[i] != null)
+                colliders[i].enabled = false;
+        }
     }
 }

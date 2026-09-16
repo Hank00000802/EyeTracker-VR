@@ -11,15 +11,23 @@ public enum ExperimentPhase : byte
 
     ProfessionalIntroduction = 2,
 
-    StoryADraw = 3,
+    PracticeADraw = 3,
 
-    StoryBDraw = 4,
+    PracticeBDraw = 4,
 
-    StoryDiscussion = 5,
+    PracticeDiscussion = 5,
 
-    StoryNarration = 6,
+    PracticeNarration = 6,
 
-    Finished = 7
+    StoryADraw = 7,
+
+    StoryBDraw = 8,
+
+    StoryDiscussion = 9,
+
+    StoryNarration = 10,
+
+    Finished = 11
 }
 
 public enum ExperimentPart : byte
@@ -50,10 +58,20 @@ public class ExperimentFlowManager : NetworkBehaviour
 
     [Header("Story Board")]
     [SerializeField] private StoryCardBoardManager storyCardBoardManager;
+    [SerializeField] private StoryCardTaskManager storyCardTaskManager;
+
+    [Header("Official Story Selection")]
+    [SerializeField] private GameObject selectionStoryPanel;
+    [SerializeField] private StorySelectionPanelView storySelectionPanelView;
 
     [Header("Task Durations")]
     [SerializeField] private float dailyDiscussionDuration = 120f;
     [SerializeField] private float professionalIntroductionDuration = 120f;
+    [SerializeField] private float storyDiscussionDuration = 120f;
+
+    [Header("Timer Warning")]
+    [SerializeField, Min(0f)] private float lastTimerVisibleSeconds = 20f;
+    [SerializeField] private string lastTimerMessage = "{0} seconds remaining. Please wrap it up.";
 
     [Header("Debug / Researcher Control")]
     [SerializeField] private GameObject nextPhaseButton;
@@ -84,17 +102,47 @@ public class ExperimentFlowManager : NetworkBehaviour
             NetworkVariableWritePermission.Server
         );
 
-    private bool hasAutoAdvanced;
+    private readonly NetworkVariable<int> selectedStoryIndex =
+        new NetworkVariable<int>(
+            -1,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Server
+        );
+
+    private readonly NetworkVariable<bool> isSelectingStory =
+        new NetworkVariable<bool>(
+            false,
+            NetworkVariableReadPermission.Everyone,
+            NetworkVariableWritePermission.Server
+        );
+
+    private bool timerExpired;
 
     public ExperimentPhase CurrentPhase => currentPhase.Value;
 
     public ExperimentPart CurrentPart => currentPart.Value;
 
+    public bool IsSelectingStory => isSelectingStory.Value;
+
+    public int SelectedStoryIndex => selectedStoryIndex.Value;
+
     /// <summary>
     /// Combined label for CSV / debug, e.g. DailyDiscussion_Part1.
     /// </summary>
-    public string PhaseAndPartLabel =>
-        $"{currentPhase.Value}_{currentPart.Value}";
+    public string PhaseAndPartLabel
+    {
+        get
+        {
+            if (IsOfficialStoryPhase(currentPhase.Value) &&
+                selectedStoryIndex.Value >= 0)
+            {
+                return
+                    $"{currentPhase.Value}_{currentPart.Value}_Story{selectedStoryIndex.Value + 1}";
+            }
+
+            return $"{currentPhase.Value}_{currentPart.Value}";
+        }
+    }
 
     public bool IsParticipantA =>
         NetworkManager != null &&
@@ -105,18 +153,46 @@ public class ExperimentFlowManager : NetworkBehaviour
         NetworkManager.IsClient &&
         !NetworkManager.IsHost;
 
+    private void Awake()
+    {
+        if (selectionStoryPanel == null && taskScreenRoot != null)
+        {
+            Transform found = FindChildByName(
+                taskScreenRoot.transform,
+                "SelectionStoryPanel");
+            if (found != null)
+                selectionStoryPanel = found.gameObject;
+        }
+
+        if (selectionStoryPanel == null)
+        {
+            GameObject named = GameObject.Find("SelectionStoryPanel");
+            if (named != null)
+                selectionStoryPanel = named;
+        }
+
+        if (selectionStoryPanel != null)
+            selectionStoryPanel.SetActive(false);
+    }
+
     public override void OnNetworkSpawn()
     {
         currentPhase.OnValueChanged += OnPhaseChanged;
         currentPart.OnValueChanged += OnPartChanged;
+        selectedStoryIndex.OnValueChanged += OnSelectedStoryChanged;
+        isSelectingStory.OnValueChanged += OnSelectingStoryChanged;
 
         WirePartButtons();
+        ResolveStorySelectionPanel();
+
+        if (storyCardTaskManager == null)
+            storyCardTaskManager = FindFirstObjectByType<StoryCardTaskManager>();
 
         ApplyPhase(currentPhase.Value);
-
-        // 開發階段只有 Host 看得到 Next Phase
-        if (nextPhaseButton != null)
-            nextPhaseButton.SetActive(IsServer);
+        ApplySelectedStorySprites();
+        ApplyStorySelectionVisuals();
+        ConfigureNextPhaseButtonHover();
+        UpdateNextPhaseButtonVisibility();
 
         if (startRecordingButton != null)
             startRecordingButton.SetActive(IsServer);
@@ -136,6 +212,8 @@ public class ExperimentFlowManager : NetworkBehaviour
     {
         currentPhase.OnValueChanged -= OnPhaseChanged;
         currentPart.OnValueChanged -= OnPartChanged;
+        selectedStoryIndex.OnValueChanged -= OnSelectedStoryChanged;
+        isSelectingStory.OnValueChanged -= OnSelectingStoryChanged;
 
         UnwirePartButtons();
     }
@@ -189,6 +267,136 @@ public class ExperimentFlowManager : NetworkBehaviour
         ApplyPhase(currentPhase.Value);
     }
 
+    private void OnSelectedStoryChanged(int previous, int current)
+    {
+        ApplySelectedStorySprites();
+    }
+
+    private void OnSelectingStoryChanged(bool previous, bool current)
+    {
+        ApplyStorySelectionVisuals();
+    }
+
+    private void ApplySelectedStorySprites()
+    {
+        if (storyCardBoardManager == null)
+            return;
+
+        storyCardBoardManager.ApplySpritesForCurrentSelection(
+            currentPhase.Value,
+            currentPart.Value,
+            selectedStoryIndex.Value);
+    }
+
+    private void ApplyStorySelectionVisuals()
+    {
+        bool selecting = isSelectingStory.Value &&
+                         IsOfficialStoryPhase(currentPhase.Value);
+
+        if (storyCardBoardManager != null)
+            storyCardBoardManager.SetBoardHidden(selecting);
+
+        ResolveStorySelectionPanel();
+
+        if (!selecting || !IsServer)
+        {
+            if (storySelectionPanelView != null)
+                storySelectionPanelView.Hide();
+            else if (selectionStoryPanel != null)
+                selectionStoryPanel.SetActive(false);
+
+            return;
+        }
+
+        var names = new System.Collections.Generic.List<string>();
+        int count = storyCardBoardManager != null
+            ? storyCardBoardManager.OfficialStoryCount
+            : 0;
+        for (int i = 0; i < count; i++)
+            names.Add(storyCardBoardManager.GetOfficialStoryName(i));
+
+        if (storySelectionPanelView != null)
+            storySelectionPanelView.ShowStories(names, HostSelectOfficialStory);
+        else if (selectionStoryPanel != null)
+            selectionStoryPanel.SetActive(true);
+    }
+
+    private void ResolveStorySelectionPanel()
+    {
+        if (selectionStoryPanel == null && taskScreenRoot != null)
+        {
+            Transform found = FindChildByName(
+                taskScreenRoot.transform,
+                "SelectionStoryPanel");
+            if (found != null)
+                selectionStoryPanel = found.gameObject;
+        }
+
+        if (selectionStoryPanel == null)
+        {
+            GameObject named = GameObject.Find("SelectionStoryPanel");
+            if (named != null)
+                selectionStoryPanel = named;
+        }
+
+        if (selectionStoryPanel == null && taskScreenRoot != null)
+            selectionStoryPanel = CreateFallbackSelectionPanel();
+
+        if (selectionStoryPanel == null)
+            return;
+
+        if (storySelectionPanelView == null)
+            storySelectionPanelView =
+                selectionStoryPanel.GetComponent<StorySelectionPanelView>();
+
+        if (storySelectionPanelView == null)
+            storySelectionPanelView =
+                selectionStoryPanel.AddComponent<StorySelectionPanelView>();
+
+        storySelectionPanelView.BindPanel(selectionStoryPanel);
+
+        if (!IsServer || !isSelectingStory.Value)
+            selectionStoryPanel.SetActive(false);
+    }
+
+    private GameObject CreateFallbackSelectionPanel()
+    {
+        GameObject panel = new GameObject(
+            "SelectionStoryPanel",
+            typeof(RectTransform),
+            typeof(CanvasRenderer),
+            typeof(Image));
+        panel.transform.SetParent(taskScreenRoot.transform, false);
+
+        RectTransform rect = panel.GetComponent<RectTransform>();
+        rect.anchorMin = Vector2.zero;
+        rect.anchorMax = Vector2.one;
+        rect.offsetMin = new Vector2(40f, 80f);
+        rect.offsetMax = new Vector2(-40f, -80f);
+
+        Image image = panel.GetComponent<Image>();
+        image.color = new Color(0.08f, 0.08f, 0.08f, 0.92f);
+        image.raycastTarget = true;
+
+        panel.SetActive(false);
+        return panel;
+    }
+
+    private static Transform FindChildByName(Transform root, string name)
+    {
+        if (root == null)
+            return null;
+
+        Transform[] children = root.GetComponentsInChildren<Transform>(true);
+        for (int i = 0; i < children.Length; i++)
+        {
+            if (children[i] != null && children[i].name == name)
+                return children[i];
+        }
+
+        return null;
+    }
+
     public void StartExperiment()
     {
         if (!IsServer)
@@ -212,6 +420,18 @@ public class ExperimentFlowManager : NetworkBehaviour
                     ExperimentPhase.ProfessionalIntroduction,
 
                 ExperimentPhase.ProfessionalIntroduction =>
+                    ExperimentPhase.PracticeADraw,
+
+                ExperimentPhase.PracticeADraw =>
+                    ExperimentPhase.PracticeBDraw,
+
+                ExperimentPhase.PracticeBDraw =>
+                    ExperimentPhase.PracticeDiscussion,
+
+                ExperimentPhase.PracticeDiscussion =>
+                    ExperimentPhase.PracticeNarration,
+
+                ExperimentPhase.PracticeNarration =>
                     ExperimentPhase.StoryADraw,
 
                 ExperimentPhase.StoryADraw =>
@@ -235,17 +455,64 @@ public class ExperimentFlowManager : NetworkBehaviour
 
     public void HostSelectPractice()
     {
-        SetPart(ExperimentPart.Practice);
+        if (IsServer)
+            isSelectingStory.Value = false;
+
+        SetPhase(ExperimentPhase.PracticeADraw);
     }
 
     public void HostSelectPart1()
     {
-        SetPart(ExperimentPart.Part1);
+        HostSelectOfficialPart(ExperimentPart.Part1);
     }
 
     public void HostSelectPart2()
     {
-        SetPart(ExperimentPart.Part2);
+        HostSelectOfficialPart(ExperimentPart.Part2);
+    }
+
+    private void HostSelectOfficialPart(ExperimentPart part)
+    {
+        if (!IsServer)
+        {
+            Debug.LogWarning(
+                "[ExperimentFlow] Only Server/Host can change part."
+            );
+            return;
+        }
+
+        if (currentPart.Value != part)
+            currentPart.Value = part;
+
+        if (!IsOfficialStoryPhase(currentPhase.Value))
+            return;
+
+        bool wasSelecting = isSelectingStory.Value;
+        isSelectingStory.Value = true;
+        if (wasSelecting)
+            ApplyStorySelectionVisuals();
+    }
+
+    public void HostSelectOfficialStory(int storyIndex)
+    {
+        if (!IsServer)
+            return;
+
+        if (storyCardBoardManager == null ||
+            storyIndex < 0 ||
+            storyIndex >= storyCardBoardManager.OfficialStoryCount)
+        {
+            Debug.LogWarning(
+                $"[ExperimentFlow] Invalid official story index: {storyIndex}");
+            return;
+        }
+
+        int previous = selectedStoryIndex.Value;
+        selectedStoryIndex.Value = storyIndex;
+        if (previous == storyIndex)
+            ApplySelectedStorySprites();
+
+        isSelectingStory.Value = false;
     }
 
     public void SetPart(ExperimentPart part)
@@ -258,12 +525,9 @@ public class ExperimentFlowManager : NetworkBehaviour
             return;
         }
 
-        if (part == ExperimentPart.Practice &&
-            !IsStoryPhase(currentPhase.Value))
+        if (part == ExperimentPart.Practice)
         {
-            Debug.LogWarning(
-                "[ExperimentFlow] Practice is only available during Story phases."
-            );
+            SetPhase(ExperimentPhase.PracticeADraw);
             return;
         }
 
@@ -314,8 +578,7 @@ public class ExperimentFlowManager : NetworkBehaviour
             return;
         }
 
-        // Practice is story-only; leave Practice when entering pre-story phases.
-        if (!IsStoryPhase(phase) &&
+        if (IsOfficialStoryPhase(phase) &&
             currentPart.Value == ExperimentPart.Practice)
         {
             currentPart.Value = ExperimentPart.Part1;
@@ -333,7 +596,10 @@ public class ExperimentFlowManager : NetworkBehaviour
             phaseEndServerTime.Value = -1d;
         }
 
-        hasAutoAdvanced = false;
+        timerExpired = false;
+
+        if (!IsOfficialStoryPhase(phase) && isSelectingStory.Value)
+            isSelectingStory.Value = false;
 
         ExperimentPhase previousPhase = currentPhase.Value;
         currentPhase.Value = phase;
@@ -352,6 +618,12 @@ public class ExperimentFlowManager : NetworkBehaviour
             ExperimentPhase.ProfessionalIntroduction =>
                 professionalIntroductionDuration,
 
+            ExperimentPhase.PracticeDiscussion =>
+                storyDiscussionDuration,
+
+            ExperimentPhase.StoryDiscussion =>
+                storyDiscussionDuration,
+
             _ => 0f
         };
     }
@@ -362,22 +634,24 @@ public class ExperimentFlowManager : NetworkBehaviour
             return;
 
         UpdateTimerDisplay();
+        UpdateNextPhaseButtonVisibility();
     }
 
     private void UpdateTimerDisplay()
     {
+        if (IsNarrationPhase(currentPhase.Value))
+        {
+            UpdateNarrationCountUpDisplay();
+            return;
+        }
+
         float duration = GetPhaseDuration(currentPhase.Value);
 
         if (duration <= 0f || phaseEndServerTime.Value < 0d)
         {
-            if (timerText != null && timerText.gameObject.activeSelf)
-                timerText.gameObject.SetActive(false);
-
+            HideTimerText();
             return;
         }
-
-        if (timerText != null && !timerText.gameObject.activeSelf)
-            timerText.gameObject.SetActive(true);
 
         double remaining =
             phaseEndServerTime.Value -
@@ -385,31 +659,156 @@ public class ExperimentFlowManager : NetworkBehaviour
 
         if (remaining > 0d)
         {
-            int totalSeconds = Mathf.CeilToInt((float)remaining);
-            int minutes = totalSeconds / 60;
-            int seconds = totalSeconds % 60;
-
-            if (timerText != null)
-                timerText.text = $"{minutes:00}:{seconds:00}";
-
+            timerExpired = false;
+            ShowLastSecondsWarning(remaining);
             return;
         }
 
-        if (timerText != null)
-            timerText.text = "00:00";
-
-        if (IsServer && !hasAutoAdvanced)
-        {
-            hasAutoAdvanced = true;
-            NextPhase();
-        }
+        timerExpired = true;
+        HideTimerText();
     }
 
-    private static bool IsStoryPhase(ExperimentPhase phase)
+    private void UpdateNarrationCountUpDisplay()
+    {
+        if (storyCardTaskManager == null ||
+            !storyCardTaskManager.TryGetNarrationRemainingSeconds(out double remaining))
+        {
+            HideTimerText();
+            return;
+        }
+
+        ShowLastSecondsWarning(remaining);
+    }
+
+    private void ShowLastSecondsWarning(double remaining)
+    {
+        float visibleWindow = Mathf.Max(0f, lastTimerVisibleSeconds);
+        if (remaining <= 0d || remaining > visibleWindow)
+        {
+            HideTimerText();
+            return;
+        }
+
+        int seconds = Mathf.Max(1, Mathf.CeilToInt((float)remaining));
+        const string fallback = "{0} seconds remaining. Please wrap it up.";
+        string template = string.IsNullOrWhiteSpace(lastTimerMessage)
+            ? fallback
+            : lastTimerMessage;
+        string message = template.Contains("{0}")
+            ? template.Replace("{0}", seconds.ToString())
+            : template;
+
+        if (timerText == null)
+            return;
+
+        timerText.richText = false;
+        if (!timerText.gameObject.activeSelf)
+            timerText.gameObject.SetActive(true);
+
+        timerText.text = message;
+    }
+
+    private void HideTimerText()
+    {
+        if (timerText != null && timerText.gameObject.activeSelf)
+            timerText.gameObject.SetActive(false);
+    }
+
+    private void UpdateNextPhaseButtonVisibility()
+    {
+        if (nextPhaseButton == null)
+            return;
+
+        bool shouldShow = false;
+
+        if (IsServer)
+        {
+            ExperimentPhase phase = currentPhase.Value;
+            if (IsDrawAPhase(phase) || IsDrawBPhase(phase))
+            {
+                shouldShow = false;
+            }
+            else if (IsNarrationPhase(phase))
+            {
+                shouldShow =
+                    storyCardTaskManager != null &&
+                    storyCardTaskManager.IsOnLastNarrationCard &&
+                    storyCardTaskManager.IsNarrationUnlockElapsed();
+            }
+            else
+            {
+                bool timedPhase =
+                    GetPhaseDuration(phase) > 0f &&
+                    phaseEndServerTime.Value >= 0d;
+
+                shouldShow = !timedPhase || timerExpired;
+            }
+        }
+
+        if (nextPhaseButton.activeSelf != shouldShow)
+            nextPhaseButton.SetActive(shouldShow);
+    }
+
+    private void ConfigureNextPhaseButtonHover()
+    {
+        if (nextPhaseButton == null)
+            return;
+
+        Button button = nextPhaseButton.GetComponent<Button>();
+        if (button == null)
+            return;
+
+        Navigation navigation = button.navigation;
+        navigation.mode = Navigation.Mode.None;
+        button.navigation = navigation;
+
+        ColorBlock colors = button.colors;
+        colors.selectedColor = colors.highlightedColor;
+        button.colors = colors;
+    }
+
+    public static bool IsPracticePhase(ExperimentPhase phase)
+    {
+        return phase == ExperimentPhase.PracticeADraw ||
+               phase == ExperimentPhase.PracticeBDraw ||
+               phase == ExperimentPhase.PracticeDiscussion ||
+               phase == ExperimentPhase.PracticeNarration;
+    }
+
+    public static bool IsOfficialStoryPhase(ExperimentPhase phase)
     {
         return phase == ExperimentPhase.StoryADraw ||
                phase == ExperimentPhase.StoryBDraw ||
                phase == ExperimentPhase.StoryDiscussion ||
+               phase == ExperimentPhase.StoryNarration;
+    }
+
+    public static bool IsStoryPhase(ExperimentPhase phase)
+    {
+        return IsPracticePhase(phase) || IsOfficialStoryPhase(phase);
+    }
+
+    public static bool IsDrawAPhase(ExperimentPhase phase)
+    {
+        return phase == ExperimentPhase.PracticeADraw ||
+               phase == ExperimentPhase.StoryADraw;
+    }
+
+    public static bool IsDrawBPhase(ExperimentPhase phase)
+    {
+        return phase == ExperimentPhase.PracticeBDraw ||
+               phase == ExperimentPhase.StoryBDraw;
+    }
+
+    public static bool IsDiscussionPhase(ExperimentPhase phase)
+    {
+        return phase == ExperimentPhase.PracticeDiscussion ||
+               phase == ExperimentPhase.StoryDiscussion;
+    }
+
+    public static bool IsNarrationPhase(ExperimentPhase phase)
+    {
+        return phase == ExperimentPhase.PracticeNarration ||
                phase == ExperimentPhase.StoryNarration;
     }
 
@@ -432,28 +831,29 @@ public class ExperimentFlowManager : NetworkBehaviour
             storyInteractionPanel.SetActive(isStoryPhase);
 
         UpdatePartButtonVisibility(phase);
+        UpdateNextPhaseButtonVisibility();
         ApplyContentForPhaseAndPart(phase, currentPart.Value);
 
         if (storyCardBoardManager != null)
         {
-            storyCardBoardManager.ApplyFrontSpritesForPart(currentPart.Value);
+            storyCardBoardManager.ApplySpritesForCurrentSelection(
+                phase,
+                currentPart.Value,
+                selectedStoryIndex.Value);
             storyCardBoardManager.ApplyButtonColorsForPhase(phase);
+            storyCardBoardManager.SetBoardHidden(
+                isSelectingStory.Value && IsOfficialStoryPhase(phase));
         }
     }
 
     private void UpdatePartButtonVisibility(ExperimentPhase phase)
     {
-        bool isStoryPhase = IsStoryPhase(phase);
-        bool showPartButtons =
-            phase == ExperimentPhase.DailyDiscussion ||
-            phase == ExperimentPhase.ProfessionalIntroduction ||
-            isStoryPhase;
+        bool showPartButtons = IsOfficialStoryPhase(phase);
 
-        // Practice only during Story phases.
         if (practiceButton != null)
         {
-            practiceButton.gameObject.SetActive(showPartButtons && isStoryPhase);
-            practiceButton.interactable = IsServer && isStoryPhase;
+            practiceButton.gameObject.SetActive(false);
+            practiceButton.interactable = false;
         }
 
         if (part1Button != null)
@@ -542,41 +942,45 @@ public class ExperimentFlowManager : NetworkBehaviour
 
                 break;
 
+            case ExperimentPhase.PracticeADraw:
             case ExperimentPhase.StoryADraw:
 
                 SetTaskText(
-                    StoryTitle(part),
-                    $"{PartTag(part)} Participant A: Draw your cards.",
+                    StoryTitleForPhase(phase, part),
+                    $"{PartTagForPhase(phase, part)} Participant A: Draw your cards.",
                     "Participant B, please wait."
                 );
 
                 break;
 
+            case ExperimentPhase.PracticeBDraw:
             case ExperimentPhase.StoryBDraw:
 
                 SetTaskText(
-                    StoryTitle(part),
-                    $"{PartTag(part)} Participant B: Draw your cards.",
+                    StoryTitleForPhase(phase, part),
+                    $"{PartTagForPhase(phase, part)} Participant B: Draw your cards.",
                     "Participant A, please wait."
                 );
 
                 break;
 
+            case ExperimentPhase.PracticeDiscussion:
             case ExperimentPhase.StoryDiscussion:
 
                 SetTaskText(
-                    StoryTitle(part),
-                    $"{PartTag(part)} Discuss the four cards together.",
+                    StoryTitleForPhase(phase, part),
+                    $"{PartTagForPhase(phase, part)} Discuss the four cards together.",
                     "Use all four cards to plan your story."
                 );
 
                 break;
 
+            case ExperimentPhase.PracticeNarration:
             case ExperimentPhase.StoryNarration:
 
                 SetTaskText(
-                    StoryTitle(part),
-                    $"{PartTag(part)} Tell the story in the order 1 → 2 → 3 → 4.",
+                    StoryTitleForPhase(phase, part),
+                    $"{PartTagForPhase(phase, part)} Tell the story in the order 1 → 2 → 3 → 4.",
                     "A → B → A → B"
                 );
 
@@ -594,6 +998,22 @@ public class ExperimentFlowManager : NetworkBehaviour
 
                 break;
         }
+    }
+
+    private static string StoryTitleForPhase(ExperimentPhase phase, ExperimentPart part)
+    {
+        if (IsPracticePhase(phase))
+            return "Story-card Task (Practice)";
+
+        return StoryTitle(part);
+    }
+
+    private static string PartTagForPhase(ExperimentPhase phase, ExperimentPart part)
+    {
+        if (IsPracticePhase(phase))
+            return "[Practice]";
+
+        return PartTag(part);
     }
 
     private static string StoryTitle(ExperimentPart part)

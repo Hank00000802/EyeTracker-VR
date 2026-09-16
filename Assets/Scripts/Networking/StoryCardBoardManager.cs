@@ -32,8 +32,21 @@ public class StoryCardBoardManager : NetworkBehaviour
         ParticipantB
     }
 
+    [System.Serializable]
+    public class OfficialStoryOption
+    {
+        public string storyName;
+        public Sprite card1;
+        public Sprite card2;
+        public Sprite card3;
+        public Sprite card4;
+    }
+
     [Header("Card Look")]
     [SerializeField] private Sprite backSprite;
+
+    [Header("Board Root (CanvasGroup hide only; never SetActive)")]
+    [SerializeField] private GameObject storyBoardRoot;
 
     [Header("Draw Start Points")]
     [SerializeField] private RectTransform drawStartA;
@@ -58,6 +71,10 @@ public class StoryCardBoardManager : NetworkBehaviour
     [SerializeField] private Sprite[] part1FrontSprites = new Sprite[4];
     [SerializeField] private Sprite[] part2FrontSprites = new Sprite[4];
 
+    [Header("Official Stories (Part1 / Part2 picker)")]
+    [Tooltip("Each story has 4 cards shown on SharedCard01~04 after Host selects it.")]
+    [SerializeField] private OfficialStoryOption[] officialStories = new OfficialStoryOption[0];
+
     [Header("Participant Button Color")]
     [SerializeField] private Color participantAButtonColor = Color.red;
     [SerializeField] private Color participantBButtonColor = Color.green;
@@ -79,6 +96,7 @@ public class StoryCardBoardManager : NetworkBehaviour
     private bool playedAAnimation = false;
     private bool playedBAnimation = false;
     private bool m_useParticipantButtonColors;
+    private CanvasGroup storyBoardCanvasGroup;
 
     public float DealSequenceDuration => moveDuration + staggerDelay;
 
@@ -109,13 +127,79 @@ public class StoryCardBoardManager : NetworkBehaviour
         CacheCardScales();
         CacheDefaultButtonColors();
         ApplyDefaultButtonColors();
+        EnsureBoardCanvasGroup();
+    }
+
+    public int OfficialStoryCount =>
+        officialStories != null ? officialStories.Length : 0;
+
+    public string GetOfficialStoryName(int storyIndex)
+    {
+        if (!TryGetOfficialStory(storyIndex, out OfficialStoryOption story))
+            return $"Story {storyIndex + 1}";
+
+        if (!string.IsNullOrWhiteSpace(story.storyName))
+            return story.storyName;
+
+        return $"Story {storyIndex + 1}";
+    }
+
+    public void SetBoardHidden(bool hidden)
+    {
+        EnsureBoardCanvasGroup();
+        if (storyBoardRoot != null && !storyBoardRoot.activeSelf)
+            storyBoardRoot.SetActive(true);
+
+        if (storyBoardCanvasGroup == null)
+            return;
+
+        storyBoardCanvasGroup.alpha = hidden ? 0f : 1f;
+        storyBoardCanvasGroup.interactable = !hidden;
+        storyBoardCanvasGroup.blocksRaycasts = !hidden;
+    }
+
+    public void ApplySpritesForCurrentSelection(
+        ExperimentPhase phase,
+        ExperimentPart part,
+        int officialStoryIndex)
+    {
+        if (ExperimentFlowManager.IsPracticePhase(phase))
+        {
+            ApplyFrontSpritesForPart(ExperimentPart.Practice);
+            return;
+        }
+
+        if (TryApplyOfficialStory(officialStoryIndex))
+            return;
+
+        ApplyFrontSpritesForPart(part);
+    }
+
+    public bool TryApplyOfficialStory(int storyIndex)
+    {
+        if (!TryGetOfficialStory(storyIndex, out OfficialStoryOption story))
+            return false;
+
+        ApplyFrontSprite(card1, story.card1);
+        ApplyFrontSprite(card2, story.card2);
+        ApplyFrontSprite(card3, story.card3);
+        ApplyFrontSprite(card4, story.card4);
+        return true;
     }
 
     public void ApplyButtonColorsForPhase(ExperimentPhase phase)
     {
-        m_useParticipantButtonColors = phase == ExperimentPhase.StoryNarration;
+        bool useOwnerColors =
+            ExperimentFlowManager.IsDrawAPhase(phase) ||
+            ExperimentFlowManager.IsDrawBPhase(phase) ||
+            ExperimentFlowManager.IsDiscussionPhase(phase);
 
-        if (m_useParticipantButtonColors)
+        m_useParticipantButtonColors = useOwnerColors;
+
+        if (ExperimentFlowManager.IsNarrationPhase(phase))
+            return;
+
+        if (useOwnerColors)
             ApplyParticipantButtonColors();
         else
             ApplyDefaultButtonColors();
@@ -205,32 +289,27 @@ public class StoryCardBoardManager : NetworkBehaviour
 
     public void SetHighlightedCard(int cardIndex)
     {
-        SetCardHighlight(card1, cardIndex == 1);
-        SetCardHighlight(card2, cardIndex == 2);
-        SetCardHighlight(card3, cardIndex == 3);
-        SetCardHighlight(card4, cardIndex == 4);
+        SetCardNarrationColor(card1, cardIndex == 1, StoryCardParticipant.ParticipantA);
+        SetCardNarrationColor(card2, cardIndex == 2, StoryCardParticipant.ParticipantB);
+        SetCardNarrationColor(card3, cardIndex == 3, StoryCardParticipant.ParticipantA);
+        SetCardNarrationColor(card4, cardIndex == 4, StoryCardParticipant.ParticipantB);
     }
 
-    private void SetCardHighlight(StoryCardView card, bool highlighted)
+    private void SetCardNarrationColor(
+        StoryCardView card,
+        bool active,
+        StoryCardParticipant participant)
     {
-        if (card.root == null)
+        if (card == null)
             return;
 
-        if (card.normalScale.sqrMagnitude < 0.0001f)
-            CacheScale(card);
-
-        if (card.normalScale.sqrMagnitude < 0.0001f)
-            return;
-
-        Debug.Log(
-            $"[CARD SCALE] {card.root.name} SetCardHighlight before={card.root.localScale}");
-
-        card.root.localScale = highlighted
-            ? card.normalScale * highlightedScale
-            : card.normalScale;
-
-        Debug.Log(
-            $"[CARD SCALE] {card.root.name} SetCardHighlight after={card.root.localScale}");
+        SetButtonColor(
+            card,
+            active
+                ? (participant == StoryCardParticipant.ParticipantA
+                    ? participantAButtonColor
+                    : participantBButtonColor)
+                : GetDefaultButtonColor(card));
     }
 
     public override void OnNetworkSpawn()
@@ -261,6 +340,18 @@ public class StoryCardBoardManager : NetworkBehaviour
             return;
 
         bCardsDrawn.Value = true;
+    }
+
+    public void ResetBoardForNewDealServer()
+    {
+        if (!IsServer)
+            return;
+
+        aCardsDrawn.Value = false;
+        bCardsDrawn.Value = false;
+        playedAAnimation = false;
+        playedBAnimation = false;
+        HideAllCardVisuals();
     }
 
     private void ApplyInitialBoardState()
@@ -309,7 +400,12 @@ public class StoryCardBoardManager : NetworkBehaviour
     private void OnACardsDrawnChanged(bool previous, bool current)
     {
         if (!current)
+        {
+            playedAAnimation = false;
+            HideCard(card1);
+            HideCard(card3);
             return;
+        }
 
         if (playedAAnimation)
         {
@@ -324,7 +420,12 @@ public class StoryCardBoardManager : NetworkBehaviour
     private void OnBCardsDrawnChanged(bool previous, bool current)
     {
         if (!current)
+        {
+            playedBAnimation = false;
+            HideCard(card2);
+            HideCard(card4);
             return;
+        }
 
         if (playedBAnimation)
         {
@@ -428,11 +529,55 @@ public class StoryCardBoardManager : NetworkBehaviour
             return;
         }
 
-        card.frontSprite = sprites[index];
+        ApplyFrontSprite(card, sprites[index]);
+    }
 
-        // If the card face is currently visible, refresh the Image immediately.
+    private static void ApplyFrontSprite(StoryCardView card, Sprite sprite)
+    {
+        if (card == null || sprite == null)
+            return;
+
+        card.frontSprite = sprite;
+
         if (card.cardImage != null && card.cardImage.enabled)
             card.cardImage.sprite = card.frontSprite;
+    }
+
+    private bool TryGetOfficialStory(int storyIndex, out OfficialStoryOption story)
+    {
+        story = null;
+        if (officialStories == null ||
+            storyIndex < 0 ||
+            storyIndex >= officialStories.Length)
+        {
+            return false;
+        }
+
+        story = officialStories[storyIndex];
+        return story != null;
+    }
+
+    private void EnsureBoardCanvasGroup()
+    {
+        if (storyBoardCanvasGroup != null)
+            return;
+
+        if (storyBoardRoot == null)
+        {
+            GameObject found = GameObject.Find("StoryBoardRoot");
+            if (found != null)
+                storyBoardRoot = found;
+        }
+
+        if (storyBoardRoot == null)
+            return;
+
+        if (!storyBoardRoot.activeSelf)
+            storyBoardRoot.SetActive(true);
+
+        storyBoardCanvasGroup = storyBoardRoot.GetComponent<CanvasGroup>();
+        if (storyBoardCanvasGroup == null)
+            storyBoardCanvasGroup = storyBoardRoot.AddComponent<CanvasGroup>();
     }
 
     private void HideCard(StoryCardView card)

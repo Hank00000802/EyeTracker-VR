@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7ae10a2600164c3ea3d09b137ea91606
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 304841
+  packageName: Creative Characters FREE - Animated Pack
+  packageVersion: 2.3
+  assetPath: Assets/ithappy/Creative_Characters_FREE/Scripts/Editor/CharacterCustomizationWindow.cs
+  uploadId: 927690

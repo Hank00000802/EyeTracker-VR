@@ -22,6 +22,8 @@ public class VRHeightAdjustController : MonoBehaviour
     [SerializeField] private InputActionReference heightStickAction;
     [Tooltip("Optional child under Camera Floor Offset. Created at runtime if unset.")]
     [SerializeField] private Transform heightOffsetRoot;
+    [Tooltip("AvatarPlayerVisual. Moved by the same applied camera Y delta during height adjust.")]
+    [SerializeField] private Transform avatarBodyRoot;
 
     [Header("Height Adjust")]
     [SerializeField] private float heightAdjustSpeed = 0.5f;
@@ -226,8 +228,19 @@ public class VRHeightAdjustController : MonoBehaviour
         if (heightOffsetRoot == null)
             return;
 
+        float oldY = heightOffsetRoot.localPosition.y;
+
         Vector3 pos = heightOffsetRoot.localPosition;
         pos.y = currentHeightOffset;
         heightOffsetRoot.localPosition = pos;
+
+        float appliedDeltaY = heightOffsetRoot.localPosition.y - oldY;
+
+        if (avatarBodyRoot != null &&
+            heightAdjustModeActive &&
+            Mathf.Abs(appliedDeltaY) > 0.0001f)
+        {
+            avatarBodyRoot.position += Vector3.up * appliedDeltaY;
+        }
     }
 }

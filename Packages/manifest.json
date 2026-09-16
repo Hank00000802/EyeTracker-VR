@@ -2,6 +2,7 @@
   "dependencies": {
     "com.htc.upm.vive.openxr": "file:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr",
     "com.unity.ai.navigation": "2.0.12",
+    "com.unity.animation.rigging": "1.4.1",
     "com.unity.cloud.gltfast": "6.19.0",
     "com.unity.collab-proxy": "2.12.4",
     "com.unity.ide.rider": "3.0.39",

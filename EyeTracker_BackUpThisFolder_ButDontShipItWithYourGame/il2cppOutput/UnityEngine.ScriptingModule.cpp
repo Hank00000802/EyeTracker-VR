@@ -79,7 +79,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130090
+// Method Definition Index: 131418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m60AA68B2B91FD25CF48D350D56192CC1E04E7820 (EmbeddedAttribute_t63227CA55AC9F189C1B931D341745A8F8A7518AA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -95,7 +95,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_m60AA68B2B91FD25
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130091
+// Method Definition Index: 131419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m7551CAADB2FFE51B571548E1915D8712F7E6AD07 (RefSafetyRulesAttribute_t7BE4642FBCBBFE1B91543C8A8740259ED3B2B8B9* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -113,7 +113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m7551CAADB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 130092
+// Method Definition Index: 131420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Il2CppEagerStaticClassConstructionAttribute__ctor_mA7E4EB4327642FEC15C5409B08BDCDFE269F359A (Il2CppEagerStaticClassConstructionAttribute_t3D7D82DC5526590106245EEAFBBCDEF108E58986* __this, const RuntimeMethod* method) 
 {
 	{
