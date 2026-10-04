@@ -4001,6 +4001,7 @@ MonoBehaviour:
   storySelectionPanelView: {fileID: 0}
   dailyDiscussionDuration: 120
   professionalIntroductionDuration: 120
+  practiceDiscussionDuration: 0
   storyDiscussionDuration: 120
   lastTimerVisibleSeconds: 20
   lastTimerMessage: 20 seconds remaining. Please wrap it up.
@@ -4154,6 +4155,8 @@ MonoBehaviour:
   narrationStatusText: {fileID: 908957893}
   narrationNextCardUnlockSeconds: 30
   narrationAutoAdvanceSeconds: 180
+  practiceNarrationNextCardUnlockSeconds: 0
+  practiceNarrationAutoAdvanceSeconds: 30
   storyCardBoardManager: {fileID: 516283166}
   phaseAdvanceDelay: 0.8
 --- !u!4 &342141333

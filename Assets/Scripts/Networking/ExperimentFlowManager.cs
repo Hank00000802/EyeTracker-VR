@@ -67,6 +67,7 @@ public class ExperimentFlowManager : NetworkBehaviour
     [Header("Task Durations")]
     [SerializeField] private float dailyDiscussionDuration = 120f;
     [SerializeField] private float professionalIntroductionDuration = 120f;
+    [SerializeField] private float practiceDiscussionDuration = 0f;
     [SerializeField] private float storyDiscussionDuration = 120f;
 
     [Header("Timer Warning")]
@@ -619,7 +620,7 @@ public class ExperimentFlowManager : NetworkBehaviour
                 professionalIntroductionDuration,
 
             ExperimentPhase.PracticeDiscussion =>
-                storyDiscussionDuration,
+                practiceDiscussionDuration,
 
             ExperimentPhase.StoryDiscussion =>
                 storyDiscussionDuration,
@@ -848,7 +849,10 @@ public class ExperimentFlowManager : NetworkBehaviour
 
     private void UpdatePartButtonVisibility(ExperimentPhase phase)
     {
-        bool showPartButtons = IsOfficialStoryPhase(phase);
+        bool showPartButtons =
+            phase == ExperimentPhase.DailyDiscussion ||
+            phase == ExperimentPhase.ProfessionalIntroduction ||
+            IsOfficialStoryPhase(phase);
 
         if (practiceButton != null)
         {

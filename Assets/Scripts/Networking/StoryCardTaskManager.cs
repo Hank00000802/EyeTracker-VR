@@ -19,6 +19,8 @@ public class StoryCardTaskManager : NetworkBehaviour
     [SerializeField] private TMP_Text narrationStatusText;
     [SerializeField] private float narrationNextCardUnlockSeconds = 40f;
     [SerializeField] private float narrationAutoAdvanceSeconds = 180f;
+    [SerializeField] private float practiceNarrationNextCardUnlockSeconds = 0f;
+    [SerializeField] private float practiceNarrationAutoAdvanceSeconds = 0f;
 
     [Header("Board")]
     [SerializeField] private StoryCardBoardManager storyCardBoardManager;
@@ -276,7 +278,7 @@ public class StoryCardTaskManager : NetworkBehaviour
         if (!TryGetNarrationElapsed(out double elapsed))
             return false;
 
-        remainingSeconds = narrationAutoAdvanceSeconds - elapsed;
+        remainingSeconds = GetNarrationAutoAdvanceSeconds() - elapsed;
         if (remainingSeconds < 0d)
             remainingSeconds = 0d;
 
@@ -285,8 +287,14 @@ public class StoryCardTaskManager : NetworkBehaviour
 
     public bool IsNarrationUnlockElapsed()
     {
-        return TryGetNarrationElapsed(out double elapsed) &&
-               elapsed >= narrationNextCardUnlockSeconds;
+        if (!TryGetNarrationElapsed(out double elapsed))
+            return false;
+
+        float unlockSeconds = GetNarrationUnlockSeconds();
+        if (unlockSeconds <= 0f)
+            return true;
+
+        return elapsed >= unlockSeconds;
     }
 
     bool TryGetNarrationElapsed(out double elapsed)
@@ -304,17 +312,35 @@ public class StoryCardTaskManager : NetworkBehaviour
         if (cardIndex < 1 || cardIndex > 4)
             return false;
 
-        double maxSeconds = narrationAutoAdvanceSeconds;
-        if (maxSeconds < 0d)
-            maxSeconds = 0d;
-
         elapsed = NetworkManager.ServerTime.Time - startTime;
         if (elapsed < 0d)
             elapsed = 0d;
-        if (elapsed > maxSeconds)
+
+        float maxSeconds = GetNarrationAutoAdvanceSeconds();
+        if (maxSeconds > 0f && elapsed > maxSeconds)
             elapsed = maxSeconds;
 
         return true;
+    }
+
+    private float GetNarrationUnlockSeconds()
+    {
+        return IsPracticeNarration()
+            ? practiceNarrationNextCardUnlockSeconds
+            : narrationNextCardUnlockSeconds;
+    }
+
+    private float GetNarrationAutoAdvanceSeconds()
+    {
+        return IsPracticeNarration()
+            ? practiceNarrationAutoAdvanceSeconds
+            : narrationAutoAdvanceSeconds;
+    }
+
+    private bool IsPracticeNarration()
+    {
+        return experimentFlowManager != null &&
+               experimentFlowManager.CurrentPhase == ExperimentPhase.PracticeNarration;
     }
 
     void StartNarrationCardServer(int cardIndex)
@@ -336,8 +362,12 @@ public class StoryCardTaskManager : NetworkBehaviour
         if (hasAutoAdvancedThisCard)
             return;
 
+        float autoAdvanceSeconds = GetNarrationAutoAdvanceSeconds();
+        if (autoAdvanceSeconds <= 0f)
+            return;
+
         if (!TryGetNarrationElapsed(out double elapsed) ||
-            elapsed < narrationAutoAdvanceSeconds)
+            elapsed < autoAdvanceSeconds)
         {
             return;
         }

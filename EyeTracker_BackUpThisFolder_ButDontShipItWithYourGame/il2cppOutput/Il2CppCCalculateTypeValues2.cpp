@@ -43822,7 +43822,7 @@ struct MatEntry_tF1DC29AF9CCFDBC456188F99166F26D1B6772EE2  : public RuntimeObjec
 	bool ___useAlphaClip;
 	int32_t ___colorMask;
 };
-struct U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840  : public RuntimeObject
+struct U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -53260,6 +53260,7 @@ struct ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19  : public
 	StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* ___storySelectionPanelView;
 	float ___dailyDiscussionDuration;
 	float ___professionalIntroductionDuration;
+	float ___practiceDiscussionDuration;
 	float ___storyDiscussionDuration;
 	float ___lastTimerVisibleSeconds;
 	String_t* ___lastTimerMessage;
@@ -53688,6 +53689,8 @@ struct StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C  : public 
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___narrationStatusText;
 	float ___narrationNextCardUnlockSeconds;
 	float ___narrationAutoAdvanceSeconds;
+	float ___practiceNarrationNextCardUnlockSeconds;
+	float ___practiceNarrationAutoAdvanceSeconds;
 	StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* ___storyCardBoardManager;
 	float ___phaseAdvanceDelay;
 	NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* ___currentNarrationCard;
@@ -65186,7 +65189,7 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize13899 = { sizeof(U3CPlayBDra
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13900;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize13900 = { sizeof(StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13901;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize13901 = { sizeof(U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize13901 = { sizeof(U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13902;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize13902 = { sizeof(StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C), -1, 0, 0 };
 IL2CPP_EXTERN_C_CONST Il2CppTypeDefinitionSizes g_typeDefinitionSize13903;

@@ -352,7 +352,7 @@ struct U3CPlayADrawSequenceU3Ed__58_tF47AC9FF3C885557F7601EF34BA6EADF3AB8A6F9;
 struct U3CPlayBDrawSequenceU3Ed__59_tDE66C8C4E9082593E9134B1CA4E801A98F1D3155;
 struct OfficialStoryOption_tD34E4093B5DE1363ED72824CD1CAC871F8BB3B59;
 struct StoryCardView_t5401699347D37B53040E563C590239E5BD8A915C;
-struct U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840;
+struct U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A;
 struct MissingCharacterEventCallback_t955241181324E0FEF9A9BDBA400E8780F8979DE6;
 struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
 
@@ -408,7 +408,7 @@ IL2CPP_EXTERN_C RuntimeClass* TMP_Settings_t5875BC616C98A30032C6B733CF7FC90A0EE4
 IL2CPP_EXTERN_C RuntimeClass* Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CAnimateCardU3Ed__60_t1AB77959A80C5456A1054B63CB0D78BAC782125D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CPlayADrawSequenceU3Ed__58_tF47AC9FF3C885557F7601EF34BA6EADF3AB8A6F9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CPlayBDrawSequenceU3Ed__59_tDE66C8C4E9082593E9134B1CA4E801A98F1D3155_il2cpp_TypeInfo_var;
@@ -3498,7 +3498,7 @@ struct RpcAttributeParams_t6E0FB11B1FB4F668145B301D80D4518BF17136DC_marshaled_co
 	int32_t ___DeferLocal;
 	int32_t ___AllowTargetOverride;
 };
-struct U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840  : public RuntimeObject
+struct U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -4431,6 +4431,7 @@ struct ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19  : public
 	StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* ___storySelectionPanelView;
 	float ___dailyDiscussionDuration;
 	float ___professionalIntroductionDuration;
+	float ___practiceDiscussionDuration;
 	float ___storyDiscussionDuration;
 	float ___lastTimerVisibleSeconds;
 	String_t* ___lastTimerMessage;
@@ -4551,6 +4552,8 @@ struct StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C  : public 
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* ___narrationStatusText;
 	float ___narrationNextCardUnlockSeconds;
 	float ___narrationAutoAdvanceSeconds;
+	float ___practiceNarrationNextCardUnlockSeconds;
+	float ___practiceNarrationAutoAdvanceSeconds;
 	StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* ___storyCardBoardManager;
 	float ___phaseAdvanceDelay;
 	NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* ___currentNarrationCard;
@@ -6371,6 +6374,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsLocalParticipantA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsLocalParticipantB_mA899D120F8A842729FF4DF910F364D22C78F47AB (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_CanControlCurrentNarrationCard_mB183AF9555017AD94F6012010AAF4B884479A49D (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_TryGetNarrationElapsed_m0347C3C9B4BB539E562A5677F4027EB14B3AE8CB (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, double* ___0_elapsed, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StoryCardTaskManager_GetNarrationAutoAdvanceSeconds_m7DDC237125B9B21F316626B751E407A82E12778E (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StoryCardTaskManager_GetNarrationUnlockSeconds_mF0782B7F8D307A9C540A63A693128FF5D5608499 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsPracticeNarration_m79DA4E3E66B48B6EFD6BC146214C28169C822EC5 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_AdvanceNarrationCardServer_m21867C3513B9990A317F946E7A5BB9E1ADC3495E (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_RequestNextCardRpc_m566A050BC259AC4C246C826CEB292EDED76954E8 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD ___0_rpcParams, const RuntimeMethod* method) ;
@@ -6378,7 +6384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_RequestDrawRpc_m5FC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardBoardManager_DrawCardsForParticipantAServer_mA18061B47BEF8DB3675343B8C931F65624981BDA (StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoryCardTaskManager_AdvancePhaseAfterDelay_mAE826A06C30640E55303F2B49A238074E1AE7951 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, uint8_t ___0_nextPhase, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardBoardManager_DrawCardsForParticipantBServer_mD6B20AB681A6B3D422E7473F2F4BF705AA4BAA0B (StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAdvancePhaseAfterDelayU3Ed__43__ctor_m5C46701F75ED70A4F3CC4FB9262F917F5D41BB3E (U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CAdvancePhaseAfterDelayU3Ed__48__ctor_m438AE520974ABD3A815B2B3989554C8B2C437A64 (U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IndexOutOfRangeException__ctor_mFD06819F05B815BE2D6E826D4E04F4C449D0A425 (IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* __this, String_t* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_Inverse_m0ABC2C5E4F26053F9F6B8260065D08E264F62566 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_rotation, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromEulerRad_mD0C4C0EFE1D70EC0EA4A92B11F1A4D5B0A134E49 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_euler, const RuntimeMethod* method) ;
@@ -9878,7 +9884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GazeTargetColorFeedback__ctor_m82B34F7F6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ExperimentFlowManager_get_CurrentPhase_mD1288AF940CDD06423E3D1B1838C9CFBC0EEAD70 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:121>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:122>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_0 = __this->___currentPhase;
 		NullCheck(L_0);
 		uint8_t L_1;
@@ -9890,7 +9896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ExperimentFlowManager_get_CurrentPhas
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ExperimentFlowManager_get_CurrentPart_m63C43569BF82CAEB8A8490784D1B2ECCB88215DA (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:123>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:124>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_0 = __this->___currentPart;
 		NullCheck(L_0);
 		uint8_t L_1;
@@ -9902,7 +9908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t ExperimentFlowManager_get_CurrentPart
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_get_IsSelectingStory_mFF786BCE9AD60BAC95AA3EEAF6C93205C2B7B34A (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:125>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:126>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_0 = __this->___isSelectingStory;
 		NullCheck(L_0);
 		bool L_1;
@@ -9914,7 +9920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_get_IsSelectingSto
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ExperimentFlowManager_get_SelectedStoryIndex_mEF120339CA1C16923BBD5A68D019CF0615434E49 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:127>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:128>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_0 = __this->___selectedStoryIndex;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -9935,8 +9941,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_get_PhaseAndP
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:136>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:137>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:138>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_0 = __this->___currentPhase;
 		NullCheck(L_0);
 		uint8_t L_1;
@@ -9959,8 +9965,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_get_PhaseAndP
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:139>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:140>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:141>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_5 = __this->___currentPhase;
 		NullCheck(L_5);
 		uint8_t L_6;
@@ -9986,7 +9992,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_get_PhaseAndP
 
 IL_005d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:143>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:144>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_18 = __this->___currentPhase;
 		NullCheck(L_18);
 		uint8_t L_19;
@@ -10014,8 +10020,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_get_IsParticipantA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:148>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:149>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:150>
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0;
 		L_0 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -10050,9 +10056,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_get_IsParticipantB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:152>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:153>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:154>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:155>
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0;
 		L_0 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -10101,7 +10107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_Awake_m63F99996A52
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:158>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:159>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10122,9 +10128,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_Awake_m63F99996A52
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:160>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:161>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:162>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:163>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___taskScreenRoot;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -10132,7 +10138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_Awake_m63F99996A52
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = ExperimentFlowManager_FindChildByName_mFA8AABDB6B5FF3ADF8F3414A0D1AB9F453D75622(L_5, _stringLiteral0A608D9612FC5650C6FB911FEC18FFD45519F3F6, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:163>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:164>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -10143,7 +10149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_Awake_m63F99996A52
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:164>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:165>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_0;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -10154,7 +10160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_Awake_m63F99996A52
 
 IL_0047:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:167>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:168>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -10165,11 +10171,11 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:169>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:170>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 		L_13 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0A608D9612FC5650C6FB911FEC18FFD45519F3F6, NULL);
 		V_1 = L_13;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:170>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:171>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -10180,7 +10186,7 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:171>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:172>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_1;
 		__this->___selectionStoryPanel = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectionStoryPanel), (void*)L_16);
@@ -10188,7 +10194,7 @@ IL_0047:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:174>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:175>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -10199,7 +10205,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:175>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:176>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19 = __this->___selectionStoryPanel;
 		NullCheck(L_19);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_19, (bool)0, NULL);
@@ -10207,7 +10213,7 @@ IL_0070:
 
 IL_008a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:176>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:177>
 		return;
 	}
 }
@@ -10237,7 +10243,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkSpawn_mD9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:180>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:181>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_0 = __this->___currentPhase;
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_1 = L_0;
 		NullCheck(L_1);
@@ -10249,7 +10255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkSpawn_mD9
 		NullCheck(L_1);
 		L_1->___OnValueChanged = ((OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455*)Castclass((RuntimeObject*)L_4, OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___OnValueChanged), (void*)((OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455*)Castclass((RuntimeObject*)L_4, OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:181>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:182>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_5 = __this->___currentPart;
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_6 = L_5;
 		NullCheck(L_6);
@@ -10261,7 +10267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkSpawn_mD9
 		NullCheck(L_6);
 		L_6->___OnValueChanged = ((OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4*)Castclass((RuntimeObject*)L_9, OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___OnValueChanged), (void*)((OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4*)Castclass((RuntimeObject*)L_9, OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:182>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:183>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_10 = __this->___selectedStoryIndex;
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_11 = L_10;
 		NullCheck(L_11);
@@ -10273,7 +10279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkSpawn_mD9
 		NullCheck(L_11);
 		L_11->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_14, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_14, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:183>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:184>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_15 = __this->___isSelectingStory;
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_16 = L_15;
 		NullCheck(L_16);
@@ -10285,11 +10291,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkSpawn_mD9
 		NullCheck(L_16);
 		L_16->___OnValueChanged = ((OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2*)Castclass((RuntimeObject*)L_19, OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_16->___OnValueChanged), (void*)((OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2*)Castclass((RuntimeObject*)L_19, OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:185>
-		ExperimentFlowManager_WirePartButtons_m02EE1B7E1E75FAD2FCB6B23491FE0C72E8B30A6F(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:186>
+		ExperimentFlowManager_WirePartButtons_m02EE1B7E1E75FAD2FCB6B23491FE0C72E8B30A6F(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:187>
 		ExperimentFlowManager_ResolveStorySelectionPanel_m3A82B1312E228008DA81FD5219B0DEF771D24A29(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:188>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:189>
 		StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* L_20 = __this->___storyCardTaskManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_21;
@@ -10300,7 +10306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkSpawn_mD9
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:189>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:190>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* L_22;
 		L_22 = Object_FindFirstObjectByType_TisStoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C_mD5F4B866D71DBF911965709A439BCE065990FB5A(Object_FindFirstObjectByType_TisStoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C_mD5F4B866D71DBF911965709A439BCE065990FB5A_RuntimeMethod_var);
@@ -10310,21 +10316,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkSpawn_mD9
 
 IL_00c1:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:191>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:192>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_23 = __this->___currentPhase;
 		NullCheck(L_23);
 		uint8_t L_24;
 		L_24 = VirtualFuncInvoker0< uint8_t >::Invoke(18, L_23);
 		ExperimentFlowManager_ApplyPhase_mCDDAA52D744633B5E063AF3B09D11F9CBF001953(__this, L_24, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:192>
-		ExperimentFlowManager_ApplySelectedStorySprites_m50302058A8917696CDCBFCDF5BD84D718FCB3BB4(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:193>
-		ExperimentFlowManager_ApplyStorySelectionVisuals_mE04F9CAC00A2FB095247F48587548CB33E4BB593(__this, NULL);
+		ExperimentFlowManager_ApplySelectedStorySprites_m50302058A8917696CDCBFCDF5BD84D718FCB3BB4(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:194>
-		ExperimentFlowManager_ConfigureNextPhaseButtonHover_m5E95D88D0A49F13D2CE80AD5AFC13318FF414D2E(__this, NULL);
+		ExperimentFlowManager_ApplyStorySelectionVisuals_mE04F9CAC00A2FB095247F48587548CB33E4BB593(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:195>
+		ExperimentFlowManager_ConfigureNextPhaseButtonHover_m5E95D88D0A49F13D2CE80AD5AFC13318FF414D2E(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:196>
 		ExperimentFlowManager_UpdateNextPhaseButtonVisibility_m00EDBE25880E697EB9FD4C1274537620F23A0EB0(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:197>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:198>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___startRecordingButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -10335,7 +10341,7 @@ IL_00c1:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:198>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:199>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_27 = __this->___startRecordingButton;
 		bool L_28;
 		L_28 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
@@ -10345,7 +10351,7 @@ IL_00c1:
 
 IL_0109:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:200>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:201>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = __this->___stopRecordingButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_30;
@@ -10356,7 +10362,7 @@ IL_0109:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:201>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:202>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = __this->___stopRecordingButton;
 		bool L_32;
 		L_32 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
@@ -10366,12 +10372,12 @@ IL_0109:
 
 IL_0128:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:203>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:204>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:205>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:206>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:207>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:208>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:209>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_33 = __this->___currentPhase;
 		NullCheck(L_33);
 		uint8_t L_34;
@@ -10402,7 +10408,7 @@ IL_0128:
 		L_50 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralB4D8D5E44BEE0880D236BD42D00247DFF91409F4, L_41, L_45, L_49, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_50, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:209>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:210>
 		return;
 	}
 }
@@ -10423,7 +10429,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkDespawn_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:213>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:214>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_0 = __this->___currentPhase;
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_1 = L_0;
 		NullCheck(L_1);
@@ -10435,7 +10441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkDespawn_m
 		NullCheck(L_1);
 		L_1->___OnValueChanged = ((OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455*)Castclass((RuntimeObject*)L_4, OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___OnValueChanged), (void*)((OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455*)Castclass((RuntimeObject*)L_4, OnValueChangedDelegate_t6AE4BB4D2DD564E089523E9A05A9857FF00FD455_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:214>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:215>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_5 = __this->___currentPart;
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_6 = L_5;
 		NullCheck(L_6);
@@ -10447,7 +10453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkDespawn_m
 		NullCheck(L_6);
 		L_6->___OnValueChanged = ((OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4*)Castclass((RuntimeObject*)L_9, OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_6->___OnValueChanged), (void*)((OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4*)Castclass((RuntimeObject*)L_9, OnValueChangedDelegate_t10457F5BAD6554727759E048F463A95FC1AE4BA4_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:215>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:216>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_10 = __this->___selectedStoryIndex;
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_11 = L_10;
 		NullCheck(L_11);
@@ -10459,7 +10465,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkDespawn_m
 		NullCheck(L_11);
 		L_11->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_14, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_14, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:216>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:217>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_15 = __this->___isSelectingStory;
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_16 = L_15;
 		NullCheck(L_16);
@@ -10471,9 +10477,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnNetworkDespawn_m
 		NullCheck(L_16);
 		L_16->___OnValueChanged = ((OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2*)Castclass((RuntimeObject*)L_19, OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_16->___OnValueChanged), (void*)((OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2*)Castclass((RuntimeObject*)L_19, OnValueChangedDelegate_t3691247C0F8BFFB756A365D8665008471A1826B2_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:218>
-		ExperimentFlowManager_UnwirePartButtons_mA99C17A07DE0832BFE3C5A7AAB666508EC814BD3(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:219>
+		ExperimentFlowManager_UnwirePartButtons_mA99C17A07DE0832BFE3C5A7AAB666508EC814BD3(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:220>
 		return;
 	}
 }
@@ -10491,7 +10497,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_WirePartButtons_m0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:223>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:224>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___practiceButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10502,7 +10508,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_WirePartButtons_m0
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:224>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:225>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___practiceButton;
 		NullCheck(L_2);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_3;
@@ -10515,7 +10521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_WirePartButtons_m0
 
 IL_002a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:226>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:227>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___part1Button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -10526,7 +10532,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:227>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:228>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___part1Button;
 		NullCheck(L_7);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_8;
@@ -10539,7 +10545,7 @@ IL_002a:
 
 IL_0054:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:229>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:230>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___part2Button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -10550,7 +10556,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:230>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:231>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->___part2Button;
 		NullCheck(L_12);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_13;
@@ -10563,7 +10569,7 @@ IL_0054:
 
 IL_007e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:231>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:232>
 		return;
 	}
 }
@@ -10581,7 +10587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UnwirePartButtons_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:235>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:236>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___practiceButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10592,7 +10598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UnwirePartButtons_
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:236>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:237>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___practiceButton;
 		NullCheck(L_2);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_3;
@@ -10605,7 +10611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UnwirePartButtons_
 
 IL_002a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:238>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:239>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___part1Button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -10616,7 +10622,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:239>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:240>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___part1Button;
 		NullCheck(L_7);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_8;
@@ -10629,7 +10635,7 @@ IL_002a:
 
 IL_0054:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:241>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:242>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___part2Button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_11;
@@ -10640,7 +10646,7 @@ IL_0054:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:242>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:243>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->___part2Button;
 		NullCheck(L_12);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_13;
@@ -10653,7 +10659,7 @@ IL_0054:
 
 IL_007e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:243>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:244>
 		return;
 	}
 }
@@ -10671,8 +10677,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnPhaseChanged_m22
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:249>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:250>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:251>
 		uint8_t L_0 = ___0_previous;
 		uint8_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(ExperimentPhase_t62CE0A4075CE7EFF55C81BCA70F545DCBA7188DA_il2cpp_TypeInfo_var, &L_1);
@@ -10683,10 +10689,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnPhaseChanged_m22
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral2A5FCECD6E1DA2B4B0024726FB2BC0E843444759, L_2, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:252>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:253>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:254>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:255>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:256>
 		uint8_t L_7 = ___0_previous;
 		uint8_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(ExperimentPhase_t62CE0A4075CE7EFF55C81BCA70F545DCBA7188DA_il2cpp_TypeInfo_var, &L_8);
@@ -10698,10 +10704,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnPhaseChanged_m22
 		String_t* L_14;
 		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDB7A43BBB7B5E6EF8556268726AA989D79AB458F, L_13, NULL);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:257>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:258>
 		uint8_t L_15 = ___1_current;
 		ExperimentFlowManager_ApplyPhase_mCDDAA52D744633B5E063AF3B09D11F9CBF001953(__this, L_15, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:258>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:259>
 		return;
 	}
 }
@@ -10717,8 +10723,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnPartChanged_m7C1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:264>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:265>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:266>
 		uint8_t L_0 = ___0_previous;
 		uint8_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(ExperimentPart_tEA2D857D1B79976CA9BC30A1DEE9A6BBE2C9CC91_il2cpp_TypeInfo_var, &L_1);
@@ -10729,13 +10735,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnPartChanged_m7C1
 		L_6 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral4C625C32DF085AFB1E3857B39BD0DF66040B8EE6, L_2, L_5, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_6, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:267>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:268>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_7 = __this->___currentPhase;
 		NullCheck(L_7);
 		uint8_t L_8;
 		L_8 = VirtualFuncInvoker0< uint8_t >::Invoke(18, L_7);
 		ExperimentFlowManager_ApplyPhase_mCDDAA52D744633B5E063AF3B09D11F9CBF001953(__this, L_8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:268>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:269>
 		return;
 	}
 }
@@ -10743,9 +10749,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnPartChanged_m7C1
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnSelectedStoryChanged_m5B914A2C2A9564026FF7CD027B37E05B765BBA80 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, int32_t ___0_previous, int32_t ___1_current, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:272>
-		ExperimentFlowManager_ApplySelectedStorySprites_m50302058A8917696CDCBFCDF5BD84D718FCB3BB4(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:273>
+		ExperimentFlowManager_ApplySelectedStorySprites_m50302058A8917696CDCBFCDF5BD84D718FCB3BB4(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:274>
 		return;
 	}
 }
@@ -10753,9 +10759,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnSelectedStoryCha
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_OnSelectingStoryChanged_m1C920C3CFB90BA6DFAB6950FA15A28BAC75613A8 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, bool ___0_previous, bool ___1_current, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:277>
-		ExperimentFlowManager_ApplyStorySelectionVisuals_mE04F9CAC00A2FB095247F48587548CB33E4BB593(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:278>
+		ExperimentFlowManager_ApplyStorySelectionVisuals_mE04F9CAC00A2FB095247F48587548CB33E4BB593(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:279>
 		return;
 	}
 }
@@ -10769,7 +10775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplySelectedStory
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:282>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:283>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_0 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -10780,16 +10786,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplySelectedStory
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:283>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:284>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:285>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:286>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:287>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:288>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:289>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_2 = __this->___storyCardBoardManager;
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_3 = __this->___currentPhase;
 		NullCheck(L_3);
@@ -10805,7 +10811,7 @@ IL_000f:
 		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_7);
 		NullCheck(L_2);
 		StoryCardBoardManager_ApplySpritesForCurrentSelection_m6B9B804AE4428A1CEDF71A7084EA615095E0342C(L_2, L_4, L_6, L_8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:289>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:290>
 		return;
 	}
 }
@@ -10830,8 +10836,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplyStorySelectio
 	int32_t G_B3_0 = 0;
 	int32_t G_B15_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:293>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:294>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:295>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_0 = __this->___isSelectingStory;
 		NullCheck(L_0);
 		bool L_1;
@@ -10860,7 +10866,7 @@ IL_001f:
 IL_0020:
 	{
 		V_0 = (bool)G_B3_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:296>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:297>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_5 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -10871,7 +10877,7 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:297>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:298>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_7 = __this->___storyCardBoardManager;
 		bool L_8 = V_0;
 		NullCheck(L_7);
@@ -10880,9 +10886,9 @@ IL_0020:
 
 IL_003b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:299>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:300>
 		ExperimentFlowManager_ResolveStorySelectionPanel_m3A82B1312E228008DA81FD5219B0DEF771D24A29(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:301>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:302>
 		bool L_9 = V_0;
 		if (!L_9)
 		{
@@ -10900,7 +10906,7 @@ IL_003b:
 
 IL_004c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:303>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:304>
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_11 = __this->___storySelectionPanelView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -10911,7 +10917,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:304>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:305>
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_13 = __this->___storySelectionPanelView;
 		NullCheck(L_13);
 		StorySelectionPanelView_Hide_m3C9FEA933BE610C897AD5428643AAC3C48DBC04E(L_13, NULL);
@@ -10920,7 +10926,7 @@ IL_004c:
 
 IL_0066:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:305>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:306>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -10931,7 +10937,7 @@ IL_0066:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:306>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:307>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->___selectionStoryPanel;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)0, NULL);
@@ -10939,19 +10945,19 @@ IL_0066:
 
 IL_0080:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:308>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:309>
 		return;
 	}
 
 IL_0081:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:311>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:312>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_17 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_17, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		V_1 = L_17;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:312>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:313>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:314>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:315>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_18 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -10978,14 +10984,14 @@ IL_0098:
 IL_00a3:
 	{
 		V_2 = G_B15_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:315>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:316>
 		V_3 = 0;
 		goto IL_00be;
 	}
 
 IL_00a8:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:316>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:317>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_22 = V_1;
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_23 = __this->___storyCardBoardManager;
 		int32_t L_24 = V_3;
@@ -10994,14 +11000,14 @@ IL_00a8:
 		L_25 = StoryCardBoardManager_GetOfficialStoryName_m1B5344972D58C83C1904A5CCB0A69C930995651A(L_23, L_24, NULL);
 		NullCheck(L_22);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_22, L_25, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:315>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:316>
 		int32_t L_26 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 	}
 
 IL_00be:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:315>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:316>
 		int32_t L_27 = V_3;
 		int32_t L_28 = V_2;
 		if ((((int32_t)L_27) < ((int32_t)L_28)))
@@ -11010,7 +11016,7 @@ IL_00be:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:318>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:319>
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_29 = __this->___storySelectionPanelView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_30;
@@ -11021,7 +11027,7 @@ IL_00be:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:319>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:320>
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_31 = __this->___storySelectionPanelView;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_32 = V_1;
 		Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* L_33 = (Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404*)il2cpp_codegen_object_new(Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404_il2cpp_TypeInfo_var);
@@ -11033,7 +11039,7 @@ IL_00be:
 
 IL_00e9:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:320>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:321>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_34 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_35;
@@ -11044,7 +11050,7 @@ IL_00e9:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:321>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:322>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_36 = __this->___selectionStoryPanel;
 		NullCheck(L_36);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_36, (bool)1, NULL);
@@ -11052,7 +11058,7 @@ IL_00e9:
 
 IL_0103:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:322>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:323>
 		return;
 	}
 }
@@ -11071,7 +11077,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ResolveStorySelect
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:326>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:327>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11092,9 +11098,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ResolveStorySelect
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:328>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:329>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:330>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:331>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___taskScreenRoot;
 		NullCheck(L_4);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
@@ -11102,7 +11108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ResolveStorySelect
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
 		L_6 = ExperimentFlowManager_FindChildByName_mFA8AABDB6B5FF3ADF8F3414A0D1AB9F453D75622(L_5, _stringLiteral0A608D9612FC5650C6FB911FEC18FFD45519F3F6, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:331>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:332>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -11113,7 +11119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ResolveStorySelect
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:332>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:333>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = V_0;
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
@@ -11124,7 +11130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ResolveStorySelect
 
 IL_0047:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:335>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:336>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -11135,11 +11141,11 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:337>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:338>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13;
 		L_13 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral0A608D9612FC5650C6FB911FEC18FFD45519F3F6, NULL);
 		V_1 = L_13;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:338>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:339>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_15;
@@ -11150,7 +11156,7 @@ IL_0047:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:339>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:340>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = V_1;
 		__this->___selectionStoryPanel = L_16;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectionStoryPanel), (void*)L_16);
@@ -11158,7 +11164,7 @@ IL_0047:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:342>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:343>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -11179,7 +11185,7 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:343>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:344>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
 		L_21 = ExperimentFlowManager_CreateFallbackSelectionPanel_m4E091B3A219820A705B3760B5D22F32D5C35AB4A(__this, NULL);
 		__this->___selectionStoryPanel = L_21;
@@ -11188,7 +11194,7 @@ IL_0070:
 
 IL_0098:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:345>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:346>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___selectionStoryPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
@@ -11199,13 +11205,13 @@ IL_0098:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:346>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:347>
 		return;
 	}
 
 IL_00a7:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:348>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:349>
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_24 = __this->___storySelectionPanelView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_25;
@@ -11216,8 +11222,8 @@ IL_00a7:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:349>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:350>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:351>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___selectionStoryPanel;
 		NullCheck(L_26);
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_27;
@@ -11228,7 +11234,7 @@ IL_00a7:
 
 IL_00c6:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:352>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:353>
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_28 = __this->___storySelectionPanelView;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_29;
@@ -11239,8 +11245,8 @@ IL_00c6:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:353>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:354>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:355>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_30 = __this->___selectionStoryPanel;
 		NullCheck(L_30);
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_31;
@@ -11251,12 +11257,12 @@ IL_00c6:
 
 IL_00e5:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:356>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:357>
 		StorySelectionPanelView_t2F0CEAF33B4B69DAFCECFDD013B5C0518C3DE625* L_32 = __this->___storySelectionPanelView;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_33 = __this->___selectionStoryPanel;
 		NullCheck(L_32);
 		StorySelectionPanelView_BindPanel_mD8C6A831651DB427235A5D4EE6BCBF0447A0481C(L_32, L_33, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:358>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:359>
 		bool L_34;
 		L_34 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (!L_34)
@@ -11277,7 +11283,7 @@ IL_00e5:
 
 IL_010b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:359>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:360>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_37 = __this->___selectionStoryPanel;
 		NullCheck(L_37);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_37, (bool)0, NULL);
@@ -11285,7 +11291,7 @@ IL_010b:
 
 IL_0117:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:360>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:361>
 		return;
 	}
 }
@@ -11306,11 +11312,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:364>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:365>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:366>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:367>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:368>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:369>
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_0 = (TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB*)SZArrayNew(TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB_il2cpp_TypeInfo_var, (uint32_t)3);
 		TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* L_1 = L_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_2 = { reinterpret_cast<intptr_t> (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_0_0_0_var) };
@@ -11336,7 +11342,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (Type_t*)L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m721D643351E55308EA4F5F41B67D5446D11C61F0(L_10, _stringLiteral0A608D9612FC5650C6FB911FEC18FFD45519F3F6, L_7, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:369>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:370>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = L_10;
 		NullCheck(L_11);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12;
@@ -11347,56 +11353,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651
 		L_14 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_13, NULL);
 		NullCheck(L_12);
 		Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195(L_12, L_14, (bool)0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:371>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:372>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = L_11;
 		NullCheck(L_15);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_16;
 		L_16 = GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4(L_15, GameObject_GetComponent_TisRectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_m1592DCB5AA07291F73A76006F0913A64DFB8A9C4_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:372>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:373>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_17 = L_16;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
 		L_18 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_17);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_17, L_18, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:373>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:374>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = L_17;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
 		L_20 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_19);
 		RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D(L_19, L_20, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:374>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:375>
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = L_19;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22;
 		memset((&L_22), 0, sizeof(L_22));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_22), (40.0f), (80.0f), NULL);
 		NullCheck(L_21);
 		RectTransform_set_offsetMin_m07F38B4105C7CA9CC9FBDC9ED0DB008602880AB9(L_21, L_22, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:375>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:376>
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
 		memset((&L_23), 0, sizeof(L_23));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_23), (-40.0f), (-80.0f), NULL);
 		NullCheck(L_21);
 		RectTransform_set_offsetMax_m5514D09D86516F2C0E25FA6D11A3A4274D3D002D(L_21, L_23, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:377>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:378>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24 = L_15;
 		NullCheck(L_24);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_25;
 		L_25 = GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D(L_24, GameObject_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mA59EA7D5F9133B2593F4AB70B099928BA955EE7D_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:378>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:379>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_26 = L_25;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
 		memset((&L_27), 0, sizeof(L_27));
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_27), (0.0799999982f), (0.0799999982f), (0.0799999982f), (0.920000017f), NULL);
 		NullCheck(L_26);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_26, L_27);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:379>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:380>
 		NullCheck(L_26);
 		VirtualActionInvoker1< bool >::Invoke(25, L_26, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:381>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:382>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = L_24;
 		NullCheck(L_28);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_28, (bool)0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:382>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:383>
 		return L_28;
 	}
 }
@@ -11413,7 +11419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:387>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:388>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_root;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -11424,26 +11430,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:388>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:389>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:390>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:391>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = ___0_root;
 		NullCheck(L_2);
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_3;
 		L_3 = Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837(L_2, (bool)1, Component_GetComponentsInChildren_TisTransform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1_mD80D5A6BA73EE3066CFCE2345C3F4B9FC2E28837_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:391>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:392>
 		V_1 = 0;
 		goto IL_003a;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:393>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:394>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_4 = V_0;
 		int32_t L_5 = V_1;
 		NullCheck(L_4);
@@ -11475,7 +11481,7 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:394>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:395>
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_16 = V_0;
 		int32_t L_17 = V_1;
 		NullCheck(L_16);
@@ -11486,14 +11492,14 @@ IL_0017:
 
 IL_0036:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:391>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:392>
 		int32_t L_20 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_20, 1));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:391>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:392>
 		int32_t L_21 = V_1;
 		TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* L_22 = V_0;
 		NullCheck(L_22);
@@ -11503,7 +11509,7 @@ IL_003a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:397>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:398>
 		return (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*)NULL;
 	}
 }
@@ -11511,7 +11517,7 @@ IL_003a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_StartExperiment_mB53B13768DF4A624CD8EB602324C46C8A6A4144F (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:402>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:403>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -11520,15 +11526,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_StartExperiment_mB
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:403>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:404>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:405>
-		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(__this, 1, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:406>
+		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(__this, 1, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:407>
 		return;
 	}
 }
@@ -11539,7 +11545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_NextPhase_mB346D0B
 	uint8_t V_1 = 0;
 	uint8_t V_2 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:410>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:411>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -11548,13 +11554,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_NextPhase_mB346D0B
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:411>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:412>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:413>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:414>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:415>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:416>
@@ -11593,6 +11598,7 @@ IL_0009:
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:449>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:450>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:451>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:452>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_1 = __this->___currentPhase;
 		NullCheck(L_1);
 		uint8_t L_2;
@@ -11653,84 +11659,84 @@ IL_0009:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:417>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:418>
 		V_1 = 1;
 		goto IL_007b;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:420>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:421>
 		V_1 = 2;
 		goto IL_007b;
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:423>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:424>
 		V_1 = 3;
 		goto IL_007b;
 	}
 
 IL_0055:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:426>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:427>
 		V_1 = 4;
 		goto IL_007b;
 	}
 
 IL_0059:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:429>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:430>
 		V_1 = 5;
 		goto IL_007b;
 	}
 
 IL_005d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:432>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:433>
 		V_1 = 6;
 		goto IL_007b;
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:435>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:436>
 		V_1 = 7;
 		goto IL_007b;
 	}
 
 IL_0065:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:438>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:439>
 		V_1 = 8;
 		goto IL_007b;
 	}
 
 IL_0069:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:441>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:442>
 		V_1 = ((int32_t)9);
 		goto IL_007b;
 	}
 
 IL_006e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:444>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:445>
 		V_1 = ((int32_t)10);
 		goto IL_007b;
 	}
 
 IL_0073:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:447>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:448>
 		V_1 = ((int32_t)11);
 		goto IL_007b;
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:450>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:451>
 		V_1 = ((int32_t)11);
 	}
 
@@ -11738,10 +11744,10 @@ IL_007b:
 	{
 		uint8_t L_4 = V_1;
 		V_0 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:453>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:454>
 		uint8_t L_5 = V_0;
 		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(__this, L_5, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:454>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:455>
 		return;
 	}
 }
@@ -11749,7 +11755,7 @@ IL_007b:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectPractice_m54E0AC97C94F15F57B292A5D40A3840097B9BD54 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:458>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:459>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (!L_0)
@@ -11758,7 +11764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectPractice
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:459>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:460>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_1 = __this->___isSelectingStory;
 		NullCheck(L_1);
 		VirtualActionInvoker1< bool >::Invoke(19, L_1, (bool)0);
@@ -11766,9 +11772,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectPractice
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:461>
-		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(__this, 3, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:462>
+		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(__this, 3, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:463>
 		return;
 	}
 }
@@ -11776,9 +11782,9 @@ IL_0014:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectPart1_mA8DCD3371F414C51A8DDA71D02A8E44156DEEE13 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:466>
-		ExperimentFlowManager_HostSelectOfficialPart_mAA74DA8AE58FC27E376C3F8A74C81749A178E944(__this, 1, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:467>
+		ExperimentFlowManager_HostSelectOfficialPart_mAA74DA8AE58FC27E376C3F8A74C81749A178E944(__this, 1, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:468>
 		return;
 	}
 }
@@ -11786,9 +11792,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectPart1_mA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectPart2_m521DE115A3F85C480F6916137843B6995F91419F (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:471>
-		ExperimentFlowManager_HostSelectOfficialPart_mAA74DA8AE58FC27E376C3F8A74C81749A178E944(__this, 2, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:472>
+		ExperimentFlowManager_HostSelectOfficialPart_mAA74DA8AE58FC27E376C3F8A74C81749A178E944(__this, 2, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:473>
 		return;
 	}
 }
@@ -11803,7 +11809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectOfficial
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:476>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:477>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -11812,18 +11818,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectOfficial
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:478>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:479>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:480>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:481>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral94ECEAF7383832D7E594111F8E747E19E828E81E, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:481>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:482>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:484>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:485>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_1 = __this->___currentPart;
 		NullCheck(L_1);
 		uint8_t L_2;
@@ -11835,7 +11841,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:485>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:486>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_4 = __this->___currentPart;
 		uint8_t L_5 = ___0_part;
 		NullCheck(L_4);
@@ -11844,7 +11850,7 @@ IL_0013:
 
 IL_002d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:487>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:488>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_6 = __this->___currentPhase;
 		NullCheck(L_6);
 		uint8_t L_7;
@@ -11857,35 +11863,35 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:488>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:489>
 		return;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:490>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:491>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_9 = __this->___isSelectingStory;
 		NullCheck(L_9);
 		bool L_10;
 		L_10 = VirtualFuncInvoker0< bool >::Invoke(18, L_9);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:491>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:492>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_11 = __this->___isSelectingStory;
 		NullCheck(L_11);
 		VirtualActionInvoker1< bool >::Invoke(19, L_11, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:492>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:493>
 		if (!L_10)
 		{
 			goto IL_005f;
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:493>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:494>
 		ExperimentFlowManager_ApplyStorySelectionVisuals_mE04F9CAC00A2FB095247F48587548CB33E4BB593(__this, NULL);
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:494>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:495>
 		return;
 	}
 }
@@ -11901,7 +11907,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectOfficial
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:498>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:499>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -11910,15 +11916,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostSelectOfficial
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:499>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:500>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:501>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:502>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:503>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:504>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_1 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -11949,8 +11955,8 @@ IL_0009:
 
 IL_0029:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:505>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:506>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:507>
 		int32_t L_7 = ___0_storyIndex;
 		int32_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_defaults.int32_class, &L_8);
@@ -11958,23 +11964,23 @@ IL_0029:
 		L_10 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralF77F4D64A79246EC05F07084F5AF2725E9A4F065, L_9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_10, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:507>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:508>
 		return;
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:510>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:511>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_11 = __this->___selectedStoryIndex;
 		NullCheck(L_11);
 		int32_t L_12;
 		L_12 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_11);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:511>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:512>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_13 = __this->___selectedStoryIndex;
 		int32_t L_14 = ___0_storyIndex;
 		NullCheck(L_13);
 		VirtualActionInvoker1< int32_t >::Invoke(19, L_13, L_14);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:512>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:513>
 		int32_t L_15 = ___0_storyIndex;
 		if ((!(((uint32_t)L_12) == ((uint32_t)L_15))))
 		{
@@ -11982,17 +11988,17 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:513>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:514>
 		ExperimentFlowManager_ApplySelectedStorySprites_m50302058A8917696CDCBFCDF5BD84D718FCB3BB4(__this, NULL);
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:515>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:516>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_16 = __this->___isSelectingStory;
 		NullCheck(L_16);
 		VirtualActionInvoker1< bool >::Invoke(19, L_16, (bool)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:516>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:517>
 		return;
 	}
 }
@@ -12007,7 +12013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_SetPart_mF459B9333
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:520>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:521>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -12016,18 +12022,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_SetPart_mF459B9333
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:522>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:523>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:524>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:525>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral94ECEAF7383832D7E594111F8E747E19E828E81E, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:525>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:526>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:528>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:529>
 		uint8_t L_1 = ___0_part;
 		if (L_1)
 		{
@@ -12035,15 +12041,15 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:530>
-		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(__this, 3, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:531>
+		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(__this, 3, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:532>
 		return;
 	}
 
 IL_001e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:534>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:535>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_2 = __this->___currentPart;
 		NullCheck(L_2);
 		uint8_t L_3;
@@ -12055,18 +12061,18 @@ IL_001e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:535>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:536>
 		return;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:537>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:538>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_5 = __this->___currentPart;
 		uint8_t L_6 = ___0_part;
 		NullCheck(L_5);
 		VirtualActionInvoker1< uint8_t >::Invoke(19, L_5, L_6);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:538>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:539>
 		return;
 	}
 }
@@ -12074,7 +12080,7 @@ IL_002d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostStartRecording_m8156B8E914DE0A8CD34D7B423A9D3B68C013B9A8 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:542>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:543>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -12083,15 +12089,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostStartRecording
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:543>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:544>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:545>
-		ExperimentFlowManager_BroadcastStartRecordingRpc_m8C9BA2A73048E7A02E10754E5B644332C774E299(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:546>
+		ExperimentFlowManager_BroadcastStartRecordingRpc_m8C9BA2A73048E7A02E10754E5B644332C774E299(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:547>
 		return;
 	}
 }
@@ -12099,7 +12105,7 @@ IL_0009:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostStopRecording_mF98B71288260E0869D7A756024CEF686A2557154 (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:550>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:551>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -12108,15 +12114,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HostStopRecording_
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:551>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:552>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:553>
-		ExperimentFlowManager_BroadcastStopRecordingRpc_m9D2EBE43C773EA6017196BF53AEAF66B337C28AE(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:554>
+		ExperimentFlowManager_BroadcastStopRecordingRpc_m9D2EBE43C773EA6017196BF53AEAF66B337C28AE(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:555>
 		return;
 	}
 }
@@ -12201,7 +12207,7 @@ IL_008f:
 IL_00a3:
 	{
 		((NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)__this)->_____rpc_exec_stage = ((int32_t)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:559>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:560>
 		StudySessionManager_t84C47490E44E3E13BE16D8594E4B26DBE8B9C71B* L_11 = __this->___studySessionManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -12212,7 +12218,7 @@ IL_00a3:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:560>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:561>
 		StudySessionManager_t84C47490E44E3E13BE16D8594E4B26DBE8B9C71B* L_13 = __this->___studySessionManager;
 		NullCheck(L_13);
 		StudySessionManager_StartStudyRecordingFromNetwork_mA0345AA02328B62CB92054B141AC4305467E7FAB(L_13, NULL);
@@ -12220,7 +12226,7 @@ IL_00a3:
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:561>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:562>
 		return;
 	}
 }
@@ -12305,7 +12311,7 @@ IL_008f:
 IL_00a3:
 	{
 		((NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)__this)->_____rpc_exec_stage = ((int32_t)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:566>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:567>
 		StudySessionManager_t84C47490E44E3E13BE16D8594E4B26DBE8B9C71B* L_11 = __this->___studySessionManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -12316,7 +12322,7 @@ IL_00a3:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:567>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:568>
 		StudySessionManager_t84C47490E44E3E13BE16D8594E4B26DBE8B9C71B* L_13 = __this->___studySessionManager;
 		NullCheck(L_13);
 		StudySessionManager_StopStudyRecordingFromNetwork_m160C99A27FA3D422ED90A8A9B3586118F0A0BBB9(L_13, NULL);
@@ -12324,7 +12330,7 @@ IL_00a3:
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:568>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:569>
 		return;
 	}
 }
@@ -12345,7 +12351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_SetPhase_mFBF52CD7
 	NetworkTime_t2E4697E4558B217C431021D2CC30A9306E778B5F V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:572>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:573>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (L_0)
@@ -12354,19 +12360,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_SetPhase_mFBF52CD7
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:574>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:575>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:576>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:577>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral8CB469602D6EE5219E588CB2B1BFFA9816F02689, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:578>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:579>
 		return;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:581>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:582>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:583>
 		uint8_t L_1 = ___0_phase;
 		bool L_2;
 		L_2 = ExperimentFlowManager_IsOfficialStoryPhase_m8875F6178E0A8678014AB1B968156C26E5C6CCD2(L_1, NULL);
@@ -12386,7 +12392,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:584>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:585>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_5 = __this->___currentPart;
 		NullCheck(L_5);
 		VirtualActionInvoker1< uint8_t >::Invoke(19, L_5, 1);
@@ -12394,12 +12400,12 @@ IL_0013:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:587>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:588>
 		uint8_t L_6 = ___0_phase;
 		float L_7;
 		L_7 = ExperimentFlowManager_GetPhaseDuration_m4E24BF99FB42696A16267730962D73CD17B1A116(__this, L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:589>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:590>
 		float L_8 = V_0;
 		if ((!(((float)L_8) > ((float)(0.0f)))))
 		{
@@ -12407,8 +12413,8 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:591>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:592>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:593>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_9 = __this->___phaseEndServerTime;
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_10;
 		L_10 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
@@ -12426,7 +12432,7 @@ IL_0034:
 
 IL_0067:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:596>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:597>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_14 = __this->___phaseEndServerTime;
 		NullCheck(L_14);
 		VirtualActionInvoker1< double >::Invoke(19, L_14, (-1.0));
@@ -12434,9 +12440,9 @@ IL_0067:
 
 IL_007b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:599>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:600>
 		__this->___timerExpired = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:601>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:602>
 		uint8_t L_15 = ___0_phase;
 		bool L_16;
 		L_16 = ExperimentFlowManager_IsOfficialStoryPhase_m8875F6178E0A8678014AB1B968156C26E5C6CCD2(L_15, NULL);
@@ -12456,7 +12462,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:602>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:603>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_19 = __this->___isSelectingStory;
 		NullCheck(L_19);
 		VirtualActionInvoker1< bool >::Invoke(19, L_19, (bool)0);
@@ -12464,19 +12470,19 @@ IL_007b:
 
 IL_00a3:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:604>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:605>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_20 = __this->___currentPhase;
 		NullCheck(L_20);
 		uint8_t L_21;
 		L_21 = VirtualFuncInvoker0< uint8_t >::Invoke(18, L_20);
 		V_1 = L_21;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:605>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:606>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_22 = __this->___currentPhase;
 		uint8_t L_23 = ___0_phase;
 		NullCheck(L_22);
 		VirtualActionInvoker1< uint8_t >::Invoke(19, L_22, L_23);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:607>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:608>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:609>
 		uint8_t L_24 = V_1;
 		uint8_t L_25 = L_24;
 		RuntimeObject* L_26 = Box(ExperimentPhase_t62CE0A4075CE7EFF55C81BCA70F545DCBA7188DA_il2cpp_TypeInfo_var, &L_25);
@@ -12487,7 +12493,7 @@ IL_00a3:
 		L_30 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral2A5FCECD6E1DA2B4B0024726FB2BC0E843444759, L_26, L_29, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_30, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:609>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:610>
 		return;
 	}
 }
@@ -12496,7 +12502,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ExperimentFlowManager_GetPhaseDuration_
 {
 	float V_0 = 0.0f;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:613>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:614>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:615>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:616>
@@ -12512,6 +12517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ExperimentFlowManager_GetPhaseDuration_
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:626>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:627>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:628>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:629>
 		uint8_t L_0 = ___0_phase;
 		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_0, 1)))
 		{
@@ -12550,7 +12556,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ExperimentFlowManager_GetPhaseDuration_
 
 IL_0023:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:616>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:617>
 		float L_2 = __this->___dailyDiscussionDuration;
 		V_0 = L_2;
 		goto IL_004d;
@@ -12558,7 +12564,7 @@ IL_0023:
 
 IL_002c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:619>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:620>
 		float L_3 = __this->___professionalIntroductionDuration;
 		V_0 = L_3;
 		goto IL_004d;
@@ -12566,15 +12572,15 @@ IL_002c:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:622>
-		float L_4 = __this->___storyDiscussionDuration;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:623>
+		float L_4 = __this->___practiceDiscussionDuration;
 		V_0 = L_4;
 		goto IL_004d;
 	}
 
 IL_003e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:625>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:626>
 		float L_5 = __this->___storyDiscussionDuration;
 		V_0 = L_5;
 		goto IL_004d;
@@ -12582,7 +12588,7 @@ IL_003e:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:627>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:628>
 		V_0 = (0.0f);
 	}
 
@@ -12596,7 +12602,7 @@ IL_004d:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_Update_m5BE6D4A0E50AE731FEC9D04478CBED92DCB6237A (ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:633>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:634>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsSpawned_m61C7DDBA4399DA812385A297821986D619423C96_inline(__this, NULL);
 		if (L_0)
@@ -12605,17 +12611,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_Update_m5BE6D4A0E5
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:634>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:635>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:636>
-		ExperimentFlowManager_UpdateTimerDisplay_mD4C503FD148A5C3A1FD3882D0C9FD4E1528F4464(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:637>
-		ExperimentFlowManager_UpdateNextPhaseButtonVisibility_m00EDBE25880E697EB9FD4C1274537620F23A0EB0(__this, NULL);
+		ExperimentFlowManager_UpdateTimerDisplay_mD4C503FD148A5C3A1FD3882D0C9FD4E1528F4464(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:638>
+		ExperimentFlowManager_UpdateNextPhaseButtonVisibility_m00EDBE25880E697EB9FD4C1274537620F23A0EB0(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:639>
 		return;
 	}
 }
@@ -12626,7 +12632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UpdateTimerDisplay
 	NetworkTime_t2E4697E4558B217C431021D2CC30A9306E778B5F V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:642>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:643>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_0 = __this->___currentPhase;
 		NullCheck(L_0);
 		uint8_t L_1;
@@ -12639,22 +12645,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UpdateTimerDisplay
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:644>
-		ExperimentFlowManager_UpdateNarrationCountUpDisplay_mD68620CDBEE6CA507C37A89E3960BA4F2DDE4FB2(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:645>
+		ExperimentFlowManager_UpdateNarrationCountUpDisplay_mD68620CDBEE6CA507C37A89E3960BA4F2DDE4FB2(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:646>
 		return;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:648>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:649>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_3 = __this->___currentPhase;
 		NullCheck(L_3);
 		uint8_t L_4;
 		L_4 = VirtualFuncInvoker0< uint8_t >::Invoke(18, L_3);
 		float L_5;
 		L_5 = ExperimentFlowManager_GetPhaseDuration_m4E24BF99FB42696A16267730962D73CD17B1A116(__this, L_4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:650>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:651>
 		if ((((float)L_5) <= ((float)(0.0f))))
 		{
 			goto IL_0047;
@@ -12673,17 +12679,17 @@ IL_0019:
 
 IL_0047:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:652>
-		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:653>
+		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:654>
 		return;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:656>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:657>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:658>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:659>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_8 = __this->___phaseEndServerTime;
 		NullCheck(L_8);
 		double L_9;
@@ -12697,7 +12703,7 @@ IL_004e:
 		double L_12;
 		L_12 = NetworkTime_get_Time_mDC7F8AB78A0D860B5D3BF62AF1E42724059F690B_inline((&V_1), NULL);
 		V_0 = ((double)il2cpp_codegen_subtract(L_9, L_12));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:660>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:661>
 		double L_13 = V_0;
 		if ((!(((double)L_13) > ((double)(0.0)))))
 		{
@@ -12705,22 +12711,22 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:662>
-		__this->___timerExpired = (bool)0;
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:663>
+		__this->___timerExpired = (bool)0;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:664>
 		double L_14 = V_0;
 		ExperimentFlowManager_ShowLastSecondsWarning_m8A1AD644FFB96A5E65B9DB7BF98751D7A47C49E3(__this, L_14, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:664>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:665>
 		return;
 	}
 
 IL_0089:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:667>
-		__this->___timerExpired = (bool)1;
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:668>
-		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
+		__this->___timerExpired = (bool)1;
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:669>
+		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:670>
 		return;
 	}
 }
@@ -12735,8 +12741,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UpdateNarrationCou
 	}
 	double V_0 = 0.0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:673>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:674>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:675>
 		StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* L_0 = __this->___storyCardTaskManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12759,18 +12765,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UpdateNarrationCou
 
 IL_001d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:676>
-		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:677>
+		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:678>
 		return;
 	}
 
 IL_0024:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:680>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:681>
 		double L_4 = V_0;
 		ExperimentFlowManager_ShowLastSecondsWarning_m8A1AD644FFB96A5E65B9DB7BF98751D7A47C49E3(__this, L_4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:681>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:682>
 		return;
 	}
 }
@@ -12792,12 +12798,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ShowLastSecondsWar
 	String_t* G_B6_0 = NULL;
 	String_t* G_B9_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:685>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:686>
 		float L_0 = __this->___lastTimerVisibleSeconds;
 		float L_1;
 		L_1 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:686>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:687>
 		double L_2 = ___0_remaining;
 		if ((((double)L_2) <= ((double)(0.0))))
 		{
@@ -12815,24 +12821,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ShowLastSecondsWar
 
 IL_0022:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:688>
-		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:689>
+		ExperimentFlowManager_HideTimerText_m55EDE8FE9DF1F8964C2D70C053050894C73FFBDA(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:690>
 		return;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:692>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:693>
 		double L_5 = ___0_remaining;
 		int32_t L_6;
 		L_6 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)L_5), NULL);
 		int32_t L_7;
 		L_7 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(1, L_6, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:694>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:695>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:696>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:697>
 		String_t* L_8 = __this->___lastTimerMessage;
 		bool L_9;
 		L_9 = String_IsNullOrWhiteSpace_m42E1F3B2C358068D645E46F01CF1834DC77A5A10(L_8, NULL);
@@ -12855,9 +12861,9 @@ IL_004c:
 IL_0051:
 	{
 		V_2 = G_B6_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:697>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:698>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:699>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:700>
 		String_t* L_11 = V_2;
 		NullCheck(L_11);
 		bool L_12;
@@ -12887,7 +12893,7 @@ IL_0062:
 IL_0074:
 	{
 		V_3 = G_B9_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:701>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:702>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_17 = __this->___timerText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_18;
@@ -12898,17 +12904,17 @@ IL_0074:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:702>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:703>
 		return;
 	}
 
 IL_0084:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:704>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:705>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_19 = __this->___timerText;
 		NullCheck(L_19);
 		TMP_Text_set_richText_mAB3D04F620E13F02117B34BBA2EF7BD30AAE6F0F(L_19, (bool)0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:705>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:706>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_20 = __this->___timerText;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -12922,7 +12928,7 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:706>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:707>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_23 = __this->___timerText;
 		NullCheck(L_23);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
@@ -12933,12 +12939,12 @@ IL_0084:
 
 IL_00b3:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:708>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:709>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_25 = __this->___timerText;
 		String_t* L_26 = V_3;
 		NullCheck(L_25);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_25, L_26);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:709>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:710>
 		return;
 	}
 }
@@ -12952,7 +12958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HideTimerText_m55E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:713>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:714>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___timerText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -12976,7 +12982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HideTimerText_m55E
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:714>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:715>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_5 = __this->___timerText;
 		NullCheck(L_5);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
@@ -12987,7 +12993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_HideTimerText_m55E
 
 IL_0031:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:715>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:716>
 		return;
 	}
 }
@@ -13006,7 +13012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UpdateNextPhaseBut
 	int32_t G_B15_0 = 0;
 	int32_t G_B18_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:719>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:720>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___nextPhaseButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13017,15 +13023,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UpdateNextPhaseBut
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:720>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:721>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:722>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:723>
 		V_0 = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:724>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:725>
 		bool L_2;
 		L_2 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (!L_2)
@@ -13034,13 +13040,13 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:726>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:727>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_3 = __this->___currentPhase;
 		NullCheck(L_3);
 		uint8_t L_4;
 		L_4 = VirtualFuncInvoker0< uint8_t >::Invoke(18, L_3);
 		V_1 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:727>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:728>
 		uint8_t L_5 = V_1;
 		bool L_6;
 		L_6 = ExperimentFlowManager_IsDrawAPhase_mD7D03235BDA3AA46E808783E24090FE074C55D83(L_5, NULL);
@@ -13061,14 +13067,14 @@ IL_000f:
 
 IL_0038:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:729>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:730>
 		V_0 = (bool)0;
 		goto IL_00a6;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:731>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:732>
 		uint8_t L_9 = V_1;
 		bool L_10;
 		L_10 = ExperimentFlowManager_IsNarrationPhase_mBB8E2792D6B5F49EC6CA29A4013C55F450E6ED67(L_9, NULL);
@@ -13078,10 +13084,10 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:733>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:734>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:735>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:736>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:737>
 		StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* L_11 = __this->___storyCardTaskManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -13123,9 +13129,9 @@ IL_006d:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:740>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:741>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:742>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:743>
 		uint8_t L_17 = V_1;
 		float L_18;
 		L_18 = ExperimentFlowManager_GetPhaseDuration_m4E24BF99FB42696A16267730962D73CD17B1A116(__this, L_17, NULL);
@@ -13150,7 +13156,7 @@ IL_0099:
 
 IL_009a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:744>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:745>
 		if (!G_B15_0)
 		{
 			goto IL_00a4;
@@ -13174,7 +13180,7 @@ IL_00a5:
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:748>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:749>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___nextPhaseButton;
 		NullCheck(L_22);
 		bool L_23;
@@ -13186,7 +13192,7 @@ IL_00a6:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:749>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:750>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___nextPhaseButton;
 		bool L_26 = V_0;
 		NullCheck(L_25);
@@ -13195,7 +13201,7 @@ IL_00a6:
 
 IL_00c0:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:750>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:751>
 		return;
 	}
 }
@@ -13216,7 +13222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ConfigureNextPhase
 	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:754>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:755>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___nextPhaseButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -13227,19 +13233,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ConfigureNextPhase
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:755>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:756>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:757>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:758>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___nextPhaseButton;
 		NullCheck(L_2);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3;
 		L_3 = GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290(L_2, GameObject_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mB997CBF78A37938DC1624352E12D0205078CB290_RuntimeMethod_var);
 		V_0 = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:758>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:759>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -13250,42 +13256,42 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:759>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:760>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:761>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:762>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = V_0;
 		NullCheck(L_6);
 		Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C L_7;
 		L_7 = Selectable_get_navigation_mA0E5FC6B1D19C2DCABA5C82EC33C49CF7F17103E_inline(L_6, NULL);
 		V_1 = L_7;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:762>
-		Navigation_set_mode_m0BEF999F733332AD994CF3CA4AC17B2A47531207_inline((&V_1), 0, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:763>
+		Navigation_set_mode_m0BEF999F733332AD994CF3CA4AC17B2A47531207_inline((&V_1), 0, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:764>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = V_0;
 		Navigation_t4D2E201D65749CF4E104E8AC1232CF1D6F14795C L_9 = V_1;
 		NullCheck(L_8);
 		Selectable_set_navigation_m706D254813B084B60F07980607D7AE43AC44AFEF(L_8, L_9, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:765>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:766>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = V_0;
 		NullCheck(L_10);
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_11;
 		L_11 = Selectable_get_colors_mB53E365D02351D4B64084295C4B2A7AF2DEC4750_inline(L_10, NULL);
 		V_2 = L_11;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:766>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:767>
 		il2cpp_codegen_runtime_class_init_inline(ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_il2cpp_TypeInfo_var);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
 		L_12 = ColorBlock_get_highlightedColor_m4D1A3D268CB00B351F56934F7F244DBC68855301_inline((&V_2), NULL);
 		ColorBlock_set_selectedColor_m76FEFB1148798B7A356C974CDEA3BA2E2E3C1D21_inline((&V_2), L_12, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:767>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:768>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_13 = V_0;
 		ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 L_14 = V_2;
 		NullCheck(L_13);
 		Selectable_set_colors_m0A49ED3ACD6647B7E5A2DA10B3D417E8FE1BE55A(L_13, L_14, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:768>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:769>
 		return;
 	}
 }
@@ -13293,10 +13299,10 @@ IL_0025:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_IsPracticePhase_m0BAE255ED5CFCFE10A8BA48C64FFBFDFE3AC3338 (uint8_t ___0_phase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:772>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:773>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:774>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:775>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:776>
 		uint8_t L_0 = ___0_phase;
 		if ((((int32_t)L_0) == ((int32_t)3)))
 		{
@@ -13331,10 +13337,10 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_IsOfficialStoryPhase_m8875F6178E0A8678014AB1B968156C26E5C6CCD2 (uint8_t ___0_phase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:780>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:781>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:782>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:783>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:784>
 		uint8_t L_0 = ___0_phase;
 		if ((((int32_t)L_0) == ((int32_t)7)))
 		{
@@ -13369,7 +13375,7 @@ IL_0013:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_IsStoryPhase_mEDD420F1EB99A9008EE3CADCF0D9D864E4AD7EC3 (uint8_t ___0_phase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:788>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:789>
 		uint8_t L_0 = ___0_phase;
 		bool L_1;
 		L_1 = ExperimentFlowManager_IsPracticePhase_m0BAE255ED5CFCFE10A8BA48C64FFBFDFE3AC3338(L_0, NULL);
@@ -13394,8 +13400,8 @@ IL_000f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_IsDrawAPhase_mD7D03235BDA3AA46E808783E24090FE074C55D83 (uint8_t ___0_phase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:793>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:794>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:795>
 		uint8_t L_0 = ___0_phase;
 		if ((((int32_t)L_0) == ((int32_t)3)))
 		{
@@ -13416,8 +13422,8 @@ IL_0009:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_IsDrawBPhase_mA93BC49ED1EE64D58590007BE33DC86A501D6249 (uint8_t ___0_phase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:799>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:800>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:801>
 		uint8_t L_0 = ___0_phase;
 		if ((((int32_t)L_0) == ((int32_t)4)))
 		{
@@ -13438,8 +13444,8 @@ IL_0009:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_IsDiscussionPhase_mF4FB868E64559615C39134D936706CE49ECE2C85 (uint8_t ___0_phase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:805>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:806>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:807>
 		uint8_t L_0 = ___0_phase;
 		if ((((int32_t)L_0) == ((int32_t)5)))
 		{
@@ -13460,8 +13466,8 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ExperimentFlowManager_IsNarrationPhase_mBB8E2792D6B5F49EC6CA29A4013C55F450E6ED67 (uint8_t ___0_phase, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:811>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:812>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:813>
 		uint8_t L_0 = ___0_phase;
 		if ((((int32_t)L_0) == ((int32_t)6)))
 		{
@@ -13497,7 +13503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplyPhase_mCDDAA5
 	int32_t G_B12_0 = 0;
 	StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* G_B12_1 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:817>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:818>
 		uint8_t L_0 = ___0_phase;
 		uint8_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(ExperimentPhase_t62CE0A4075CE7EFF55C81BCA70F545DCBA7188DA_il2cpp_TypeInfo_var, &L_1);
@@ -13511,7 +13517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplyPhase_mCDDAA5
 		L_7 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral97728615327D084A10B64C4001F1708738DAC155, L_2, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:819>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:820>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___taskScreenRoot;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -13522,7 +13528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplyPhase_mCDDAA5
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:820>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:821>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___taskScreenRoot;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
@@ -13530,12 +13536,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplyPhase_mCDDAA5
 
 IL_003f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:822>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:823>
 		uint8_t L_11 = ___0_phase;
 		bool L_12;
 		L_12 = ExperimentFlowManager_IsStoryPhase_mEDD420F1EB99A9008EE3CADCF0D9D864E4AD7EC3(L_11, NULL);
 		V_0 = L_12;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:824>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:825>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___promptText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -13546,7 +13552,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:825>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:826>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15 = __this->___promptText;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
@@ -13558,7 +13564,7 @@ IL_003f:
 
 IL_0068:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:827>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:828>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_18 = __this->___instructionText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_19;
@@ -13569,7 +13575,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:828>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:829>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_20 = __this->___instructionText;
 		NullCheck(L_20);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_21;
@@ -13581,7 +13587,7 @@ IL_0068:
 
 IL_008a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:830>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:831>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_23 = __this->___storyInteractionPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_24;
@@ -13592,7 +13598,7 @@ IL_008a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:831>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:832>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25 = __this->___storyInteractionPanel;
 		bool L_26 = V_0;
 		NullCheck(L_25);
@@ -13601,19 +13607,19 @@ IL_008a:
 
 IL_00a4:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:833>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:834>
 		uint8_t L_27 = ___0_phase;
 		ExperimentFlowManager_UpdatePartButtonVisibility_m60F606A27A3C6A144D4693B34A58150C76C6E792(__this, L_27, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:834>
-		ExperimentFlowManager_UpdateNextPhaseButtonVisibility_m00EDBE25880E697EB9FD4C1274537620F23A0EB0(__this, NULL);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:835>
+		ExperimentFlowManager_UpdateNextPhaseButtonVisibility_m00EDBE25880E697EB9FD4C1274537620F23A0EB0(__this, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:836>
 		uint8_t L_28 = ___0_phase;
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_29 = __this->___currentPart;
 		NullCheck(L_29);
 		uint8_t L_30;
 		L_30 = VirtualFuncInvoker0< uint8_t >::Invoke(18, L_29);
 		ExperimentFlowManager_ApplyContentForPhaseAndPart_m984C83E3436B380EE8838BD865C243031232304E(__this, L_28, L_30, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:837>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:838>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_31 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_32;
@@ -13624,10 +13630,10 @@ IL_00a4:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:839>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:840>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:841>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:842>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:843>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_33 = __this->___storyCardBoardManager;
 		uint8_t L_34 = ___0_phase;
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_35 = __this->___currentPart;
@@ -13640,13 +13646,13 @@ IL_00a4:
 		L_38 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_37);
 		NullCheck(L_33);
 		StoryCardBoardManager_ApplySpritesForCurrentSelection_m6B9B804AE4428A1CEDF71A7084EA615095E0342C(L_33, L_34, L_36, L_38, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:843>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:844>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_39 = __this->___storyCardBoardManager;
 		uint8_t L_40 = ___0_phase;
 		NullCheck(L_39);
 		StoryCardBoardManager_ApplyButtonColorsForPhase_mF5BB428308DA980F89C501130674105AD234EEE1(L_39, L_40, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:844>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:845>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:846>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_41 = __this->___storyCardBoardManager;
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_42 = __this->___isSelectingStory;
 		NullCheck(L_42);
@@ -13682,7 +13688,7 @@ IL_011b:
 
 IL_0120:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:847>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:848>
 		return;
 	}
 }
@@ -13696,99 +13702,128 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_UpdatePartButtonVi
 		s_Il2CppMethodInitialized = true;
 	}
 	bool V_0 = false;
+	int32_t G_B4_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:851>
-		uint8_t L_0 = ___0_phase;
-		bool L_1;
-		L_1 = ExperimentFlowManager_IsOfficialStoryPhase_m8875F6178E0A8678014AB1B968156C26E5C6CCD2(L_0, NULL);
-		V_0 = L_1;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:852>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:853>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___practiceButton;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_3;
-		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_3)
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:854>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:855>
+		uint8_t L_0 = ___0_phase;
+		if ((((int32_t)L_0) == ((int32_t)1)))
 		{
-			goto IL_0032;
+			goto IL_0010;
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:855>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___practiceButton;
-		NullCheck(L_4);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5;
-		L_5 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_4, NULL);
-		NullCheck(L_5);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:856>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___practiceButton;
-		NullCheck(L_6);
-		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_6, (bool)0, NULL);
+		uint8_t L_1 = ___0_phase;
+		if ((((int32_t)L_1) == ((int32_t)2)))
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		uint8_t L_2 = ___0_phase;
+		bool L_3;
+		L_3 = ExperimentFlowManager_IsOfficialStoryPhase_m8875F6178E0A8678014AB1B968156C26E5C6CCD2(L_2, NULL);
+		G_B4_0 = ((int32_t)(L_3));
+		goto IL_0011;
 	}
 
-IL_0032:
+IL_0010:
+	{
+		G_B4_0 = 1;
+	}
+
+IL_0011:
+	{
+		V_0 = (bool)G_B4_0;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:857>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___practiceButton;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_003d;
+		}
+	}
 	{
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:859>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___part1Button;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_8;
-		L_8 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_7, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_8)
-		{
-			goto IL_0064;
-		}
-	}
-	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:861>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___part1Button;
-		NullCheck(L_9);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
-		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
-		bool L_11 = V_0;
-		NullCheck(L_10);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, L_11, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:862>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12 = __this->___part1Button;
-		bool L_13;
-		L_13 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
-		bool L_14 = V_0;
-		NullCheck(L_12);
-		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_12, (bool)((int32_t)((int32_t)L_13&(int32_t)L_14)), NULL);
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___practiceButton;
+		NullCheck(L_6);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)0, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:860>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___practiceButton;
+		NullCheck(L_8);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_8, (bool)0, NULL);
 	}
 
-IL_0064:
+IL_003d:
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:863>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___part1Button;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_006f;
+		}
+	}
 	{
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:865>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_15 = __this->___part2Button;
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___part1Button;
+		NullCheck(L_11);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
+		bool L_13 = V_0;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, L_13, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:866>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___part1Button;
+		bool L_15;
+		L_15 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
+		bool L_16 = V_0;
+		NullCheck(L_14);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_14, (bool)((int32_t)((int32_t)L_15&(int32_t)L_16)), NULL);
+	}
+
+IL_006f:
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:869>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_17 = __this->___part2Button;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_16;
-		L_16 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_15, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_16)
+		bool L_18;
+		L_18 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_17, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_18)
 		{
-			goto IL_0096;
+			goto IL_00a1;
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:867>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_17 = __this->___part2Button;
-		NullCheck(L_17);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_18;
-		L_18 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_17, NULL);
-		bool L_19 = V_0;
-		NullCheck(L_18);
-		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_18, L_19, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:868>
-		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_20 = __this->___part2Button;
-		bool L_21;
-		L_21 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
-		bool L_22 = V_0;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:871>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_19 = __this->___part2Button;
+		NullCheck(L_19);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
+		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
+		bool L_21 = V_0;
 		NullCheck(L_20);
-		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_20, (bool)((int32_t)((int32_t)L_21&(int32_t)L_22)), NULL);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_20, L_21, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:872>
+		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_22 = __this->___part2Button;
+		bool L_23;
+		L_23 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
+		bool L_24 = V_0;
+		NullCheck(L_22);
+		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_22, (bool)((int32_t)((int32_t)L_23&(int32_t)L_24)), NULL);
 	}
 
-IL_0096:
+IL_00a1:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:870>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:874>
 		return;
 	}
 }
@@ -13886,19 +13921,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_ApplyContentForPha
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:884>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:885>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:886>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:887>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:888>
-		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteral3F78BCDE18E85EB85C3C07F01CAD3002C37FE194, _stringLiteral3753521A655FE4CEF01AB253030B337E3E2329C9, _stringLiteral79A20A03FB918E9AF18E0291A67D7C9449BFDF88, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:889>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:890>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:891>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:892>
+		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteral3F78BCDE18E85EB85C3C07F01CAD3002C37FE194, _stringLiteral3753521A655FE4CEF01AB253030B337E3E2329C9, _stringLiteral79A20A03FB918E9AF18E0291A67D7C9449BFDF88, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:894>
 		return;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:894>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:898>
 		uint8_t L_1 = ___1_part;
 		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
 		{
@@ -13906,36 +13941,36 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:896>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:897>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:898>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:899>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:900>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:901>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:902>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:903>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:904>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:905>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:906>
 		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteralFA2016FF8A5E13CD2B9F48121E1813A8BF614C5B, _stringLiteralD2196C5F68B316C7B74BD397BBE924C326E637C6, _stringLiteralFC15076E09ACC28BA45FFB3426F1D24288868E24, NULL);
 		return;
 	}
 
 IL_0067:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:907>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:908>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:909>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:910>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:911>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:912>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:913>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:914>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:915>
-		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteralA6F686D168D44298F230650A919B5FEFE5960099, _stringLiteralD08578A0D78541EF8EB76E6876846565974D19C2, _stringLiteralFC15076E09ACC28BA45FFB3426F1D24288868E24, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:916>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:917>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:918>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:919>
+		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteralA6F686D168D44298F230650A919B5FEFE5960099, _stringLiteralD08578A0D78541EF8EB76E6876846565974D19C2, _stringLiteralFC15076E09ACC28BA45FFB3426F1D24288868E24, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:922>
 		return;
 	}
 
 IL_007d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:922>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:926>
 		uint8_t L_2 = ___1_part;
 		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
 		{
@@ -13943,38 +13978,38 @@ IL_007d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:924>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:925>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:926>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:927>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:928>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:929>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:930>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:931>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:932>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:933>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:934>
 		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteralF097EEA5AC0192DCB88FD0F9F842CCF2932C6C5A, _stringLiteralE6C844C5712925EF66452E786C56FF3FF713B64D, _stringLiteral6EED51D715CAD20440A877D28C730F56BA3951D4, NULL);
 		return;
 	}
 
 IL_0097:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:934>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:935>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:936>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:937>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:938>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:939>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:940>
-		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteral71D188C129F90EEC8635E6D8C406013CEDCDC5A9, _stringLiteral1378E247AB9515E33A60B235F738454912B22598, _stringLiteral6EED51D715CAD20440A877D28C730F56BA3951D4, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:941>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:942>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:943>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:944>
+		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteral71D188C129F90EEC8635E6D8C406013CEDCDC5A9, _stringLiteral1378E247AB9515E33A60B235F738454912B22598, _stringLiteral6EED51D715CAD20440A877D28C730F56BA3951D4, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:947>
 		return;
 	}
 
 IL_00ad:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:948>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:949>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:950>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:951>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:952>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:953>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:954>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:955>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:956>
 		uint8_t L_3 = ___0_phase;
 		uint8_t L_4 = ___1_part;
 		String_t* L_5;
@@ -13986,17 +14021,17 @@ IL_00ad:
 		String_t* L_9;
 		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_8, _stringLiteral35F059CC3EE876C92D9EC621A74AA16DEC40CA13, NULL);
 		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, L_5, L_9, _stringLiteral4C189A0C9827C710800CBED9039C19054DB2955C, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:954>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:958>
 		return;
 	}
 
 IL_00d1:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:959>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:960>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:961>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:962>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:963>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:964>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:965>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:966>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:967>
 		uint8_t L_10 = ___0_phase;
 		uint8_t L_11 = ___1_part;
 		String_t* L_12;
@@ -14008,17 +14043,17 @@ IL_00d1:
 		String_t* L_16;
 		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_15, _stringLiteralAC47DB381FD9258068475D32DAD9A9B4703CE95F, NULL);
 		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, L_12, L_16, _stringLiteral30AFF2929A82566D65C8919A1D8833493CDD3CA1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:965>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:969>
 		return;
 	}
 
 IL_00f5:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:970>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:971>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:972>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:973>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:974>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:975>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:976>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:977>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:978>
 		uint8_t L_17 = ___0_phase;
 		uint8_t L_18 = ___1_part;
 		String_t* L_19;
@@ -14030,17 +14065,17 @@ IL_00f5:
 		String_t* L_23;
 		L_23 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_22, _stringLiteralCCFB5211C881198AE8F4A6FFF0818B11BA10FC1D, NULL);
 		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, L_19, L_23, _stringLiteralEB3330F91D3BFD4ED45E1CC0E48EB07E8737C497, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:976>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:980>
 		return;
 	}
 
 IL_0119:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:981>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:982>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:983>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:984>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:985>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:986>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:987>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:988>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:989>
 		uint8_t L_24 = ___0_phase;
 		uint8_t L_25 = ___1_part;
 		String_t* L_26;
@@ -14052,22 +14087,22 @@ IL_0119:
 		String_t* L_30;
 		L_30 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_29, _stringLiteral2E13F1694EC4C630EEE06972995F4C1612770E0B, NULL);
 		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, L_26, L_30, _stringLiteral1E4E0EDD3314CC1D123C58D2D95239511F0FB64D, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:987>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:991>
 		return;
 	}
 
 IL_013d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:991>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:995>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralEC81DCB61F7B6F4B048739BFCEC6B1464FD3B424, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:993>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:994>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:995>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:996>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:997>
-		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteral0971D53E8CA564AF4767DB3D364DF8DC14E0B11F, _stringLiteralFC6A165B8B9A1C845EB268EB90120623EE382E84, _stringLiteral7C4CC846608697DC19C9CEC02F464263FAF00A12, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:998>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:999>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1000>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1001>
+		ExperimentFlowManager_SetTaskText_m7C59E03C34E8F714346D0D5FBA7745BCD1D7E2D6(__this, _stringLiteral0971D53E8CA564AF4767DB3D364DF8DC14E0B11F, _stringLiteralFC6A165B8B9A1C845EB268EB90120623EE382E84, _stringLiteral7C4CC846608697DC19C9CEC02F464263FAF00A12, NULL);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1005>
 		return;
 	}
 }
@@ -14081,7 +14116,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_StoryTitleFor
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1005>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1009>
 		uint8_t L_0 = ___0_phase;
 		bool L_1;
 		L_1 = ExperimentFlowManager_IsPracticePhase_m0BAE255ED5CFCFE10A8BA48C64FFBFDFE3AC3338(L_0, NULL);
@@ -14091,13 +14126,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_StoryTitleFor
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1006>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1010>
 		return _stringLiteral3609CFE14DFC2C9D4A8AA2CBB4187869284D99E8;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1008>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1012>
 		uint8_t L_2 = ___1_part;
 		String_t* L_3;
 		L_3 = ExperimentFlowManager_StoryTitle_m03DB30447CD9A8BB0E7A5D32490414F082646B3D(L_2, NULL);
@@ -14114,7 +14149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_PartTagForPha
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1013>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1017>
 		uint8_t L_0 = ___0_phase;
 		bool L_1;
 		L_1 = ExperimentFlowManager_IsPracticePhase_m0BAE255ED5CFCFE10A8BA48C64FFBFDFE3AC3338(L_0, NULL);
@@ -14124,13 +14159,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_PartTagForPha
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1014>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1018>
 		return _stringLiteralF2470788CD3B12DC47387AA074A5B34B6F5155B8;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1016>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1020>
 		uint8_t L_2 = ___1_part;
 		String_t* L_3;
 		L_3 = ExperimentFlowManager_PartTag_m092C6D01DAF60AB75DFC1D0A9C4237FEA3416E6F(L_2, NULL);
@@ -14150,12 +14185,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_StoryTitle_m0
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1021>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1022>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1023>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1024>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1025>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1026>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1027>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1028>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1029>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1030>
 		uint8_t L_0 = ___0_part;
 		if (!L_0)
 		{
@@ -14175,21 +14210,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_StoryTitle_m0
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1023>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1027>
 		V_0 = _stringLiteral3609CFE14DFC2C9D4A8AA2CBB4187869284D99E8;
 		goto IL_001f;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1024>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1028>
 		V_0 = _stringLiteralC80121E42485EA6168A2175A2B76215E9C9917FE;
 		goto IL_001f;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1025>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1029>
 		V_0 = _stringLiteral3B34A57621BF0A7EC5E17E4011B820033401C73B;
 	}
 
@@ -14212,12 +14247,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_PartTag_m092C
 	}
 	String_t* V_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1031>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1032>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1033>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1034>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1035>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1036>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1037>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1038>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1039>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1040>
 		uint8_t L_0 = ___0_part;
 		if (!L_0)
 		{
@@ -14237,21 +14272,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ExperimentFlowManager_PartTag_m092C
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1033>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1037>
 		V_0 = _stringLiteralF2470788CD3B12DC47387AA074A5B34B6F5155B8;
 		goto IL_001f;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1034>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1038>
 		V_0 = _stringLiteral15CC40F27F11AA1E7AC473FAB3D780F66615FD28;
 		goto IL_001f;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1035>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1039>
 		V_0 = _stringLiteralD7F8B69CC65ECEA6E86339E5BC2943B987C83A4E;
 	}
 
@@ -14271,7 +14306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_SetTaskText_m7C59E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1044>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1048>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_0 = __this->___taskTitleText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -14282,7 +14317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_SetTaskText_m7C59E
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1045>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1049>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_2 = __this->___taskTitleText;
 		String_t* L_3 = ___0_title;
 		NullCheck(L_2);
@@ -14291,7 +14326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager_SetTaskText_m7C59E
 
 IL_001a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1047>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1051>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_4 = __this->___promptText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -14302,7 +14337,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1048>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1052>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_6 = __this->___promptText;
 		String_t* L_7 = ___1_prompt;
 		NullCheck(L_6);
@@ -14311,7 +14346,7 @@ IL_001a:
 
 IL_0034:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1050>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1054>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = __this->___instructionText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -14322,7 +14357,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1051>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1055>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_10 = __this->___instructionText;
 		String_t* L_11 = ___2_instruction;
 		NullCheck(L_10);
@@ -14331,7 +14366,7 @@ IL_0034:
 
 IL_004e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1052>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:1056>
 		return;
 	}
 }
@@ -14360,59 +14395,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExperimentFlowManager__ctor_m5818E61ED87
 		__this->___dailyDiscussionDuration = (120.0f);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:69>
 		__this->___professionalIntroductionDuration = (120.0f);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:70>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:71>
 		__this->___storyDiscussionDuration = (120.0f);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:73>
-		__this->___lastTimerVisibleSeconds = (20.0f);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:74>
+		__this->___lastTimerVisibleSeconds = (20.0f);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:75>
 		__this->___lastTimerMessage = _stringLiteralFAEA16ED4CC7C2B86D15B8EAE275ABF9DCCFEFEA;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastTimerMessage), (void*)_stringLiteralFAEA16ED4CC7C2B86D15B8EAE275ABF9DCCFEFEA);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:84>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:85>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:86>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:87>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:88>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:89>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:90>
 		NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC* L_0 = (NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC*)il2cpp_codegen_object_new(NetworkVariable_1_t41AE00D5742E6ACC49BAFC85F3042E5D6112B7CC_il2cpp_TypeInfo_var);
 		NetworkVariable_1__ctor_m5FC031F754E06D26BE3A09B2683380E8473A1088(L_0, 0, 0, 0, NetworkVariable_1__ctor_m5FC031F754E06D26BE3A09B2683380E8473A1088_RuntimeMethod_var);
 		__this->___currentPhase = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentPhase), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:91>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:92>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:93>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:94>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:95>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:96>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:97>
 		NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675* L_1 = (NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675*)il2cpp_codegen_object_new(NetworkVariable_1_tAC0E7A75585725AFA7155A2CDE52260EFF7CA675_il2cpp_TypeInfo_var);
 		NetworkVariable_1__ctor_m21AD4179DD299C17927DA7BB1B05DE705D128333(L_1, 1, 0, 0, NetworkVariable_1__ctor_m21AD4179DD299C17927DA7BB1B05DE705D128333_RuntimeMethod_var);
 		__this->___currentPart = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentPart), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:98>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:99>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:100>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:101>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:102>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:103>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:104>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_2 = (NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548*)il2cpp_codegen_object_new(NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548_il2cpp_TypeInfo_var);
 		NetworkVariable_1__ctor_mF8BB9385FF7220C78636AB9E4D2F6B68F13622C7(L_2, (-1.0), 0, 0, NetworkVariable_1__ctor_mF8BB9385FF7220C78636AB9E4D2F6B68F13622C7_RuntimeMethod_var);
 		__this->___phaseEndServerTime = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___phaseEndServerTime), (void*)L_2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:105>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:106>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:107>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:108>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:109>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:110>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:111>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_3 = (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504*)il2cpp_codegen_object_new(NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504_il2cpp_TypeInfo_var);
 		NetworkVariable_1__ctor_mC1E2E7E88A5A7C3855CF1AF8EA9E2047F8C92B84(L_3, (-1), 0, 0, NetworkVariable_1__ctor_mC1E2E7E88A5A7C3855CF1AF8EA9E2047F8C92B84_RuntimeMethod_var);
 		__this->___selectedStoryIndex = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___selectedStoryIndex), (void*)L_3);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:112>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:113>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:114>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:115>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:116>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:117>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/ExperimentFlowManager.cs:118>
 		NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4* L_4 = (NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4*)il2cpp_codegen_object_new(NetworkVariable_1_tCB4418FFEA24AD2A98C0844C95D1DC715452D4C4_il2cpp_TypeInfo_var);
 		NetworkVariable_1__ctor_m5368F2A8B3D4A7FD4BF19BFC75680D70AB8AA66D(L_4, (bool)0, 0, 0, NetworkVariable_1__ctor_m5368F2A8B3D4A7FD4BF19BFC75680D70AB8AA66D_RuntimeMethod_var);
 		__this->___isSelectingStory = L_4;
@@ -25194,7 +25229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CPlayBDrawSequenceU3Ed__59_S
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StoryCardTaskManager_get_CurrentNarrationCardIndex_m8621993323A18F284076CC365E61B7A01B2AF29D (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:46>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:48>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_0 = __this->___currentNarrationCard;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -25206,7 +25241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t StoryCardTaskManager_get_CurrentNarra
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_get_IsOnLastNarrationCard_mA5FFDDC884CD9F5A0958A3475ECE0E3910CB25A3 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:48>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:50>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_0 = __this->___currentNarrationCard;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -25225,7 +25260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_Awake_m8479E982C081
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:52>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:54>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_0 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25236,8 +25271,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_Awake_m8479E982C081
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:53>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:54>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:55>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:56>
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_2;
 		L_2 = Object_FindFirstObjectByType_TisStoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302_mD9270ECB76EFE814A501493C38BC5FCC2D72C520(Object_FindFirstObjectByType_TisStoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302_mD9270ECB76EFE814A501493C38BC5FCC2D72C520_RuntimeMethod_var);
@@ -25247,7 +25282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_Awake_m8479E982C081
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:55>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:57>
 		return;
 	}
 }
@@ -25266,7 +25301,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNetworkSpawn_m425
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:59>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:61>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___nextCardButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25277,7 +25312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNetworkSpawn_m425
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:60>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:62>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___nextCardButton;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -25288,7 +25323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNetworkSpawn_m425
 
 IL_001f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:62>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:64>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_4 = __this->___drawButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -25299,7 +25334,7 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:63>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:65>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_6 = __this->___drawButton;
 		NullCheck(L_6);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_7;
@@ -25312,7 +25347,7 @@ IL_001f:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:65>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:67>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9 = __this->___nextCardButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_10;
@@ -25323,7 +25358,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:66>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:68>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_11 = __this->___nextCardButton;
 		NullCheck(L_11);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_12;
@@ -25336,7 +25371,7 @@ IL_0049:
 
 IL_0073:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:68>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:70>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_14 = __this->___currentNarrationCard;
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_15 = L_14;
 		NullCheck(L_15);
@@ -25348,15 +25383,15 @@ IL_0073:
 		NullCheck(L_15);
 		L_15->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_18, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_15->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_18, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:70>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:72>
 		StoryCardTaskManager_RefreshUI_mC915C1B9707E9C0705525A5BE98A3864619D83CC(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:71>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:73>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_19 = __this->___currentNarrationCard;
 		NullCheck(L_19);
 		int32_t L_20;
 		L_20 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_19);
 		StoryCardTaskManager_ApplyNarrationCard_mB5B01094019975BC9F31B462C32EF3D2E716A5AC(__this, L_20, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:72>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:74>
 		return;
 	}
 }
@@ -25375,7 +25410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNetworkDespawn_m7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:76>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:78>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___drawButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25386,7 +25421,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNetworkDespawn_m7
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:77>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:79>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_2 = __this->___drawButton;
 		NullCheck(L_2);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_3;
@@ -25399,7 +25434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNetworkDespawn_m7
 
 IL_002a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:79>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:81>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___nextCardButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -25410,7 +25445,7 @@ IL_002a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:80>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:82>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___nextCardButton;
 		NullCheck(L_7);
 		ButtonClickedEvent_t8EA72E90B3BD1392FB3B3EF167D5121C23569E4C* L_8;
@@ -25423,7 +25458,7 @@ IL_002a:
 
 IL_0054:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:82>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:84>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_10 = __this->___currentNarrationCard;
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_11 = L_10;
 		NullCheck(L_11);
@@ -25435,7 +25470,7 @@ IL_0054:
 		NullCheck(L_11);
 		L_11->___OnValueChanged = ((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_14, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___OnValueChanged), (void*)((OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105*)Castclass((RuntimeObject*)L_14, OnValueChangedDelegate_tCB749A04219D161E5E66022FF3B29F423FDDB105_il2cpp_TypeInfo_var)));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:83>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:85>
 		return;
 	}
 }
@@ -25449,7 +25484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_Update_m25547B3E296
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:87>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:89>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsSpawned_m61C7DDBA4399DA812385A297821986D619423C96_inline(__this, NULL);
 		if (!L_0)
@@ -25470,13 +25505,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_Update_m25547B3E296
 
 IL_0016:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:88>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:90>
 		return;
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:90>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:92>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_3 = __this->___experimentFlowManager;
 		NullCheck(L_3);
 		uint8_t L_4;
@@ -25488,14 +25523,14 @@ IL_0017:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:91>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:93>
 		StoryCardTaskManager_RefreshUI_mC915C1B9707E9C0705525A5BE98A3864619D83CC(__this, NULL);
 		goto IL_0070;
 	}
 
 IL_0032:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:92>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:94>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_6 = __this->___experimentFlowManager;
 		NullCheck(L_6);
 		bool L_7;
@@ -25507,14 +25542,14 @@ IL_0032:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:93>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:95>
 		StoryCardTaskManager_UpdateDrawAndNextCardForSelection_m3E529E0D79A1C7B396E8EA06E317279A058F3019(__this, NULL);
 		goto IL_0070;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:94>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:96>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_9 = __this->___experimentFlowManager;
 		NullCheck(L_9);
 		uint8_t L_10;
@@ -25527,7 +25562,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:95>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:97>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_12 = __this->___experimentFlowManager;
 		NullCheck(L_12);
 		uint8_t L_13;
@@ -25537,13 +25572,13 @@ IL_004d:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:97>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:99>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_14 = __this->___experimentFlowManager;
 		NullCheck(L_14);
 		bool L_15;
 		L_15 = ExperimentFlowManager_get_IsSelectingStory_mFF786BCE9AD60BAC95AA3EEAF6C93205C2B7B34A(L_14, NULL);
 		__this->___lastSelectingStory = L_15;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:99>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:101>
 		bool L_16;
 		L_16 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (!L_16)
@@ -25552,13 +25587,13 @@ IL_0070:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:100>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:102>
 		StoryCardTaskManager_TryAutoAdvanceNarrationCard_m2B56EF5720F81A6BC9961D481585A2A5FB036172(__this, NULL);
 	}
 
 IL_008f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:101>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:103>
 		return;
 	}
 }
@@ -25609,7 +25644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_RefreshUI_mC915C1B9
 	String_t* G_B44_0 = NULL;
 	TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* G_B44_1 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:105>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:107>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_0 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -25620,25 +25655,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_RefreshUI_mC915C1B9
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:106>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:108>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:108>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:110>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_2 = __this->___experimentFlowManager;
 		NullCheck(L_2);
 		uint8_t L_3;
 		L_3 = ExperimentFlowManager_get_CurrentPhase_mD1288AF940CDD06423E3D1B1838C9CFBC0EEAD70(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:109>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:111>
 		uint8_t L_4 = __this->___lastPhase;
 		V_1 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:110>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:112>
 		uint8_t L_5 = V_0;
 		__this->___lastPhase = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:112>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:114>
 		bool L_6;
 		L_6 = NetworkBehaviour_get_IsServer_m57CCCE498593E3A21E6B952AB9C4BAA482EB4CD6_inline(__this, NULL);
 		if (!L_6)
@@ -25647,8 +25682,8 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:114>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:115>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:116>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:117>
 		uint8_t L_7 = V_0;
 		bool L_8;
 		L_8 = ExperimentFlowManager_IsDrawAPhase_mD7D03235BDA3AA46E808783E24090FE074C55D83(L_7, NULL);
@@ -25667,13 +25702,13 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:117>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:119>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_11 = __this->___currentNarrationCard;
 		NullCheck(L_11);
 		VirtualActionInvoker1< int32_t >::Invoke(19, L_11, 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:118>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:120>
 		__this->___isAdvancingPhase = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:119>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:121>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_12 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
@@ -25684,7 +25719,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:120>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:122>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_14 = __this->___storyCardBoardManager;
 		NullCheck(L_14);
 		StoryCardBoardManager_ResetBoardForNewDealServer_mDAE8348C8D938F8B8D627E828437D480CD9E0769(L_14, NULL);
@@ -25692,8 +25727,8 @@ IL_000f:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:123>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:124>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:125>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:126>
 		uint8_t L_15 = V_0;
 		bool L_16;
 		L_16 = ExperimentFlowManager_IsNarrationPhase_mBB8E2792D6B5F49EC6CA29A4013C55F450E6ED67(L_15, NULL);
@@ -25712,14 +25747,14 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:126>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:128>
 		StoryCardTaskManager_StartNarrationCardServer_m378187B57778BCB70420B5A54EA21C1B0CC5FBA3(__this, 1, NULL);
 	}
 
 IL_0084:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:129>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:130>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:131>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:132>
 		uint8_t L_19 = V_0;
 		bool L_20;
 		L_20 = ExperimentFlowManager_IsNarrationPhase_mBB8E2792D6B5F49EC6CA29A4013C55F450E6ED67(L_19, NULL);
@@ -25738,22 +25773,22 @@ IL_0084:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:132>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:134>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_23 = __this->___narrationCardStartServerTime;
 		NullCheck(L_23);
 		VirtualActionInvoker1< double >::Invoke(19, L_23, (-1.0));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:133>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:135>
 		__this->___hasAutoAdvancedThisCard = (bool)0;
 	}
 
 IL_00af:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:137>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:139>
 		uint8_t L_24 = V_0;
 		bool L_25;
 		L_25 = ExperimentFlowManager_IsStoryPhase_mEDD420F1EB99A9008EE3CADCF0D9D864E4AD7EC3(L_24, NULL);
 		V_2 = L_25;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:139>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:141>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = __this->___storyInteractionPanel;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_27;
@@ -25764,7 +25799,7 @@ IL_00af:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:140>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:142>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28 = __this->___storyInteractionPanel;
 		bool L_29 = V_2;
 		NullCheck(L_28);
@@ -25773,15 +25808,15 @@ IL_00af:
 
 IL_00d0:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:142>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:144>
 		uint8_t L_30 = V_0;
 		StoryCardTaskManager_UpdateNextCardButtonVisibility_m1C9F0BA5493DBAE5BB6EE8DC9897DC6B1D7A8979(__this, L_30, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:144>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:145>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:146>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:147>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:148>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:149>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:150>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:151>
 		uint8_t L_31 = V_0;
 		uint8_t L_32 = L_31;
 		RuntimeObject* L_33 = Box(ExperimentPhase_t62CE0A4075CE7EFF55C81BCA70F545DCBA7188DA_il2cpp_TypeInfo_var, &L_32);
@@ -25858,7 +25893,7 @@ IL_0138:
 		L_59 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(G_B18_3, G_B18_2, L_51, L_58, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_59, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:151>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:153>
 		uint8_t L_60 = V_0;
 		if ((!(((uint32_t)L_60) == ((uint32_t)((int32_t)11)))))
 		{
@@ -25866,7 +25901,7 @@ IL_0138:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:153>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:155>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_61 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_62;
@@ -25877,7 +25912,7 @@ IL_0138:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:154>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:156>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_63 = __this->___storyCardBoardManager;
 		NullCheck(L_63);
 		StoryCardBoardManager_HideAllCardVisuals_mF30CAB92C3B3BA068C70CAD88829294CD42B3011(L_63, NULL);
@@ -25885,7 +25920,7 @@ IL_0138:
 
 IL_018a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:156>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:158>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_64 = __this->___narrationStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_65;
@@ -25896,12 +25931,12 @@ IL_018a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:158>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:160>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_66 = __this->___narrationStatusText;
 		String_t* L_67 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		NullCheck(L_66);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_66, L_67);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:159>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:161>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_68 = __this->___narrationStatusText;
 		NullCheck(L_68);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_69;
@@ -25912,13 +25947,13 @@ IL_018a:
 
 IL_01b9:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:162>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:164>
 		return;
 	}
 
 IL_01ba:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:165>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:167>
 		bool L_70 = V_2;
 		if (L_70)
 		{
@@ -25926,29 +25961,29 @@ IL_01ba:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:166>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:168>
 		return;
 	}
 
 IL_01be:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:168>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:170>
 		bool L_71;
 		L_71 = StoryCardTaskManager_IsLocalParticipantA_m9363061786F19ED345946B7E3DF267593C5CC23B(__this, NULL);
 		V_3 = L_71;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:169>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:171>
 		bool L_72;
 		L_72 = StoryCardTaskManager_IsLocalParticipantB_mA899D120F8A842729FF4DF910F364D22C78F47AB(__this, NULL);
 		V_4 = L_72;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:170>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:172>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_73 = __this->___experimentFlowManager;
 		NullCheck(L_73);
 		bool L_74;
 		L_74 = ExperimentFlowManager_get_IsSelectingStory_mFF786BCE9AD60BAC95AA3EEAF6C93205C2B7B34A(L_73, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:172>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:173>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:174>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:175>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:176>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:177>
 		if (L_74)
 		{
 			goto IL_01f2;
@@ -25987,7 +26022,7 @@ IL_01f2:
 IL_01f3:
 	{
 		V_5 = (bool)G_B31_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:177>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:179>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_81 = __this->___drawButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_82;
@@ -25998,7 +26033,7 @@ IL_01f3:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:179>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:181>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_83 = __this->___drawButton;
 		NullCheck(L_83);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_84;
@@ -26006,7 +26041,7 @@ IL_01f3:
 		bool L_85 = V_5;
 		NullCheck(L_84);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_84, L_85, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:180>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:182>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_86 = __this->___drawButton;
 		bool L_87 = V_5;
 		NullCheck(L_86);
@@ -26015,7 +26050,7 @@ IL_01f3:
 
 IL_0222:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:183>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:185>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_88 = __this->___drawStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_89;
@@ -26026,13 +26061,13 @@ IL_0222:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:184>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:186>
 		return;
 	}
 
 IL_0231:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:186>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:188>
 		uint8_t L_90 = V_0;
 		bool L_91;
 		L_91 = ExperimentFlowManager_IsDrawAPhase_mD7D03235BDA3AA46E808783E24090FE074C55D83(L_90, NULL);
@@ -26042,9 +26077,9 @@ IL_0231:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:188>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:189>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:190>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:191>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:192>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_92 = __this->___drawStatusText;
 		bool L_93 = V_3;
 		if (L_93)
@@ -26075,7 +26110,7 @@ IL_024e:
 
 IL_0254:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:192>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:194>
 		uint8_t L_94 = V_0;
 		bool L_95;
 		L_95 = ExperimentFlowManager_IsDrawBPhase_mA93BC49ED1EE64D58590007BE33DC86A501D6249(L_94, NULL);
@@ -26085,9 +26120,9 @@ IL_0254:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:194>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:195>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:196>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:197>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:198>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_96 = __this->___drawStatusText;
 		bool L_97 = V_4;
 		if (L_97)
@@ -26118,7 +26153,7 @@ IL_0272:
 
 IL_0278:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:198>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:200>
 		uint8_t L_98 = V_0;
 		bool L_99;
 		L_99 = ExperimentFlowManager_IsDiscussionPhase_mF4FB868E64559615C39134D936706CE49ECE2C85(L_98, NULL);
@@ -26128,7 +26163,7 @@ IL_0278:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:200>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:202>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_100 = __this->___drawStatusText;
 		NullCheck(L_100);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_100, _stringLiteralF1DFD9D4415E8D0F1A7B05484FA3B2B5498DF4EA);
@@ -26137,7 +26172,7 @@ IL_0278:
 
 IL_0291:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:202>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:204>
 		uint8_t L_101 = V_0;
 		bool L_102;
 		L_102 = ExperimentFlowManager_IsNarrationPhase_mBB8E2792D6B5F49EC6CA29A4013C55F450E6ED67(L_101, NULL);
@@ -26147,7 +26182,7 @@ IL_0291:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:204>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:206>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_103 = __this->___drawStatusText;
 		NullCheck(L_103);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_103, _stringLiteralEFA52A930D9679FD76DBEF36AB2E9335E88B3430);
@@ -26155,7 +26190,7 @@ IL_0291:
 
 IL_02a9:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:206>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:208>
 		return;
 	}
 }
@@ -26172,7 +26207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_UpdateNextCardButto
 	bool V_1 = false;
 	int32_t G_B10_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:210>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:212>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_0 = __this->___nextCardButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -26195,25 +26230,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_UpdateNextCardButto
 
 IL_001c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:211>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:213>
 		return;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:213>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:215>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_4 = __this->___currentNarrationCard;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_4);
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:214>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:215>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:216>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:217>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:218>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:219>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:220>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:221>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:222>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_6 = __this->___experimentFlowManager;
 		NullCheck(L_6);
 		bool L_7;
@@ -26269,7 +26304,7 @@ IL_0056:
 IL_0057:
 	{
 		V_1 = (bool)G_B10_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:222>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:224>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_14 = __this->___nextCardButton;
 		NullCheck(L_14);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
@@ -26284,7 +26319,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:223>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:225>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_18 = __this->___nextCardButton;
 		NullCheck(L_18);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_19;
@@ -26296,12 +26331,12 @@ IL_0057:
 
 IL_007c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:225>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:227>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_21 = __this->___nextCardButton;
 		bool L_22 = V_1;
 		NullCheck(L_21);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_21, L_22, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:226>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:228>
 		return;
 	}
 }
@@ -26320,16 +26355,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_UpdateDrawAndNextCa
 	bool V_3 = false;
 	int32_t G_B7_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:230>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:232>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_0 = __this->___experimentFlowManager;
 		NullCheck(L_0);
 		uint8_t L_1;
 		L_1 = ExperimentFlowManager_get_CurrentPhase_mD1288AF940CDD06423E3D1B1838C9CFBC0EEAD70(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:231>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:233>
 		uint8_t L_2 = V_0;
 		StoryCardTaskManager_UpdateNextCardButtonVisibility_m1C9F0BA5493DBAE5BB6EE8DC9897DC6B1D7A8979(__this, L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:233>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:235>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_3 = __this->___drawButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -26340,24 +26375,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_UpdateDrawAndNextCa
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:234>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:236>
 		return;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:236>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:238>
 		bool L_5;
 		L_5 = StoryCardTaskManager_IsLocalParticipantA_m9363061786F19ED345946B7E3DF267593C5CC23B(__this, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:237>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:239>
 		bool L_6;
 		L_6 = StoryCardTaskManager_IsLocalParticipantB_mA899D120F8A842729FF4DF910F364D22C78F47AB(__this, NULL);
 		V_2 = L_6;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:238>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:239>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:240>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:241>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:242>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:243>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_7 = __this->___experimentFlowManager;
 		NullCheck(L_7);
 		bool L_8;
@@ -26400,7 +26435,7 @@ IL_0054:
 IL_0055:
 	{
 		V_3 = (bool)G_B7_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:243>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:245>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_15 = __this->___drawButton;
 		NullCheck(L_15);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16;
@@ -26408,12 +26443,12 @@ IL_0055:
 		bool L_17 = V_3;
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, L_17, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:244>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:246>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_18 = __this->___drawButton;
 		bool L_19 = V_3;
 		NullCheck(L_18);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_18, L_19, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:245>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:247>
 		return;
 	}
 }
@@ -26428,11 +26463,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_TryGetNarrationElap
 	}
 	double V_0 = 0.0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:249>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:251>
 		int32_t* L_0 = ___0_elapsedSeconds;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:251>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:252>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:253>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:254>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_1 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -26457,13 +26492,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_TryGetNarrationElap
 
 IL_0023:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:254>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:256>
 		return (bool)0;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:257>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:259>
 		bool L_6;
 		L_6 = StoryCardTaskManager_TryGetNarrationElapsed_m0347C3C9B4BB539E562A5677F4027EB14B3AE8CB(__this, (&V_0), NULL);
 		if (L_6)
@@ -26472,17 +26507,17 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:258>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:260>
 		return (bool)0;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:260>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:262>
 		int32_t* L_7 = ___0_elapsedSeconds;
 		double L_8 = V_0;
 		*((int32_t*)L_7) = (int32_t)il2cpp_codegen_cast_double_to_int<int32_t>(L_8);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:261>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:263>
 		int32_t* L_9 = ___0_elapsedSeconds;
 		int32_t L_10 = *((int32_t*)L_9);
 		if ((((int32_t)L_10) >= ((int32_t)0)))
@@ -26491,14 +26526,14 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:262>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:264>
 		int32_t* L_11 = ___0_elapsedSeconds;
 		*((int32_t*)L_11) = (int32_t)0;
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:263>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:265>
 		return (bool)1;
 	}
 }
@@ -26513,11 +26548,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_TryGetNarrationRema
 	}
 	double V_0 = 0.0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:268>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:270>
 		double* L_0 = ___0_remainingSeconds;
 		*((double*)L_0) = (double)(0.0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:270>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:271>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:272>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:273>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_1 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -26542,13 +26577,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_TryGetNarrationRema
 
 IL_002b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:273>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:275>
 		return (bool)0;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:276>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:278>
 		bool L_6;
 		L_6 = StoryCardTaskManager_TryGetNarrationElapsed_m0347C3C9B4BB539E562A5677F4027EB14B3AE8CB(__this, (&V_0), NULL);
 		if (L_6)
@@ -26557,18 +26592,19 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:277>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:279>
 		return (bool)0;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:279>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:281>
 		double* L_7 = ___0_remainingSeconds;
-		float L_8 = __this->___narrationAutoAdvanceSeconds;
+		float L_8;
+		L_8 = StoryCardTaskManager_GetNarrationAutoAdvanceSeconds_m7DDC237125B9B21F316626B751E407A82E12778E(__this, NULL);
 		double L_9 = V_0;
 		*((double*)L_7) = (double)((double)il2cpp_codegen_subtract(((double)L_8), L_9));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:280>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:282>
 		double* L_10 = ___0_remainingSeconds;
 		double L_11 = *((double*)L_10);
 		if ((!(((double)L_11) < ((double)(0.0)))))
@@ -26577,14 +26613,14 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:281>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:283>
 		double* L_12 = ___0_remainingSeconds;
 		*((double*)L_12) = (double)(0.0);
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:283>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:285>
 		return (bool)1;
 	}
 }
@@ -26592,25 +26628,45 @@ IL_005c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsNarrationUnlockElapsed_m8EE2D5DECACD1FE5FB9A1C74DFC60651EAE21CE8 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	double V_0 = 0.0;
+	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:288>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:289>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:290>
 		bool L_0;
 		L_0 = StoryCardTaskManager_TryGetNarrationElapsed_m0347C3C9B4BB539E562A5677F4027EB14B3AE8CB(__this, (&V_0), NULL);
-		if (!L_0)
+		if (L_0)
 		{
-			goto IL_0018;
+			goto IL_000c;
 		}
 	}
 	{
-		double L_1 = V_0;
-		float L_2 = __this->___narrationNextCardUnlockSeconds;
-		return (bool)((((int32_t)((!(((double)L_1) >= ((double)((double)L_2))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:291>
+		return (bool)0;
 	}
 
-IL_0018:
+IL_000c:
 	{
-		return (bool)0;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:293>
+		float L_1;
+		L_1 = StoryCardTaskManager_GetNarrationUnlockSeconds_mF0782B7F8D307A9C540A63A693128FF5D5608499(__this, NULL);
+		V_1 = L_1;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:294>
+		float L_2 = V_1;
+		if ((!(((float)L_2) <= ((float)(0.0f)))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:295>
+		return (bool)1;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:297>
+		double L_3 = V_0;
+		float L_4 = V_1;
+		return (bool)((((int32_t)((!(((double)L_3) >= ((double)((double)L_4))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
 // Method Definition Index: 120393
@@ -26624,14 +26680,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_TryGetNarrationElap
 	}
 	double V_0 = 0.0;
 	int32_t V_1 = 0;
-	double V_2 = 0.0;
+	float V_2 = 0.0f;
 	NetworkTime_t2E4697E4558B217C431021D2CC30A9306E778B5F V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:294>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:302>
 		double* L_0 = ___0_elapsed;
 		*((double*)L_0) = (double)(0.0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:296>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:304>
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_1;
 		L_1 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -26643,19 +26699,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_TryGetNarrationElap
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:297>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:305>
 		return (bool)0;
 	}
 
 IL_001b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:299>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:307>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_3 = __this->___narrationCardStartServerTime;
 		NullCheck(L_3);
 		double L_4;
 		L_4 = VirtualFuncInvoker0< double >::Invoke(18, L_3);
 		V_0 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:300>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:308>
 		double L_5 = V_0;
 		if ((!(((double)L_5) < ((double)(0.0)))))
 		{
@@ -26663,19 +26719,19 @@ IL_001b:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:301>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:309>
 		return (bool)0;
 	}
 
 IL_0035:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:303>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:311>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_6 = __this->___currentNarrationCard;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_6);
 		V_1 = L_7;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:304>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:312>
 		int32_t L_8 = V_1;
 		if ((((int32_t)L_8) < ((int32_t)1)))
 		{
@@ -26692,99 +26748,177 @@ IL_0035:
 
 IL_0049:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:305>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:313>
 		return (bool)0;
 	}
 
 IL_004b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:307>
-		float L_10 = __this->___narrationAutoAdvanceSeconds;
-		V_2 = ((double)L_10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:308>
-		double L_11 = V_2;
-		if ((!(((double)L_11) < ((double)(0.0)))))
-		{
-			goto IL_0069;
-		}
-	}
-	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:309>
-		V_2 = (0.0);
-	}
-
-IL_0069:
-	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:311>
-		double* L_12 = ___0_elapsed;
-		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_13;
-		L_13 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
-		NullCheck(L_13);
-		NetworkTime_t2E4697E4558B217C431021D2CC30A9306E778B5F L_14;
-		L_14 = NetworkManager_get_ServerTime_m1EB06367487A361578137D4E2D13917F86DDA471(L_13, NULL);
-		V_3 = L_14;
-		double L_15;
-		L_15 = NetworkTime_get_Time_mDC7F8AB78A0D860B5D3BF62AF1E42724059F690B_inline((&V_3), NULL);
-		double L_16 = V_0;
-		*((double*)L_12) = (double)((double)il2cpp_codegen_subtract(L_15, L_16));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:312>
-		double* L_17 = ___0_elapsed;
-		double L_18 = *((double*)L_17);
-		if ((!(((double)L_18) < ((double)(0.0)))))
-		{
-			goto IL_0098;
-		}
-	}
-	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:313>
-		double* L_19 = ___0_elapsed;
-		*((double*)L_19) = (double)(0.0);
-	}
-
-IL_0098:
-	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:314>
-		double* L_20 = ___0_elapsed;
-		double L_21 = *((double*)L_20);
-		double L_22 = V_2;
-		if ((!(((double)L_21) > ((double)L_22))))
-		{
-			goto IL_00a0;
-		}
-	}
-	{
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:315>
-		double* L_23 = ___0_elapsed;
-		double L_24 = V_2;
-		*((double*)L_23) = (double)L_24;
+		double* L_10 = ___0_elapsed;
+		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_11;
+		L_11 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
+		NullCheck(L_11);
+		NetworkTime_t2E4697E4558B217C431021D2CC30A9306E778B5F L_12;
+		L_12 = NetworkManager_get_ServerTime_m1EB06367487A361578137D4E2D13917F86DDA471(L_11, NULL);
+		V_3 = L_12;
+		double L_13;
+		L_13 = NetworkTime_get_Time_mDC7F8AB78A0D860B5D3BF62AF1E42724059F690B_inline((&V_3), NULL);
+		double L_14 = V_0;
+		*((double*)L_10) = (double)((double)il2cpp_codegen_subtract(L_13, L_14));
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:316>
+		double* L_15 = ___0_elapsed;
+		double L_16 = *((double*)L_15);
+		if ((!(((double)L_16) < ((double)(0.0)))))
+		{
+			goto IL_007a;
+		}
 	}
-
-IL_00a0:
 	{
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:317>
+		double* L_17 = ___0_elapsed;
+		*((double*)L_17) = (double)(0.0);
+	}
+
+IL_007a:
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:319>
+		float L_18;
+		L_18 = StoryCardTaskManager_GetNarrationAutoAdvanceSeconds_m7DDC237125B9B21F316626B751E407A82E12778E(__this, NULL);
+		V_2 = L_18;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:320>
+		float L_19 = V_2;
+		if ((!(((float)L_19) > ((float)(0.0f)))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		double* L_20 = ___0_elapsed;
+		double L_21 = *((double*)L_20);
+		float L_22 = V_2;
+		if ((!(((double)L_21) > ((double)((double)L_22)))))
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:321>
+		double* L_23 = ___0_elapsed;
+		float L_24 = V_2;
+		*((double*)L_23) = (double)((double)L_24);
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:323>
 		return (bool)1;
 	}
 }
 // Method Definition Index: 120394
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StoryCardTaskManager_GetNarrationUnlockSeconds_mF0782B7F8D307A9C540A63A693128FF5D5608499 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:328>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:329>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:330>
+		bool L_0;
+		L_0 = StoryCardTaskManager_IsPracticeNarration_m79DA4E3E66B48B6EFD6BC146214C28169C822EC5(__this, NULL);
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		float L_1 = __this->___narrationNextCardUnlockSeconds;
+		return L_1;
+	}
+
+IL_000f:
+	{
+		float L_2 = __this->___practiceNarrationNextCardUnlockSeconds;
+		return L_2;
+	}
+}
+// Method Definition Index: 120395
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float StoryCardTaskManager_GetNarrationAutoAdvanceSeconds_m7DDC237125B9B21F316626B751E407A82E12778E (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:335>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:336>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:337>
+		bool L_0;
+		L_0 = StoryCardTaskManager_IsPracticeNarration_m79DA4E3E66B48B6EFD6BC146214C28169C822EC5(__this, NULL);
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		float L_1 = __this->___narrationAutoAdvanceSeconds;
+		return L_1;
+	}
+
+IL_000f:
+	{
+		float L_2 = __this->___practiceNarrationAutoAdvanceSeconds;
+		return L_2;
+	}
+}
+// Method Definition Index: 120396
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsPracticeNarration_m79DA4E3E66B48B6EFD6BC146214C28169C822EC5 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:342>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:343>
+		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_0 = __this->___experimentFlowManager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_2 = __this->___experimentFlowManager;
+		NullCheck(L_2);
+		uint8_t L_3;
+		L_3 = ExperimentFlowManager_get_CurrentPhase_mD1288AF940CDD06423E3D1B1838C9CFBC0EEAD70(L_2, NULL);
+		return (bool)((((int32_t)L_3) == ((int32_t)6))? 1 : 0);
+	}
+
+IL_001d:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 120397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_StartNarrationCardServer_m378187B57778BCB70420B5A54EA21C1B0CC5FBA3 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, int32_t ___0_cardIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	NetworkTime_t2E4697E4558B217C431021D2CC30A9306E778B5F V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:322>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:348>
 		int32_t L_0 = ___0_cardIndex;
 		int32_t L_1;
 		L_1 = Mathf_Clamp_m4DC36EEFDBE5F07C16249DA568023C5ECCFF0E7B_inline(L_0, 1, 4, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:323>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:349>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_2 = __this->___currentNarrationCard;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		VirtualActionInvoker1< int32_t >::Invoke(19, L_2, L_3);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:324>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:350>
 		__this->___hasAutoAdvancedThisCard = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:325>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:351>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_4 = __this->___narrationCardStartServerTime;
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_5;
 		L_5 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
@@ -26796,11 +26930,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_StartNarrationCardS
 		L_7 = NetworkTime_get_Time_mDC7F8AB78A0D860B5D3BF62AF1E42724059F690B_inline((&V_1), NULL);
 		NullCheck(L_4);
 		VirtualActionInvoker1< double >::Invoke(19, L_4, L_7);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:326>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:352>
 		return;
 	}
 }
-// Method Definition Index: 120395
+// Method Definition Index: 120398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_TryAutoAdvanceNarrationCard_m2B56EF5720F81A6BC9961D481585A2A5FB036172 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26809,10 +26943,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_TryAutoAdvanceNarra
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	double V_0 = 0.0;
+	float V_0 = 0.0f;
+	double V_1 = 0.0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:330>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:331>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:356>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:357>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_0 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -26837,13 +26972,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_TryAutoAdvanceNarra
 
 IL_0020:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:333>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:359>
 		return;
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:336>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:362>
 		bool L_5 = __this->___hasAutoAdvancedThisCard;
 		if (!L_5)
 		{
@@ -26851,47 +26986,65 @@ IL_0021:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:337>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:363>
 		return;
 	}
 
 IL_002a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:339>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:340>
-		bool L_6;
-		L_6 = StoryCardTaskManager_TryGetNarrationElapsed_m0347C3C9B4BB539E562A5677F4027EB14B3AE8CB(__this, (&V_0), NULL);
-		if (!L_6)
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:365>
+		float L_6;
+		L_6 = StoryCardTaskManager_GetNarrationAutoAdvanceSeconds_m7DDC237125B9B21F316626B751E407A82E12778E(__this, NULL);
+		V_0 = L_6;
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:366>
+		float L_7 = V_0;
+		if ((!(((float)L_7) <= ((float)(0.0f)))))
 		{
-			goto IL_003e;
+			goto IL_003a;
 		}
 	}
 	{
-		double L_7 = V_0;
-		float L_8 = __this->___narrationAutoAdvanceSeconds;
-		if ((!(((double)L_7) < ((double)((double)L_8)))))
-		{
-			goto IL_003f;
-		}
-	}
-
-IL_003e:
-	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:342>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:367>
 		return;
 	}
 
-IL_003f:
+IL_003a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:345>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:369>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:370>
+		bool L_8;
+		L_8 = StoryCardTaskManager_TryGetNarrationElapsed_m0347C3C9B4BB539E562A5677F4027EB14B3AE8CB(__this, (&V_1), NULL);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		double L_9 = V_1;
+		float L_10 = V_0;
+		if ((!(((double)L_9) < ((double)((double)L_10)))))
+		{
+			goto IL_004a;
+		}
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:372>
+		return;
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:375>
 		__this->___hasAutoAdvancedThisCard = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:346>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:376>
 		StoryCardTaskManager_AdvanceNarrationCardServer_m21867C3513B9990A317F946E7A5BB9E1ADC3495E(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:347>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:377>
 		return;
 	}
 }
-// Method Definition Index: 120396
+// Method Definition Index: 120399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_AdvanceNarrationCardServer_m21867C3513B9990A317F946E7A5BB9E1ADC3495E (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26900,13 +27053,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_AdvanceNarrationCar
 	int32_t G_B5_0 = 0;
 	ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* G_B5_1 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:351>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:381>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_0 = __this->___currentNarrationCard;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_0);
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:352>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:382>
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) >= ((int32_t)4)))
 		{
@@ -26914,19 +27067,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_AdvanceNarrationCar
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:354>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:384>
 		int32_t L_3 = V_0;
 		StoryCardTaskManager_StartNarrationCardServer_m378187B57778BCB70420B5A54EA21C1B0CC5FBA3(__this, ((int32_t)il2cpp_codegen_add(L_3, 1)), NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:355>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:385>
 		return;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:358>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:359>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:360>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:361>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:388>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:389>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:390>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:391>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_4 = __this->___experimentFlowManager;
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_5 = __this->___experimentFlowManager;
 		NullCheck(L_5);
@@ -26955,11 +27108,11 @@ IL_0033:
 	{
 		NullCheck(G_B5_1);
 		ExperimentFlowManager_SetPhase_mFBF52CD73C8F6A465A470966537FAADA1B3A9D1B(G_B5_1, G_B5_0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:362>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:392>
 		return;
 	}
 }
-// Method Definition Index: 120397
+// Method Definition Index: 120400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsLocalParticipantA_m9363061786F19ED345946B7E3DF267593C5CC23B (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -26969,7 +27122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsLocalParticipantA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:366>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:396>
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0;
 		L_0 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -26994,7 +27147,7 @@ IL_001a:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 120398
+// Method Definition Index: 120401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsLocalParticipantB_mA899D120F8A842729FF4DF910F364D22C78F47AB (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27004,9 +27157,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_IsLocalParticipantB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:371>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:372>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:373>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:401>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:402>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:403>
 		NetworkManager_t3C1F76E0C1B39BB363D1C5C7667A5CC90A6CE468* L_0;
 		L_0 = NetworkBehaviour_get_NetworkManager_mB42548F1F4877DC884DDBFF2F110F719D9EC8C57(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -27042,18 +27195,18 @@ IL_002a:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 120399
+// Method Definition Index: 120402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_CanControlCurrentNarrationCard_mB183AF9555017AD94F6012010AAF4B884479A49D (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:378>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:408>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_0 = __this->___currentNarrationCard;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_0);
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:380>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:410>
 		int32_t L_2 = V_0;
 		if ((((int32_t)L_2) == ((int32_t)1)))
 		{
@@ -27070,7 +27223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StoryCardTaskManager_CanControlCurrentNa
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:381>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:411>
 		bool L_4;
 		L_4 = StoryCardTaskManager_IsLocalParticipantA_m9363061786F19ED345946B7E3DF267593C5CC23B(__this, NULL);
 		return L_4;
@@ -27078,7 +27231,7 @@ IL_0014:
 
 IL_001b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:383>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:413>
 		int32_t L_5 = V_0;
 		if ((((int32_t)L_5) == ((int32_t)2)))
 		{
@@ -27095,7 +27248,7 @@ IL_001b:
 
 IL_0023:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:384>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:414>
 		bool L_7;
 		L_7 = StoryCardTaskManager_IsLocalParticipantB_mA899D120F8A842729FF4DF910F364D22C78F47AB(__this, NULL);
 		return L_7;
@@ -27103,22 +27256,22 @@ IL_0023:
 
 IL_002a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:386>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:416>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 120400
+// Method Definition Index: 120403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNarrationCardChanged_m800EBF7ABA1B6BAA995251B40F52C5C2C840CB74 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, int32_t ___0_previous, int32_t ___1_current, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:391>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:421>
 		int32_t L_0 = ___1_current;
 		StoryCardTaskManager_ApplyNarrationCard_mB5B01094019975BC9F31B462C32EF3D2E716A5AC(__this, L_0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:392>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:422>
 		return;
 	}
 }
-// Method Definition Index: 120401
+// Method Definition Index: 120404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_ApplyNarrationCard_mB5B01094019975BC9F31B462C32EF3D2E716A5AC (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, int32_t ___0_cardIndex, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27132,7 +27285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_ApplyNarrationCard_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:396>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:426>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_0 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -27143,7 +27296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_ApplyNarrationCard_
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:397>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:427>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_2 = __this->___experimentFlowManager;
 		NullCheck(L_2);
 		uint8_t L_3;
@@ -27153,7 +27306,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_ApplyNarrationCard_
 
 IL_001f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:399>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:429>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_4 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -27164,7 +27317,7 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:400>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:430>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_6 = __this->___storyCardBoardManager;
 		int32_t L_7 = ___0_cardIndex;
 		NullCheck(L_6);
@@ -27173,7 +27326,7 @@ IL_001f:
 
 IL_0039:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:402>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:432>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_8 = __this->___narrationStatusText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -27184,7 +27337,7 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:403>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:433>
 		return;
 	}
 
@@ -27217,56 +27370,56 @@ IL_0048:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:408>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:438>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_11 = __this->___narrationStatusText;
 		NullCheck(L_11);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_11, _stringLiteralADE2B5B699DDE9625263371F7347322C31534F0E);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:409>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:439>
 		return;
 	}
 
 IL_0073:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:412>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:442>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_12 = __this->___narrationStatusText;
 		NullCheck(L_12);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_12, _stringLiteral4686EA9DCFEADED749810BD996E1E40C5AF5A715);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:413>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:443>
 		return;
 	}
 
 IL_0084:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:416>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:446>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_13 = __this->___narrationStatusText;
 		NullCheck(L_13);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_13, _stringLiteralCFC6B18EBAFEF73C999084BCEA399BE35CBE0769);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:417>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:447>
 		return;
 	}
 
 IL_0095:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:420>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:450>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_14 = __this->___narrationStatusText;
 		NullCheck(L_14);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_14, _stringLiteral99620E1732158580A4E2C90C45A5D332A3BEDB0B);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:421>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:451>
 		return;
 	}
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:424>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:454>
 		TMP_Text_tE8D677872D43AD4B2AAF0D6101692A17D0B251A9* L_15 = __this->___narrationStatusText;
 		String_t* L_16 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		NullCheck(L_15);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_15, L_16);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:427>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:457>
 		return;
 	}
 }
-// Method Definition Index: 120402
+// Method Definition Index: 120405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNextCardClicked_m0F44906DC7FDC787F24B37A379310761FFE428DC (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27278,10 +27431,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNextCardClicked_m
 	RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:431>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:432>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:433>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:434>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:461>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:462>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:463>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:464>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsSpawned_m61C7DDBA4399DA812385A297821986D619423C96_inline(__this, NULL);
 		if (!L_0)
@@ -27324,13 +27477,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnNextCardClicked_m
 
 IL_0035:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:436>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:466>
 		return;
 	}
 
 IL_0036:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:439>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:469>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___nextCardButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_9;
@@ -27341,7 +27494,7 @@ IL_0036:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:440>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:470>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_10 = __this->___nextCardButton;
 		NullCheck(L_10);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_10, (bool)0, NULL);
@@ -27349,15 +27502,15 @@ IL_0036:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:442>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:472>
 		il2cpp_codegen_initobj((&V_0), sizeof(RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD));
 		RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD L_11 = V_0;
 		StoryCardTaskManager_RequestNextCardRpc_m566A050BC259AC4C246C826CEB292EDED76954E8(__this, L_11, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:443>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:473>
 		return;
 	}
 }
-// Method Definition Index: 120403
+// Method Definition Index: 120406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_RequestNextCardRpc_m566A050BC259AC4C246C826CEB292EDED76954E8 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD ___0_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27444,9 +27597,9 @@ IL_008f:
 IL_00a3:
 	{
 		((NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)__this)->_____rpc_exec_stage = ((int32_t)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:448>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:449>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:450>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:478>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:479>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:480>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_11 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -27481,32 +27634,32 @@ IL_00a3:
 
 IL_00dc:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:452>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:482>
 		return;
 	}
 
 IL_00dd:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:455>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:485>
 		RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD L_18 = ___0_rpcParams;
 		RpcReceiveParams_tD05099D00D0DCD7C712D970AD96696DF2FB21D98 L_19 = L_18.___Receive;
 		uint64_t L_20 = L_19.___SenderClientId;
 		V_0 = L_20;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:456>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:486>
 		uint64_t L_21 = V_0;
 		V_1 = (bool)((((int64_t)L_21) == ((int64_t)((int64_t)0)))? 1 : 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:457>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:487>
 		uint64_t L_22 = V_0;
 		V_2 = (bool)((!(((uint64_t)L_22) <= ((uint64_t)((int64_t)0))))? 1 : 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:458>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:488>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_23 = __this->___currentNarrationCard;
 		NullCheck(L_23);
 		int32_t L_24;
 		L_24 = VirtualFuncInvoker0< int32_t >::Invoke(18, L_23);
 		V_3 = L_24;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:460>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:461>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:462>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:490>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:491>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:492>
 		int32_t L_25 = V_3;
 		if ((((int32_t)L_25) == ((int32_t)1)))
 		{
@@ -27546,10 +27699,10 @@ IL_0118:
 
 IL_0119:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:464>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:465>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:466>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:467>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:494>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:495>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:496>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:497>
 		if (!G_B17_0)
 		{
 			goto IL_012b;
@@ -27580,10 +27733,10 @@ IL_0119:
 
 IL_012b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:469>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:470>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:471>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:472>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:499>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:500>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:501>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:502>
 		uint64_t L_33 = V_0;
 		uint64_t L_34 = L_33;
 		RuntimeObject* L_35 = Box(il2cpp_defaults.uint64_class, &L_34);
@@ -27596,20 +27749,20 @@ IL_012b:
 		L_40 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralC525C59C575C6F533A81A3478726FB144F9F54D4, L_39, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_40, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:473>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:503>
 		return;
 	}
 
 IL_0151:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:476>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:506>
 		int32_t L_41 = V_3;
 		StoryCardTaskManager_StartNarrationCardServer_m378187B57778BCB70420B5A54EA21C1B0CC5FBA3(__this, ((int32_t)il2cpp_codegen_add(L_41, 1)), NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:477>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:507>
 		return;
 	}
 }
-// Method Definition Index: 120404
+// Method Definition Index: 120407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnDrawButtonClicked_mAEC95C0A78BDC6FCC0BAC9F3C7B64BD5FC9F75A6 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27621,7 +27774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnDrawButtonClicked
 	RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:481>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:511>
 		bool L_0;
 		L_0 = NetworkBehaviour_get_IsSpawned_m61C7DDBA4399DA812385A297821986D619423C96_inline(__this, NULL);
 		if (L_0)
@@ -27630,14 +27783,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_OnDrawButtonClicked
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:482>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:512>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:484>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:485>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:514>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:515>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_1 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -27658,13 +27811,13 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:486>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:516>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:488>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:518>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_5 = __this->___drawButton;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
@@ -27675,7 +27828,7 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:489>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:519>
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_7 = __this->___drawButton;
 		NullCheck(L_7);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_7, (bool)0, NULL);
@@ -27683,15 +27836,15 @@ IL_0025:
 
 IL_003f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:491>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:521>
 		il2cpp_codegen_initobj((&V_0), sizeof(RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD));
 		RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD L_8 = V_0;
 		StoryCardTaskManager_RequestDrawRpc_m5FC4802E417C6254C2EF6A12244E2C6A1F33C27D(__this, L_8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:492>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:522>
 		return;
 	}
 }
-// Method Definition Index: 120405
+// Method Definition Index: 120408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager_RequestDrawRpc_m5FC4802E417C6254C2EF6A12244E2C6A1F33C27D (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD ___0_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -27794,7 +27947,7 @@ IL_008f:
 IL_00a3:
 	{
 		((NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE*)__this)->_____rpc_exec_stage = ((int32_t)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:497>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:527>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_11 = __this->___experimentFlowManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_12;
@@ -27805,34 +27958,34 @@ IL_00a3:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:498>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:528>
 		return;
 	}
 
 IL_00be:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:500>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:501>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:530>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:531>
 		RpcParams_t230EE00CD9A98836455C756E14F0C575971412FD L_13 = ___0_rpcParams;
 		RpcReceiveParams_tD05099D00D0DCD7C712D970AD96696DF2FB21D98 L_14 = L_13.___Receive;
 		uint64_t L_15 = L_14.___SenderClientId;
 		V_0 = L_15;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:503>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:504>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:533>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:534>
 		uint64_t L_16 = V_0;
 		V_1 = (bool)((((int64_t)L_16) == ((int64_t)((int64_t)0)))? 1 : 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:506>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:507>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:536>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:537>
 		uint64_t L_17 = V_0;
 		V_2 = (bool)((!(((uint64_t)L_17) <= ((uint64_t)((int64_t)0))))? 1 : 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:509>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:510>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:539>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:540>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_18 = __this->___experimentFlowManager;
 		NullCheck(L_18);
 		uint8_t L_19;
 		L_19 = ExperimentFlowManager_get_CurrentPhase_mD1288AF940CDD06423E3D1B1838C9CFBC0EEAD70(L_18, NULL);
 		V_3 = L_19;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:512>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:542>
 		ExperimentFlowManager_t5968DC804BEAA67D2407A7A0B1A8971BFB27DF19* L_20 = __this->___experimentFlowManager;
 		NullCheck(L_20);
 		bool L_21;
@@ -27843,17 +27996,17 @@ IL_00be:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:514>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:544>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralBD303052EEF0A372DEA58E06529178C8E296CFDE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:515>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:545>
 		return;
 	}
 
 IL_00fa:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:518>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:519>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:548>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:549>
 		uint8_t L_22 = V_3;
 		bool L_23;
 		L_23 = ExperimentFlowManager_IsDrawAPhase_mD7D03235BDA3AA46E808783E24090FE074C55D83(L_22, NULL);
@@ -27864,12 +28017,12 @@ IL_00fa:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:521>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:522>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:523>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:551>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:552>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:553>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral8EE4F067C0610F6BCC54C529D3C547142B8C76C7, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:525>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:555>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_25 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -27880,7 +28033,7 @@ IL_00fa:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:526>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:556>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_27 = __this->___storyCardBoardManager;
 		NullCheck(L_27);
 		StoryCardBoardManager_DrawCardsForParticipantAServer_mA18061B47BEF8DB3675343B8C931F65624981BDA(L_27, NULL);
@@ -27888,12 +28041,12 @@ IL_00fa:
 
 IL_0127:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:528>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:529>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:530>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:531>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:532>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:533>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:558>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:559>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:560>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:561>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:562>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:563>
 		uint8_t L_28 = V_3;
 		if ((((int32_t)L_28) == ((int32_t)3)))
 		{
@@ -27926,14 +28079,14 @@ IL_0131:
 		NullCheck(G_B17_2);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_30;
 		L_30 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(G_B17_2, L_29, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:535>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:565>
 		return;
 	}
 
 IL_013d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:538>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:539>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:568>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:569>
 		uint8_t L_31 = V_3;
 		bool L_32;
 		L_32 = ExperimentFlowManager_IsDrawBPhase_mA93BC49ED1EE64D58590007BE33DC86A501D6249(L_31, NULL);
@@ -27944,12 +28097,12 @@ IL_013d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:541>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:542>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:543>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:571>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:572>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:573>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralCB3C5E66A5CDFA58DE7D21D1F8B5264AFCE37E53, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:545>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:575>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_34 = __this->___storyCardBoardManager;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_35;
@@ -27960,7 +28113,7 @@ IL_013d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:546>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:576>
 		StoryCardBoardManager_tB004D1BC7A7DADA0FAC98FE54D8FAD1527072302* L_36 = __this->___storyCardBoardManager;
 		NullCheck(L_36);
 		StoryCardBoardManager_DrawCardsForParticipantBServer_mD6B20AB681A6B3D422E7473F2F4BF705AA4BAA0B(L_36, NULL);
@@ -27968,12 +28121,12 @@ IL_013d:
 
 IL_016a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:548>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:549>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:550>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:551>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:552>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:553>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:578>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:579>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:580>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:581>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:582>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:583>
 		uint8_t L_37 = V_3;
 		if ((((int32_t)L_37) == ((int32_t)4)))
 		{
@@ -28006,16 +28159,16 @@ IL_0175:
 		NullCheck(G_B24_2);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_39;
 		L_39 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(G_B24_2, L_38, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:555>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:585>
 		return;
 	}
 
 IL_0181:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:558>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:559>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:560>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:561>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:588>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:589>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:590>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:591>
 		uint64_t L_40 = V_0;
 		uint64_t L_41 = L_40;
 		RuntimeObject* L_42 = Box(il2cpp_defaults.uint64_class, &L_41);
@@ -28028,34 +28181,34 @@ IL_0181:
 		L_47 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2DA64314D44889EF2A1B575495D3D83F35C0F628, L_46, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_47, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:562>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:592>
 		return;
 	}
 }
-// Method Definition Index: 120406
+// Method Definition Index: 120409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* StoryCardTaskManager_AdvancePhaseAfterDelay_mAE826A06C30640E55303F2B49A238074E1AE7951 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, uint8_t ___0_nextPhase, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840* L_0 = (U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840*)il2cpp_codegen_object_new(U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840_il2cpp_TypeInfo_var);
-		U3CAdvancePhaseAfterDelayU3Ed__43__ctor_m5C46701F75ED70A4F3CC4FB9262F917F5D41BB3E(L_0, 0, NULL);
-		U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840* L_1 = L_0;
+		U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A* L_0 = (U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A*)il2cpp_codegen_object_new(U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A_il2cpp_TypeInfo_var);
+		U3CAdvancePhaseAfterDelayU3Ed__48__ctor_m438AE520974ABD3A815B2B3989554C8B2C437A64(L_0, 0, NULL);
+		U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A* L_1 = L_0;
 		NullCheck(L_1);
 		L_1->___U3CU3E4__this = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
-		U3CAdvancePhaseAfterDelayU3Ed__43_t28C50B1AC47BB6B11A7843DC7782157A93F97840* L_2 = L_1;
+		U3CAdvancePhaseAfterDelayU3Ed__48_t079129C74EA5551B5A520E3EAFCD07911D589C0A* L_2 = L_1;
 		uint8_t L_3 = ___0_nextPhase;
 		NullCheck(L_2);
 		L_2->___nextPhase = L_3;
 		return L_2;
 	}
 }
-// Method Definition Index: 120407
+// Method Definition Index: 120410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager__ctor_m1606F31A9A77F21167C51D43341CD9A23C1B5C05 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28073,36 +28226,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager__ctor_m1606F31A9A77
 		__this->___narrationNextCardUnlockSeconds = (40.0f);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:21>
 		__this->___narrationAutoAdvanceSeconds = (180.0f);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:25>
-		__this->___phaseAdvanceDelay = (0.800000012f);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:27>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:28>
+		__this->___phaseAdvanceDelay = (0.800000012f);
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:29>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:30>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:31>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:32>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:33>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:34>
 		NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504* L_0 = (NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504*)il2cpp_codegen_object_new(NetworkVariable_1_t72006E2365F7131BBF61213343C271666361F504_il2cpp_TypeInfo_var);
 		NetworkVariable_1__ctor_mC1E2E7E88A5A7C3855CF1AF8EA9E2047F8C92B84(L_0, 0, 0, 0, NetworkVariable_1__ctor_mC1E2E7E88A5A7C3855CF1AF8EA9E2047F8C92B84_RuntimeMethod_var);
 		__this->___currentNarrationCard = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentNarrationCard), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:34>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:35>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:36>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:37>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:38>
 		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:39>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:40>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:41>
 		NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548* L_1 = (NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548*)il2cpp_codegen_object_new(NetworkVariable_1_t3A617CF1B445C5BFCF75116BCE02D18623C05548_il2cpp_TypeInfo_var);
 		NetworkVariable_1__ctor_mF8BB9385FF7220C78636AB9E4D2F6B68F13622C7(L_1, (-1.0), 0, 0, NetworkVariable_1__ctor_mF8BB9385FF7220C78636AB9E4D2F6B68F13622C7_RuntimeMethod_var);
 		__this->___narrationCardStartServerTime = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___narrationCardStartServerTime), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:43>
+		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/EyeTracker-VR-lan-multiplayer (1)/EyeTracker-VR-lan-multiplayer/Assets/Scripts/Networking/StoryCardTaskManager.cs:45>
 		__this->___lastPhase = ((int32_t)255);
 		il2cpp_codegen_runtime_class_init_inline(NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE_il2cpp_TypeInfo_var);
 		NetworkBehaviour__ctor_m0BFD04A5D02376F13DD2E85274836CD4A3AD38E6(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 120408
+// Method Definition Index: 120411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager___initializeVariables_mD7CF2457F03CC6F687BB06338FD67520DDFF36C8 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28169,7 +28322,7 @@ IL_006a:
 		return;
 	}
 }
-// Method Definition Index: 120409
+// Method Definition Index: 120412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager___initializeRpcs_m62E597D4DB7AE5B62C0F9BD0D2FC333AF27D5B89 (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28193,7 +28346,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager___initializeRpcs_m6
 		return;
 	}
 }
-// Method Definition Index: 120410
+// Method Definition Index: 120413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager___rpc_handler_3022411643_mD6B687103FE030DFA1DD93DAC6288A2B3CED0E73 (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* ___0_target, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___1_reader, __RpcParams_tA4F5B2601A930BA667C4084C62B0FA7CABA5980E ___2_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28251,7 +28404,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 120411
+// Method Definition Index: 120414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StoryCardTaskManager___rpc_handler_4130788451_mD16E4CC7FF66FF612B1F7F268A365834DC84B778 (NetworkBehaviour_t1F9CC6E5B76D29ECECBB61F02D8E8EDE24CDDDCE* ___0_target, FastBufferReader_t1FA49C2063B2EAAADB8DE7FF571FF284719D0E99 ___1_reader, __RpcParams_tA4F5B2601A930BA667C4084C62B0FA7CABA5980E ___2_rpcParams, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28309,7 +28462,7 @@ IL_0022:
 		return;
 	}
 }
-// Method Definition Index: 120412
+// Method Definition Index: 120415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StoryCardTaskManager___getTypeName_m3DFEE33ABC105A91C7A1FD348BF7C695A1A449FE (StoryCardTaskManager_t31575D6C26A4A4537CDBDA6A919C6CB36E2E728C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28888,7 +29041,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_2;
 	}
 }
-// Method Definition Index: 120526
+// Method Definition Index: 120529
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ViveGazeRayVisualizer_get_CurrentHitObject_m812626A09B5FEFBD62BA2C48B2CF94C75846EFFE_inline (ViveGazeRayVisualizer_t38FB1090033A164746FA41DB4542412B8718B9DC* __this, const RuntimeMethod* method) 
 {
 	{
