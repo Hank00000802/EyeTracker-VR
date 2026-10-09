@@ -1,5 +1,11 @@
 using UnityEngine;
 
+/// <summary>
+/// Keeps the avatar's animated Head bone locked to the HMD camera, using the
+/// camera-to-head relation authored in the Unity Editor (captured in edit mode).
+/// The XR Origin is never moved by this script.
+/// </summary>
+[DefaultExecutionOrder(-200)]
 public class LocalAvatarIKDriver : MonoBehaviour
 {
     [Header("XR Sources")]
@@ -16,29 +22,16 @@ public class LocalAvatarIKDriver : MonoBehaviour
     [Tooltip("Actual avatar Head bone. Auto-resolved from Animator if unset.")]
     [SerializeField] private Transform avatarHeadBone;
 
-    private Quaternion headRotationOffset;
-    private float nextAvatarDebugTime;
-    private Vector3 bodyXzVelocity;
-    private float bodyYVelocity;
-    private float bodyYOffsetFromHead;
-    private bool bodyYFollowArmed;
+    [Header("Authored Pose (captured automatically in the Editor)")]
+    [Tooltip("Head bone minus camera, expressed in bodyRoot yaw space, as placed in the Editor.")]
+    [SerializeField] private Vector3 authoredHeadMinusCameraLocal;
+    [SerializeField] private bool authoredHeadPoseValid;
 
+    [Header("Body")]
     [SerializeField] private float bodyTurnThreshold = 35f;
     [SerializeField] private float bodyTurnSpeed = 90f;
-    [Tooltip("Ignore XZ error below this (meters) to avoid HMD micro-jitter.")]
-    [SerializeField] private float bodyPositionThreshold = 0.012f;
-    [Tooltip("SmoothDamp time for body XZ follow.")]
-    [SerializeField] private float bodyFollowSmoothTime = 0.04f;
-    [Tooltip("Max XZ catch-up speed (m/s).")]
-    [SerializeField] private float bodyMoveSpeed = 8f;
-    [Tooltip("Horizontal only. X = left/right (local X). Y = forward/back (local Z). Inspector Y is NOT height.")]
-    [SerializeField] private Vector2 bodyHorizontalOffset;
-    [Tooltip("World up in meters. Positive raises the avatar (viewpoint feels lower). Negative lowers the avatar (viewpoint closer to the head).")]
+    [Tooltip("Optional extra world-up shift in meters on top of the Editor-authored pose. Keep 0 to match the Editor exactly.")]
     [SerializeField] private float bodyVerticalOffset;
-    [Tooltip("Start following HMD Y after this vertical error (meters).")]
-    [SerializeField] private float bodyYFollowDeadzone = 0.03f;
-    [Tooltip("Slow filtered Y follow. Large seated height changes still use VRHeightAdjustController.")]
-    [SerializeField] private float bodyYFollowSmoothTime = 0.18f;
 
     [Header("Hand Rotation Calibration")]
     [SerializeField] private Vector3 leftHandRotationOffset;
@@ -46,6 +39,9 @@ public class LocalAvatarIKDriver : MonoBehaviour
 
     public Vector3 LeftHandRotationOffset => leftHandRotationOffset;
     public Vector3 RightHandRotationOffset => rightHandRotationOffset;
+
+    private Quaternion headRotationOffset;
+    private float nextAvatarDebugTime;
 
     public void AddHandRotationOffset(bool rightHand, Vector3 eulerDelta)
     {
@@ -61,6 +57,45 @@ public class LocalAvatarIKDriver : MonoBehaviour
             rightHandRotationOffset = Vector3.zero;
         else
             leftHandRotationOffset = Vector3.zero;
+    }
+
+    /// <summary>
+    /// Stores the current camera/Head-bone arrangement. Called by the Editor script before
+    /// entering Play mode, when saving the scene and when building (never at runtime,
+    /// because the Animator changes the avatar pose and XROrigin rewrites Camera Offset).
+    /// </summary>
+    public void CaptureAuthoredPose()
+    {
+        if (headSource == null || bodyRoot == null)
+            return;
+
+        ResolveAvatarHeadBone();
+        if (avatarHeadBone == null)
+            return;
+
+        Quaternion yaw = Quaternion.Euler(0f, bodyRoot.eulerAngles.y, 0f);
+        authoredHeadMinusCameraLocal =
+            Quaternion.Inverse(yaw) * (avatarHeadBone.position - headSource.position);
+        authoredHeadPoseValid = true;
+    }
+
+    private void Awake()
+    {
+        if (headSource == null || bodyRoot == null)
+            return;
+
+        ResolveAvatarHeadBone();
+
+        // Must be added in Awake (before the Animator's first evaluation) so it can read the authored pose.
+        if (bodyRoot.GetComponent<AvatarWaistClipDriver>() == null)
+            bodyRoot.gameObject.AddComponent<AvatarWaistClipDriver>();
+
+        if (!authoredHeadPoseValid)
+        {
+            Debug.LogWarning(
+                "[AVATAR ALIGN] Authored camera-to-head pose is missing. " +
+                "Leave Play mode and press Play again (or save the scene) so the Editor can store it.");
+        }
     }
 
     private void Start()
@@ -106,118 +141,44 @@ public class LocalAvatarIKDriver : MonoBehaviour
         return null;
     }
 
-    private Vector3 GetDesiredBodyPosition()
-    {
-        float bodyYaw = bodyRoot.eulerAngles.y;
-        Vector3 localOffset = new Vector3(
-            bodyHorizontalOffset.x,
-            0f,
-            bodyHorizontalOffset.y);
-        Vector3 worldOffset = Quaternion.Euler(0f, bodyYaw, 0f) * localOffset;
-
-        return new Vector3(
-            headSource.position.x + worldOffset.x,
-            bodyRoot.position.y,
-            headSource.position.z + worldOffset.z
-        );
-    }
-
     private void UpdateBodyPosition()
     {
-        if (bodyRoot == null || headSource == null)
+        if (!authoredHeadPoseValid || bodyRoot == null || headSource == null)
             return;
 
-        Vector3 desired = GetDesiredBodyPosition();
-        Vector3 current = bodyRoot.position;
+        ResolveAvatarHeadBone();
+        if (avatarHeadBone == null)
+            return;
 
-        Vector3 currentHorizontal = new Vector3(current.x, 0f, current.z);
-        Vector3 desiredHorizontal = new Vector3(desired.x, 0f, desired.z);
-        float xzError = Vector3.Distance(currentHorizontal, desiredHorizontal);
+        Quaternion yaw = Quaternion.Euler(0f, bodyRoot.eulerAngles.y, 0f);
+        Vector3 desiredHead =
+            headSource.position + yaw * authoredHeadMinusCameraLocal
+            + Vector3.up * bodyVerticalOffset;
 
-        Vector3 next = current;
+        // The Head bone is animated, so move the whole body by whatever is still missing.
+        bodyRoot.position += desiredHead - avatarHeadBone.position;
 
-        if (xzError > bodyPositionThreshold)
-        {
-            Vector3 xzTarget = new Vector3(desired.x, current.y, desired.z);
-            next = Vector3.SmoothDamp(
-                current,
-                xzTarget,
-                ref bodyXzVelocity,
-                bodyFollowSmoothTime,
-                bodyMoveSpeed
-            );
-            next.y = current.y;
-            bodyXzVelocity.y = 0f;
-        }
-        else
-        {
-            bodyXzVelocity = Vector3.Lerp(bodyXzVelocity, Vector3.zero, Time.deltaTime * 8f);
-        }
-
-        float yError = 0f;
-        if (!bodyYFollowArmed)
-        {
-            float headY = headSource.position.y;
-            if (headY > 0.5f && headY < 2.4f)
-            {
-                bodyYOffsetFromHead = current.y - headY;
-                bodyYFollowArmed = true;
-            }
-        }
-        else
-        {
-            float desiredY =
-                headSource.position.y + bodyYOffsetFromHead + bodyVerticalOffset;
-            yError = desiredY - next.y;
-            if (Mathf.Abs(yError) > bodyYFollowDeadzone)
-            {
-                next.y = Mathf.SmoothDamp(
-                    next.y,
-                    desiredY,
-                    ref bodyYVelocity,
-                    bodyYFollowSmoothTime
-                );
-            }
-            else
-            {
-                bodyYVelocity = 0f;
-            }
-        }
-
-        bodyRoot.position = next;
-
-        LogAvatarDebug(desired, xzError, yError);
+        LogAvatarDebug(desiredHead);
     }
 
-    private void LogAvatarDebug(Vector3 desired, float xzError, float yError)
+    private void LogAvatarDebug(Vector3 desiredHead)
     {
         if (Time.unscaledTime < nextAvatarDebugTime)
             return;
 
-        nextAvatarDebugTime = Time.unscaledTime + 0.5f;
+        nextAvatarDebugTime = Time.unscaledTime + 1f;
 
-        Vector3 headHmd = headSource.position;
-        Vector3 body = bodyRoot.position;
-        Vector3 avatarHead = avatarHeadBone != null
-            ? avatarHeadBone.position
-            : (headTarget != null ? headTarget.position : body);
-
-        Vector3 hmdToAvatarHead = avatarHead - headHmd;
-        Vector3 hmdToBody = body - headHmd;
-
-        string headBoneSource = avatarHeadBone != null
-            ? avatarHeadBone.name
-            : (headTarget != null ? "HeadTargetFallback" : "bodyRootFallback");
+        Vector3 hmd = headSource.position;
+        Vector3 head = avatarHeadBone.position;
 
         Debug.Log(
-            $"[AVATAR DEBUG] headSource={headHmd} bodyRoot={body} " +
-            $"avatarHead({headBoneSource})={avatarHead} " +
-            $"hmdToAvatarHead={hmdToAvatarHead} dist={hmdToAvatarHead.magnitude:F3} " +
-            $"hmdToBody={hmdToBody} dist={hmdToBody.magnitude:F3} " +
-            $"bodyXzTarget=({desired.x:F3},{desired.z:F3}) xzError={xzError:F3} yError={yError:F3} " +
-            $"threshold={bodyPositionThreshold:F3} moveSpeed={bodyMoveSpeed:F2} " +
-            $"xzSmooth={bodyFollowSmoothTime:F3} yArmed={bodyYFollowArmed} yDeadzone={bodyYFollowDeadzone:F3} " +
-            $"horizOffset={bodyHorizontalOffset} vertOffset={bodyVerticalOffset:F3} bodyYaw={bodyRoot.eulerAngles.y:F1}");
+            "[AVATAR DEBUG] hmd=" + hmd.ToString("F3") +
+            " avatarHead=" + head.ToString("F3") +
+            " hmdMinusAvatarHead=" + (hmd - head).ToString("F3") +
+            " authoredHeadMinusCamera=" + authoredHeadMinusCameraLocal.ToString("F3") +
+            " headError=" + (desiredHead - head).magnitude.ToString("F4") +
+            " bodyRoot=" + bodyRoot.position.ToString("F3") +
+            " bodyYaw=" + bodyRoot.eulerAngles.y.ToString("F1"));
     }
 
     private void UpdateBodyRotation()
@@ -244,8 +205,8 @@ public class LocalAvatarIKDriver : MonoBehaviour
 
     private void Update()
     {
-        UpdateBodyPosition();
         UpdateBodyRotation();
+        UpdateBodyPosition();
 
         if (headSource != null && headTarget != null)
         {

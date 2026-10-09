@@ -137,7 +137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TilemapBuffer_Dispose_mB03811D59A6F26BE5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131411
+// Method Definition Index: 131320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mD50EDB45C2BD1341CE17CCD54C941B38289493DE (EmbeddedAttribute_t8699F6EAAA89B447EB924AA41DC56DF3D901750E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -153,7 +153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmbeddedAttribute__ctor_mD50EDB45C2BD134
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131412
+// Method Definition Index: 131321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m6C121C8417F440E71F1B112D983BFE8FCEFE50F6 (RefSafetyRulesAttribute_t6DB58FFF11114B7CAACE6B26D09F9B7EDB6C43F3* __this, int32_t ___0_p, const RuntimeMethod* method) 
 {
 	{
@@ -179,7 +179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RefSafetyRulesAttribute__ctor_m6C121C841
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131413
+// Method Definition Index: 131322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TilemapBuffer_Dispose_mB03811D59A6F26BE5368C04F59237F90BD486621 (TilemapBuffer_t4A8A7E7C56F1129D6E11C87A2DB28D9F780BCF6D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -224,7 +224,7 @@ IL2CPP_EXTERN_C  void TilemapBuffer_Dispose_mB03811D59A6F26BE5368C04F59237F90BD4
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 3921
+// Method Definition Index: 3918
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* IntPtr_ToPointer_m1A0612EED3A1C8B8850BE2943CFC42523064B4F6_inline (intptr_t* __this, const RuntimeMethod* method) 
 {
 	{

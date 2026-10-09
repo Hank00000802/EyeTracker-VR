@@ -286,7 +286,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InitializationOptions_t51AA79A729CADA6922543A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131735
+// Method Definition Index: 131644
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tC2625E1E8C8114D2BE10A827A3748BD5FA27299F UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m340D2D37AAB0BEB020FC69126EAEA4E4C963BD28 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -320,7 +320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tC2625E1E8C8114D2BE10A827A3748
 		return L_6;
 	}
 }
-// Method Definition Index: 131736
+// Method Definition Index: 131645
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB9F83635FC8EB41D9493DB8981028B8223A77C2F (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t5F6D9541414B8240613234D5B0E1EFE9A8B0A0B0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -406,7 +406,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tC2625E1E8C8114D2BE10A827A3748BD5FA27299F_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 131737
+// Method Definition Index: 131646
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InitializationOptions_t51AA79A729CADA6922543A7A47F1E87A09DBD17A* EnvironmentsOptionsExtensions_SetEnvironmentName_m1C764119160C1912CC49ECD80B3ED86DAC6240A8 (InitializationOptions_t51AA79A729CADA6922543A7A47F1E87A09DBD17A* ___0_self, String_t* ___1_environmentName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;

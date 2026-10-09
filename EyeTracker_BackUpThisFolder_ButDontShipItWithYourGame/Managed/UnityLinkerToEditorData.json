@@ -40,9 +40,7 @@
           },
           {
             "name": "Avatar",
-            "scenes": [
-              "Assets/Scenes/EyeTrackingTest.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },

@@ -936,6 +936,21 @@ struct __StaticArrayInitTypeSizeU3D20737_t2DAE70FD55067BBA463E1FAFDE5ADCE70CF9E8
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D23297_t5E38AA3258D3D379722BE26C3A97CA803EE2B156 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D23297_t5E38AA3258D3D379722BE26C3A97CA803EE2B156__padding[23297];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
 struct __StaticArrayInitTypeSizeU3D24_tD6E4F6D43FC262A919D84B1DFBD2AE1C8D762C9E 
 {
 	union
@@ -947,21 +962,6 @@ struct __StaticArrayInitTypeSizeU3D24_tD6E4F6D43FC262A919D84B1DFBD2AE1C8D762C9E
 			};
 		};
 		uint8_t __StaticArrayInitTypeSizeU3D24_tD6E4F6D43FC262A919D84B1DFBD2AE1C8D762C9E__padding[24];
-	};
-};
-#pragma pack(pop, tp)
-#pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D24503_t4738C184273085856BB8FED625C70ACB1F88E913 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D24503_t4738C184273085856BB8FED625C70ACB1F88E913__padding[24503];
 	};
 };
 #pragma pack(pop, tp)
@@ -1818,6 +1818,7 @@ struct ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3_Static
 };
 struct U3CPrivateImplementationDetailsU3E_tF5753B965AFA237CB836CE1365984F5845430449_StaticFields
 {
+	__StaticArrayInitTypeSizeU3D23297_t5E38AA3258D3D379722BE26C3A97CA803EE2B156 ___10BAF19FF9C2F7312D4DB08E7DDD62B016D4D4CCACE09B3A01DD9FF2EC57C768;
 	__StaticArrayInitTypeSizeU3D20_tCA678A6021609BBE833A19175EBF295E9180D299 ___1F255A9F2D2C2D94C278D49C6EBAF460FC4F812DED8D0C7823661BEE38B8C19E;
 	__StaticArrayInitTypeSizeU3D20_tCA678A6021609BBE833A19175EBF295E9180D299 ___2D03BE73C0FF750EA8FA725F1FE7EA1264E167B77571E93CFF67CAAB434702CA;
 	__StaticArrayInitTypeSizeU3D16_t8B75837469741C50E14CF69A2B06FC6E8F322DF4 ___5B3F9EC0646608DAE43294162F92F82B97E7011A2BFA51A25FE477D18BDC6B21;
@@ -1825,7 +1826,6 @@ struct U3CPrivateImplementationDetailsU3E_tF5753B965AFA237CB836CE1365984F5845430
 	__StaticArrayInitTypeSizeU3D24_tD6E4F6D43FC262A919D84B1DFBD2AE1C8D762C9E ___6D86535EA30AA5896E86A50E99DB793F362B080C8CFE007F324458586032D860;
 	__StaticArrayInitTypeSizeU3D28_t6CEF3FE645531AC96B4A6071138E0D75D663DAB5 ___7336197F030DDE061C0E7CDD1A503412D1C844DF360DA1EFC3B25422E0ACD1D2;
 	__StaticArrayInitTypeSizeU3D20_tCA678A6021609BBE833A19175EBF295E9180D299 ___73E6E64B64CCADF091BE8790DD4A758DB959C64B0FB0C09024A160357331B89E;
-	__StaticArrayInitTypeSizeU3D24503_t4738C184273085856BB8FED625C70ACB1F88E913 ___B9A9AFD6F57565745BF7D5F552B0959E6FDDDFFAE195B3E77354FF744075F9C6;
 	__StaticArrayInitTypeSizeU3D20_tCA678A6021609BBE833A19175EBF295E9180D299 ___D44D06471CB6B96FFF644FE4106EDD239A87582CE268C3AB7E8CA1745869E497;
 	__StaticArrayInitTypeSizeU3D20_tCA678A6021609BBE833A19175EBF295E9180D299 ___E528F4309E1413E6BC35AEA5D8DB8519384D2FCC33F9DD5D1126D73F104CF92A;
 };
@@ -3069,7 +3069,7 @@ IL2CPP_EXTERN_C void DEFAULT_CALL AddRequiredFeature(char*);
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94010
+// Method Definition Index: 94002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositionLayerPassthroughAPI_DEBUG_m29F346202C35CC2AEFEA10BBB3DACBB78FCE1458 (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3080,17 +3080,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositionLayerPassthroughAPI_DEBUG_m29
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:18>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:18>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral064049B424BEC6D92873CAABF4B072E0CBF9AF32, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:18>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:18>
 		return;
 	}
 }
-// Method Definition Index: 94011
+// Method Definition Index: 94003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositionLayerPassthroughAPI_WARNING_mA2A114BB94F78EA0EFA53D832553C420C79BD149 (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3101,17 +3101,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositionLayerPassthroughAPI_WARNING_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:19>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:19>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral064049B424BEC6D92873CAABF4B072E0CBF9AF32, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:19>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:19>
 		return;
 	}
 }
-// Method Definition Index: 94012
+// Method Definition Index: 94004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434 (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3122,17 +3122,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompositionLayerPassthroughAPI_ERROR_m13
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:20>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:20>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral064049B424BEC6D92873CAABF4B072E0CBF9AF32, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:20>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:20>
 		return;
 	}
 }
-// Method Definition Index: 94013
+// Method Definition Index: 94005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3144,7 +3144,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_checkPass
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:25>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:25>
 		OpenXRSettings_tC785370EE9F65516FED2B31400BF71DC84F94B55* L_0;
 		L_0 = OpenXRSettings_get_Instance_m0F645DB8A0ECC1325AD730F18479BCDCB92D1920(NULL);
 		NullCheck(L_0);
@@ -3152,7 +3152,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_checkPass
 		L_1 = OpenXRSettings_GetFeature_TisViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1_m3733CD65EA925960B981F2EA755A4875EEBC2779(L_0, OpenXRSettings_GetFeature_TisViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1_m3733CD65EA925960B981F2EA755A4875EEBC2779_RuntimeMethod_var);
 		((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:27>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:27>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_2 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -3163,17 +3163,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_checkPass
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:27>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:27>
 		return (bool)0;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:29>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:29>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 94014
+// Method Definition Index: 94006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_CreatePlanarPassthrough_mC9F1F999C0C2BD0BA1254AFCD1C58EACEA9B82B7 (int32_t ___0_layerType, OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* ___1_onDestroyPassthroughSessionHandler, float ___2_alpha, uint32_t ___3_compositionDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3186,9 +3186,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_Create
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:66>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:66>
 		V_0 = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:68>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:68>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3197,16 +3197,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_Create
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:70>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:70>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:71>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:71>
 		int32_t L_1 = V_0;
 		return L_1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:74>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:74>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_2 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_3 = ___0_layerType;
 		OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* L_4 = ___1_onDestroyPassthroughSessionHandler;
@@ -3215,7 +3215,7 @@ IL_0015:
 		int32_t L_6;
 		L_6 = ViveCompositionLayerPassthrough_HTCPassthrough_CreatePassthrough_mA774B9218A8000BFC51E33F6F189C109F73A1F43(L_2, L_3, 0, L_4, L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:108>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:108>
 		int32_t L_7 = V_0;
 		if (L_7)
 		{
@@ -3223,14 +3223,14 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:110>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:110>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralDD512F939A0C869EC472205A4F36B078854342F3, NULL);
 		goto IL_003c;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:114>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:114>
 		int32_t L_8 = V_0;
 		float L_9 = ___2_alpha;
 		bool L_10;
@@ -3239,12 +3239,12 @@ IL_0033:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:117>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:117>
 		int32_t L_11 = V_0;
 		return L_11;
 	}
 }
-// Method Definition Index: 94015
+// Method Definition Index: 94007
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_CreateProjectedPassthrough_mD12AF9099F9468666AF880FC7C328297E1A71F35 (int32_t ___0_layerType, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___1_vertexBuffer, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_indexBuffer, int32_t ___3_spaceType, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___4_meshPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___5_meshOrientation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___6_meshScale, OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* ___7_onDestroyPassthroughSessionHandler, float ___8_alpha, uint32_t ___9_compositionDepth, bool ___10_trackingToWorldSpace, bool ___11_convertFromUnityToOpenXR, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3258,9 +3258,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_Create
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:176>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:176>
 		V_0 = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:178>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:178>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3269,16 +3269,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_Create
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:180>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:180>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:181>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:181>
 		int32_t L_1 = V_0;
 		return L_1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:184>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_2 = ___1_vertexBuffer;
 		NullCheck(L_2);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))) < ((int32_t)3)))
@@ -3297,16 +3297,16 @@ IL_0015:
 
 IL_0022:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:186>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:186>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteral661672F0120DF25A03334A4CA0680F960BB77FA4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:187>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:187>
 		int32_t L_4 = V_0;
 		return L_4;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:238>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:238>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_5 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_6 = ___0_layerType;
 		OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* L_7 = ___7_onDestroyPassthroughSessionHandler;
@@ -3315,7 +3315,7 @@ IL_002e:
 		int32_t L_9;
 		L_9 = ViveCompositionLayerPassthrough_HTCPassthrough_CreatePassthrough_mA774B9218A8000BFC51E33F6F189C109F73A1F43(L_5, L_6, 1, L_7, L_8, NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:240>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:240>
 		int32_t L_10 = V_0;
 		if (L_10)
 		{
@@ -3323,26 +3323,26 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:242>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:242>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralDD512F939A0C869EC472205A4F36B078854342F3, NULL);
 		goto IL_0075;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:246>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:246>
 		int32_t L_11 = V_0;
 		float L_12 = ___8_alpha;
 		bool L_13;
 		L_13 = CompositionLayerPassthroughAPI_SetPassthroughAlpha_mD8F351488539E274F4D92B1248170793BCF1D02B(L_11, L_12, (bool)1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:247>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:247>
 		int32_t L_14 = V_0;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_15 = ___1_vertexBuffer;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___2_indexBuffer;
 		bool L_17 = ___11_convertFromUnityToOpenXR;
 		bool L_18;
 		L_18 = CompositionLayerPassthroughAPI_SetProjectedPassthroughMesh_mFA51BC34C267583BE681153432E0BD000D811443(L_14, L_15, L_16, L_17, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:248>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:248>
 		int32_t L_19 = V_0;
 		int32_t L_20 = ___3_spaceType;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = ___4_meshPosition;
@@ -3356,12 +3356,12 @@ IL_004e:
 
 IL_0075:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:251>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:251>
 		int32_t L_27 = V_0;
 		return L_27;
 	}
 }
-// Method Definition Index: 94016
+// Method Definition Index: 94008
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_CreateProjectedPassthrough_m5A2C9396FFDD89259E4B1E5CEB882C8BA5BE447A (int32_t ___0_layerType, OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* ___1_onDestroyPassthroughSessionHandler, float ___2_alpha, uint32_t ___3_compositionDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3374,9 +3374,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_Create
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:291>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:291>
 		V_0 = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:293>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:293>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3385,16 +3385,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CompositionLayerPassthroughAPI_Create
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:295>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:295>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:296>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:296>
 		int32_t L_1 = V_0;
 		return L_1;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:347>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:347>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_2 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_3 = ___0_layerType;
 		OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* L_4 = ___1_onDestroyPassthroughSessionHandler;
@@ -3402,7 +3402,7 @@ IL_0015:
 		int32_t L_5;
 		L_5 = ViveCompositionLayerPassthrough_HTCPassthrough_CreatePassthrough_mA774B9218A8000BFC51E33F6F189C109F73A1F43(L_2, L_3, 1, L_4, 0, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:349>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:349>
 		int32_t L_6 = V_0;
 		if (L_6)
 		{
@@ -3410,14 +3410,14 @@ IL_0015:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:351>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:351>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralDD512F939A0C869EC472205A4F36B078854342F3, NULL);
 		goto IL_003c;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:355>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:355>
 		int32_t L_7 = V_0;
 		float L_8 = ___2_alpha;
 		bool L_9;
@@ -3426,12 +3426,12 @@ IL_0033:
 
 IL_003c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:358>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:358>
 		int32_t L_10 = V_0;
 		return L_10;
 	}
 }
-// Method Definition Index: 94017
+// Method Definition Index: 94009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_DestroyPassthrough_mD137AE2599D225B55443494BD63B83D4A90D7245 (int32_t ___0_passthroughID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3444,7 +3444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_DestroyPa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:392>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:392>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3453,15 +3453,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_DestroyPa
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:394>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:394>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:395>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:395>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:397>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:397>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_1 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		NullCheck(L_1);
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2;
@@ -3476,15 +3476,15 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:399>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:399>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteral501045F9C06C95822F59FE934EAB6464949846F1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:400>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:400>
 		return (bool)0;
 	}
 
 IL_0031:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:417>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:417>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_5 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_6 = ___0_passthroughID;
 		NullCheck(L_5);
@@ -3493,7 +3493,7 @@ IL_0031:
 		return L_7;
 	}
 }
-// Method Definition Index: 94018
+// Method Definition Index: 94010
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetPassthroughAlpha_mD8F351488539E274F4D92B1248170793BCF1D02B (int32_t ___0_passthroughID, float ___1_alpha, bool ___2_autoClamp, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3505,7 +3505,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetPassth
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:444>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:444>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3514,15 +3514,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetPassth
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:446>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:446>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:447>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:447>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:450>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:450>
 		bool L_1 = ___2_autoClamp;
 		if (!L_1)
 		{
@@ -3530,7 +3530,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:452>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:452>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_2 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_3 = ___0_passthroughID;
 		float L_4 = ___1_alpha;
@@ -3544,7 +3544,7 @@ IL_0013:
 
 IL_0028:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:456>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:456>
 		float L_7 = ___1_alpha;
 		if ((((float)L_7) < ((float)(0.0f))))
 		{
@@ -3561,15 +3561,15 @@ IL_0028:
 
 IL_0038:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:458>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:458>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteral51B1DD233BC15C983DE80FA47CE01DC0833559F8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:459>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:459>
 		return (bool)0;
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:462>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:462>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_9 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_10 = ___0_passthroughID;
 		float L_11 = ___1_alpha;
@@ -3579,7 +3579,7 @@ IL_0044:
 		return L_12;
 	}
 }
-// Method Definition Index: 94019
+// Method Definition Index: 94011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjectedPassthroughMesh_mFA51BC34C267583BE681153432E0BD000D811443 (int32_t ___0_passthroughID, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___1_vertexBuffer, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___2_indexBuffer, bool ___3_convertFromUnityToOpenXR, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3598,7 +3598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:500>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:500>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3607,15 +3607,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:502>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:502>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:503>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:503>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:506>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:506>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = ___1_vertexBuffer;
 		NullCheck(L_1);
 		if ((((int32_t)((int32_t)(((RuntimeArray*)L_1)->max_length))) < ((int32_t)3)))
@@ -3634,27 +3634,27 @@ IL_0013:
 
 IL_0020:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:508>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:508>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteral661672F0120DF25A03334A4CA0680F960BB77FA4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:509>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:509>
 		return (bool)0;
 	}
 
 IL_002c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:512>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:512>
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_3 = ___1_vertexBuffer;
 		NullCheck(L_3);
 		XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D* L_4 = (XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D*)(XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D*)SZArrayNew(XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_3)->max_length)));
 		V_0 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:514>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:514>
 		V_2 = 0;
 		goto IL_0051;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:516>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:516>
 		XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D* L_5 = V_0;
 		int32_t L_6 = V_2;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_7 = ___1_vertexBuffer;
@@ -3668,14 +3668,14 @@ IL_0039:
 		L_12 = OpenXRHelper_ToOpenXRVector_m3BAE8903C6312FE32D3C1C47F73067D4E0DA71D6(L_10, L_11, NULL);
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1)L_12);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:514>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:514>
 		int32_t L_13 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_13, 1));
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:514>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:514>
 		int32_t L_14 = V_2;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_15 = ___1_vertexBuffer;
 		NullCheck(L_15);
@@ -3685,19 +3685,19 @@ IL_0051:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:519>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:519>
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_16 = ___2_indexBuffer;
 		NullCheck(L_16);
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_17 = (UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA*)SZArrayNew(UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)));
 		V_1 = L_17;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:521>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:521>
 		V_3 = 0;
 		goto IL_006e;
 	}
 
 IL_0064:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:523>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:523>
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_18 = V_1;
 		int32_t L_19 = V_3;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = ___2_indexBuffer;
@@ -3707,14 +3707,14 @@ IL_0064:
 		int32_t L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
 		NullCheck(L_18);
 		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(L_19), (uint32_t)L_23);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:521>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:521>
 		int32_t L_24 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_24, 1));
 	}
 
 IL_006e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:521>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:521>
 		int32_t L_25 = V_3;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_26 = ___2_indexBuffer;
 		NullCheck(L_26);
@@ -3724,7 +3724,7 @@ IL_006e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:546>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:546>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_27 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_28 = ___0_passthroughID;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_29 = ___1_vertexBuffer;
@@ -3739,7 +3739,7 @@ IL_006e:
 		return L_33;
 	}
 }
-// Method Definition Index: 94020
+// Method Definition Index: 94012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjectedPassthroughMeshTransform_mF8CA5C6C81B3C40E898DAF35B0DA9BE65001F041 (int32_t ___0_passthroughID, int32_t ___1_spaceType, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_meshPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___3_meshOrientation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___4_meshScale, bool ___5_trackingToWorldSpace, bool ___6_convertFromUnityToOpenXR, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3767,7 +3767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_7;
 	memset((&V_7), 0, sizeof(V_7));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:580>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:580>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3776,25 +3776,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:582>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:582>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:583>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:583>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:586>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:586>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___2_meshPosition;
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:587>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:587>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___3_meshOrientation;
 		V_1 = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:588>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:588>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_3;
 		L_3 = TrackingSpaceOrigin_get_Instance_mA2A2F68F433468EE3DD923747EF2CB7CD4CAD861_inline(NULL);
 		V_2 = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:590>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:590>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_4 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -3806,7 +3806,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:592>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:592>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_7 = V_2;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -3826,7 +3826,7 @@ IL_0013:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_14;
 		L_14 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_9, L_12, L_13, NULL);
 		V_5 = L_14;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:593>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:593>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = ___2_meshPosition;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___3_meshOrientation;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17;
@@ -3834,20 +3834,20 @@ IL_0013:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_18;
 		L_18 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_15, L_16, L_17, NULL);
 		V_6 = L_18;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:595>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:595>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_19;
 		L_19 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD_inline((&V_5), NULL);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_20 = V_6;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_21;
 		L_21 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162_inline(L_19, L_20, NULL);
 		V_7 = L_21;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:597>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:597>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_22;
 		L_22 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline((&V_7), 3, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
 		L_23 = Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline(L_22, NULL);
 		V_0 = L_23;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:598>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:598>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_24;
 		L_24 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline((&V_7), 2, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25;
@@ -3863,25 +3863,25 @@ IL_0013:
 
 IL_0097:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:602>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:602>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = V_0;
 		bool L_30 = ___6_convertFromUnityToOpenXR;
 		il2cpp_codegen_runtime_class_init_inline(OpenXRHelper_t4BE36310EB51760ADFEF668D8C1E7C00DF452063_il2cpp_TypeInfo_var);
 		XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 L_31;
 		L_31 = OpenXRHelper_ToOpenXRVector_m3BAE8903C6312FE32D3C1C47F73067D4E0DA71D6(L_29, L_30, NULL);
 		(&V_3)->___position = L_31;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:603>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:603>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = V_1;
 		bool L_33 = ___6_convertFromUnityToOpenXR;
 		XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837 L_34;
 		L_34 = OpenXRHelper_ToOpenXRQuaternion_mFF00834C8B0DD9A9332A29AA7D42CBBB6F3C8BB7(L_32, L_33, NULL);
 		(&V_3)->___orientation = L_34;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:605>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:605>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = ___4_meshScale;
 		XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 L_36;
 		L_36 = OpenXRHelper_ToOpenXRVector_m3BAE8903C6312FE32D3C1C47F73067D4E0DA71D6(L_35, (bool)0, NULL);
 		V_4 = L_36;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:624>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:624>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_37 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_38 = ___0_passthroughID;
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_39 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
@@ -3897,7 +3897,7 @@ IL_0097:
 		return L_44;
 	}
 }
-// Method Definition Index: 94021
+// Method Definition Index: 94013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetPassthroughLayerType_mFEF56E96D619BE91B9AC11133A09659E5AD946E7 (int32_t ___0_passthroughID, int32_t ___1_layerType, uint32_t ___2_compositionDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3908,7 +3908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetPassth
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:646>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:646>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3917,15 +3917,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetPassth
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:648>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:648>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:649>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:649>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:662>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:662>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_1 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_2 = ___0_passthroughID;
 		int32_t L_3 = ___1_layerType;
@@ -3936,7 +3936,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 94022
+// Method Definition Index: 94014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjectedPassthroughSpaceType_mACA71EBFADF5EE10FA531D91120EF88D67FEEDF0 (int32_t ___0_passthroughID, int32_t ___1_spaceType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3947,7 +3947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:681>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:681>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -3956,15 +3956,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:683>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:683>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:684>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:684>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:703>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:703>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_1 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_2 = ___0_passthroughID;
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_3 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
@@ -3978,7 +3978,7 @@ IL_0013:
 		return L_6;
 	}
 }
-// Method Definition Index: 94023
+// Method Definition Index: 94015
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjectedPassthroughMeshPosition_m39083B7FD7201BB5DB3C879118BF27FC57864340 (int32_t ___0_passthroughID, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_meshPosition, bool ___2_trackingToWorldSpace, bool ___3_convertFromUnityToOpenXR, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4000,7 +4000,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:728>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:728>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -4009,22 +4009,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:730>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:730>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:731>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:731>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:734>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:734>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_meshPosition;
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:735>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:735>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_2;
 		L_2 = TrackingSpaceOrigin_get_Instance_mA2A2F68F433468EE3DD923747EF2CB7CD4CAD861_inline(NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:737>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:737>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_3 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -4036,7 +4036,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:739>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:739>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_6 = V_1;
 		NullCheck(L_6);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
@@ -4051,7 +4051,7 @@ IL_0013:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_11;
 		L_11 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_8, L_9, L_10, NULL);
 		V_2 = L_11;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:740>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:740>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = ___1_meshPosition;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
 		L_13 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -4060,14 +4060,14 @@ IL_0013:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_15;
 		L_15 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_12, L_13, L_14, NULL);
 		V_3 = L_15;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:742>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:742>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16;
 		L_16 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD_inline((&V_2), NULL);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_17 = V_3;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_18;
 		L_18 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162_inline(L_16, L_17, NULL);
 		V_4 = L_18;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:744>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:744>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19;
 		L_19 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline((&V_4), 3, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
@@ -4077,7 +4077,7 @@ IL_0013:
 
 IL_006f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:765>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:765>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_21 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_22 = ___0_passthroughID;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
@@ -4091,7 +4091,7 @@ IL_006f:
 		return L_26;
 	}
 }
-// Method Definition Index: 94024
+// Method Definition Index: 94016
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjectedPassthroughMeshOrientation_m66DD8933871071BF32A7F3981813317AC945D13B (int32_t ___0_passthroughID, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_meshOrientation, bool ___2_trackingToWorldSpace, bool ___3_convertFromUnityToOpenXR, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4113,7 +4113,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:790>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:790>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -4122,22 +4122,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:792>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:792>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:793>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:793>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:796>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:796>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = ___1_meshOrientation;
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:797>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:797>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_2;
 		L_2 = TrackingSpaceOrigin_get_Instance_mA2A2F68F433468EE3DD923747EF2CB7CD4CAD861_inline(NULL);
 		V_1 = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:799>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:799>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_3 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -4149,7 +4149,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:801>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:801>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
 		L_6 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_7 = V_1;
@@ -4164,7 +4164,7 @@ IL_0013:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_11;
 		L_11 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_6, L_9, L_10, NULL);
 		V_2 = L_11;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:802>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:802>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		L_12 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = ___1_meshOrientation;
@@ -4173,14 +4173,14 @@ IL_0013:
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_15;
 		L_15 = Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline(L_12, L_13, L_14, NULL);
 		V_3 = L_15;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:804>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:804>
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_16;
 		L_16 = Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD_inline((&V_2), NULL);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_17 = V_3;
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_18;
 		L_18 = Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162_inline(L_16, L_17, NULL);
 		V_4 = L_18;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:806>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:806>
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_19;
 		L_19 = Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline((&V_4), 2, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
@@ -4196,7 +4196,7 @@ IL_0013:
 
 IL_0081:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:827>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:827>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_24 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_25 = ___0_passthroughID;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = V_0;
@@ -4210,7 +4210,7 @@ IL_0081:
 		return L_29;
 	}
 }
-// Method Definition Index: 94025
+// Method Definition Index: 94017
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjectedPassthroughScale_m731B17463D2619759538518F11BE78A08647F926 (int32_t ___0_passthroughID, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_meshScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4222,7 +4222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:845>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:845>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -4231,15 +4231,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CompositionLayerPassthroughAPI_SetProjec
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:847>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:847>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:848>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:848>
 		return (bool)0;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:868>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:868>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_1 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		int32_t L_2 = ___0_passthroughID;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___1_meshScale;
@@ -4252,7 +4252,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 94026
+// Method Definition Index: 94018
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* CompositionLayerPassthroughAPI_GetCurrentPassthroughLayerIDs_m78F4750C8E75EBAF1263BFD6D76C279D88760899 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4263,7 +4263,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:880>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:880>
 		bool L_0;
 		L_0 = CompositionLayerPassthroughAPI_checkPassthroughFeatureInstance_m998760FF563E4D2FD2C0A7377804FA2D8732F742(NULL);
 		if (L_0)
@@ -4272,15 +4272,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:882>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:882>
 		CompositionLayerPassthroughAPI_ERROR_m130018B1D00BA57C436BFF5E1C9FFE2D4F128434(_stringLiteralD4AD793062C1C1B32A1A080E359423FAD38731DE, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:883>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:883>
 		return (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:886>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/CompositionLayer/Scripts/CompositionLayerPassthroughAPI.cs:886>
 		ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* L_1 = ((CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_StaticFields*)il2cpp_codegen_static_fields_for(CompositionLayerPassthroughAPI_tD2C7BBFC7FBEDC0D59527A52B0C7CD88C5D5498D_il2cpp_TypeInfo_var))->___passthroughFeature;
 		NullCheck(L_1);
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2;
@@ -4296,7 +4296,7 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94027
+// Method Definition Index: 94019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754 (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4307,17 +4307,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_DEBUG_mC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:35>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:35>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDDD33D809F75B686F4CB273FE74CD543A930E565, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:35>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:35>
 		return;
 	}
 }
-// Method Definition Index: 94028
+// Method Definition Index: 94020
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_WARNING_mCE0A82FD5A8F9050AD999B1D30E51CAB3F91223F (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4328,17 +4328,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_WARNING_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:36>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:36>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDDD33D809F75B686F4CB273FE74CD543A930E565, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:36>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:36>
 		return;
 	}
 }
-// Method Definition Index: 94029
+// Method Definition Index: 94021
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4349,17 +4349,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_ERROR_m4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:37>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralDDD33D809F75B686F4CB273FE74CD543A930E565, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 94030
+// Method Definition Index: 94022
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ViveCompositionLayerPassthrough_get_PassthroughIDList_m270DE352A819336945C38730744F8933E3149C02 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4370,32 +4370,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t05915E9237850A58106982B7FE4BC5DA4E872
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:43>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:43>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = __this->___passthroughIDList;
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_mCC0E71080DE343C1A527526A1AC2DBEC355CEA6C(L_1, L_0, List_1__ctor_mCC0E71080DE343C1A527526A1AC2DBEC355CEA6C_RuntimeMethod_var);
 		return L_1;
 	}
 }
-// Method Definition Index: 94031
+// Method Definition Index: 94023
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:63>
 		bool L_0 = __this->___m_HTCPassthroughExtensionEnabled;
 		return L_0;
 	}
 }
-// Method Definition Index: 94032
+// Method Definition Index: 94024
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_get_XrInstanceCreated_m38E643357C11008C8D989A37E66EB912EE8B18D8 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:73>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:73>
 		bool L_0 = __this->___m_XrInstanceCreated;
 		return L_0;
 	}
 }
-// Method Definition Index: 94033
+// Method Definition Index: 94025
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_OnInstanceCreate_m9A84C9FC8C13629C7F804E24E57F56B17B977C03 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4412,7 +4412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_OnInstan
 	XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:183>
 		NullCheck(_stringLiteral03640E8B3B33834AA2F55FCA591D904D8406379C);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0;
 		L_0 = String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4(_stringLiteral03640E8B3B33834AA2F55FCA591D904D8406379C, ((int32_t)32), 0, NULL);
@@ -4423,14 +4423,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_OnInstan
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:183>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = V_0;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
 		int32_t L_3 = L_2;
 		String_t* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_2 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:185>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:185>
 		String_t* L_5 = V_2;
 		bool L_6;
 		L_6 = OpenXRRuntime_IsExtensionEnabled_mF0C6FC95EDFD8DA6C5A838EA2053C06F657A2EE5(L_5, NULL);
@@ -4440,14 +4440,14 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:187>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:187>
 		String_t* L_7 = V_2;
 		String_t* L_8;
 		L_8 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralBC05ED19B19B49DB884A0C02D276E4F3F14F43CE, L_7, _stringLiteral164CE87CD7FA057C20692FF04973AF21C7F311F9, NULL);
 		ViveCompositionLayerPassthrough_WARNING_mCE0A82FD5A8F9050AD999B1D30E51CAB3F91223F(L_8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:189>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:189>
 		__this->___m_HTCPassthroughExtensionEnabled = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:190>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:190>
 		return (bool)0;
 	}
 
@@ -4459,7 +4459,7 @@ IL_003c:
 
 IL_0040:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:183>
 		int32_t L_10 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = V_0;
 		NullCheck(L_11);
@@ -4469,14 +4469,14 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:194>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:194>
 		__this->___m_XrInstanceCreated = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:195>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:195>
 		uint64_t L_12 = ___0_xrInstance;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_13;
 		L_13 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(L_12, NULL);
 		__this->___m_XrInstance = L_13;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:196>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:196>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_14 = __this->___m_XrInstance;
 		V_3 = L_14;
 		String_t* L_15;
@@ -4484,14 +4484,14 @@ IL_0040:
 		String_t* L_16;
 		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralBC05ED19B19B49DB884A0C02D276E4F3F14F43CE, L_15, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_16, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:198>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:198>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_17 = __this->___m_XrInstance;
 		bool L_18;
 		L_18 = ViveCompositionLayerPassthrough_GetXrFunctionDelegates_mFD48301A7E4977405B151559852A615E3989F3FD(__this, L_17, NULL);
 		return L_18;
 	}
 }
-// Method Definition Index: 94034
+// Method Definition Index: 94026
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnInstanceDestroy_mEC2FCED7AA782C0A21B0CBCA65CACF7EFEEDBDCA (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4503,9 +4503,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnInstan
 	XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:203>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:203>
 		__this->___m_XrInstanceCreated = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:204>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:204>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_0 = __this->___m_XrInstance;
 		V_0 = L_0;
 		String_t* L_1;
@@ -4513,11 +4513,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnInstan
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral72A95737A9E35A695A6EC2EC2D1DE9D6FD299757, L_1, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:205>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:205>
 		return;
 	}
 }
-// Method Definition Index: 94035
+// Method Definition Index: 94027
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSystemChange_m6429A184D46AF092F7E8A44159B6B06667CAE39F (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint64_t ___0_xrSystem, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4529,12 +4529,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSystem
 	XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:210>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:210>
 		uint64_t L_0 = ___0_xrSystem;
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_1;
 		L_1 = XrSystemId_op_Implicit_mFF070B33C2C85CDC082B4194DA0C7F3BB193F284(L_0, NULL);
 		__this->___m_XrSystemId = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:211>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:211>
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_2 = __this->___m_XrSystemId;
 		V_0 = L_2;
 		String_t* L_3;
@@ -4542,20 +4542,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSystem
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCB6D12102BF3C0424AC95A30F1E550022C894CED, L_3, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:212>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:212>
 		return;
 	}
 }
-// Method Definition Index: 94036
+// Method Definition Index: 94028
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_get_XrSessionCreated_mF88C71D1D390BD73DF7EB2DE8DA72CC98B77815E (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:220>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:220>
 		bool L_0 = __this->___m_XrSessionCreated;
 		return L_0;
 	}
 }
-// Method Definition Index: 94037
+// Method Definition Index: 94029
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessionCreate_mB7892CA4EE6A4608A63441D907BBE5D7A26C68B2 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4567,14 +4567,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 	XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:225>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:225>
 		uint64_t L_0 = ___0_xrSession;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_1;
 		L_1 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(L_0, NULL);
 		__this->___m_XrSession = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:226>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:226>
 		__this->___m_XrSessionCreated = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:227>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:227>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_2 = __this->___m_XrSession;
 		V_0 = L_2;
 		String_t* L_3;
@@ -4582,47 +4582,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		String_t* L_4;
 		L_4 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralEBA77DAB59731CC0BC0A45E541DA6448A5D29AB5, L_3, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:228>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:228>
 		return;
 	}
 }
-// Method Definition Index: 94038
+// Method Definition Index: 94030
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_get_XrSessionEnding_m80068D25EA9E7B4882A2DBEB156A4D41059850D3 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:236>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:236>
 		bool L_0 = __this->___m_XrSessionEnding;
 		return L_0;
 	}
 }
-// Method Definition Index: 94039
+// Method Definition Index: 94031
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveCompositionLayerPassthrough_get_WorldLockSpaceOriginOnHead_m41715F9F81A84D21E02AAE86D8914E67485E42CC (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:242>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:242>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = __this->___m_WorldLockSpaceOriginOnHead;
 		return L_0;
 	}
 }
-// Method Definition Index: 94040
+// Method Definition Index: 94032
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveCompositionLayerPassthrough_get_WorldLockSpaceOriginOnFloor_m7744AD6AE010C22B77240FFD82DC4CB799EF9CD9 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:246>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:246>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = __this->___m_WorldLockSpaceOriginOnFloor;
 		return L_0;
 	}
 }
-// Method Definition Index: 94041
+// Method Definition Index: 94033
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveCompositionLayerPassthrough_get_HeadLockSpace_m800E6FA2F1A1FB807D4FB356A2C402F1E00EBC99 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:250>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = __this->___m_HeadLockSpace;
 		return L_0;
 	}
 }
-// Method Definition Index: 94042
+// Method Definition Index: 94034
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessionBegin_m103F9026440846BF9CDD39853BA29117FF28B748 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4656,9 +4656,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 	XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:255>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:255>
 		__this->___m_XrSessionEnding = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:256>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:256>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_0 = __this->___m_XrSession;
 		V_2 = L_0;
 		String_t* L_1;
@@ -4666,7 +4666,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralEB2FBC91731CD8CC3CA6E5F2C12BB9E78B3EF10D, L_1, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:259>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:259>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (XrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_4;
@@ -4678,10 +4678,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		L_6 = Enumerable_Count_TisString_t_m498656AA08CF7218D7153CF70BC5E1110D19B7F0((RuntimeObject*)L_5, Enumerable_Count_TisString_t_m498656AA08CF7218D7153CF70BC5E1110D19B7F0_RuntimeMethod_var);
 		XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* L_7 = (XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73*)(XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73*)SZArrayNew(XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73_il2cpp_TypeInfo_var, (uint32_t)L_6);
 		V_0 = L_7;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:261>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:262>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:263>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:264>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:261>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:262>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:263>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:264>
 		XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* L_8 = V_0;
 		NullCheck(L_8);
 		int32_t L_9;
@@ -4692,13 +4692,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:268>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:268>
 		uint32_t L_10 = V_1;
 		Array_Resize_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_m4C368B69722D08A3BA485AFDCF42405A719DE330((&V_0), L_10, Array_Resize_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_m4C368B69722D08A3BA485AFDCF42405A719DE330_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:269>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:270>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:271>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:272>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:269>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:270>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:271>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:272>
 		uint32_t L_11 = V_1;
 		XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* L_12 = V_0;
 		NullCheck(L_12);
@@ -4710,7 +4710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:274>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:274>
 		XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* L_14 = V_0;
 		bool L_15;
 		L_15 = Enumerable_Contains_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_mB5867C12312DAB8F9C49AF60E5DFAB39FE3319E9((RuntimeObject*)L_14, 2, Enumerable_Contains_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_mB5867C12312DAB8F9C49AF60E5DFAB39FE3319E9_RuntimeMethod_var);
@@ -4720,27 +4720,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:277>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:277>
 		(&V_3)->___type = ((int32_t)37);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:278>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:278>
 		(&V_3)->___next = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:279>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:279>
 		(&V_3)->___referenceSpaceType = 2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:280>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:280>
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9* L_16 = (XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9*)(&(&V_3)->___poseInReferenceSpace);
 		XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837 L_17;
 		memset((&L_17), 0, sizeof(L_17));
 		XrQuaternionf__ctor_m921369BB6784FCAFDA400FEF67F2AAA3A7A79983((&L_17), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
 		L_16->___orientation = L_17;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:281>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:281>
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9* L_18 = (XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9*)(&(&V_3)->___poseInReferenceSpace);
 		XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 L_19;
 		memset((&L_19), 0, sizeof(L_19));
 		XrVector3f__ctor_m3837233AF88BA65FC180645208F35D30521A1533((&L_19), (0.0f), (0.0f), (0.0f), NULL);
 		L_18->___position = L_19;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:283>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:284>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:285>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:283>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:284>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:285>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_20 = (XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*)(&__this->___m_WorldLockSpaceOriginOnHead);
 		int32_t L_21;
 		L_21 = ViveCompositionLayerPassthrough_CreateReferenceSpace_mC42E9F044E110B08ACD8142337BE716F0E5B661F(__this, (&V_3), L_20, NULL);
@@ -4750,20 +4750,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:291>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:291>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral5523FD97532D7787F3C00244236EEC0E3CD6919E, NULL);
 		goto IL_0107;
 	}
 
 IL_00fd:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:296>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:296>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral68910A745647EE4B9852DFB2FD55A608FD1AAA88, NULL);
 	}
 
 IL_0107:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:299>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:299>
 		XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* L_22 = V_0;
 		bool L_23;
 		L_23 = Enumerable_Contains_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_mB5867C12312DAB8F9C49AF60E5DFAB39FE3319E9((RuntimeObject*)L_22, 3, Enumerable_Contains_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_mB5867C12312DAB8F9C49AF60E5DFAB39FE3319E9_RuntimeMethod_var);
@@ -4773,27 +4773,27 @@ IL_0107:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:302>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:302>
 		(&V_4)->___type = ((int32_t)37);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:303>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:303>
 		(&V_4)->___next = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:304>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:304>
 		(&V_4)->___referenceSpaceType = 3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:305>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:305>
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9* L_24 = (XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9*)(&(&V_4)->___poseInReferenceSpace);
 		XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837 L_25;
 		memset((&L_25), 0, sizeof(L_25));
 		XrQuaternionf__ctor_m921369BB6784FCAFDA400FEF67F2AAA3A7A79983((&L_25), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
 		L_24->___orientation = L_25;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:306>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:306>
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9* L_26 = (XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9*)(&(&V_4)->___poseInReferenceSpace);
 		XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 L_27;
 		memset((&L_27), 0, sizeof(L_27));
 		XrVector3f__ctor_m3837233AF88BA65FC180645208F35D30521A1533((&L_27), (0.0f), (0.0f), (0.0f), NULL);
 		L_26->___position = L_27;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:308>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:309>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:310>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:308>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:309>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:310>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_28 = (XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*)(&__this->___m_WorldLockSpaceOriginOnFloor);
 		int32_t L_29;
 		L_29 = ViveCompositionLayerPassthrough_CreateReferenceSpace_mC42E9F044E110B08ACD8142337BE716F0E5B661F(__this, (&V_4), L_28, NULL);
@@ -4803,20 +4803,20 @@ IL_0107:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:316>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:316>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralB10710921E034386F6025BFF32E27DF66EF81284, NULL);
 		goto IL_0198;
 	}
 
 IL_018e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:321>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:321>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral5183117E7BD80A409448A73CB11F4EB25258D091, NULL);
 	}
 
 IL_0198:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:324>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:324>
 		XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* L_30 = V_0;
 		bool L_31;
 		L_31 = Enumerable_Contains_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_mB5867C12312DAB8F9C49AF60E5DFAB39FE3319E9((RuntimeObject*)L_30, 1, Enumerable_Contains_TisXrReferenceSpaceType_tEBB757F7C4ACFC01F1CEBC901C5C20FC6408DCCF_mB5867C12312DAB8F9C49AF60E5DFAB39FE3319E9_RuntimeMethod_var);
@@ -4826,27 +4826,27 @@ IL_0198:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:327>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:327>
 		(&V_5)->___type = ((int32_t)37);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:328>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:328>
 		(&V_5)->___next = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:329>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:329>
 		(&V_5)->___referenceSpaceType = 1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:330>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:330>
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9* L_32 = (XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9*)(&(&V_5)->___poseInReferenceSpace);
 		XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837 L_33;
 		memset((&L_33), 0, sizeof(L_33));
 		XrQuaternionf__ctor_m921369BB6784FCAFDA400FEF67F2AAA3A7A79983((&L_33), (0.0f), (0.0f), (0.0f), (1.0f), NULL);
 		L_32->___orientation = L_33;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:331>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:331>
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9* L_34 = (XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9*)(&(&V_5)->___poseInReferenceSpace);
 		XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 L_35;
 		memset((&L_35), 0, sizeof(L_35));
 		XrVector3f__ctor_m3837233AF88BA65FC180645208F35D30521A1533((&L_35), (0.0f), (0.0f), (0.0f), NULL);
 		L_34->___position = L_35;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:333>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:334>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:335>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:333>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:334>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:335>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_36 = (XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*)(&__this->___m_HeadLockSpace);
 		int32_t L_37;
 		L_37 = ViveCompositionLayerPassthrough_CreateReferenceSpace_mC42E9F044E110B08ACD8142337BE716F0E5B661F(__this, (&V_5), L_36, NULL);
@@ -4856,21 +4856,21 @@ IL_0198:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:341>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:341>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral31FF374250715E8F4164CD3804E9DDD472028ED8, NULL);
 		return;
 	}
 
 IL_021e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:346>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:346>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral9C314518C186D8B4DAFC65A570FAA4C1D1F86F0F, NULL);
 		return;
 	}
 
 IL_0229:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:351>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:351>
 		String_t* L_38;
 		L_38 = UInt32_ToString_mB6FA6D2459C82ADCF285C55363491D9669A80154((&V_1), NULL);
 		String_t* L_39;
@@ -4881,17 +4881,17 @@ IL_0229:
 
 IL_0245:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:356>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:356>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralE728F471B63DBF1929679A07866F821D928FEEC2, NULL);
 	}
 
 IL_024f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:358>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:358>
 		return;
 	}
 }
-// Method Definition Index: 94043
+// Method Definition Index: 94035
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessionEnd_m23D42FE52D4311766A39D81CF9E6BDF0FEFCE065 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4903,9 +4903,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 	XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:362>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:362>
 		__this->___m_XrSessionEnding = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:363>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:363>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_0 = __this->___m_XrSession;
 		V_0 = L_0;
 		String_t* L_1;
@@ -4913,11 +4913,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		String_t* L_2;
 		L_2 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralCBFC06B91F5AF5ACE6090CD7BF6E7CFAB2FEEDFE, L_1, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:364>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:364>
 		return;
 	}
 }
-// Method Definition Index: 94044
+// Method Definition Index: 94036
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessionDestroy_mE93C8D0712EAB2C2C68C3721F299B730FFD412E8 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4937,18 +4937,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 	OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* G_B4_0 = NULL;
 	OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* G_B3_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:373>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:373>
 		__this->___m_XrSessionCreated = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:374>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:374>
 		String_t* L_0;
 		L_0 = UInt64_ToString_mD3AAE57EA18A6779F5A17E4F91C900A231EB0A6F((&___0_xrSession), NULL);
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2278048CF98B514E598CDFFFEA3BC340ED5074B5, L_0, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:377>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:377>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2;
 		L_2 = ViveCompositionLayerPassthrough_get_PassthroughIDList_m270DE352A819336945C38730744F8933E3149C02(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:378>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:378>
 		NullCheck(L_2);
 		Enumerator_t9DBCD072C72E44AB8959D9884EF7F528028F20EC L_3;
 		L_3 = List_1_GetEnumerator_mCADB185AB483C855873FCD0B1D5AAC909ED7F7BD(L_2, List_1_GetEnumerator_mCADB185AB483C855873FCD0B1D5AAC909ED7F7BD_RuntimeMethod_var);
@@ -4972,17 +4972,17 @@ FINALLY_0056:
 
 IL_002b_1:
 			{
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:378>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:378>
 				int32_t L_4;
 				L_4 = Enumerator_get_Current_mB49912FF111A954F2C326BF4FA29A53C1027187B_inline((&V_0), Enumerator_get_Current_mB49912FF111A954F2C326BF4FA29A53C1027187B_RuntimeMethod_var);
 				V_1 = L_4;
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:380>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:380>
 				Dictionary_2_tB447B08CE225C4B19C41C046AF027174659EBFD7* L_5 = __this->___OnPassthroughSessionDestroyHandlerDictionary;
 				int32_t L_6 = V_1;
 				NullCheck(L_5);
 				OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* L_7;
 				L_7 = Dictionary_2_get_Item_m27C73B36EB3E34F51433B9D38126579D16405F90(L_5, L_6, Dictionary_2_get_Item_m27C73B36EB3E34F51433B9D38126579D16405F90_RuntimeMethod_var);
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:382>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:382>
 				OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* L_8 = L_7;
 				if (L_8)
 				{
@@ -5004,7 +5004,7 @@ IL_0045_1:
 
 IL_004b_1:
 			{
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:378>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:378>
 				bool L_10;
 				L_10 = Enumerator_MoveNext_m39C71A39758E2B4A04F44F20FCEFAF7009D5F312((&V_0), Enumerator_MoveNext_m39C71A39758E2B4A04F44F20FCEFAF7009D5F312_RuntimeMethod_var);
 				if (L_10)
@@ -5024,7 +5024,7 @@ IL_004b_1:
 
 IL_0064:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:393>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:393>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_11 = __this->___m_HeadLockSpace;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_12;
 		L_12 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
@@ -5036,11 +5036,11 @@ IL_0064:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:395>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:395>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_14 = __this->___m_HeadLockSpace;
 		int32_t L_15;
 		L_15 = ViveCompositionLayerPassthrough_DestroySpace_mC5507C40835EF6237E076ADDB2D5ABC7193FED81(__this, L_14, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:396>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:396>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_16;
 		L_16 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		__this->___m_HeadLockSpace = L_16;
@@ -5048,7 +5048,7 @@ IL_0064:
 
 IL_0092:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:398>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:398>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_17 = __this->___m_WorldLockSpaceOriginOnFloor;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_18;
 		L_18 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
@@ -5060,11 +5060,11 @@ IL_0092:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:400>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:400>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_20 = __this->___m_WorldLockSpaceOriginOnFloor;
 		int32_t L_21;
 		L_21 = ViveCompositionLayerPassthrough_DestroySpace_mC5507C40835EF6237E076ADDB2D5ABC7193FED81(__this, L_20, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:401>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:401>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_22;
 		L_22 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		__this->___m_WorldLockSpaceOriginOnFloor = L_22;
@@ -5072,7 +5072,7 @@ IL_0092:
 
 IL_00c0:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:403>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:403>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_23 = __this->___m_WorldLockSpaceOriginOnHead;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_24;
 		L_24 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
@@ -5084,11 +5084,11 @@ IL_00c0:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:405>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:405>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_26 = __this->___m_WorldLockSpaceOriginOnHead;
 		int32_t L_27;
 		L_27 = ViveCompositionLayerPassthrough_DestroySpace_mC5507C40835EF6237E076ADDB2D5ABC7193FED81(__this, L_26, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:406>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:406>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_28;
 		L_28 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		__this->___m_WorldLockSpaceOriginOnHead = L_28;
@@ -5096,20 +5096,20 @@ IL_00c0:
 
 IL_00ee:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:408>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:408>
 		return;
 	}
 }
-// Method Definition Index: 94045
+// Method Definition Index: 94037
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_get_XrSessionCurrentState_m835596BFF9604751242847D254293C70BE4E6DCD (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:415>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:415>
 		int32_t L_0 = __this->___m_XrSessionNewState;
 		return L_0;
 	}
 }
-// Method Definition Index: 94046
+// Method Definition Index: 94038
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessionStateChange_m4933105D0A951DA34BBE939BEBD22A9C9B5E66F2 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_oldState, int32_t ___1_newState, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5123,7 +5123,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:421>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:421>
 		String_t* L_0;
 		L_0 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&___0_oldState), NULL);
 		String_t* L_1;
@@ -5131,7 +5131,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		String_t* L_2;
 		L_2 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral3E0CC1D9847418D0D78CA711D04352BA228016CF, L_0, _stringLiteralDDA29D03294D560FC9E8882682D6907F004E1B95, L_1, NULL);
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:423>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:423>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_3 = { reinterpret_cast<intptr_t> (XrSessionState_t6CE5E75D2126C46093B982757AE3DC1D6ADE4EB7_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_4;
@@ -5148,7 +5148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:425>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:425>
 		int32_t L_9 = ___0_oldState;
 		__this->___m_XrSessionOldState = L_9;
 		goto IL_004c;
@@ -5156,13 +5156,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough_OnSessio
 
 IL_0042:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:429>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:429>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteral5BD96FDE4FFD798FAA3B606BEB06F6D122F4F6A0, NULL);
 	}
 
 IL_004c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:432>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:432>
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_10 = { reinterpret_cast<intptr_t> (XrSessionState_t6CE5E75D2126C46093B982757AE3DC1D6ADE4EB7_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
 		Type_t* L_11;
@@ -5179,7 +5179,7 @@ IL_004c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:434>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:434>
 		int32_t L_16 = ___1_newState;
 		__this->___m_XrSessionNewState = L_16;
 		return;
@@ -5187,17 +5187,17 @@ IL_004c:
 
 IL_006b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:438>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:438>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteralAEA168C324FE5AAAC0AA4C77B1C11A60116440B2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:441>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:441>
 		return;
 	}
 }
-// Method Definition Index: 94047
+// Method Definition Index: 94039
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_GetSystemProperties_m1997874D894D8E9D363BF9B64823E61E65FBCF9D (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, XrSystemProperties_tEC6D09D9A8C0BF472F2A639BC0AD61CBB7A0B8DB* ___0_properties, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:461>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:461>
 		bool L_0 = __this->___m_XrInstanceCreated;
 		if (!L_0)
 		{
@@ -5205,7 +5205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_GetSy
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:463>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:463>
 		xrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5* L_1 = __this->___xrGetSystemProperties;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_2 = __this->___m_XrInstance;
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_3 = __this->___m_XrSystemId;
@@ -5218,15 +5218,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_GetSy
 
 IL_0021:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:466>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:466>
 		return (int32_t)(((int32_t)-13));
 	}
 }
-// Method Definition Index: 94048
+// Method Definition Index: 94040
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_EnumerateReferenceSpaces_m1506EEF9C98D8295BC7A6FCDF4CD0EFCEB6251A3 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, uint32_t ___0_spaceCapacityInput, uint32_t* ___1_spaceCountOutput, int32_t* ___2_spaces, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:473>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:473>
 		bool L_0 = __this->___m_XrSessionCreated;
 		if (L_0)
 		{
@@ -5234,19 +5234,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_Enume
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:475>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:475>
 		uint32_t* L_1 = ___1_spaceCountOutput;
 		*((int32_t*)L_1) = (int32_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:476>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:476>
 		int32_t* L_2 = ___2_spaces;
 		*((int32_t*)L_2) = (int32_t)((int32_t)1000038000);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:477>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:477>
 		return (int32_t)(((int32_t)-16));
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:480>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:480>
 		xrEnumerateReferenceSpacesDelegate_tA3314A7128B24705941358D98256B5FC66E2C2AC* L_3 = __this->___xrEnumerateReferenceSpaces;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_4 = __this->___m_XrSession;
 		uint32_t L_5 = ___0_spaceCapacityInput;
@@ -5258,11 +5258,11 @@ IL_0015:
 		return L_8;
 	}
 }
-// Method Definition Index: 94049
+// Method Definition Index: 94041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_CreateReferenceSpace_mC42E9F044E110B08ACD8142337BE716F0E5B661F (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616* ___0_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___1_space, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:491>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:491>
 		bool L_0 = __this->___m_XrSessionCreated;
 		if (L_0)
 		{
@@ -5270,18 +5270,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_Creat
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:493>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:493>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_1 = ___1_space;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_2;
 		L_2 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		*(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*)L_1 = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:494>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:494>
 		return (int32_t)(((int32_t)-16));
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:497>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:497>
 		xrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E* L_3 = __this->___xrCreateReferenceSpace;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_4 = __this->___m_XrSession;
 		XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616* L_5 = ___0_createInfo;
@@ -5292,11 +5292,11 @@ IL_0018:
 		return L_7;
 	}
 }
-// Method Definition Index: 94050
+// Method Definition Index: 94042
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_DestroySpace_mC5507C40835EF6237E076ADDB2D5ABC7193FED81 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:504>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:504>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = ___0_space;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_1;
 		L_1 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
@@ -5308,7 +5308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_Destr
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:506>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:506>
 		xrDestroySpaceDelegate_t870B5AC8435876687D4BE421120CD582DFDE7BB0* L_3 = __this->___xrDestroySpace;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_4 = ___0_space;
 		NullCheck(L_3);
@@ -5319,11 +5319,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_Destr
 
 IL_001c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:508>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:508>
 		return (int32_t)(((int32_t)-31));
 	}
 }
-// Method Definition Index: 94051
+// Method Definition Index: 94043
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_GetXrFunctionDelegates_mFD48301A7E4977405B151559852A615E3989F3FD (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5357,7 +5357,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_GetXrFun
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:566>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:566>
 		intptr_t L_0;
 		L_0 = OpenXRFeature_get_xrGetInstanceProcAddr_m956D5B547606D7621778AFA0283F86DCA949473C(NULL);
 		intptr_t L_1;
@@ -5370,11 +5370,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_GetXrFun
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:568>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:568>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteral3ADD1D493C0A6470F5FB93C859AB2C58EF849B11, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:569>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:570>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:571>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:569>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:570>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:571>
 		intptr_t L_3;
 		L_3 = OpenXRFeature_get_xrGetInstanceProcAddr_m956D5B547606D7621778AFA0283F86DCA949473C(NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC_0_0_0_var) };
@@ -5391,17 +5391,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_GetXrFun
 
 IL_0042:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:575>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:575>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralF2EFB64A073424A90BB77E9472BA6D9642671E49, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:576>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:576>
 		return (bool)0;
 	}
 
 IL_004e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:579>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:579>
 		V_0 = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:581>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:581>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_7 = __this->___XrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_8 = ___0_xrInstance;
 		NullCheck(L_7);
@@ -5413,7 +5413,7 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:583>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:583>
 		intptr_t L_10 = V_0;
 		bool L_11;
 		L_11 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_10, 0, NULL);
@@ -5423,11 +5423,11 @@ IL_004e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:585>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:585>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteral3420E6AF0B73388F94AE710D6B7FEE698A5960C4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:586>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:587>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:588>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:586>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:587>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:588>
 		intptr_t L_12 = V_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_13 = { reinterpret_cast<intptr_t> (xrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -5443,15 +5443,15 @@ IL_004e:
 
 IL_009d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:593>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:593>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralB5FBC47BAB4C3B752051DB5404EA5DFF47B9CE88, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:594>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:594>
 		return (bool)0;
 	}
 
 IL_00a9:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:597>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:597>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_16 = __this->___XrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_17 = ___0_xrInstance;
 		NullCheck(L_16);
@@ -5463,7 +5463,7 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:599>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:599>
 		intptr_t L_19 = V_0;
 		bool L_20;
 		L_20 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_19, 0, NULL);
@@ -5473,11 +5473,11 @@ IL_00a9:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:601>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:601>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteral43325F59110088F7758CBFE701D01C263ABEA22E, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:602>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:603>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:604>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:602>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:603>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:604>
 		intptr_t L_21 = V_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_22 = { reinterpret_cast<intptr_t> (xrEnumerateReferenceSpacesDelegate_tA3314A7128B24705941358D98256B5FC66E2C2AC_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -5493,15 +5493,15 @@ IL_00a9:
 
 IL_00f2:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:609>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:609>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralB70EA9A14D04DCF449004D77B2B40902BE9298EF, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:610>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:610>
 		return (bool)0;
 	}
 
 IL_00fe:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:613>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:613>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_25 = __this->___XrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_26 = ___0_xrInstance;
 		NullCheck(L_25);
@@ -5513,7 +5513,7 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:615>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:615>
 		intptr_t L_28 = V_0;
 		bool L_29;
 		L_29 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_28, 0, NULL);
@@ -5523,11 +5523,11 @@ IL_00fe:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:617>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:617>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteralC755A73C0FE7ED6844F85B8CCEA3608DA750B993, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:618>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:619>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:620>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:618>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:619>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:620>
 		intptr_t L_30 = V_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_31 = { reinterpret_cast<intptr_t> (xrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -5543,15 +5543,15 @@ IL_00fe:
 
 IL_0147:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:625>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:625>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral9335151B7CEF584AB8ABB1427CAAE6C58EECC04E, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:626>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:626>
 		return (bool)0;
 	}
 
 IL_0153:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:629>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:629>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_34 = __this->___XrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_35 = ___0_xrInstance;
 		NullCheck(L_34);
@@ -5563,7 +5563,7 @@ IL_0153:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:631>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:631>
 		intptr_t L_37 = V_0;
 		bool L_38;
 		L_38 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_37, 0, NULL);
@@ -5573,11 +5573,11 @@ IL_0153:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:633>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:633>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteralA827DDAADFAF8CBF595331843EAF9D7DF95B3D46, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:634>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:635>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:636>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:634>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:635>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:636>
 		intptr_t L_39 = V_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_40 = { reinterpret_cast<intptr_t> (xrDestroySpaceDelegate_t870B5AC8435876687D4BE421120CD582DFDE7BB0_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -5593,15 +5593,15 @@ IL_0153:
 
 IL_019c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:641>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:641>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralCDA600A570A78482458216C67F6DC4B71331F67D, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:642>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:642>
 		return (bool)0;
 	}
 
 IL_01a8:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:679>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:679>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_43 = ___0_xrInstance;
 		intptr_t L_44;
 		L_44 = OpenXRFeature_get_xrGetInstanceProcAddr_m956D5B547606D7621778AFA0283F86DCA949473C(NULL);
@@ -5613,26 +5613,26 @@ IL_01a8:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:681>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:681>
 		ViveCompositionLayerPassthrough_DEBUG_mCB03B6A41FA81732EA33FEE2B7FB6C24231AA754(_stringLiteralB483FA56EFA81BA4D1F1DE54C474EEED47ECE3D8, NULL);
 		goto IL_01ce;
 	}
 
 IL_01c2:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:685>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:685>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral53F5D16D01A888BB9332EFDFBAF4DCF886B6A507, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:686>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:686>
 		return (bool)0;
 	}
 
 IL_01ce:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:689>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:689>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 94052
+// Method Definition Index: 94044
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_CreatePassthrough_m0719F9AEC4C474E8877FB05786A65FAF85B7130F (XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, int32_t ___1_layerType, int32_t ___2_layerForm, uint32_t ___3_compositionDepth, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, int32_t, int32_t, uint32_t);
@@ -5654,7 +5654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_VIVEO
 
 	return returnValue;
 }
-// Method Definition Index: 94053
+// Method Definition Index: 94045
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_HTCPassthrough_CreatePassthrough_mA774B9218A8000BFC51E33F6F189C109F73A1F43 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_layerType, int32_t ___1_layerForm, OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* ___2_onDestroyPassthroughHandler, uint32_t ___3_compositionDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5668,7 +5668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_HTCPa
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:702>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:702>
 		bool L_0 = __this->___m_XrSessionCreated;
 		if (!L_0)
 		{
@@ -5689,15 +5689,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_HTCPa
 
 IL_001c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:704>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:704>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral2797BE25AE79E2298233BC753258F3A4D79F3694, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:705>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:705>
 		return 0;
 	}
 
 IL_0028:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:708>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:708>
 		bool L_4;
 		L_4 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_4)
@@ -5706,15 +5706,15 @@ IL_0028:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:710>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:710>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralF5120C42CA7DD501B1F24DC53A0E3C86C6D72898, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:711>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:711>
 		return 0;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:714>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:714>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_5 = __this->___m_XrSession;
 		int32_t L_6 = ___0_layerType;
 		int32_t L_7 = ___1_layerForm;
@@ -5722,7 +5722,7 @@ IL_003c:
 		int32_t L_9;
 		L_9 = ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_CreatePassthrough_m0719F9AEC4C474E8877FB05786A65FAF85B7130F(L_5, L_6, L_7, L_8, NULL);
 		V_0 = L_9;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:716>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:716>
 		int32_t L_10 = V_0;
 		if (!L_10)
 		{
@@ -5730,12 +5730,12 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:718>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:718>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_11 = __this->___passthroughIDList;
 		int32_t L_12 = V_0;
 		NullCheck(L_11);
 		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_11, L_12, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:719>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:719>
 		Dictionary_2_tB447B08CE225C4B19C41C046AF027174659EBFD7* L_13 = __this->___OnPassthroughSessionDestroyHandlerDictionary;
 		int32_t L_14 = V_0;
 		OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* L_15 = ___2_onDestroyPassthroughHandler;
@@ -5745,12 +5745,12 @@ IL_003c:
 
 IL_0068:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:722>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:722>
 		int32_t L_16 = V_0;
 		return L_16;
 	}
 }
-// Method Definition Index: 94054
+// Method Definition Index: 94046
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetAlpha_m71F32728A71F7748ACA7B322886C0639F3B33DF3 (int32_t ___0_passthroughID, float ___1_alpha, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, float);
@@ -5772,7 +5772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94055
+// Method Definition Index: 94047
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetAlpha_m90C9F3314F4FCA34AAADE1CA26392B35018627B3 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, float ___1_alpha, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5782,7 +5782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:732>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:732>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -5791,15 +5791,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:734>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:734>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralCFFCCA4E16E0B5219888C1DCB5957D81132C5943, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:735>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:735>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:738>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:738>
 		int32_t L_1 = ___0_passthroughID;
 		float L_2 = ___1_alpha;
 		bool L_3;
@@ -5807,7 +5807,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 94056
+// Method Definition Index: 94048
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetLayerType_mE689AF1DBA3599A849784A880E9F53FB744F70A3 (int32_t ___0_passthroughID, int32_t ___1_layerType, uint32_t ___2_compositionDepth, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, uint32_t);
@@ -5829,7 +5829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94057
+// Method Definition Index: 94049
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetLayerType_m1F3845E7563263FBF858174FCB9F7F63BA6700D5 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, int32_t ___1_layerType, uint32_t ___2_compositionDepth, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5839,7 +5839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:748>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:748>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -5848,15 +5848,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:750>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:750>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral3218B4F4F904502B32238648B6E51322BBF45A2E, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:751>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:751>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:754>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:754>
 		int32_t L_1 = ___0_passthroughID;
 		int32_t L_2 = ___1_layerType;
 		uint32_t L_3 = ___2_compositionDepth;
@@ -5865,7 +5865,7 @@ IL_0014:
 		return L_4;
 	}
 }
-// Method Definition Index: 94058
+// Method Definition Index: 94050
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetMesh_m220EB73BC3A440AC8D9CAE13C82FC49A92B333EF (int32_t ___0_passthroughID, uint32_t ___1_vertexCount, XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D* ___2_vertexBuffer, uint32_t ___3_indexCount, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___4_indexBuffer, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, uint32_t, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1*, uint32_t, uint32_t*);
@@ -5899,7 +5899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94059
+// Method Definition Index: 94051
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetMesh_mD7C4AA115807E9A3BAD94CDB98C5A80A5511EADC (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, uint32_t ___1_vertexCount, XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D* ___2_vertexBuffer, uint32_t ___3_indexCount, UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* ___4_indexBuffer, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5909,7 +5909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:764>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:764>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -5918,15 +5918,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:766>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:766>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral881D83589105F55270E1054524DF967EF123372D, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:767>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:767>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:770>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:770>
 		int32_t L_1 = ___0_passthroughID;
 		uint32_t L_2 = ___1_vertexCount;
 		XrVector3fU5BU5D_tEA75B5B5FDFA67CD3B09B3D3E6418992EAA22B2D* L_3 = ___2_vertexBuffer;
@@ -5937,7 +5937,7 @@ IL_0014:
 		return L_6;
 	}
 }
-// Method Definition Index: 94060
+// Method Definition Index: 94052
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetMeshTransform_m35A7F19CE5D8CCBE4D0BC55714481B29AA96A57B (int32_t ___0_passthroughID, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_meshSpace, XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9 ___2_meshPose, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 ___3_meshScale, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1);
@@ -5959,7 +5959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94061
+// Method Definition Index: 94053
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetMeshTransform_mC1A01A9866B2CDA25AE133276C6990AC7054C3D0 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_meshSpace, XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9 ___2_meshPose, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 ___3_meshScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5969,7 +5969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:780>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:780>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -5978,15 +5978,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:782>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:782>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral32A42ABD6E088D1BFC301204C01C70ED77528932, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:783>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:783>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:786>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:786>
 		int32_t L_1 = ___0_passthroughID;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_2 = ___1_meshSpace;
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9 L_3 = ___2_meshPose;
@@ -5996,7 +5996,7 @@ IL_0014:
 		return L_5;
 	}
 }
-// Method Definition Index: 94062
+// Method Definition Index: 94054
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetMeshTransformSpace_m4447D7C64F408BBAAF6C814F804AD6312045B6EF (int32_t ___0_passthroughID, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_meshSpace, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9);
@@ -6018,7 +6018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94063
+// Method Definition Index: 94055
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetMeshTransformSpace_m0C9EE5A2F1AD0F238171CCEE042BFA62F82C0D64 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_meshSpace, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6028,7 +6028,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:796>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:796>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -6037,15 +6037,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:798>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:798>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralC199E175EC07BB8B17339BC79FD6A75ACB6FE538, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:799>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:799>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:802>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:802>
 		int32_t L_1 = ___0_passthroughID;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_2 = ___1_meshSpace;
 		bool L_3;
@@ -6053,7 +6053,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 94064
+// Method Definition Index: 94056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetMeshTransformPosition_mEBEE0F4B9F83FECD99D120728FE3063B97568AF0 (int32_t ___0_passthroughID, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 ___1_meshPosition, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1);
@@ -6075,7 +6075,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94065
+// Method Definition Index: 94057
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetMeshTransformPosition_mE97232F81D75CB4A67633E0A4A1144E1E50378A9 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 ___1_meshPosition, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6085,7 +6085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:812>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:812>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -6094,15 +6094,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:814>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:814>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralE20401C7D01772299355BFC917377F736BB845CA, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:815>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:815>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:818>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:818>
 		int32_t L_1 = ___0_passthroughID;
 		XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 L_2 = ___1_meshPosition;
 		bool L_3;
@@ -6110,7 +6110,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 94066
+// Method Definition Index: 94058
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetMeshTransformOrientation_mBBCF5F0E786567AA27ED5DD86AC19B066DB82B78 (int32_t ___0_passthroughID, XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837 ___1_meshOrientation, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837);
@@ -6132,7 +6132,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94067
+// Method Definition Index: 94059
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetMeshTransformOrientation_m87212C7DF48862413ADDE59513A094010FE36D6F (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837 ___1_meshOrientation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6142,7 +6142,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:828>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:828>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -6151,15 +6151,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:830>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:830>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral5B8EBD14E9B2C65B89965D57FF9BCD5F163B4FE8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:831>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:831>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:834>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:834>
 		int32_t L_1 = ___0_passthroughID;
 		XrQuaternionf_tCAC179EA55B9A02857B046051F3E115E926E1837 L_2 = ___1_meshOrientation;
 		bool L_3;
@@ -6167,7 +6167,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 94068
+// Method Definition Index: 94060
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_SetMeshTransformScale_m3F7E6D3710A96D48618E6628AC6913337EA97E91 (int32_t ___0_passthroughID, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 ___1_meshScale, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1);
@@ -6189,7 +6189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94069
+// Method Definition Index: 94061
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_SetMeshTransformScale_mF36E9773E6305924850678349E09821BF0D65E1F (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 ___1_meshScale, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6199,7 +6199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:844>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:844>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -6208,15 +6208,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:846>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:846>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral038AFF9572D998128624B35EE2BDD307D0190EE3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:847>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:847>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:850>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:850>
 		int32_t L_1 = ___0_passthroughID;
 		XrVector3f_t5A6C3732E24CADBBE5C99FC58D6A1C17E67C9AC1 L_2 = ___1_meshScale;
 		bool L_3;
@@ -6224,7 +6224,7 @@ IL_0014:
 		return L_3;
 	}
 }
-// Method Definition Index: 94070
+// Method Definition Index: 94062
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_DestroyPassthrough_m4E9523DEA18D634AEAC8C794637845D8ADDFA24B (int32_t ___0_passthroughID, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (int32_t);
@@ -6246,7 +6246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_VIVEOpen
 
 	return static_cast<bool>(returnValue);
 }
-// Method Definition Index: 94071
+// Method Definition Index: 94063
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPassthrough_DestroyPassthrough_m5B05093C226FB50FFB13F4BEE728CBCE928C1BCA (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_passthroughID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6260,7 +6260,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 	bool G_B4_0 = false;
 	bool G_B3_0 = false;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:860>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:860>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -6269,19 +6269,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_HTCPasst
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:862>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:862>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteral696E5EB7FB03865F809E76C9514468A96CFCB1C1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:863>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:863>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:866>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:866>
 		int32_t L_1 = ___0_passthroughID;
 		bool L_2;
 		L_2 = ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_DestroyPassthrough_m4E9523DEA18D634AEAC8C794637845D8ADDFA24B(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:868>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:868>
 		bool L_3 = L_2;
 		if (!L_3)
 		{
@@ -6291,13 +6291,13 @@ IL_0014:
 		G_B3_0 = L_3;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:870>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:870>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4 = __this->___passthroughIDList;
 		int32_t L_5 = ___0_passthroughID;
 		NullCheck(L_4);
 		bool L_6;
 		L_6 = List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5(L_4, L_5, List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:871>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:871>
 		Dictionary_2_tB447B08CE225C4B19C41C046AF027174659EBFD7* L_7 = __this->___OnPassthroughSessionDestroyHandlerDictionary;
 		int32_t L_8 = ___0_passthroughID;
 		NullCheck(L_7);
@@ -6308,11 +6308,11 @@ IL_0014:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:874>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:874>
 		return G_B4_0;
 	}
 }
-// Method Definition Index: 94072
+// Method Definition Index: 94064
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_VIVEOpenXR_HTCPassthrough_GetFuncAddrs_mBDDAC550233F80873A82D1966807FFB856F28D0C (XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_xrInstance, intptr_t ___1_xrGetInstanceProcAddrFuncPtr, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB, intptr_t);
@@ -6334,7 +6334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_VIVEO
 
 	return returnValue;
 }
-// Method Definition Index: 94073
+// Method Definition Index: 94065
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_HTCPassthrough_GetFuncAddrs_m97E66522263B5687FC623753E540CD01AF6BFE91 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_xrInstance, intptr_t ___1_xrGetInstanceProcAddrFuncPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6344,7 +6344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_HTCPa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:884>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:884>
 		bool L_0;
 		L_0 = ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline(__this, NULL);
 		if (L_0)
@@ -6353,15 +6353,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveCompositionLayerPassthrough_HTCPa
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:886>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:886>
 		ViveCompositionLayerPassthrough_ERROR_m43B0D06A1309A41E9ACB9731E3B7217F7E306CDF(_stringLiteralF7C81F94312732AAB159ED50CC7344467D566918, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:887>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:887>
 		return (int32_t)(((int32_t)-8));
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:890>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:890>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_1 = ___0_xrInstance;
 		intptr_t L_2 = ___1_xrGetInstanceProcAddrFuncPtr;
 		int32_t L_3;
@@ -6369,7 +6369,7 @@ IL_0015:
 		return L_3;
 	}
 }
-// Method Definition Index: 94074
+// Method Definition Index: 94066
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveCompositionLayerPassthrough_GetXrSpaceFromSpaceType_m27A20C7ECDB18F7201E5794B200652390AB0794E (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, int32_t ___0_spaceType, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6386,7 +6386,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A814974323
 	XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* V_1 = NULL;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:901>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:901>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0;
 		L_0 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		V_0 = L_0;
@@ -6409,23 +6409,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A814974323
 
 IL_0011:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:905>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:905>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_3;
 		L_3 = ViveCompositionLayerPassthrough_get_HeadLockSpace_m800E6FA2F1A1FB807D4FB356A2C402F1E00EBC99_inline(__this, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:906>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:906>
 		goto IL_006d;
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:909>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:909>
 		V_1 = (XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34*)NULL;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:910>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:910>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_4 = __this->___inputSubsystems;
 		il2cpp_codegen_runtime_class_init_inline(SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var);
 		SubsystemManager_GetInstances_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_mE4E3C5739928E93E572D92105A4D3BAC7FC877AF(L_4, SubsystemManager_GetInstances_TisXRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_mE4E3C5739928E93E572D92105A4D3BAC7FC877AF_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:911>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:911>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_5 = __this->___inputSubsystems;
 		NullCheck(L_5);
 		int32_t L_6;
@@ -6436,7 +6436,7 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:913>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:913>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_7 = __this->___inputSubsystems;
 		NullCheck(L_7);
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_8;
@@ -6446,7 +6446,7 @@ IL_001a:
 
 IL_0042:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:916>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:916>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_9 = V_1;
 		if (!L_9)
 		{
@@ -6454,7 +6454,7 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:918>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:918>
 		XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34* L_10 = V_1;
 		NullCheck(L_10);
 		int32_t L_11;
@@ -6468,27 +6468,27 @@ IL_0042:
 	}
 	{
 		int32_t L_13 = V_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:924>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:924>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_14;
 		L_14 = ViveCompositionLayerPassthrough_get_WorldLockSpaceOriginOnFloor_m7744AD6AE010C22B77240FFD82DC4CB799EF9CD9_inline(__this, NULL);
 		V_0 = L_14;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:925>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:925>
 		goto IL_006d;
 	}
 
 IL_005d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:927>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:927>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_15;
 		L_15 = ViveCompositionLayerPassthrough_get_WorldLockSpaceOriginOnHead_m41715F9F81A84D21E02AAE86D8914E67485E42CC_inline(__this, NULL);
 		V_0 = L_15;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:928>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:928>
 		goto IL_006d;
 	}
 
 IL_0066:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:933>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:933>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_16;
 		L_16 = ViveCompositionLayerPassthrough_get_WorldLockSpaceOriginOnFloor_m7744AD6AE010C22B77240FFD82DC4CB799EF9CD9_inline(__this, NULL);
 		V_0 = L_16;
@@ -6496,12 +6496,12 @@ IL_0066:
 
 IL_006d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:938>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:938>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_17 = V_0;
 		return L_17;
 	}
 }
-// Method Definition Index: 94075
+// Method Definition Index: 94067
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough__ctor_m0E9121889025122EE1FCF2B72B7A1E6AD3E312A9 (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6516,43 +6516,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveCompositionLayerPassthrough__ctor_m0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:39>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:39>
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
 		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_0, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
 		__this->___passthroughIDList = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___passthroughIDList), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:45>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:45>
 		List_1_t90832B88D7207769654164CC28440CF594CC397D* L_1 = (List_1_t90832B88D7207769654164CC28440CF594CC397D*)il2cpp_codegen_object_new(List_1_t90832B88D7207769654164CC28440CF594CC397D_il2cpp_TypeInfo_var);
 		List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA(L_1, List_1__ctor_mC249FC827BC3BE999A938F8B5BD884F8AA0CB7FA_RuntimeMethod_var);
 		__this->___inputSubsystems = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___inputSubsystems), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:57>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:57>
 		__this->___m_HTCPassthroughExtensionEnabled = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:180>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:180>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_2;
 		L_2 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(((int64_t)0), NULL);
 		__this->___m_XrInstance = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:207>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:207>
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_3;
 		L_3 = XrSystemId_op_Implicit_mFF070B33C2C85CDC082B4194DA0C7F3BB193F284(((int64_t)0), NULL);
 		__this->___m_XrSystemId = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:222>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:222>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_4;
 		L_4 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
 		__this->___m_XrSession = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:239>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:239>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_5;
 		L_5 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		__this->___m_WorldLockSpaceOriginOnHead = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:239>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:239>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_6;
 		L_6 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		__this->___m_WorldLockSpaceOriginOnFloor = L_6;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:239>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:239>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_7;
 		L_7 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		__this->___m_HeadLockSpace = L_7;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:370>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:370>
 		Dictionary_2_tB447B08CE225C4B19C41C046AF027174659EBFD7* L_8 = (Dictionary_2_tB447B08CE225C4B19C41C046AF027174659EBFD7*)il2cpp_codegen_object_new(Dictionary_2_tB447B08CE225C4B19C41C046AF027174659EBFD7_il2cpp_TypeInfo_var);
 		Dictionary_2__ctor_m298EC8DB7B79085AC6B59D9FA15A71B5EFD355E6(L_8, Dictionary_2__ctor_m298EC8DB7B79085AC6B59D9FA15A71B5EFD355E6_RuntimeMethod_var);
 		__this->___OnPassthroughSessionDestroyHandlerDictionary = L_8;
@@ -6597,7 +6597,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnPassthroughSessionDestroyDelegate
 	il2cppPInvokeFunc(___0_passthroughID);
 
 }
-// Method Definition Index: 94076
+// Method Definition Index: 94068
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnPassthroughSessionDestroyDelegate__ctor_m35DCABE885BA6CAC6237F783613FD4C674932826 (OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -6626,20 +6626,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnPassthroughSessionDestroyDelegate__cto
 	}
 	__this->___extra_arg = (intptr_t)&OnPassthroughSessionDestroyDelegate_Invoke_m2E73F904AB7EEB4183E21200F30428E7B41C9504_Multicast;
 }
-// Method Definition Index: 94077
+// Method Definition Index: 94069
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnPassthroughSessionDestroyDelegate_Invoke_m2E73F904AB7EEB4183E21200F30428E7B41C9504 (OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* __this, int32_t ___0_passthroughID, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_passthroughID, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94078
+// Method Definition Index: 94070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnPassthroughSessionDestroyDelegate_BeginInvoke_mEF363264C747FA4D032ACB6F76311C355323CAC8 (OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* __this, int32_t ___0_passthroughID, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int32_class, &___0_passthroughID);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 94079
+// Method Definition Index: 94071
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnPassthroughSessionDestroyDelegate_EndInvoke_m31F22B5C2EA40278878CA57EC8299DE710D4C190 (OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -6676,11 +6676,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnPassthroughSessionDestroyDelegate_EndI
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94080
+// Method Definition Index: 94072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message__ctor_m00CCF6C7BE5D00229DECAEFC998F9D7F4BB4DFBA (Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:13>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:13>
 		__this->___isFree = (bool)1;
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
@@ -6694,7 +6694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message__ctor_m00CCF6C7BE5D00229DECAEFC9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94081
+// Method Definition Index: 94073
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePool__ctor_m9D94294BE9C2FB02EA070A1550B1764055C518A0 (MessagePool_tADD724B5B163F7D0666F18FC43F75F0B582F080A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6705,18 +6705,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePool__ctor_m9D94294BE9C2FB02EA070
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:25>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:25>
 		List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5* L_0 = (List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5*)il2cpp_codegen_object_new(List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5_il2cpp_TypeInfo_var);
 		List_1__ctor_m35027090771DA2E784B0841A6D84ED3E00FF07E0(L_0, 2, List_1__ctor_m35027090771DA2E784B0841A6D84ED3E00FF07E0_RuntimeMethod_var);
 		__this->___pool = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pool), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:28>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:28>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:28>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 94082
+// Method Definition Index: 94074
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MessagePool_Next_m320B2F7DC06EBC9B546087408677A6314D4EBB0A (MessagePool_tADD724B5B163F7D0666F18FC43F75F0B582F080A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6726,7 +6726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MessagePool_Next_m320B2F7DC06EBC9B546
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:33>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:33>
 		int32_t L_0 = ___0_value;
 		int32_t L_1 = ((int32_t)il2cpp_codegen_add(L_0, 1));
 		___0_value = L_1;
@@ -6740,38 +6740,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MessagePool_Next_m320B2F7DC06EBC9B546
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:34>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:34>
 		___0_value = 0;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:35>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:35>
 		int32_t L_4 = ___0_value;
 		return L_4;
 	}
 }
-// Method Definition Index: 94084
+// Method Definition Index: 94076
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePool_Lock_m7BA628D4491BA9E1A9FDC77BB98DC9453CAC366C (Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* ___0_msg, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:70>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:70>
 		Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* L_0 = ___0_msg;
 		NullCheck(L_0);
 		L_0->___isFree = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:71>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:71>
 		return;
 	}
 }
-// Method Definition Index: 94085
+// Method Definition Index: 94077
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePool_Release_mBC6A522187BD266E7B3D95397AE1700FB7355038 (Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* ___0_msg, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:80>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:80>
 		Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* L_0 = ___0_msg;
 		NullCheck(L_0);
 		L_0->___isFree = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:81>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:81>
 		return;
 	}
 }
@@ -6783,7 +6783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessagePool_Release_mBC6A522187BD266E7B3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94086
+// Method Definition Index: 94078
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreAllocatedQueue__ctor_m9112F72908C9CC62DBD0912F8EC7034FEE2114EA (PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* __this, int32_t ___0_queueSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6796,32 +6796,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreAllocatedQueue__ctor_m9112F72908C9CC6
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:97>
 		List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5* L_0 = (List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5*)il2cpp_codegen_object_new(List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5_il2cpp_TypeInfo_var);
 		List_1__ctor_m9C98AED0F2C186141C744E581ADBAF779318D492(L_0, List_1__ctor_m9C98AED0F2C186141C744E581ADBAF779318D492_RuntimeMethod_var);
 		__this->___list = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___list), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:105>
 		MessagePool__ctor_m9D94294BE9C2FB02EA070A1550B1764055C518A0(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:107>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:107>
 		V_0 = 0;
 		goto IL_0025;
 	}
 
 IL_0015:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:109>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:109>
 		List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5* L_1 = __this->___list;
 		NullCheck(L_1);
 		List_1_Add_mEAEA32D17B9F47D3A30517B964FE5AE3BEECCB1E_inline(L_1, (Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73*)NULL, List_1_Add_mEAEA32D17B9F47D3A30517B964FE5AE3BEECCB1E_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:107>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:107>
 		int32_t L_2 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_2, 1));
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:107>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:107>
 		int32_t L_3 = V_0;
 		int32_t L_4 = ___0_queueSize;
 		if ((((int32_t)L_3) < ((int32_t)L_4)))
@@ -6830,11 +6830,11 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:111>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:111>
 		return;
 	}
 }
-// Method Definition Index: 94087
+// Method Definition Index: 94079
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PreAllocatedQueue_Next_mC09C3F4EC6BDB06317074187ED3485298660D067 (PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6844,7 +6844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PreAllocatedQueue_Next_mC09C3F4EC6BDB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:115>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:115>
 		int32_t L_0 = ___0_value;
 		int32_t L_1 = ((int32_t)il2cpp_codegen_add(L_0, 1));
 		___0_value = L_1;
@@ -6858,18 +6858,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PreAllocatedQueue_Next_mC09C3F4EC6BDB
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:116>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:116>
 		___0_value = 0;
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:117>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:117>
 		int32_t L_4 = ___0_value;
 		return L_4;
 	}
 }
-// Method Definition Index: 94088
+// Method Definition Index: 94080
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreAllocatedQueue_Enqueue_m1EDB7AE4D17F832137B043DED39E6E41CC245A5F (PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* __this, Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6884,15 +6884,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreAllocatedQueue_Enqueue_m1EDB7AE4D17F8
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:133>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:133>
 		Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* L_0 = ___0_msg;
 		MessagePool_Lock_m7BA628D4491BA9E1A9FDC77BB98DC9453CAC366C(L_0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:134>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:134>
 		int32_t L_1 = __this->___queueEnd;
 		int32_t L_2;
 		L_2 = PreAllocatedQueue_Next_mC09C3F4EC6BDB06317074187ED3485298660D067(__this, L_1, NULL);
 		__this->___queueEnd = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:139>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:139>
 		int32_t L_3 = __this->___queueEnd;
 		int32_t L_4 = __this->___queueBegin;
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_4))))
@@ -6901,16 +6901,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreAllocatedQueue_Enqueue_m1EDB7AE4D17F8
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:142>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:142>
 		List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5* L_5 = __this->___list;
 		int32_t L_6 = __this->___queueEnd;
 		Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* L_7 = ___0_msg;
 		NullCheck(L_5);
 		List_1_Insert_m9020D8EB11ACAF00EFB37772571E5F990B123314(L_5, L_6, L_7, List_1_Insert_m9020D8EB11ACAF00EFB37772571E5F990B123314_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:143>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:143>
 		int32_t L_8 = __this->___queueBegin;
 		__this->___queueBegin = ((int32_t)il2cpp_codegen_add(L_8, 1));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:144>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:144>
 		List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5* L_9 = __this->___list;
 		NullCheck(L_9);
 		int32_t L_10;
@@ -6927,17 +6927,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreAllocatedQueue_Enqueue_m1EDB7AE4D17F8
 
 IL_0069:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:148>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:148>
 		List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5* L_13 = __this->___list;
 		int32_t L_14 = __this->___queueEnd;
 		Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* L_15 = ___0_msg;
 		NullCheck(L_13);
 		List_1_set_Item_m9FCCB879827F293A79EFB317C76161B1A8F29DD8(L_13, L_14, L_15, List_1_set_Item_m9FCCB879827F293A79EFB317C76161B1A8F29DD8_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:150>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:150>
 		return;
 	}
 }
-// Method Definition Index: 94089
+// Method Definition Index: 94081
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Message_tDAB2AA413E99E0CED83367C5496377CF6D94AF73* PreAllocatedQueue_Dequeue_m2CB0E277B3DFE455CA7269906C4E01F1499BDD8E (PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6947,12 +6947,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Message_tDAB2AA413E99E0CED83367C5496377CF6D94
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:163>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:163>
 		int32_t L_0 = __this->___queueBegin;
 		int32_t L_1;
 		L_1 = PreAllocatedQueue_Next_mC09C3F4EC6BDB06317074187ED3485298660D067(__this, L_0, NULL);
 		__this->___queueBegin = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:164>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:164>
 		List_1_tC1A6770CDF538B3B7C80D5D14EE3F0D165C20FA5* L_2 = __this->___list;
 		int32_t L_3 = __this->___queueBegin;
 		NullCheck(L_2);
@@ -6976,7 +6976,7 @@ extern "C" void DEFAULT_CALL ReversePInvokeWrapper_RenderThreadTask_RunSyncObjec
 	RenderThreadTask_RunSyncObjectInRenderThread_m6A48C984A505C9B485D7C5E8466FE4FF100CBA08(___0_id, NULL);
 
 }
-// Method Definition Index: 94090
+// Method Definition Index: 94082
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RenderThreadTask_GetFunctionPointerForDelegate_mB960F551AE59FE2153541E66E05DDE23583D7F9D (Delegate_t* ___0_del, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6986,7 +6986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RenderThreadTask_GetFunctionPointerF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:187>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:187>
 		Delegate_t* L_0 = ___0_del;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		intptr_t L_1;
@@ -6994,16 +6994,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RenderThreadTask_GetFunctionPointerF
 		return L_1;
 	}
 }
-// Method Definition Index: 94091
+// Method Definition Index: 94083
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* RenderThreadTask_get_Queue_m94945D3842908CAB4A3DD7EB99D8794417DEE17F (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:201>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:201>
 		PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* L_0 = __this->___queue;
 		return L_0;
 	}
 }
-// Method Definition Index: 94092
+// Method Definition Index: 94084
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask__ctor_mBBB0CE65610A742DC16AA2DF0BE350F3AD6D9D99 (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* ___0_render, int32_t ___1_queueSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7016,19 +7016,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask__ctor_mBBB0CE65610A742D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:213>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:213>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:215>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:215>
 		int32_t L_0 = ___1_queueSize;
 		PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* L_1 = (PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F*)il2cpp_codegen_object_new(PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F_il2cpp_TypeInfo_var);
 		PreAllocatedQueue__ctor_m9112F72908C9CC62DBD0912F8EC7034FEE2114EA(L_1, L_0, NULL);
 		__this->___queue = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___queue), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:216>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:216>
 		Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* L_2 = ___0_render;
 		__this->___receiver = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___receiver), (void*)L_2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:217>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:217>
 		Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* L_3 = __this->___receiver;
 		if (L_3)
 		{
@@ -7036,7 +7036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask__ctor_mBBB0CE65610A742D
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:218>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:218>
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_4 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1B113F31FDA3764C8D8577F5DB1BD1B8439C5784)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&RenderThreadTask__ctor_mBBB0CE65610A742DC16AA2DF0BE350F3AD6D9D99_RuntimeMethod_var)));
@@ -7044,22 +7044,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask__ctor_mBBB0CE65610A742D
 
 IL_002c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:220>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:220>
 		il2cpp_codegen_runtime_class_init_inline(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var);
 		List_1_tFC57249D433B620A5869217D8BC8C639570CA9E3* L_5 = ((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___CommandList;
 		NullCheck(L_5);
 		List_1_Add_mAE931546ED6E41EBD7708EABA17E6D025843CB2A_inline(L_5, __this, List_1_Add_mAE931546ED6E41EBD7708EABA17E6D025843CB2A_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:221>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:221>
 		List_1_tFC57249D433B620A5869217D8BC8C639570CA9E3* L_6 = ((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___CommandList;
 		NullCheck(L_6);
 		int32_t L_7;
 		L_7 = List_1_IndexOf_mFC22A4F7D21663E388CD0E34F15F92E72300A0C0(L_6, __this, List_1_IndexOf_mFC22A4F7D21663E388CD0E34F15F92E72300A0C0_RuntimeMethod_var);
 		__this->___id = L_7;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:222>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:222>
 		return;
 	}
 }
-// Method Definition Index: 94093
+// Method Definition Index: 94085
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_Finalize_m5A13CA0C4FF4862A94B0CD3BF779A667B88E0DE1 (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7068,14 +7068,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_Finalize_m5A13CA0C4FF48
 
 FINALLY_0002:
 			{
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:228>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:228>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:225>
+			//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:225>
 			goto IL_0009;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -7086,37 +7086,37 @@ FINALLY_0002:
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:228>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:228>
 		return;
 	}
 }
-// Method Definition Index: 94094
+// Method Definition Index: 94086
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_IssuePluginEvent_m03421BA7245B82A59F4B98F9E1D961B6E164243E (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, intptr_t ___0_callback, int32_t ___1_eventID, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:233>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:233>
 		intptr_t L_0 = ___0_callback;
 		int32_t L_1 = ___1_eventID;
 		GL_IssuePluginEvent_m3591CC23273DA50F8B37FF0DA5844F01B12B6C84(L_0, L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:234>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:234>
 		return;
 	}
 }
-// Method Definition Index: 94095
+// Method Definition Index: 94087
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_IssuePluginEvent_m5C58439DE57BFE9FF7175CB867E1DAE194287FCD (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___0_cmdBuf, intptr_t ___1_callback, int32_t ___2_eventID, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:239>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:239>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_0 = ___0_cmdBuf;
 		intptr_t L_1 = ___1_callback;
 		int32_t L_2 = ___2_eventID;
 		NullCheck(L_0);
 		CommandBuffer_IssuePluginEvent_mCA87F5D91890B22858471CD3EE0153E3FA1F1E8B(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:240>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:240>
 		return;
 	}
 }
-// Method Definition Index: 94096
+// Method Definition Index: 94088
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_IssueEvent_mFB55DB485D1CB89DA29B8DABE644BA4AD077ABFC (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7126,16 +7126,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_IssueEvent_mFB55DB485D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:249>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:249>
 		il2cpp_codegen_runtime_class_init_inline(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var);
 		intptr_t L_0 = ((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___handlePtr;
 		int32_t L_1 = __this->___id;
 		RenderThreadTask_IssuePluginEvent_m03421BA7245B82A59F4B98F9E1D961B6E164243E(__this, L_0, L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:250>
 		return;
 	}
 }
-// Method Definition Index: 94097
+// Method Definition Index: 94089
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_IssueInCommandBuffer_mDAB62444C437B49A007932EEF7451CD17A156024 (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* ___0_cmdBuf, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7145,30 +7145,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_IssueInCommandBuffer_mD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:255>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:255>
 		CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7* L_0 = ___0_cmdBuf;
 		il2cpp_codegen_runtime_class_init_inline(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var);
 		intptr_t L_1 = ((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___handlePtr;
 		int32_t L_2 = __this->___id;
 		RenderThreadTask_IssuePluginEvent_m5C58439DE57BFE9FF7175CB867E1DAE194287FCD(__this, L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:256>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:256>
 		return;
 	}
 }
-// Method Definition Index: 94098
+// Method Definition Index: 94090
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_Receive_mED86883A35F69B70C7BA96A3C1E013014E71A4E7 (RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:261>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:261>
 		Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* L_0 = __this->___receiver;
 		PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* L_1 = __this->___queue;
 		NullCheck(L_0);
 		Receiver_Invoke_m25C94B7F62B0DECD34A2759AA67C895EED04B431_inline(L_0, L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:262>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 94099
+// Method Definition Index: 94091
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_RunSyncObjectInRenderThread_m6A48C984A505C9B485D7C5E8466FE4FF100CBA08 (int32_t ___0_id, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7179,7 +7179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_RunSyncObjectInRenderTh
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:269>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:269>
 		il2cpp_codegen_runtime_class_init_inline(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var);
 		List_1_tFC57249D433B620A5869217D8BC8C639570CA9E3* L_0 = ((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___CommandList;
 		int32_t L_1 = ___0_id;
@@ -7188,11 +7188,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask_RunSyncObjectInRenderTh
 		L_2 = List_1_get_Item_m4D7F4549E339815837F4CA70DECC95BA12CBF501(L_0, L_1, List_1_get_Item_m4D7F4549E339815837F4CA70DECC95BA12CBF501_RuntimeMethod_var);
 		NullCheck(L_2);
 		RenderThreadTask_Receive_mED86883A35F69B70C7BA96A3C1E013014E71A4E7(L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:270>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:270>
 		return;
 	}
 }
-// Method Definition Index: 94100
+// Method Definition Index: 94092
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask__cctor_m2E6EA435C459DC3CDE03C0213A437EE01A70CEB9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7206,17 +7206,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderThreadTask__cctor_m2E6EA435C459DC3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:191>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:191>
 		RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D* L_0 = (RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D*)il2cpp_codegen_object_new(RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D_il2cpp_TypeInfo_var);
 		RenderEventDelegate__ctor_m578669CB1E6721A4F7E4F18090500D3C9C3DE925(L_0, NULL, (intptr_t)((void*)RenderThreadTask_RunSyncObjectInRenderThread_m6A48C984A505C9B485D7C5E8466FE4FF100CBA08_RuntimeMethod_var), NULL);
 		((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___handle = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___handle), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:192>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:192>
 		RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D* L_1 = ((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___handle;
 		intptr_t L_2;
 		L_2 = RenderThreadTask_GetFunctionPointerForDelegate_mB960F551AE59FE2153541E66E05DDE23583D7F9D(L_1, NULL);
 		((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___handlePtr = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:198>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveRenderThreadTask.cs:198>
 		List_1_tFC57249D433B620A5869217D8BC8C639570CA9E3* L_3 = (List_1_tFC57249D433B620A5869217D8BC8C639570CA9E3*)il2cpp_codegen_object_new(List_1_tFC57249D433B620A5869217D8BC8C639570CA9E3_il2cpp_TypeInfo_var);
 		List_1__ctor_m5AEFA4974A6CF75A83F0958355799E6B3FDFA283(L_3, List_1__ctor_m5AEFA4974A6CF75A83F0958355799E6B3FDFA283_RuntimeMethod_var);
 		((RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_StaticFields*)il2cpp_codegen_static_fields_for(RenderThreadTask_t25CF0D709C90D1571CE62F2C381D35118047F0A2_il2cpp_TypeInfo_var))->___CommandList = L_3;
@@ -7260,7 +7260,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_RenderEventDelegate_tE3AEF8CBE369DC
 	il2cppPInvokeFunc(___0_e);
 
 }
-// Method Definition Index: 94101
+// Method Definition Index: 94093
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderEventDelegate__ctor_m578669CB1E6721A4F7E4F18090500D3C9C3DE925 (RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7289,20 +7289,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderEventDelegate__ctor_m578669CB1E672
 	}
 	__this->___extra_arg = (intptr_t)&RenderEventDelegate_Invoke_m393CF2EB3A6FB9A9462DDFC12F1CEA77EF325A6B_Multicast;
 }
-// Method Definition Index: 94102
+// Method Definition Index: 94094
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderEventDelegate_Invoke_m393CF2EB3A6FB9A9462DDFC12F1CEA77EF325A6B (RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D* __this, int32_t ___0_e, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_e, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94103
+// Method Definition Index: 94095
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RenderEventDelegate_BeginInvoke_mE0584BB7149CE22870EC311A84FDC5B5FF6414B8 (RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D* __this, int32_t ___0_e, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int32_class, &___0_e);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 94104
+// Method Definition Index: 94096
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderEventDelegate_EndInvoke_m8A74BA4225DEFACCAD293B2601956AF3E8A911B1 (RenderEventDelegate_tE3AEF8CBE369DCE32FE769C14EF295D3076BE27D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7357,7 +7357,7 @@ void Receiver_Invoke_m25C94B7F62B0DECD34A2759AA67C895EED04B431_OpenGenericInterf
 	NullCheck(___0_dataQueue);
 	GenericInterfaceActionInvoker0::Invoke(method, ___0_dataQueue);
 }
-// Method Definition Index: 94105
+// Method Definition Index: 94097
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Receiver__ctor_mBD5D6635D450802DB463DD9FE015ADE354D284A8 (Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7410,20 +7410,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Receiver__ctor_mBD5D6635D450802DB463DD9F
 	}
 	__this->___extra_arg = (intptr_t)&Receiver_Invoke_m25C94B7F62B0DECD34A2759AA67C895EED04B431_Multicast;
 }
-// Method Definition Index: 94106
+// Method Definition Index: 94098
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Receiver_Invoke_m25C94B7F62B0DECD34A2759AA67C895EED04B431 (Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* __this, PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* ___0_dataQueue, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_dataQueue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94107
+// Method Definition Index: 94099
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Receiver_BeginInvoke_mC228E5D4FB69AEC77758058F7F988966312C7336 (Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* __this, PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* ___0_dataQueue, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_dataQueue;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 94108
+// Method Definition Index: 94100
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Receiver_EndInvoke_m4C8962E4BB4BCDF843CBFB33CDD9368C82683999 (Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -7436,7 +7436,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Receiver_EndInvoke_m4C8962E4BB4BCDF843CB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94109
+// Method Definition Index: 94101
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801 (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7447,17 +7447,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_DEBUG_m04F3155281D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:28>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:28>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0F81A82B9AF4E7180ED9B18AEAE46758EC3DEF72, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:28>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 94110
+// Method Definition Index: 94102
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_ERROR_mE3F3DC8015EF236DD59CD9AF857D67B1727E9CE5 (String_t* ___0_msg, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7468,17 +7468,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_ERROR_mE3F3DC8015E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:29>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:29>
 		String_t* L_0 = ___0_msg;
 		String_t* L_1;
 		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0F81A82B9AF4E7180ED9B18AEAE46758EC3DEF72, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:29>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:29>
 		return;
 	}
 }
-// Method Definition Index: 94111
+// Method Definition Index: 94103
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_OnInstanceCreate_mDC91E078D52DDFAE575524862A28642B558CC1B1 (ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7492,7 +7492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_OnInstanceCreate_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:56>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:56>
 		bool L_0;
 		L_0 = OpenXRRuntime_IsExtensionEnabled_mF0C6FC95EDFD8DA6C5A838EA2053C06F657A2EE5(_stringLiteral3F07E59003F20DBD45CA0542803822C99163FDC6, NULL);
 		if (L_0)
@@ -7501,38 +7501,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_OnInstanceCreate_m
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:58>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_ERROR_mE3F3DC8015EF236DD59CD9AF857D67B1727E9CE5(_stringLiteral95D61084F16AF75F02CEEE511F2270752103218B, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:59>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:59>
 		return (bool)0;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:62>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstanceCreated = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:63>
 		uint64_t L_1 = ___0_xrInstance;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_2;
 		L_2 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(L_1, NULL);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstance = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:64>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:64>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_3 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstance;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_4 = L_3;
 		RuntimeObject* L_5 = Box(XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB_il2cpp_TypeInfo_var, &L_4);
 		String_t* L_6;
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral0125A57B0003831EA076D674AA918342B2380FA3, L_5, NULL);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(L_6, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:66>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:66>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_7 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstance;
 		bool L_8;
 		L_8 = ViveEnterpriseCommand_GetXrFunctionDelegates_m00D97BEF81DC89BE1445E8E031A2C8B4939EF241(__this, L_7, NULL);
 		return L_8;
 	}
 }
-// Method Definition Index: 94112
+// Method Definition Index: 94104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnInstanceDestroy_m7FBE09A81EF498EA02E1077C33548AFF6E733D06 (ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7543,7 +7543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnInstanceDestroy_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:75>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_0 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstance;
 		uint64_t L_1 = ___0_xrInstance;
@@ -7557,10 +7557,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnInstanceDestroy_
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:77>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:77>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstanceCreated = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:78>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:78>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_4;
 		L_4 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(((int64_t)0), NULL);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstance = L_4;
@@ -7568,7 +7568,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnInstanceDestroy_
 
 IL_0024:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:80>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:80>
 		uint64_t L_5 = ___0_xrInstance;
 		uint64_t L_6 = L_5;
 		RuntimeObject* L_7 = Box(il2cpp_defaults.uint64_class, &L_6);
@@ -7576,11 +7576,11 @@ IL_0024:
 		L_8 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralC8A029F795BCABC3D3CA57C0851A39D8906A617D, L_7, NULL);
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(L_8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:81>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:81>
 		return;
 	}
 }
-// Method Definition Index: 94113
+// Method Definition Index: 94105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSystemChange_m6FE5C51CAD4BAC1AE8879A31CA0CE8E959ADFBB7 (ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22* __this, uint64_t ___0_xrSystem, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7592,24 +7592,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSystemChange_m6F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:89>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:89>
 		uint64_t L_0 = ___0_xrSystem;
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_1;
 		L_1 = XrSystemId_op_Implicit_mFF070B33C2C85CDC082B4194DA0C7F3BB193F284(L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSystemId = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:90>
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_2 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSystemId;
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_3 = L_2;
 		RuntimeObject* L_4 = Box(XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A_il2cpp_TypeInfo_var, &L_3);
 		String_t* L_5;
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralE7BEFDEA650FB5C7B0D525C11E26B62361E42011, L_4, NULL);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(L_5, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:91>
 		return;
 	}
 }
-// Method Definition Index: 94114
+// Method Definition Index: 94106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSessionCreate_mDA96D48FDF437605375E53503D2E894AB803843F (ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7621,26 +7621,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSessionCreate_mD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:99>
 		uint64_t L_0 = ___0_xrSession;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_1;
 		L_1 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSession = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:100>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:100>
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSessionCreated = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:101>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_2 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSession;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_3 = L_2;
 		RuntimeObject* L_4 = Box(XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA_il2cpp_TypeInfo_var, &L_3);
 		String_t* L_5;
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCB82A4D1EF14C169239A64BB32AA3FE6C88ED907, L_4, NULL);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(L_5, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:102>
 		return;
 	}
 }
-// Method Definition Index: 94115
+// Method Definition Index: 94107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSessionDestroy_m9967CBD0289427239DC90BDC408D48FA65751CAB (ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7651,7 +7651,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSessionDestroy_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:110>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:110>
 		uint64_t L_0 = ___0_xrSession;
 		uint64_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_defaults.uint64_class, &L_1);
@@ -7659,7 +7659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSessionDestroy_m
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral310D03415AEFC76D95607575B4846B845622CA4A, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(L_3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:112>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:112>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_4 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSession;
 		uint64_t L_5 = ___0_xrSession;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_6;
@@ -7672,22 +7672,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand_OnSessionDestroy_m
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:114>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:114>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_8;
 		L_8 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSession = L_8;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:115>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:115>
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSessionCreated = (bool)0;
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:117>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:117>
 		return;
 	}
 }
-// Method Definition Index: 94116
+// Method Definition Index: 94108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveEnterpriseCommand_EnterpriseCommandHTC_m062CA0159B12E470AFAA7C1C6758DB9765B51C44 (XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 ___0_request, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33* ___1_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7700,7 +7700,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveEnterpriseCommand_EnterpriseComma
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:134>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:134>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		bool L_0 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSessionCreated;
 		if (L_0)
@@ -7709,16 +7709,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveEnterpriseCommand_EnterpriseComma
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:136>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:136>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_ERROR_mE3F3DC8015EF236DD59CD9AF857D67B1727E9CE5(_stringLiteral158583C7B8593D4A2BF4B857067D4167B6ADC0A8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:137>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:137>
 		return (int32_t)(((int32_t)-17));
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:139>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:139>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		bool L_1 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstanceCreated;
 		if (L_1)
@@ -7727,16 +7727,16 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:141>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_ERROR_mE3F3DC8015EF236DD59CD9AF857D67B1727E9CE5(_stringLiteral8F80EA77F866A42A3567B5124C5C5918AFEACC52, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:142>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:142>
 		return (int32_t)(((int32_t)-13));
 	}
 
 IL_0028:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:145>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:145>
 		XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 L_2 = ___0_request;
 		int32_t L_3 = L_2.___code;
 		int32_t L_4 = L_3;
@@ -7749,7 +7749,7 @@ IL_0028:
 		String_t* L_9;
 		L_9 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral45B830C34D9FAA8FC94DAAFED1F59861D71A2F04, L_5, L_8, NULL);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(L_9, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:146>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:146>
 		xrEnterpriseCommandHTCDelegate_tC8A12BC6528A45B872B7AD991C5D4E04F3E3661D* L_10 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___xrEnterpriseCommandHTC;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_11 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSession;
 		XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 L_12 = ___0_request;
@@ -7760,7 +7760,7 @@ IL_0028:
 		return L_14;
 	}
 }
-// Method Definition Index: 94117
+// Method Definition Index: 94109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_GetXrFunctionDelegates_m00D97BEF81DC89BE1445E8E031A2C8B4939EF241 (ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7781,7 +7781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_GetXrFunctionDeleg
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:157>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:157>
 		intptr_t L_0;
 		L_0 = OpenXRFeature_get_xrGetInstanceProcAddr_m956D5B547606D7621778AFA0283F86DCA949473C(NULL);
 		intptr_t L_1;
@@ -7794,12 +7794,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_GetXrFunctionDeleg
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:159>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:159>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(_stringLiteral3ADD1D493C0A6470F5FB93C859AB2C58EF849B11, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:160>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:161>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:162>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:161>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:162>
 		intptr_t L_3;
 		L_3 = OpenXRFeature_get_xrGetInstanceProcAddr_m956D5B547606D7621778AFA0283F86DCA949473C(NULL);
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC_0_0_0_var) };
@@ -7816,16 +7816,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_GetXrFunctionDeleg
 
 IL_0041:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:166>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:166>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_ERROR_mE3F3DC8015EF236DD59CD9AF857D67B1727E9CE5(_stringLiteralF2EFB64A073424A90BB77E9472BA6D9642671E49, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:167>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:167>
 		return (bool)0;
 	}
 
 IL_004d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:171>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:171>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_7 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___XrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_8 = ___0_xrInstance;
@@ -7838,7 +7838,7 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:173>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:173>
 		intptr_t L_10 = V_0;
 		bool L_11;
 		L_11 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_10, 0, NULL);
@@ -7848,12 +7848,12 @@ IL_004d:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:175>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:175>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(_stringLiteralF14B32A44527A9B3D39F304D0F2B6521E6B258F8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:176>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:177>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:178>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:176>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:177>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:178>
 		intptr_t L_12 = V_0;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_13 = { reinterpret_cast<intptr_t> (xrEnterpriseCommandHTCDelegate_tC8A12BC6528A45B872B7AD991C5D4E04F3E3661D_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
@@ -7869,20 +7869,20 @@ IL_004d:
 
 IL_0094:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:183>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		ViveEnterpriseCommand_ERROR_mE3F3DC8015EF236DD59CD9AF857D67B1727E9CE5(_stringLiteral2F8C6B1526D14B42C43D03CB8D685113C7A42680, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:184>
 		return (bool)0;
 	}
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:186>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:186>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 94118
+// Method Definition Index: 94110
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_CommandRequest_mCB47B544727F3C3427C1DEB981131F0B93F19E85 (int32_t ___0_requestCode, String_t* ___1_requestCommand, int32_t* ___2_resultCode, String_t** ___3_resultCommand, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7895,15 +7895,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_CommandRequest_mCB
 	XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:205>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:205>
 		int32_t* L_0 = ___2_resultCode;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:206>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:206>
 		String_t** L_1 = ___3_resultCommand;
 		String_t* L_2 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		*((String_t**)L_1) = (String_t*)L_2;
 		Il2CppCodeGenWriteBarrier((void**)(String_t**)L_1, (void*)(String_t*)L_2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:207>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:207>
 		int32_t L_3 = ___0_requestCode;
 		String_t* L_4 = ___1_requestCommand;
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
@@ -7912,7 +7912,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_CommandRequest_mCB
 		XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		XrEnterpriseCommandBufferHTC__ctor_mF17AF51BE6A546D306887E399EC44CC54459CF48((&L_6), L_3, L_5, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:208>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:208>
 		int32_t* L_7 = ___2_resultCode;
 		int32_t L_8 = *((int32_t*)L_7);
 		String_t** L_9 = ___3_resultCommand;
@@ -7920,7 +7920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_CommandRequest_mCB
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_11;
 		L_11 = ViveEnterpriseCommand_StringToCharArray_m881DF97D034261552B0C1E4CC86CD04C74114F87(L_10, NULL);
 		XrEnterpriseCommandBufferHTC__ctor_mF17AF51BE6A546D306887E399EC44CC54459CF48((&V_0), L_8, L_11, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:209>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:209>
 		int32_t L_12;
 		L_12 = ViveEnterpriseCommand_EnterpriseCommandHTC_m062CA0159B12E470AFAA7C1C6758DB9765B51C44(L_6, (&V_0), NULL);
 		if (L_12)
@@ -7929,12 +7929,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_CommandRequest_mCB
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:211>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:211>
 		int32_t* L_13 = ___2_resultCode;
 		XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 L_14 = V_0;
 		int32_t L_15 = L_14.___code;
 		*((int32_t*)L_13) = (int32_t)L_15;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:212>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:212>
 		String_t** L_16 = ___3_resultCommand;
 		XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 L_17 = V_0;
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_18 = L_17.___data;
@@ -7943,7 +7943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_CommandRequest_mCB
 		L_19 = ViveEnterpriseCommand_CharArrayToString_m99B9B8AD48AAFF5D03F180754D50146D3D414895(L_18, NULL);
 		*((String_t**)L_16) = (String_t*)L_19;
 		Il2CppCodeGenWriteBarrier((void**)(String_t**)L_16, (void*)(String_t*)L_19);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:213>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:213>
 		int32_t* L_20 = ___2_resultCode;
 		int32_t L_21 = *((int32_t*)L_20);
 		int32_t L_22 = L_21;
@@ -7953,17 +7953,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveEnterpriseCommand_CommandRequest_mCB
 		String_t* L_26;
 		L_26 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral148D9E4266239138FCD17BF2D78B1F761D4058AD, L_23, L_25, NULL);
 		ViveEnterpriseCommand_DEBUG_m04F3155281D1AC7682DBFB9BE62C068074BC6801(L_26, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:214>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:214>
 		return (bool)1;
 	}
 
 IL_005e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:216>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:216>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 94119
+// Method Definition Index: 94111
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ViveEnterpriseCommand_StringToCharArray_m881DF97D034261552B0C1E4CC86CD04C74114F87 (String_t* ___0_str, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7976,11 +7976,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:222>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:222>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___charArray;
 		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_0, 0, ((int32_t)256), NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:223>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:223>
 		String_t* L_1 = ___0_str;
 		bool L_2;
 		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
@@ -7990,7 +7990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:225>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:225>
 		String_t* L_3 = ___0_str;
 		NullCheck(L_3);
 		int32_t L_4;
@@ -7999,14 +7999,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8
 		int32_t L_5;
 		L_5 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(L_4, ((int32_t)256), NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:226>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:226>
 		V_1 = 0;
 		goto IL_003f;
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:228>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:228>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_6 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___charArray;
 		int32_t L_7 = V_1;
@@ -8017,14 +8017,14 @@ IL_002d:
 		L_10 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_8, L_9, NULL);
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (Il2CppChar)L_10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:226>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:226>
 		int32_t L_11 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_003f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:226>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:226>
 		int32_t L_12 = V_1;
 		int32_t L_13 = V_0;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -8033,7 +8033,7 @@ IL_003f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:230>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:230>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_14 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___charArray;
 		NullCheck(L_14);
@@ -8042,13 +8042,13 @@ IL_003f:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:232>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:232>
 		il2cpp_codegen_runtime_class_init_inline(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var);
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_15 = ((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___charArray;
 		return L_15;
 	}
 }
-// Method Definition Index: 94120
+// Method Definition Index: 94112
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ViveEnterpriseCommand_CharArrayToString_m99B9B8AD48AAFF5D03F180754D50146D3D414895 (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_charArray, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8066,7 +8066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ViveEnterpriseCommand_CharArrayToSt
 	Predicate_1_t498CAB8C3A239510DF1CD4E0D9D0B8EFB398536E* G_B1_0 = NULL;
 	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* G_B1_1 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:237>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:237>
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_0 = ___0_charArray;
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tEAB10F2DEC44063D752C93B85DD9580B6692363D_il2cpp_TypeInfo_var);
 		Predicate_1_t498CAB8C3A239510DF1CD4E0D9D0B8EFB398536E* L_1 = ((U3CU3Ec_tEAB10F2DEC44063D752C93B85DD9580B6692363D_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tEAB10F2DEC44063D752C93B85DD9580B6692363D_il2cpp_TypeInfo_var))->___U3CU3E9__24_0;
@@ -8097,7 +8097,7 @@ IL_0020:
 		int32_t L_6;
 		L_6 = Array_FindIndex_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_mBC1A3BF637974869FE8F9169CDA3B17BB6D2FDCC(G_B2_1, G_B2_0, Array_FindIndex_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_mBC1A3BF637974869FE8F9169CDA3B17BB6D2FDCC_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:238>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:238>
 		int32_t L_7 = V_0;
 		if ((!(((uint32_t)L_7) == ((uint32_t)(-1)))))
 		{
@@ -8105,7 +8105,7 @@ IL_0020:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:240>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:240>
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_8 = ___0_charArray;
 		NullCheck(L_8);
 		V_0 = ((int32_t)(((RuntimeArray*)L_8)->max_length));
@@ -8113,7 +8113,7 @@ IL_0020:
 
 IL_002e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:243>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:243>
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_9 = ___0_charArray;
 		int32_t L_10 = V_0;
 		String_t* L_11;
@@ -8121,7 +8121,7 @@ IL_002e:
 		return L_11;
 	}
 }
-// Method Definition Index: 94121
+// Method Definition Index: 94113
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand__ctor_mE05088FA1217785CB60C8E5C40E85CDFCF2DD1F6 (ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8129,7 +8129,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand__ctor_mE05088FA121
 		return;
 	}
 }
-// Method Definition Index: 94122
+// Method Definition Index: 94114
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand__cctor_m6E618A2671010E99D9E3185D6982019B9932748F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8140,23 +8140,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand__cctor_m6E618A2671
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:43>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:43>
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstanceCreated = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:44>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:44>
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSessionCreated = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:45>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:45>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_0;
 		L_0 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(((int64_t)0), NULL);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrInstance = L_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:46>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_1;
 		L_1 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSession = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:47>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:47>
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_2;
 		L_2 = XrSystemId_op_Implicit_mFF070B33C2C85CDC082B4194DA0C7F3BB193F284(((int64_t)0), NULL);
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___m_XrSystemId = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:193>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:193>
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_3 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
 		((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___charArray = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_StaticFields*)il2cpp_codegen_static_fields_for(ViveEnterpriseCommand_t20DABE838183AE12D11F47B34C1E03A4EECA0A22_il2cpp_TypeInfo_var))->___charArray), (void*)L_3);
@@ -8171,7 +8171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommand__cctor_m6E618A2671
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94123
+// Method Definition Index: 94115
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m01D1B7E5058411089276FE02D1B94C9E12E60EB2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8188,7 +8188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m01D1B7E5058411089276FE02
 		return;
 	}
 }
-// Method Definition Index: 94124
+// Method Definition Index: 94116
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB8C38EA0C9DF642B755D97996503CDC8DE9A5E8A (U3CU3Ec_tEAB10F2DEC44063D752C93B85DD9580B6692363D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8196,11 +8196,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mB8C38EA0C9DF642B755D97996
 		return;
 	}
 }
-// Method Definition Index: 94125
+// Method Definition Index: 94117
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CCharArrayToStringU3Eb__24_0_mB7AA61863615ACE01B96BE08C028A3C63A9845D0 (U3CU3Ec_tEAB10F2DEC44063D752C93B85DD9580B6692363D* __this, Il2CppChar ___0_c, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:237>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:237>
 		Il2CppChar L_0 = ___0_c;
 		return (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 	}
@@ -8287,7 +8287,7 @@ IL2CPP_EXTERN_C void XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A2
 IL2CPP_EXTERN_C void XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33_marshal_com_cleanup(XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 94126
+// Method Definition Index: 94118
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrEnterpriseCommandBufferHTC__ctor_mF17AF51BE6A546D306887E399EC44CC54459CF48 (XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33* __this, int32_t ___0_in_code, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___1_in_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8297,22 +8297,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrEnterpriseCommandBufferHTC__ctor_mF17A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:257>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:257>
 		int32_t L_0 = ___0_in_code;
 		__this->___code = L_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:258>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:258>
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_1 = ___1_in_data;
 		NullCheck(L_1);
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_2 = (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*)SZArrayNew(CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB_il2cpp_TypeInfo_var, (uint32_t)((int32_t)(((RuntimeArray*)L_1)->max_length)));
 		__this->___data = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___data), (void*)L_2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:259>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:259>
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_3 = ___1_in_data;
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_4 = __this->___data;
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_5 = ___1_in_data;
 		NullCheck(L_5);
 		Array_Copy_m4233828B4E6288B6D815F539AAA38575DE627900((RuntimeArray*)L_3, (RuntimeArray*)L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:260>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveEnterpriseCommand.cs:260>
 		return;
 	}
 }
@@ -8331,7 +8331,7 @@ IL2CPP_EXTERN_C  void XrEnterpriseCommandBufferHTC__ctor_mF17AF51BE6A546D306887E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94127
+// Method Definition Index: 94119
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveEnterpriseCommandHelper__ctor_m155F2225172E978925B60661F14C07EB3CBF5004 (ViveEnterpriseCommandHelper_tE10C280C42FA1E879FB140EA5C93026869CE2D05* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8399,7 +8399,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_xrEnterpriseCommandHTCDelegate_t
 
 	return returnValue;
 }
-// Method Definition Index: 94128
+// Method Definition Index: 94120
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void xrEnterpriseCommandHTCDelegate__ctor_m4E37239BEDE40A3E0FE116C5B74D1F8665FBAF58 (xrEnterpriseCommandHTCDelegate_tC8A12BC6528A45B872B7AD991C5D4E04F3E3661D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8428,13 +8428,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void xrEnterpriseCommandHTCDelegate__ctor_m4E
 	}
 	__this->___extra_arg = (intptr_t)&xrEnterpriseCommandHTCDelegate_Invoke_m752A02CD49A6DBEE5322FD041F2B53840E4280BC_Multicast;
 }
-// Method Definition Index: 94129
+// Method Definition Index: 94121
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t xrEnterpriseCommandHTCDelegate_Invoke_m752A02CD49A6DBEE5322FD041F2B53840E4280BC (xrEnterpriseCommandHTCDelegate_tC8A12BC6528A45B872B7AD991C5D4E04F3E3661D* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 ___1_request, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33* ___2_result, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_request, ___2_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94130
+// Method Definition Index: 94122
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* xrEnterpriseCommandHTCDelegate_BeginInvoke_m7D4BD112BF4385D87797B6132FFFA06AC74A577B (xrEnterpriseCommandHTCDelegate_tC8A12BC6528A45B872B7AD991C5D4E04F3E3661D* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 ___1_request, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33* ___2_result, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8450,7 +8450,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* xrEnterpriseCommandHTCDelegate
 	__d_args[2] = Box(XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33_il2cpp_TypeInfo_var, &*___2_result);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 94131
+// Method Definition Index: 94123
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t xrEnterpriseCommandHTCDelegate_EndInvoke_mD0345D443D5ABFC0334E0A584666A5B7AB5EAF03 (xrEnterpriseCommandHTCDelegate_tC8A12BC6528A45B872B7AD991C5D4E04F3E3661D* __this, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33* ___0_result, RuntimeObject* ___1___result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -8467,7 +8467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t xrEnterpriseCommandHTCDelegate_EndInv
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94145
+// Method Definition Index: 94137
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CommonWrapper_OnInstanceCreate_m35A25408B9B4C6FDF291EC09C10BB4A9A872A9BE (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_xrInstance, intptr_t ___1_xrGetInstanceProcAddrPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8501,7 +8501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CommonWrapper_OnInstanceCreate_m35A25408
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:39>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:39>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -8510,13 +8510,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CommonWrapper_OnInstanceCreate_m35A25408
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:39>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:39>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:40>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:40>
 		bool L_1;
 		L_1 = ViveFeatureWrapperBase_1_get_TryInited_m618A3E63145C5D8C168FF94CA7B77B32AB2A1EB2_inline(__this, ViveFeatureWrapperBase_1_get_TryInited_m618A3E63145C5D8C168FF94CA7B77B32AB2A1EB2_RuntimeMethod_var);
 		if (!L_1)
@@ -8525,15 +8525,15 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:40>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:40>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:41>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:41>
 		ViveFeatureWrapperBase_1_set_TryInited_m14928E06A777EB5D73B4BA31DE35BB61C2D49B69_inline(__this, (bool)1, ViveFeatureWrapperBase_1_set_TryInited_m14928E06A777EB5D73B4BA31DE35BB61C2D49B69_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:43>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:43>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_2 = ___0_xrInstance;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_3;
 		L_3 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(((int64_t)0), NULL);
@@ -8545,7 +8545,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:44>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:44>
 		Exception_t* L_5 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBFF8EE83DFE3036CBB909DE3F7B15A5FB6F1FB97)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CommonWrapper_OnInstanceCreate_m35A25408B9B4C6FDF291EC09C10BB4A9A872A9BE_RuntimeMethod_var)));
@@ -8553,15 +8553,15 @@ IL_0014:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:46>
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteral325C720C89880AD09F0E0B1CF28DDC3818597A6B, _stringLiteral8408FBCD77B25719F4BD9ACFFB68BB745A9A5568, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:47>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:47>
 		intptr_t L_6 = ___1_xrGetInstanceProcAddrPtr;
 		ViveFeatureWrapperBase_1_SetGetInstanceProcAddrPtr_m80BDB305AC236DAD1D99A82157EE83DF3A892BBD(__this, L_6, ViveFeatureWrapperBase_1_SetGetInstanceProcAddrPtr_m80BDB305AC236DAD1D99A82157EE83DF3A892BBD_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:49>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:49>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:50>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:52>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:50>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:52>
 		bool L_7 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_8 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_9 = ___0_xrInstance;
@@ -8570,7 +8570,7 @@ IL_0035:
 		bool L_11;
 		L_11 = OpenXRHelper_GetXrFunctionDelegate_TisxrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5_m51A7DD34EE5DEBFE8E10CAEDAF00CF37E1832FD8(L_8, L_9, _stringLiteralB5FBC47BAB4C3B752051DB5404EA5DFF47B9CE88, L_10, OpenXRHelper_GetXrFunctionDelegate_TisxrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5_m51A7DD34EE5DEBFE8E10CAEDAF00CF37E1832FD8_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_7&(int32_t)L_11));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:53>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:53>
 		bool L_12 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_13 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_14 = ___0_xrInstance;
@@ -8578,7 +8578,7 @@ IL_0035:
 		bool L_16;
 		L_16 = OpenXRHelper_GetXrFunctionDelegate_TisxrCreateSwapchainDelegate_t44732623C3D3F8941BF23F68EB6EBF115CF22562_m2F75EB2D1921EB2C1F558108DB741A23632855DF(L_13, L_14, _stringLiteralCFF830C9BB8579F4B888E91F0F29FC189A8E4CB1, L_15, OpenXRHelper_GetXrFunctionDelegate_TisxrCreateSwapchainDelegate_t44732623C3D3F8941BF23F68EB6EBF115CF22562_m2F75EB2D1921EB2C1F558108DB741A23632855DF_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_12&(int32_t)L_16));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:54>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:54>
 		bool L_17 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_18 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_19 = ___0_xrInstance;
@@ -8586,7 +8586,7 @@ IL_0035:
 		bool L_21;
 		L_21 = OpenXRHelper_GetXrFunctionDelegate_TisxrDestroySwapchainDelegate_t025704C3992DC114C8F3141C4D3E96C8318BB38D_m2603F5DB5E57FF67B3F1DC19D9EE5D2A9222A6F7(L_18, L_19, _stringLiteralF2419BABF6D4BF8BEFBDC07078928D010C2AA0F9, L_20, OpenXRHelper_GetXrFunctionDelegate_TisxrDestroySwapchainDelegate_t025704C3992DC114C8F3141C4D3E96C8318BB38D_m2603F5DB5E57FF67B3F1DC19D9EE5D2A9222A6F7_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_17&(int32_t)L_21));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:55>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:55>
 		bool L_22 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_23 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_24 = ___0_xrInstance;
@@ -8594,7 +8594,7 @@ IL_0035:
 		bool L_26;
 		L_26 = OpenXRHelper_GetXrFunctionDelegate_TisxrEnumerateSwapchainFormatsDelegate_t7BD0B0194300BEE486990D237BA3E419675777A2_m27FC50FB94E99CB82D7B264F46EE9496BDB96DF6(L_23, L_24, _stringLiteral7CF6356BA1EDC596EA153C9CF076D5DFE22940C8, L_25, OpenXRHelper_GetXrFunctionDelegate_TisxrEnumerateSwapchainFormatsDelegate_t7BD0B0194300BEE486990D237BA3E419675777A2_m27FC50FB94E99CB82D7B264F46EE9496BDB96DF6_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_22&(int32_t)L_26));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:56>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:56>
 		bool L_27 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_28 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_29 = ___0_xrInstance;
@@ -8602,7 +8602,7 @@ IL_0035:
 		bool L_31;
 		L_31 = OpenXRHelper_GetXrFunctionDelegate_TisxrEnumerateSwapchainImagesDelegate_tAC9230D91BF6BEABF106A9D3A7F4A12A1EBF51AB_m9037829952BC7228D9743C5ED8E61A8826A18039(L_28, L_29, _stringLiteral6D0860FED77259518A78B62726838337E82E5884, L_30, OpenXRHelper_GetXrFunctionDelegate_TisxrEnumerateSwapchainImagesDelegate_tAC9230D91BF6BEABF106A9D3A7F4A12A1EBF51AB_m9037829952BC7228D9743C5ED8E61A8826A18039_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_27&(int32_t)L_31));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:57>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:57>
 		bool L_32 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_33 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_34 = ___0_xrInstance;
@@ -8610,7 +8610,7 @@ IL_0035:
 		bool L_36;
 		L_36 = OpenXRHelper_GetXrFunctionDelegate_TisxrWaitSwapchainImageDelegate_tBF668361E5D04261ECF8A87AC722E5B1E97A2553_m92C0384F3C3214F2BB625E1F8ACE551AFC71FB50(L_33, L_34, _stringLiteralB70A16523D23F18CCC5D63AAD16ECBBC493D9A3F, L_35, OpenXRHelper_GetXrFunctionDelegate_TisxrWaitSwapchainImageDelegate_tBF668361E5D04261ECF8A87AC722E5B1E97A2553_m92C0384F3C3214F2BB625E1F8ACE551AFC71FB50_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_32&(int32_t)L_36));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:58>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:58>
 		bool L_37 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_38 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_39 = ___0_xrInstance;
@@ -8618,7 +8618,7 @@ IL_0035:
 		bool L_41;
 		L_41 = OpenXRHelper_GetXrFunctionDelegate_TisxrAcquireSwapchainImageDelegate_t301098D2D2D22FC40D413B80D9C838B6D7123EE2_m370CBC1FFB9B5E682427F2F85F247EE2AC48EBAB(L_38, L_39, _stringLiteralFD98C94A380D411F1BE984D26B76EE36E3104B7D, L_40, OpenXRHelper_GetXrFunctionDelegate_TisxrAcquireSwapchainImageDelegate_t301098D2D2D22FC40D413B80D9C838B6D7123EE2_m370CBC1FFB9B5E682427F2F85F247EE2AC48EBAB_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_37&(int32_t)L_41));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:59>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:59>
 		bool L_42 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_43 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_44 = ___0_xrInstance;
@@ -8626,7 +8626,7 @@ IL_0035:
 		bool L_46;
 		L_46 = OpenXRHelper_GetXrFunctionDelegate_TisxrReleaseSwapchainImageDelegate_t5DD3247FD6B326EBEF71E6E642A36EA087EAE171_m0C901E3FE1286DC73DA91AAC75AEE7A36F569E5B(L_43, L_44, _stringLiteralB7FD4F449213470B9A6DEFE8776531B6406231BF, L_45, OpenXRHelper_GetXrFunctionDelegate_TisxrReleaseSwapchainImageDelegate_t5DD3247FD6B326EBEF71E6E642A36EA087EAE171_m0C901E3FE1286DC73DA91AAC75AEE7A36F569E5B_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_42&(int32_t)L_46));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:61>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:61>
 		bool L_47 = V_0;
 		if (L_47)
 		{
@@ -8634,7 +8634,7 @@ IL_0035:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:62>
 		Exception_t* L_48 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_48, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE08931BD13E6A020AA2264FA3604FDF425B3CB55)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_48, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CommonWrapper_OnInstanceCreate_m35A25408B9B4C6FDF291EC09C10BB4A9A872A9BE_RuntimeMethod_var)));
@@ -8642,15 +8642,15 @@ IL_0035:
 
 IL_0131:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:64>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:64>
 		bool L_49 = V_0;
 		ViveFeatureWrapperBase_1_set_IsInited_m316FF95D71C3683A4E97A0FFEC501793DAE23597_inline(__this, L_49, ViveFeatureWrapperBase_1_set_IsInited_m316FF95D71C3683A4E97A0FFEC501793DAE23597_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:65>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:65>
 		bool L_50 = V_0;
 		return L_50;
 	}
 }
-// Method Definition Index: 94146
+// Method Definition Index: 94138
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommonWrapper_OnInstanceDestroy_m17B908C5D73DB288378EAF68A2DC6C049430C78F (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8663,7 +8663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommonWrapper_OnInstanceDestroy_m17B908C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:75>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:75>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (L_0)
@@ -8672,24 +8672,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommonWrapper_OnInstanceDestroy_m17B908C
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:75>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:75>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:76>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:76>
 		ViveFeatureWrapperBase_1_set_IsInited_m316FF95D71C3683A4E97A0FFEC501793DAE23597_inline(__this, (bool)0, ViveFeatureWrapperBase_1_set_IsInited_m316FF95D71C3683A4E97A0FFEC501793DAE23597_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:77>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:77>
 		__this->___XrGetSystemProperties = (xrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___XrGetSystemProperties), (void*)(xrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:78>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:78>
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteral325C720C89880AD09F0E0B1CF28DDC3818597A6B, _stringLiteralF084D664531082EB2CEC4D49B7B7C6BA298FEDF3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:79>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 94147
+// Method Definition Index: 94139
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_GetInstanceProcAddr_m65C32510661BEF309F5D0F183F120E6482B46228 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, String_t* ___1_name, intptr_t* ___2_function, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8699,7 +8699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_GetInstanceProcAddr_m65
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:83>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:83>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -8717,16 +8717,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_GetInstanceProcAddr_m65
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:85>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:85>
 		intptr_t* L_2 = ___2_function;
 		*((intptr_t*)L_2) = (intptr_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:86>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:86>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:89>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:89>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_3 = ((ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_4 = ___0_instance;
 		String_t* L_5 = ___1_name;
@@ -8737,7 +8737,7 @@ IL_001a:
 		return L_7;
 	}
 }
-// Method Definition Index: 94148
+// Method Definition Index: 94140
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_GetSystemProperties_m0ADF45112FCF839C3681774FEC1FA788A090DE08 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A ___1_systemId, XrSystemProperties_tEC6D09D9A8C0BF472F2A639BC0AD61CBB7A0B8DB* ___2_properties, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8747,7 +8747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_GetSystemProperties_m0A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:102>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -8765,13 +8765,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_GetSystemProperties_m0A
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:104>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:107>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:107>
 		xrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5* L_2 = __this->___XrGetSystemProperties;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_3 = ___0_instance;
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_4 = ___1_systemId;
@@ -8782,7 +8782,7 @@ IL_0013:
 		return L_6;
 	}
 }
-// Method Definition Index: 94150
+// Method Definition Index: 94142
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CreateSwapchain_m6991C3948D6E528AD7711ACC7FF40FDD5B98CDEB (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSwapchainCreateInfo_t72A76168E95E5C7C0B3C6432776A10A80A11F926* ___1_createInfo, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52* ___2_swapchain, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8792,7 +8792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CreateSwapchain_m6991C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:144>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:144>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -8810,16 +8810,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CreateSwapchain_m6991C3
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:146>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:146>
 		XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52* L_2 = ___2_swapchain;
 		il2cpp_codegen_initobj(L_2, sizeof(XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:147>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:147>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_001a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:150>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:150>
 		xrCreateSwapchainDelegate_t44732623C3D3F8941BF23F68EB6EBF115CF22562* L_3 = __this->___XrCreateSwapchain;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_4 = ___0_session;
 		XrSwapchainCreateInfo_t72A76168E95E5C7C0B3C6432776A10A80A11F926* L_5 = ___1_createInfo;
@@ -8830,7 +8830,7 @@ IL_001a:
 		return L_7;
 	}
 }
-// Method Definition Index: 94151
+// Method Definition Index: 94143
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_DestroySwapchain_m36D932AF72E183F257D5F03A2B2EB038D5B081B7 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8840,7 +8840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_DestroySwapchain_m36D93
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:155>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:155>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -8858,13 +8858,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_DestroySwapchain_m36D93
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:157>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:157>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:160>
 		xrDestroySwapchainDelegate_t025704C3992DC114C8F3141C4D3E96C8318BB38D* L_2 = __this->___XrDestroySwapchain;
 		XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 L_3 = ___0_swapchain;
 		NullCheck(L_2);
@@ -8873,7 +8873,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 94152
+// Method Definition Index: 94144
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_EnumerateSwapchainFormats_m09830D8AF1F06E2DAAB4D236C5091D4303163FD2 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, uint32_t ___1_formatCapacityInput, uint32_t* ___2_formatCountOutput, Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D** ___3_formats, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8896,7 +8896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_EnumerateSwapchainForma
 	int32_t G_B11_0 = 0;
 	int32_t G_B10_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:165>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:165>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -8914,16 +8914,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_EnumerateSwapchainForma
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:167>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:167>
 		uint32_t* L_2 = ___2_formatCountOutput;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:168>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:168>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:171>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:171>
 		uint32_t L_3 = ___1_formatCapacityInput;
 		if (!L_3)
 		{
@@ -8951,13 +8951,13 @@ IL_0016:
 
 IL_0028:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:172>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:172>
 		return (int32_t)(((int32_t)-11));
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:174>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:174>
 		uint32_t L_9 = ___1_formatCapacityInput;
 		if (L_9)
 		{
@@ -8965,13 +8965,13 @@ IL_002b:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:176>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:176>
 		String_t* L_10;
 		L_10 = UInt32_ToString_mB6FA6D2459C82ADCF285C55363491D9669A80154((&___1_formatCapacityInput), NULL);
 		String_t* L_11;
 		L_11 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralB99982594E077DF8367667A2B92BF7F848203C9E, L_10, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteral325C720C89880AD09F0E0B1CF28DDC3818597A6B, L_11, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:177>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:177>
 		xrEnumerateSwapchainFormatsDelegate_t7BD0B0194300BEE486990D237BA3E419675777A2* L_12 = __this->___XrEnumerateSwapchainFormats;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_13 = ___0_session;
 		uint32_t* L_14 = ___2_formatCountOutput;
@@ -8983,7 +8983,7 @@ IL_002b:
 
 IL_0062:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:181>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:181>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_17 = L_16;
 		NullCheck(L_17);
@@ -9011,13 +9011,13 @@ IL_0062:
 		String_t* L_26;
 		L_26 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_25, NULL);
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteral325C720C89880AD09F0E0B1CF28DDC3818597A6B, L_26, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:182>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:182>
 		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D** L_27 = ___3_formats;
 		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_28 = *((Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D**)L_27);
 		intptr_t L_29;
 		L_29 = MemoryTools_MakeRawMemory_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m97722EC1B268D89989D8F4BA3EEE2A5BC27EF0A9(L_28, MemoryTools_MakeRawMemory_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m97722EC1B268D89989D8F4BA3EEE2A5BC27EF0A9_RuntimeMethod_var);
 		V_0 = L_29;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:183>
 		xrEnumerateSwapchainFormatsDelegate_t7BD0B0194300BEE486990D237BA3E419675777A2* L_30 = __this->___XrEnumerateSwapchainFormats;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_31 = ___0_session;
 		uint32_t L_32 = ___1_formatCapacityInput;
@@ -9026,7 +9026,7 @@ IL_0062:
 		NullCheck(L_30);
 		int32_t L_35;
 		L_35 = xrEnumerateSwapchainFormatsDelegate_Invoke_m9A146BC730E6D2B61BF348C126DDF670EC358D8E_inline(L_30, L_31, L_32, L_33, L_34, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:184>
 		int32_t L_36 = L_35;
 		if (L_36)
 		{
@@ -9036,7 +9036,7 @@ IL_0062:
 		G_B10_0 = L_36;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:185>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:185>
 		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D** L_37 = ___3_formats;
 		Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D* L_38 = *((Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D**)L_37);
 		intptr_t L_39 = V_0;
@@ -9048,14 +9048,14 @@ IL_0062:
 
 IL_00cf:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:186>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:186>
 		intptr_t L_42 = V_0;
 		MemoryTools_ReleaseRawMemory_mC666323F4D3FAF0DA994AF74577EA6ED1AD4B433(L_42, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:187>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:187>
 		return G_B11_0;
 	}
 }
-// Method Definition Index: 94153
+// Method Definition Index: 94145
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_EnumerateSwapchainImages_mBF99323B61FAE7197E32B4E6CAE96FD80B2239FE (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, uint32_t ___1_imageCapacityInput, uint32_t* ___2_imageCountOutput, intptr_t ___3_imagesPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9065,7 +9065,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_EnumerateSwapchainImage
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:193>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:193>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -9083,16 +9083,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_EnumerateSwapchainImage
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:195>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:195>
 		uint32_t* L_2 = ___2_imageCountOutput;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:196>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:196>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:199>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:199>
 		xrEnumerateSwapchainImagesDelegate_tAC9230D91BF6BEABF106A9D3A7F4A12A1EBF51AB* L_3 = __this->___XrEnumerateSwapchainImages;
 		XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 L_4 = ___0_swapchain;
 		uint32_t L_5 = ___1_imageCapacityInput;
@@ -9104,7 +9104,7 @@ IL_0016:
 		return L_8;
 	}
 }
-// Method Definition Index: 94154
+// Method Definition Index: 94146
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CwAcquireSwapchainImage_m6B2897FC92EBB44D484ADDAAF68C23501B081114 (XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageAcquireInfo_t1511B9EF75760574A7A5C4887D6FD01A8ACBB5E6* ___1_acquireInfo, uint32_t* ___2_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, XrSwapchainImageAcquireInfo_t1511B9EF75760574A7A5C4887D6FD01A8ACBB5E6*, uint32_t*);
@@ -9126,7 +9126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CwAcquireSwapchainImage
 
 	return returnValue;
 }
-// Method Definition Index: 94155
+// Method Definition Index: 94147
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_AcquireSwapchainImage_mC14E45649574C227DC0EEE3DE0F7E9920DB5ACB8 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageAcquireInfo_t1511B9EF75760574A7A5C4887D6FD01A8ACBB5E6* ___1_acquireInfo, uint32_t* ___2_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9136,7 +9136,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_AcquireSwapchainImage_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:207>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:207>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -9154,16 +9154,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_AcquireSwapchainImage_m
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:209>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:209>
 		uint32_t* L_2 = ___2_index;
 		*((int32_t*)L_2) = (int32_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:210>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:210>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0016:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:214>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:214>
 		xrAcquireSwapchainImageDelegate_t301098D2D2D22FC40D413B80D9C838B6D7123EE2* L_3 = __this->___XrAcquireSwapchainImage;
 		XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 L_4 = ___0_swapchain;
 		XrSwapchainImageAcquireInfo_t1511B9EF75760574A7A5C4887D6FD01A8ACBB5E6* L_5 = ___1_acquireInfo;
@@ -9171,11 +9171,11 @@ IL_0016:
 		NullCheck(L_3);
 		int32_t L_7;
 		L_7 = xrAcquireSwapchainImageDelegate_Invoke_mCFE9E393706E1EB9BBBB2F6FE6E5E9E529EA639D_inline(L_3, L_4, L_5, L_6, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:216>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:216>
 		return L_7;
 	}
 }
-// Method Definition Index: 94156
+// Method Definition Index: 94148
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CwWaitSwapchainImage_m296F770F9100F73063B3359F7B8C53FEBDB780B9 (XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageWaitInfo_t8E5107BDB65595474634F53B31F7352BB67D6AA4* ___1_waitInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, XrSwapchainImageWaitInfo_t8E5107BDB65595474634F53B31F7352BB67D6AA4*);
@@ -9197,7 +9197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CwWaitSwapchainImage_m2
 
 	return returnValue;
 }
-// Method Definition Index: 94157
+// Method Definition Index: 94149
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_WaitSwapchainImage_mBBBB1ACA3484C306732B70D27C64DE8D7376DD25 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageWaitInfo_t8E5107BDB65595474634F53B31F7352BB67D6AA4* ___1_waitInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9207,7 +9207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_WaitSwapchainImage_mBBB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:224>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:224>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -9225,24 +9225,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_WaitSwapchainImage_mBBB
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:226>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:226>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:230>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:230>
 		xrWaitSwapchainImageDelegate_tBF668361E5D04261ECF8A87AC722E5B1E97A2553* L_2 = __this->___XrWaitSwapchainImage;
 		XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 L_3 = ___0_swapchain;
 		XrSwapchainImageWaitInfo_t8E5107BDB65595474634F53B31F7352BB67D6AA4* L_4 = ___1_waitInfo;
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = xrWaitSwapchainImageDelegate_Invoke_mD561AA340ED3995C12AFCC807BE8ACB5FCD32DD5_inline(L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:232>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:232>
 		return L_5;
 	}
 }
-// Method Definition Index: 94158
+// Method Definition Index: 94150
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CwReleaseSwapchainImage_m9C5767621991BCEECADDA8F11D4A69DA8B8CE70B (XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageReleaseInfo_t12BD425DB16DF069BA54CA4208598B4E9F40BD1B* ___1_releaseInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, XrSwapchainImageReleaseInfo_t12BD425DB16DF069BA54CA4208598B4E9F40BD1B*);
@@ -9264,7 +9264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_CwReleaseSwapchainImage
 
 	return returnValue;
 }
-// Method Definition Index: 94159
+// Method Definition Index: 94151
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_ReleaseSwapchainImage_mCB93372903C6D900CE8B8F61606749E0DC279A62 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageReleaseInfo_t12BD425DB16DF069BA54CA4208598B4E9F40BD1B* ___1_releaseInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9274,7 +9274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_ReleaseSwapchainImage_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:240>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:240>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m0498360358A933FFD385875F9AC39B2F073938CB_RuntimeMethod_var);
 		if (!L_0)
@@ -9292,24 +9292,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CommonWrapper_ReleaseSwapchainImage_m
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:242>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:242>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:247>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:247>
 		xrReleaseSwapchainImageDelegate_t5DD3247FD6B326EBEF71E6E642A36EA087EAE171* L_2 = __this->___XrReleaseSwapchainImage;
 		XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 L_3 = ___0_swapchain;
 		XrSwapchainImageReleaseInfo_t12BD425DB16DF069BA54CA4208598B4E9F40BD1B* L_4 = ___1_releaseInfo;
 		NullCheck(L_2);
 		int32_t L_5;
 		L_5 = xrReleaseSwapchainImageDelegate_Invoke_m66119F15D99EE9CE5A68A3A7840D51023F72E983_inline(L_2, L_3, L_4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:249>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureCommonWrapper.cs:249>
 		return L_5;
 	}
 }
-// Method Definition Index: 94160
+// Method Definition Index: 94152
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommonWrapper__ctor_m50043D6C18F61C7973941B9A4A729C5B8F75EE48 (CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9333,7 +9333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommonWrapper__ctor_m50043D6C18F61C79739
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94161
+// Method Definition Index: 94153
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureWrapper_OnInstanceCreate_m69F5D8BE21D623EDE613E66793FE6E90B863F6D9 (FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_xrInstance, intptr_t ___1_xrGetInstanceProcAddrPtr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9358,7 +9358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureWrapper_OnInstanceCreate_m69F5D8BE
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:80>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:80>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_RuntimeMethod_var);
 		if (!L_0)
@@ -9367,13 +9367,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureWrapper_OnInstanceCreate_m69F5D8BE
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:80>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:80>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:81>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:81>
 		bool L_1;
 		L_1 = ViveFeatureWrapperBase_1_get_TryInited_m43EEF26FFBF9B24EEA268DC1E4632DF9073D4188_inline(__this, ViveFeatureWrapperBase_1_get_TryInited_m43EEF26FFBF9B24EEA268DC1E4632DF9073D4188_RuntimeMethod_var);
 		if (!L_1)
@@ -9382,44 +9382,44 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:81>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:81>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:82>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:82>
 		ViveFeatureWrapperBase_1_set_TryInited_m964B4036F5B05EA116F7AC70959409455B9E52E4_inline(__this, (bool)1, ViveFeatureWrapperBase_1_set_TryInited_m964B4036F5B05EA116F7AC70959409455B9E52E4_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:86>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:86>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_2 = ___0_xrInstance;
 		__this->___xrInstance = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:90>
 		intptr_t L_3 = ___1_xrGetInstanceProcAddrPtr;
 		ViveFeatureWrapperBase_1_SetGetInstanceProcAddrPtr_mAC07928DDDB845DD742C8F3CA3DC0A29CCFB0008(__this, L_3, ViveFeatureWrapperBase_1_SetGetInstanceProcAddrPtr_mAC07928DDDB845DD742C8F3CA3DC0A29CCFB0008_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:92>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:92>
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteralD63B40FFD0E0293569DA983F49812DBCC114F02C, _stringLiteral8408FBCD77B25719F4BD9ACFFB68BB745A9A5568, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:94>
 		bool L_4;
 		L_4 = OpenXRRuntime_IsExtensionEnabled_mF0C6FC95EDFD8DA6C5A838EA2053C06F657A2EE5(_stringLiteral29F95CAF50B4F553B55F571B74B4D3FC5EE40D3D, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:95>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:95>
 		if (L_4)
 		{
 			goto IL_0055;
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:97>
 		Log_E_m6C30EC877BA5D92A1F4F016B1BCC114E076878CF(_stringLiteralD63B40FFD0E0293569DA983F49812DBCC114F02C, _stringLiteralA1E58B29669FD8F88D2198090BFE54D4F910DE02, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:98>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:98>
 		return (bool)0;
 	}
 
 IL_0055:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:101>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:102>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:104>
 		bool L_5 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_6 = ((ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_7 = ___0_xrInstance;
@@ -9428,7 +9428,7 @@ IL_0055:
 		bool L_9;
 		L_9 = OpenXRHelper_GetXrFunctionDelegate_TisXrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E_mA1E413A6344E55ACBB447E0BB8D9C6A049BDD24E(L_6, L_7, _stringLiteralB12F08A396DCDF4E9E9D5F4F84FB698C17806A94, L_8, OpenXRHelper_GetXrFunctionDelegate_TisXrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E_mA1E413A6344E55ACBB447E0BB8D9C6A049BDD24E_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_5&(int32_t)L_9));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:105>
 		bool L_10 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_11 = ((ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_12 = ___0_xrInstance;
@@ -9436,7 +9436,7 @@ IL_0055:
 		bool L_14;
 		L_14 = OpenXRHelper_GetXrFunctionDelegate_TisXrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E_m47632B554B29654FB9018C59A2FA746C4B113D9D(L_11, L_12, _stringLiteral93B774EC78E0911AD6F268C27FF007A3F0A17055, L_13, OpenXRHelper_GetXrFunctionDelegate_TisXrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E_m47632B554B29654FB9018C59A2FA746C4B113D9D_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_10&(int32_t)L_14));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:107>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:107>
 		bool L_15 = V_0;
 		if (L_15)
 		{
@@ -9444,23 +9444,23 @@ IL_0055:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:109>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:109>
 		Log_E_m6C30EC877BA5D92A1F4F016B1BCC114E076878CF(_stringLiteralD63B40FFD0E0293569DA983F49812DBCC114F02C, _stringLiteral982C3C56A7DFBD1F8685ADD02D19AFE5747153C3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:110>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:110>
 		return (bool)0;
 	}
 
 IL_00a5:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:113>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:113>
 		bool L_16 = V_0;
 		ViveFeatureWrapperBase_1_set_IsInited_mAA92465324E61F13382185DFBCB0AD6EFD5BF8A8_inline(__this, L_16, ViveFeatureWrapperBase_1_set_IsInited_mAA92465324E61F13382185DFBCB0AD6EFD5BF8A8_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:114>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:114>
 		bool L_17 = V_0;
 		return L_17;
 	}
 }
-// Method Definition Index: 94162
+// Method Definition Index: 94154
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureWrapper_OnInstanceDestroy_m99B43CB8BE2E8D858BADA21F01333208434D856F (FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9472,25 +9472,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureWrapper_OnInstanceDestroy_m99B43CB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:119>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:119>
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteralD63B40FFD0E0293569DA983F49812DBCC114F02C, _stringLiteralF084D664531082EB2CEC4D49B7B7C6BA298FEDF3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:120>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:120>
 		ViveFeatureWrapperBase_1_set_IsInited_mAA92465324E61F13382185DFBCB0AD6EFD5BF8A8_inline(__this, (bool)0, ViveFeatureWrapperBase_1_set_IsInited_mAA92465324E61F13382185DFBCB0AD6EFD5BF8A8_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:121>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:121>
 		__this->___XrPollFutureEXT = (XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___XrPollFutureEXT), (void*)(XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:122>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:122>
 		__this->___XrCancelFutureEXT = (XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___XrCancelFutureEXT), (void*)(XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:123>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:123>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_0;
 		L_0 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(((int64_t)0), NULL);
 		__this->___xrInstance = L_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:124>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:124>
 		return;
 	}
 }
-// Method Definition Index: 94163
+// Method Definition Index: 94155
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mC2947FED731448D5326AA426985BF29197F4057F (FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* __this, XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745* ___0_pollInfo, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* ___1_pollResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9502,12 +9502,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mC2947FED731
 	XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:135>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:136>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:137>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:138>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:139>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:140>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:135>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:136>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:137>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:138>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:139>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:140>
 		XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* L_0 = ___1_pollResult;
 		il2cpp_codegen_initobj((&V_0), sizeof(XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1));
 		(&V_0)->___type = ((int32_t)1000469003);
@@ -9515,7 +9515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mC2947FED731
 		(&V_0)->___state = 0;
 		XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1 L_1 = V_0;
 		*(XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1*)L_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:141>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:141>
 		bool L_2;
 		L_2 = ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_RuntimeMethod_var);
 		if (L_2)
@@ -9524,13 +9524,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mC2947FED731
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:142>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:142>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:144>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:144>
 		XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E* L_3 = __this->___XrPollFutureEXT;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_4 = __this->___xrInstance;
 		XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745* L_5 = ___0_pollInfo;
@@ -9541,7 +9541,7 @@ IL_003a:
 		return L_7;
 	}
 }
-// Method Definition Index: 94164
+// Method Definition Index: 94156
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mE2CFAA9DC5E004FC9E2BD6001C13CFDD49988835 (FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* __this, intptr_t ___0_future, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* ___1_pollResult, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9557,12 +9557,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mE2CFAA9DC5E
 	XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:156>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:157>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:158>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:159>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:160>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:161>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:156>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:157>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:158>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:159>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:161>
 		XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* L_0 = ___1_pollResult;
 		il2cpp_codegen_initobj((&V_1), sizeof(XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1));
 		(&V_1)->___type = ((int32_t)1000469003);
@@ -9570,7 +9570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mE2CFAA9DC5E
 		(&V_1)->___state = 0;
 		XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1 L_1 = V_1;
 		*(XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1*)L_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:162>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:162>
 		bool L_2;
 		L_2 = ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_RuntimeMethod_var);
 		if (L_2)
@@ -9579,18 +9579,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_PollFuture_mE2CFAA9DC5E
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:163>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:163>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:165>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:166>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:167>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:168>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:169>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:170>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:165>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:166>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:167>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:168>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:169>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:170>
 		il2cpp_codegen_initobj((&V_2), sizeof(XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745));
 		(&V_2)->___type = ((int32_t)1000469001);
 		(&V_2)->___next = 0;
@@ -9598,7 +9598,7 @@ IL_003a:
 		(&V_2)->___future = L_3;
 		XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745 L_4 = V_2;
 		V_0 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:172>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:172>
 		XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E* L_5 = __this->___XrPollFutureEXT;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_6 = __this->___xrInstance;
 		XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* L_7 = ___1_pollResult;
@@ -9608,7 +9608,7 @@ IL_003a:
 		return L_8;
 	}
 }
-// Method Definition Index: 94165
+// Method Definition Index: 94157
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_CancelFuture_m90E5B71D67DFF98C95260AEBEA258C0BFCAF4799 (FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* __this, XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215* ___0_cancelInfo, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9618,7 +9618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_CancelFuture_m90E5B71D6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:184>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_RuntimeMethod_var);
 		if (L_0)
@@ -9627,13 +9627,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_CancelFuture_m90E5B71D6
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:185>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:185>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:187>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:187>
 		XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E* L_1 = __this->___XrCancelFutureEXT;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_2 = __this->___xrInstance;
 		XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215* L_3 = ___0_cancelInfo;
@@ -9643,7 +9643,7 @@ IL_000b:
 		return L_4;
 	}
 }
-// Method Definition Index: 94166
+// Method Definition Index: 94158
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_CancelFuture_m9DF4C535CA410D54CCA1C2DC34D3A6D8C4255180 (FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* __this, intptr_t ___0_future, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9657,7 +9657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_CancelFuture_m9DF4C535C
 	XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:198>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:198>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m662FF3F8E45E83E723D5ABD0C3DFCD52D66B8B55_RuntimeMethod_var);
 		if (L_0)
@@ -9666,18 +9666,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureWrapper_CancelFuture_m9DF4C535C
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:199>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:199>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:201>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:202>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:203>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:204>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:205>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:206>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:201>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:202>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:203>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:204>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:205>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:206>
 		il2cpp_codegen_initobj((&V_1), sizeof(XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215));
 		(&V_1)->___type = ((int32_t)1000469000);
 		(&V_1)->___next = 0;
@@ -9685,7 +9685,7 @@ IL_000b:
 		(&V_1)->___future = L_1;
 		XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215 L_2 = V_1;
 		V_0 = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:208>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureFutureWrapper.cs:208>
 		XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E* L_3 = __this->___XrCancelFutureEXT;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_4 = __this->___xrInstance;
 		NullCheck(L_3);
@@ -9694,7 +9694,7 @@ IL_000b:
 		return L_5;
 	}
 }
-// Method Definition Index: 94167
+// Method Definition Index: 94159
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureWrapper__ctor_m1078D34F93ABADF359C1DB688F77A27D5078FC4B (FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9797,7 +9797,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_XrPollFutureEXTDelegate_t5A508BC
 
 	return returnValue;
 }
-// Method Definition Index: 94168
+// Method Definition Index: 94160
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrPollFutureEXTDelegate__ctor_mF962E188B9C04DD9F01F8A0B24F2FC5977772C10 (XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9826,13 +9826,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrPollFutureEXTDelegate__ctor_mF962E188B
 	}
 	__this->___extra_arg = (intptr_t)&XrPollFutureEXTDelegate_Invoke_m9C675FFD6A463C673CBD262AFC54BCBC1AD4C051_Multicast;
 }
-// Method Definition Index: 94169
+// Method Definition Index: 94161
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XrPollFutureEXTDelegate_Invoke_m9C675FFD6A463C673CBD262AFC54BCBC1AD4C051 (XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745* ___1_pollInfo, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* ___2_pollResult, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB, XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745*, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_instance, ___1_pollInfo, ___2_pollResult, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94170
+// Method Definition Index: 94162
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XrPollFutureEXTDelegate_BeginInvoke_m9828C01551963FFDF21C493EEE0C886901A5FC1B (XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745* ___1_pollInfo, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* ___2_pollResult, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9849,7 +9849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XrPollFutureEXTDelegate_BeginI
 	__d_args[2] = Box(XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1_il2cpp_TypeInfo_var, &*___2_pollResult);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 94171
+// Method Definition Index: 94163
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XrPollFutureEXTDelegate_EndInvoke_m58AD4211CB0AE848141DBDA534FB7AA198DA6645 (XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E* __this, XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745* ___0_pollInfo, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* ___1_pollResult, RuntimeObject* ___2_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -9898,7 +9898,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_XrCancelFutureEXTDelegate_tFA260
 
 	return returnValue;
 }
-// Method Definition Index: 94172
+// Method Definition Index: 94164
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrCancelFutureEXTDelegate__ctor_mC65A096C492CE3B66BE4EF77BE2711615B774A75 (XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9927,13 +9927,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrCancelFutureEXTDelegate__ctor_mC65A096
 	}
 	__this->___extra_arg = (intptr_t)&XrCancelFutureEXTDelegate_Invoke_mA9E8790499A770EF9C0B7FBCF980BB1771FFFAD8_Multicast;
 }
-// Method Definition Index: 94173
+// Method Definition Index: 94165
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XrCancelFutureEXTDelegate_Invoke_mA9E8790499A770EF9C0B7FBCF980BB1771FFFAD8 (XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215* ___1_cancelInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB, XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_instance, ___1_cancelInfo, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94174
+// Method Definition Index: 94166
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XrCancelFutureEXTDelegate_BeginInvoke_m96530E08BB0576A80397B9FA7FE447B88B1C60AC (XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215* ___1_cancelInfo, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9948,7 +9948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XrCancelFutureEXTDelegate_Begi
 	__d_args[1] = Box(XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215_il2cpp_TypeInfo_var, &*___1_cancelInfo);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 94175
+// Method Definition Index: 94167
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XrCancelFutureEXTDelegate_EndInvoke_mE1D1199D2E8C4B8045BA9C5E19A19F8B3031F1B6 (XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E* __this, XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215* ___0_cancelInfo, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -9965,7 +9965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XrCancelFutureEXTDelegate_EndInvoke_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94176
+// Method Definition Index: 94168
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpaceWrapper_OnInstanceCreate_m6A3CB2A10EADAF22B443490B1F63E117C97EC81E (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_xrInstance, intptr_t ___1_GetAddr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9991,7 +9991,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpaceWrapper_OnInstanceCreate_m6A3CB2A10
 	}
 	bool V_0 = false;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:36>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:36>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_RuntimeMethod_var);
 		if (!L_0)
@@ -10000,13 +10000,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SpaceWrapper_OnInstanceCreate_m6A3CB2A10
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:36>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:36>
 		return (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:37>
 		bool L_1;
 		L_1 = ViveFeatureWrapperBase_1_get_TryInited_mCF621B7CBF1821040B89F12604F315D842D1231E_inline(__this, ViveFeatureWrapperBase_1_get_TryInited_mCF621B7CBF1821040B89F12604F315D842D1231E_RuntimeMethod_var);
 		if (!L_1)
@@ -10015,23 +10015,23 @@ IL_000a:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:37>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:38>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:38>
 		ViveFeatureWrapperBase_1_set_TryInited_mFEA2F62FCF1967C91AE91B4478481A2AD4AB6F4E_inline(__this, (bool)1, ViveFeatureWrapperBase_1_set_TryInited_mFEA2F62FCF1967C91AE91B4478481A2AD4AB6F4E_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:43>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:43>
 		intptr_t L_2 = ___1_GetAddr;
 		ViveFeatureWrapperBase_1_SetGetInstanceProcAddrPtr_m3A785E8394D9324A2C53961AE5C6176B5C07BA5F(__this, L_2, ViveFeatureWrapperBase_1_SetGetInstanceProcAddrPtr_m3A785E8394D9324A2C53961AE5C6176B5C07BA5F_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:45>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:45>
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteral3481BED48F5D337E8AED857AD7D4565A42723D01, _stringLiteral8408FBCD77B25719F4BD9ACFFB68BB745A9A5568, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:47>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:47>
 		V_0 = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:48>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:50>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:48>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:50>
 		bool L_3 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_4 = ((ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_5 = ___0_xrInstance;
@@ -10040,7 +10040,7 @@ IL_0014:
 		bool L_7;
 		L_7 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A_m8C53FA86850E4025CD22E3A06FE51DDDB1657104(L_4, L_5, _stringLiteralB70EA9A14D04DCF449004D77B2B40902BE9298EF, L_6, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A_m8C53FA86850E4025CD22E3A06FE51DDDB1657104_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_3&(int32_t)L_7));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:51>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:51>
 		bool L_8 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_9 = ((ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_10 = ___0_xrInstance;
@@ -10048,7 +10048,7 @@ IL_0014:
 		bool L_12;
 		L_12 = OpenXRHelper_GetXrFunctionDelegate_TisxrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E_m78F6C7011F9E59815C2965BB7411C9297B3108F8(L_9, L_10, _stringLiteral9335151B7CEF584AB8ABB1427CAAE6C58EECC04E, L_11, OpenXRHelper_GetXrFunctionDelegate_TisxrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E_m78F6C7011F9E59815C2965BB7411C9297B3108F8_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_8&(int32_t)L_12));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:52>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:52>
 		bool L_13 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_14 = ((ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_15 = ___0_xrInstance;
@@ -10056,7 +10056,7 @@ IL_0014:
 		bool L_17;
 		L_17 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7_mD6322B97A5A7C969C4B9A1F159D50D0728B55D97(L_14, L_15, _stringLiteral28ACD8FB093C165EACAF5BBF7017DBE986679E51, L_16, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7_mD6322B97A5A7C969C4B9A1F159D50D0728B55D97_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_13&(int32_t)L_17));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:53>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:53>
 		bool L_18 = V_0;
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_19 = ((ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3*)__this)->___xrGetInstanceProcAddr;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_20 = ___0_xrInstance;
@@ -10064,15 +10064,15 @@ IL_0014:
 		bool L_22;
 		L_22 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23_m7CAFBCF206500432BB6859A82313CDD25A9C443E(L_19, L_20, _stringLiteralCDA600A570A78482458216C67F6DC4B71331F67D, L_21, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23_m7CAFBCF206500432BB6859A82313CDD25A9C443E_RuntimeMethod_var);
 		V_0 = (bool)((int32_t)((int32_t)L_18&(int32_t)L_22));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:54>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:54>
 		bool L_23 = V_0;
 		ViveFeatureWrapperBase_1_set_IsInited_mF66FE7630E28AFA1990D49A58C3F48A16A915AAF_inline(__this, L_23, ViveFeatureWrapperBase_1_set_IsInited_mF66FE7630E28AFA1990D49A58C3F48A16A915AAF_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:55>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:55>
 		bool L_24 = V_0;
 		return L_24;
 	}
 }
-// Method Definition Index: 94177
+// Method Definition Index: 94169
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpaceWrapper_OnInstanceDestroy_mCD02406DACB2C318B44DFD614B9B2F6C04FB6F48 (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10083,7 +10083,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpaceWrapper_OnInstanceDestroy_mCD02406D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:61>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:61>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_RuntimeMethod_var);
 		if (L_0)
@@ -10092,31 +10092,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpaceWrapper_OnInstanceDestroy_mCD02406D
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:61>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:61>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:62>
 		ViveFeatureWrapperBase_1_set_IsInited_mF66FE7630E28AFA1990D49A58C3F48A16A915AAF_inline(__this, (bool)0, ViveFeatureWrapperBase_1_set_IsInited_mF66FE7630E28AFA1990D49A58C3F48A16A915AAF_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:63>
 		__this->___XrEnumerateReferenceSpaces = (DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___XrEnumerateReferenceSpaces), (void*)(DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:64>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:64>
 		__this->___XrCreateReferenceSpace = (xrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___XrCreateReferenceSpace), (void*)(xrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:65>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:65>
 		__this->___XrLocateSpace = (DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___XrLocateSpace), (void*)(DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:66>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:66>
 		__this->___XrDestroySpace = (DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___XrDestroySpace), (void*)(DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:67>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 94178
+// Method Definition Index: 94170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_EnumerateReferenceSpaces_m98BECED22D12B7146EC85523314E9589AEFC645E (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, int32_t ___1_spaceCapacityInput, int32_t* ___2_spaceCountOutput, XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73** ___3_spaces, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10127,10 +10127,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_EnumerateReferenceSpaces
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:79>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:79>
 		int32_t* L_0 = ___2_spaceCountOutput;
 		*((int32_t*)L_0) = (int32_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:80>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:80>
 		bool L_1;
 		L_1 = ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_RuntimeMethod_var);
 		if (L_1)
@@ -10139,13 +10139,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_EnumerateReferenceSpaces
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:81>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:81>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:82>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:82>
 		int32_t L_2 = ___1_spaceCapacityInput;
 		if (!L_2)
 		{
@@ -10171,13 +10171,13 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:83>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:83>
 		return (int32_t)(((int32_t)-11));
 	}
 
 IL_0021:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:84>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:84>
 		DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A* L_8 = __this->___XrEnumerateReferenceSpaces;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_9 = ___0_session;
 		int32_t L_10 = ___1_spaceCapacityInput;
@@ -10186,15 +10186,15 @@ IL_0021:
 		NullCheck(L_8);
 		int32_t L_13;
 		L_13 = DelegateXrEnumerateReferenceSpaces_Invoke_mAFCF24A2DB6644849CB98949EE3625F8D23ADD32_inline(L_8, L_9, L_10, (&V_0), L_12, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:85>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:85>
 		int32_t* L_14 = ___2_spaceCountOutput;
 		uint32_t L_15 = V_0;
 		*((int32_t*)L_14) = (int32_t)L_15;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:86>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:86>
 		return L_13;
 	}
 }
-// Method Definition Index: 94179
+// Method Definition Index: 94171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_CreateReferenceSpace_m9A5FF1292ECAD63836371E1E869E292B326536B3 (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, int32_t ___1_referenceSpaceType, XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9 ___2_pose, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___3_space, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10206,12 +10206,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_CreateReferenceSpace_m9A
 	XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:102>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_0 = ___3_space;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_1;
 		L_1 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		*(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*)L_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:103>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:103>
 		bool L_2;
 		L_2 = ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_RuntimeMethod_var);
 		if (L_2)
@@ -10220,25 +10220,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_CreateReferenceSpace_m9A
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:104>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:106>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:106>
 		il2cpp_codegen_initobj((&V_0), sizeof(XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:107>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:107>
 		(&V_0)->___type = ((int32_t)37);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:108>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:108>
 		(&V_0)->___next = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:109>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:109>
 		int32_t L_3 = ___1_referenceSpaceType;
 		(&V_0)->___referenceSpaceType = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:110>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:110>
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9 L_4 = ___2_pose;
 		(&V_0)->___poseInReferenceSpace = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:111>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:111>
 		xrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E* L_5 = __this->___XrCreateReferenceSpace;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_6 = ___0_session;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_7 = ___3_space;
@@ -10248,7 +10248,7 @@ IL_0019:
 		return L_8;
 	}
 }
-// Method Definition Index: 94180
+// Method Definition Index: 94172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_CreateReferenceSpace_m36E05D0FF539111086A3F1C54168ADE7DC2AB91C (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616 ___1_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___2_space, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10258,12 +10258,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_CreateReferenceSpace_m36
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:123>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:123>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_0 = ___2_space;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_1;
 		L_1 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		*(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*)L_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:124>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:124>
 		bool L_2;
 		L_2 = ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_RuntimeMethod_var);
 		if (L_2)
@@ -10272,13 +10272,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_CreateReferenceSpace_m36
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:125>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:125>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:127>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:127>
 		xrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E* L_3 = __this->___XrCreateReferenceSpace;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_4 = ___0_session;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_5 = ___2_space;
@@ -10288,7 +10288,7 @@ IL_0018:
 		return L_6;
 	}
 }
-// Method Definition Index: 94181
+// Method Definition Index: 94173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_LocateSpace_m06F6B6EF22AD7D2C3B0ADF62DD720F0F1B8A8733 (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_baseSpace, XrTime_tAA4642192BA7C50D52CCF171F78B128D7FE096E2 ___2_time, XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3* ___3_location, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10298,7 +10298,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_LocateSpace_m06F6B6EF22A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:132>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:132>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_RuntimeMethod_var);
 		if (L_0)
@@ -10307,13 +10307,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_LocateSpace_m06F6B6EF22A
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:133>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:133>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:135>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:135>
 		DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7* L_1 = __this->___XrLocateSpace;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_2 = ___0_space;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_3 = ___1_baseSpace;
@@ -10325,7 +10325,7 @@ IL_000b:
 		return L_6;
 	}
 }
-// Method Definition Index: 94182
+// Method Definition Index: 94174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_DestroySpace_m76842741BD91C9E289B7DDEFA6B30F352F706B05 (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10338,7 +10338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_DestroySpace_m76842741BD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:140>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:140>
 		bool L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_inline(__this, ViveFeatureWrapperBase_1_get_IsInited_m547DE30C893E6262FBDDC25AE95472A6DB6B14F1_RuntimeMethod_var);
 		if (L_0)
@@ -10347,20 +10347,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpaceWrapper_DestroySpace_m76842741BD
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:141>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:141>
 		return (int32_t)(((int32_t)-12));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:142>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:142>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_1 = ___0_space;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_2 = L_1;
 		RuntimeObject* L_3 = Box(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9_il2cpp_TypeInfo_var, &L_2);
 		String_t* L_4;
 		L_4 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral0551FF1F13F197D9635A38B464212E9ACA73A4D0, L_3, NULL);
 		Log_D_m9F987BCD736BD812C718B4E5DD238F6810C42026(_stringLiteral3481BED48F5D337E8AED857AD7D4565A42723D01, L_4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:143>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:143>
 		DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23* L_5 = __this->___XrDestroySpace;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_6 = ___0_space;
 		NullCheck(L_5);
@@ -10369,7 +10369,7 @@ IL_000b:
 		return L_7;
 	}
 }
-// Method Definition Index: 94183
+// Method Definition Index: 94175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpaceWrapper__ctor_m39238A5242D2B96DBFD47CA0955329A70FF99F10 (SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10444,7 +10444,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrEnumerateReferenceSpac
 
 	return returnValue;
 }
-// Method Definition Index: 94184
+// Method Definition Index: 94176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrEnumerateReferenceSpaces__ctor_m8BEA8A3C98319802FF5B753A292FC180B4C2C589 (DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10473,13 +10473,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrEnumerateReferenceSpaces__ctor
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrEnumerateReferenceSpaces_Invoke_mAFCF24A2DB6644849CB98949EE3625F8D23ADD32_Multicast;
 }
-// Method Definition Index: 94185
+// Method Definition Index: 94177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrEnumerateReferenceSpaces_Invoke_mAFCF24A2DB6644849CB98949EE3625F8D23ADD32 (DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, uint32_t ___1_spaceCapacityInput, uint32_t* ___2_spaceCountOutput, XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* ___3_spaces, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, uint32_t, uint32_t*, XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_spaceCapacityInput, ___2_spaceCountOutput, ___3_spaces, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94186
+// Method Definition Index: 94178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrEnumerateReferenceSpaces_BeginInvoke_m2668B6AAA88EFC9A0DE41E377185CA0A2C0D11D6 (DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, uint32_t ___1_spaceCapacityInput, uint32_t* ___2_spaceCountOutput, XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* ___3_spaces, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10495,7 +10495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrEnumerateReferenceSp
 	__d_args[3] = ___3_spaces;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 94187
+// Method Definition Index: 94179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrEnumerateReferenceSpaces_EndInvoke_m54DD7A78EEA6A9E222C6E27DC1DB2E793729BFEF (DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A* __this, uint32_t* ___0_spaceCountOutput, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -10543,7 +10543,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrLocateSpace_t8D56494D0
 
 	return returnValue;
 }
-// Method Definition Index: 94188
+// Method Definition Index: 94180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrLocateSpace__ctor_mE0A2C6108C5B212FAA02B0347C1BED5DC6F0A705 (DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10572,13 +10572,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrLocateSpace__ctor_mE0A2C6108C5
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrLocateSpace_Invoke_m6E665106859455A360B069CA44CAC59C82947B1A_Multicast;
 }
-// Method Definition Index: 94189
+// Method Definition Index: 94181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrLocateSpace_Invoke_m6E665106859455A360B069CA44CAC59C82947B1A (DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_baseSpace, XrTime_tAA4642192BA7C50D52CCF171F78B128D7FE096E2 ___2_time, XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3* ___3_location, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, XrTime_tAA4642192BA7C50D52CCF171F78B128D7FE096E2, XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_space, ___1_baseSpace, ___2_time, ___3_location, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94190
+// Method Definition Index: 94182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrLocateSpace_BeginInvoke_m0BDE53B23C5AB7CB332306644803A6B50993C471 (DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_baseSpace, XrTime_tAA4642192BA7C50D52CCF171F78B128D7FE096E2 ___2_time, XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3* ___3_location, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10596,7 +10596,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrLocateSpace_BeginInv
 	__d_args[3] = Box(XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3_il2cpp_TypeInfo_var, &*___3_location);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 94191
+// Method Definition Index: 94183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrLocateSpace_EndInvoke_m273B358C84AF601CF19F1DB326DC6B48AD4E60A3 (DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7* __this, XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3* ___0_location, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -10644,7 +10644,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrDestroySpace_tD5D527F0
 
 	return returnValue;
 }
-// Method Definition Index: 94192
+// Method Definition Index: 94184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrDestroySpace__ctor_m173A678E5DAC5444A7CBED4EB28BE77AD8F102D8 (DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10673,13 +10673,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrDestroySpace__ctor_m173A678E5D
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrDestroySpace_Invoke_m28476A335EE0B54FC22D66B9589AB13225C5DB22_Multicast;
 }
-// Method Definition Index: 94193
+// Method Definition Index: 94185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrDestroySpace_Invoke_m28476A335EE0B54FC22D66B9589AB13225C5DB22 (DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_space, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94194
+// Method Definition Index: 94186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrDestroySpace_BeginInvoke_mE26C639797D5B0A28125B5623299DE41D46F502A (DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10692,7 +10692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrDestroySpace_BeginIn
 	__d_args[0] = Box(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9_il2cpp_TypeInfo_var, &___0_space);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 94195
+// Method Definition Index: 94187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrDestroySpace_EndInvoke_mC2CF1182030C1D33B33EAFBC9E55EA342778E414 (DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -10706,7 +10706,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrDestroySpace_EndInvoke_mC2C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94196
+// Method Definition Index: 94188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space__ctor_m158D3F4AAABF194C5612B318BCF5A48B8F0038B1 (Space_tD63B0C172D6D13B1E4988019ED19FBC6F3102D4F* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10717,32 +10717,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space__ctor_m158D3F4AAABF194C5612B318BCF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:156>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:156>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:158>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:158>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = ___0_space;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_1 = L_0;
 		RuntimeObject* L_2 = Box(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9_il2cpp_TypeInfo_var, &L_1);
 		String_t* L_3;
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralCAF1652131CCE9753B6EE23362CCD7397C265D94, L_2, NULL);
 		Log_D_m2B149C21FB93D5F8770442FB56208347766FA0C4(L_3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:159>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:159>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_4 = ___0_space;
 		__this->___space = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:160>
 		return;
 	}
 }
-// Method Definition Index: 94197
+// Method Definition Index: 94189
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 Space_GetXrSpace_m6FDD4FAA54EF2B20FB9BF8B1D1ACF679BCBD59A5 (Space_tD63B0C172D6D13B1E4988019ED19FBC6F3102D4F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:169>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:169>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = __this->___space;
 		return L_0;
 	}
 }
-// Method Definition Index: 94198
+// Method Definition Index: 94190
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Space_GetRelatedPose_m34B7A29C12C8D3930215F2581894BC4EFA61A0A3 (Space_tD63B0C172D6D13B1E4988019ED19FBC6F3102D4F* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_baseSpace, XrTime_tAA4642192BA7C50D52CCF171F78B128D7FE096E2 ___1_time, Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* ___2_pose, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10756,16 +10756,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Space_GetRelatedPose_m34B7A29C12C8D39302
 	XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:175>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:175>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_0 = ___2_pose;
 		il2cpp_codegen_initobj(L_0, sizeof(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:176>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:176>
 		il2cpp_codegen_initobj((&V_0), sizeof(XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:177>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:177>
 		(&V_0)->___type = ((int32_t)42);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:178>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:178>
 		(&V_0)->___next = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:179>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:179>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3_il2cpp_TypeInfo_var);
 		SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* L_1;
 		L_1 = ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506(ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506_RuntimeMethod_var);
@@ -10775,21 +10775,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Space_GetRelatedPose_m34B7A29C12C8D39302
 		NullCheck(L_1);
 		int32_t L_5;
 		L_5 = SpaceWrapper_LocateSpace_m06F6B6EF22AD7D2C3B0ADF62DD720F0F1B8A8733(L_1, L_2, L_3, L_4, (&V_0), NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:181>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:181>
 		if (!L_5)
 		{
 			goto IL_003c;
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:184>
 		return (bool)0;
 	}
 
 IL_003c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:191>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:192>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:191>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:192>
 		XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3 L_6 = V_0;
 		uint64_t L_7 = L_6.___locationFlags;
 		if ((!(((uint64_t)((int64_t)((int64_t)L_7&((int64_t)2)))) > ((uint64_t)((int64_t)0)))))
@@ -10806,7 +10806,7 @@ IL_003c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:194>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:194>
 		Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971* L_10 = ___2_pose;
 		XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3 L_11 = V_0;
 		XrPosef_t0821C076127F41D248AA6A56C7EB9D2A36BD34D9 L_12 = L_11.___pose;
@@ -10823,17 +10823,17 @@ IL_003c:
 		memset((&L_19), 0, sizeof(L_19));
 		Pose__ctor_m15CA45808A2BBF1956E836D22C387FAB80BED051((&L_19), L_14, L_18, NULL);
 		*(Pose_t06BA69EAA6E9FAF60056D519A87D25F54AFE7971*)L_10 = L_19;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:195>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:195>
 		return (bool)1;
 	}
 
 IL_0083:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:197>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:197>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 94199
+// Method Definition Index: 94191
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Dispose_mBD76DD06537877EDD973B6DBE41E542C344B1152 (Space_tD63B0C172D6D13B1E4988019ED19FBC6F3102D4F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10843,16 +10843,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Dispose_mBD76DD06537877EDD973B6DBE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:202>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:202>
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:203>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:203>
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:204>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:204>
 		return;
 	}
 }
-// Method Definition Index: 94200
+// Method Definition Index: 94192
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Dispose_m5E0A76119DD8576F33FE0A3FCEAE055568631B60 (Space_tD63B0C172D6D13B1E4988019ED19FBC6F3102D4F* __this, bool ___0_disposing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10863,7 +10863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Dispose_m5E0A76119DD8576F33FE0A3FC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:208>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:208>
 		bool L_0 = __this->___disposed;
 		if (L_0)
 		{
@@ -10871,9 +10871,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Dispose_m5E0A76119DD8576F33FE0A3FC
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:210>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:210>
 		bool L_1 = ___0_disposing;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:216>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:216>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3_il2cpp_TypeInfo_var);
 		SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* L_2;
 		L_2 = ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506(ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506_RuntimeMethod_var);
@@ -10881,21 +10881,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Dispose_m5E0A76119DD8576F33FE0A3FC
 		NullCheck(L_2);
 		int32_t L_4;
 		L_4 = SpaceWrapper_DestroySpace_m76842741BD91C9E289B7DDEFA6B30F352F706B05(L_2, L_3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:217>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:217>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_5;
 		L_5 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(((int64_t)0), NULL);
 		__this->___space = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:218>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:218>
 		__this->___disposed = (bool)1;
 	}
 
 IL_002f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:220>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:220>
 		return;
 	}
 }
-// Method Definition Index: 94201
+// Method Definition Index: 94193
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Finalize_mEC45CE1F87AEAC14B51D9DF78EBE2B62A0E3DF5F (Space_tD63B0C172D6D13B1E4988019ED19FBC6F3102D4F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10904,14 +10904,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Space_Finalize_mEC45CE1F87AEAC14B51D9DF7
 
 FINALLY_0009:
 			{
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:225>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:225>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:224>
+			//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:224>
 			VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)0);
 			goto IL_0010;
 		}
@@ -10923,7 +10923,7 @@ FINALLY_0009:
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:225>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/ViveFeatureSpaceWrapper.cs:225>
 		return;
 	}
 }
@@ -10935,7 +10935,7 @@ IL_0010:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94202
+// Method Definition Index: 94194
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveAnchor_HookGetInstanceProcAddr_mD8F0F475CDF7D8854A460DBF06A6BD8C34F41BF6 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_func, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10946,13 +10946,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveAnchor_HookGetInstanceProcAddr_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:200>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:200>
 		il2cpp_codegen_runtime_class_init_inline(ViveInterceptors_t85A91B9E6F806AF132A9D09CB3503F1B471FFD45_il2cpp_TypeInfo_var);
 		ViveInterceptors_t85A91B9E6F806AF132A9D09CB3503F1B471FFD45* L_0;
 		L_0 = ViveInterceptors_get_Instance_mF62CF39CE2DD1D4E7709FC4B1963019D53CEBBE7(NULL);
 		NullCheck(L_0);
 		ViveInterceptors_AddRequiredFunction_m9CD6E51AE81BA4FF9CA60853F504E670B1AD104E(L_0, _stringLiteral5D835917E71DDCFCCA2A56B936BDBC5E429E3456, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:201>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:201>
 		ViveInterceptors_t85A91B9E6F806AF132A9D09CB3503F1B471FFD45* L_1;
 		L_1 = ViveInterceptors_get_Instance_mF62CF39CE2DD1D4E7709FC4B1963019D53CEBBE7(NULL);
 		intptr_t L_2 = ___0_func;
@@ -10962,7 +10962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveAnchor_HookGetInstanceProcAddr_m
 		return L_3;
 	}
 }
-// Method Definition Index: 94203
+// Method Definition Index: 94195
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_OnInstanceCreate_m35B33C4B7556328241296A7670507AAD7C6B0E83 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10988,10 +10988,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_OnInstanceCreate_m35B33C4B755
 	bool V_1 = false;
 	int32_t G_B12_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:211>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:211>
 		__this->___IsInited = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:212>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:213>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:212>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:213>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C_il2cpp_TypeInfo_var);
 		CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8(ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8_RuntimeMethod_var);
@@ -11003,7 +11003,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_OnInstanceCreate_m35B33C4B755
 		NullCheck(L_0);
 		bool L_4;
 		L_4 = CommonWrapper_OnInstanceCreate_m35A25408B9B4C6FDF291EC09C10BB4A9A872A9BE(L_0, L_2, L_3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:214>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:214>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3_il2cpp_TypeInfo_var);
 		SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* L_5;
 		L_5 = ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506(ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506_RuntimeMethod_var);
@@ -11015,23 +11015,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_OnInstanceCreate_m35B33C4B755
 		NullCheck(L_5);
 		bool L_9;
 		L_9 = SpaceWrapper_OnInstanceCreate_m6A3CB2A10EADAF22B443490B1F63E117C97EC81E(L_5, L_7, L_8, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:216>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:216>
 		if (((int32_t)(((int32_t)(1&(int32_t)L_4))&(int32_t)L_9)))
 		{
 			goto IL_0042;
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:218>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:218>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral8EF5A4766889DCE7FB52139750F9BB7580486789, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:219>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:219>
 		return (bool)0;
 	}
 
 IL_0042:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:223>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:223>
 		bool L_10;
 		L_10 = OpenXRRuntime_IsExtensionEnabled_mF0C6FC95EDFD8DA6C5A838EA2053C06F657A2EE5(_stringLiteral53408E692C05C2E0D36B4A3FA90F5DBBC83BC567, NULL);
 		if (L_10)
@@ -11047,23 +11047,23 @@ IL_0042:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:225>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:225>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral149A2E54152B0A414EC45388F1BA11FEC87FB1D6, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:226>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:226>
 		return (bool)0;
 	}
 
 IL_0062:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:229>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:229>
 		uint64_t L_12 = ___0_xrInstance;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_13;
 		L_13 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(L_12, NULL);
 		bool L_14;
 		L_14 = ViveAnchor_GetXrFunctionDelegates_m0A09983D32BD466678EC63F92E0181B55BCB88EC(__this, L_13, NULL);
 		__this->___IsInited = L_14;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:231>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:231>
 		bool L_15 = __this->___IsInited;
 		if (L_15)
 		{
@@ -11071,21 +11071,21 @@ IL_0062:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:233>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:233>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralC49AB8287240C7F3FAAFDA1547EC0C9C3176A07E, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:234>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:234>
 		return (bool)0;
 	}
 
 IL_0088:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:237>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:237>
 		uint64_t L_16 = ___0_xrInstance;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_17;
 		L_17 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(L_16, NULL);
 		__this->___m_XrInstance = L_17;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:239>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:239>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_18;
 		L_18 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -11098,11 +11098,11 @@ IL_0088:
 		bool L_22;
 		L_22 = FutureWrapper_OnInstanceCreate_m69F5D8BE21D623EDE613E66793FE6E90B863F6D9(L_18, L_20, L_21, NULL);
 		V_0 = L_22;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:244>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:244>
 		__this->___IsPAInited = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:245>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:245>
 		V_1 = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:248>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:248>
 		bool L_23 = V_0;
 		if (L_23)
 		{
@@ -11110,18 +11110,18 @@ IL_0088:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:250>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral32A9F3E2027646F6138EB998D9B63137CAA367B4, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:251>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:251>
 		V_1 = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:252>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:252>
 		goto IL_00da;
 	}
 
 IL_00c4:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:255>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:255>
 		bool L_24 = __this->___enablePersistedAnchor;
 		if (!L_24)
 		{
@@ -11147,7 +11147,7 @@ IL_00d9:
 
 IL_00da:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:262>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:262>
 		bool L_26 = V_1;
 		if (!L_26)
 		{
@@ -11155,7 +11155,7 @@ IL_00da:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:263>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:263>
 		uint64_t L_27 = ___0_xrInstance;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_28;
 		L_28 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(L_27, NULL);
@@ -11166,7 +11166,7 @@ IL_00da:
 
 IL_00ef:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:264>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:264>
 		bool L_30 = __this->___IsPAInited;
 		if (L_30)
 		{
@@ -11174,19 +11174,19 @@ IL_00ef:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:265>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:265>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteralFAD3A7E2DCE85F742C6106FAF54735C17C2A415B, NULL);
 	}
 
 IL_0101:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:267>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:267>
 		bool L_31 = __this->___IsInited;
 		return L_31;
 	}
 }
-// Method Definition Index: 94204
+// Method Definition Index: 94196
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveAnchor_OnInstanceDestroy_m5A95245D869C3DE686D431330BA9D00053C65CC9 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, uint64_t ___0_xrInstance, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11203,78 +11203,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveAnchor_OnInstanceDestroy_m5A95245D86
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:272>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:272>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_0;
 		L_0 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(((int64_t)0), NULL);
 		__this->___m_XrInstance = L_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:274>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:274>
 		__this->___IsInited = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:275>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:275>
 		__this->___IsPAInited = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:277>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:277>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C_il2cpp_TypeInfo_var);
 		CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* L_1;
 		L_1 = ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8(ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8_RuntimeMethod_var);
 		NullCheck(L_1);
 		CommonWrapper_OnInstanceDestroy_m17B908C5D73DB288378EAF68A2DC6C049430C78F(L_1, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:278>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:278>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t3E354179DC9195BCA19966F063FBC3F1881BCFF3_il2cpp_TypeInfo_var);
 		SpaceWrapper_t3355BC53E63BB823A58D1CFB2761B0EAB76EFFC7* L_2;
 		L_2 = ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506(ViveFeatureWrapperBase_1_get_Instance_mCF506C196D8FAA57162295577CDAABB0B7AD8506_RuntimeMethod_var);
 		NullCheck(L_2);
 		SpaceWrapper_OnInstanceDestroy_mCD02406DACB2C318B44DFD614B9B2F6C04FB6F48(L_2, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:279>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:279>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_3;
 		L_3 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
 		NullCheck(L_3);
 		FutureWrapper_OnInstanceDestroy_m99B43CB8BE2E8D858BADA21F01333208434D856F(L_3, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:280>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:280>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral55B830B405A5A20BEB181EE209616C59E7691B86, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:281>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:281>
 		return;
 	}
 }
-// Method Definition Index: 94205
+// Method Definition Index: 94197
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveAnchor_OnSessionCreate_m9D22FACD0EC8F84212CC2468D34A37DB6D0DCA6A (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:287>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:287>
 		uint64_t L_0 = ___0_xrSession;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_1;
 		L_1 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(L_0, NULL);
 		__this->___session = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:288>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:288>
 		return;
 	}
 }
-// Method Definition Index: 94206
+// Method Definition Index: 94198
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveAnchor_OnSessionDestroy_m48BABDCCC4BB12CCCBC313EE64576D87778DA206 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, uint64_t ___0_xrSession, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:294>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:294>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_0;
 		L_0 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
 		__this->___session = L_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:295>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:295>
 		return;
 	}
 }
-// Method Definition Index: 94207
+// Method Definition Index: 94199
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveAnchor_OnSystemChange_m2AFE2B8C07506910235990DE57D9D743ADB2EDD6 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, uint64_t ___0_xrSystem, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:308>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:308>
 		uint64_t L_0 = ___0_xrSystem;
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_1;
 		L_1 = XrSystemId_op_Implicit_mFF070B33C2C85CDC082B4194DA0C7F3BB193F284(L_0, NULL);
 		__this->___m_XrSystemId = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:310>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:310>
 		return;
 	}
 }
-// Method Definition Index: 94208
+// Method Definition Index: 94200
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_GetXrFunctionDelegates_m0A09983D32BD466678EC63F92E0181B55BCB88EC (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_inst, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11295,35 +11295,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_GetXrFunctionDelegates_m0A099
 	}
 	xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* V_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:316>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:316>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralA81F1D9230A261F6B0F78D51BD9B020F76EABB2C, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:318>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:319>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:318>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:319>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C_il2cpp_TypeInfo_var);
 		CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8(ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8_RuntimeMethod_var);
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_1 = (xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC*)il2cpp_codegen_object_new(xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC_il2cpp_TypeInfo_var);
 		xrGetInstanceProcAddrDelegate__ctor_m4A146B56609D885DF704014A3F3104460A29FBCF(L_1, L_0, (intptr_t)((void*)CommonWrapper_GetInstanceProcAddr_m65C32510661BEF309F5D0F183F120E6482B46228_RuntimeMethod_var), NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:320>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:320>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_2 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_3 = ___0_inst;
 		DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22** L_4 = (DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22**)(&__this->___XrCreateSpatialAnchorHTC);
 		il2cpp_codegen_runtime_class_init_inline(OpenXRHelper_t4BE36310EB51760ADFEF668D8C1E7C00DF452063_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22_m93D667178EF08036C06DCFC5F25614043394F5AB(L_2, L_3, _stringLiteral5F06EE92539745CAD6A45F46B182997BC20EC3C9, L_4, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22_m93D667178EF08036C06DCFC5F25614043394F5AB_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:321>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:321>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_6 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_7 = ___0_inst;
 		DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E** L_8 = (DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E**)(&__this->___XrGetSpatialAnchorNameHTC);
 		bool L_9;
 		L_9 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E_m2607B2A52933254F36A13B68F2B8F864D2F91317(L_6, L_7, _stringLiteralB4C7670BA88F4AD43C063A03AFF7E31A0100AE01, L_8, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E_m2607B2A52933254F36A13B68F2B8F864D2F91317_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:323>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:323>
 		return (bool)((int32_t)(((int32_t)(1&(int32_t)L_5))&(int32_t)L_9));
 	}
 }
-// Method Definition Index: 94209
+// Method Definition Index: 94201
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_GetXrFunctionDelegatesPersistance_m13FCE5C5D4A17331B38A13540F11A411F13422C8 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_inst, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11368,107 +11368,107 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_GetXrFunctionDelegatesPersist
 	}
 	xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* V_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:328>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:328>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral40AB3B618696DDFC897763D0B50F2FF99CCF5D24, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:329>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:330>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:329>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:330>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C_il2cpp_TypeInfo_var);
 		CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* L_0;
 		L_0 = ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8(ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8_RuntimeMethod_var);
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_1 = (xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC*)il2cpp_codegen_object_new(xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC_il2cpp_TypeInfo_var);
 		xrGetInstanceProcAddrDelegate__ctor_m4A146B56609D885DF704014A3F3104460A29FBCF(L_1, L_0, (intptr_t)((void*)CommonWrapper_GetInstanceProcAddr_m65C32510661BEF309F5D0F183F120E6482B46228_RuntimeMethod_var), NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:331>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:331>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_2 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_3 = ___0_inst;
 		DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C** L_4 = (DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C**)(&__this->___XrAcquirePersistedAnchorCollectionAsyncHTC);
 		il2cpp_codegen_runtime_class_init_inline(OpenXRHelper_t4BE36310EB51760ADFEF668D8C1E7C00DF452063_il2cpp_TypeInfo_var);
 		bool L_5;
 		L_5 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C_mA0619CEE07A007D7976280344D1EAF486CD5A1B1(L_2, L_3, _stringLiteral2E590ADA15A8D9F5BE63C226EEEA2687359712BB, L_4, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C_mA0619CEE07A007D7976280344D1EAF486CD5A1B1_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:332>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:332>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_6 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_7 = ___0_inst;
 		DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A** L_8 = (DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A**)(&__this->___XrAcquirePersistedAnchorCollectionCompleteHTC);
 		bool L_9;
 		L_9 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A_m8894B73B0DAB77EC1302E52DC05FD835F2E5EBD7(L_6, L_7, _stringLiteral7D05E38C2B61327EA6D2689C49CE362980E14827, L_8, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A_m8894B73B0DAB77EC1302E52DC05FD835F2E5EBD7_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:333>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:333>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_10 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_11 = ___0_inst;
 		DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D** L_12 = (DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D**)(&__this->___XrReleasePersistedAnchorCollectionHTC);
 		bool L_13;
 		L_13 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D_m0EF80E532930FBC69538833A991C65EB742BF8FD(L_10, L_11, _stringLiteral5B5CFB5670F44E98FB9D6D723D1CEB8945006765, L_12, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D_m0EF80E532930FBC69538833A991C65EB742BF8FD_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:334>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:334>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_14 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_15 = ___0_inst;
 		DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC** L_16 = (DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC**)(&__this->___XrPersistSpatialAnchorAsyncHTC);
 		bool L_17;
 		L_17 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC_mA8E567799A14F1E69BEEBD04150165D798780055(L_14, L_15, _stringLiteral4F2B1260E61E6674D453EE8A8FBDCAE7757E1772, L_16, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC_mA8E567799A14F1E69BEEBD04150165D798780055_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:335>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:335>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_18 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_19 = ___0_inst;
 		DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483** L_20 = (DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483**)(&__this->___XrPersistSpatialAnchorCompleteHTC);
 		bool L_21;
 		L_21 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483_m6DFDC2B32A605471CEE13BFD68509E14A2824B3B(L_18, L_19, _stringLiteral9C1C2C702063667F54EFD2906297B7BAE241B763, L_20, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483_m6DFDC2B32A605471CEE13BFD68509E14A2824B3B_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:336>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:336>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_22 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_23 = ___0_inst;
 		DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E** L_24 = (DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E**)(&__this->___XrUnpersistSpatialAnchorHTC);
 		bool L_25;
 		L_25 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E_m72839D4DF04A5A7856FD943B56FBDA03E39C62C3(L_22, L_23, _stringLiteral244D5FF57A565F479FEF6BCB0E557BA4970461D7, L_24, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E_m72839D4DF04A5A7856FD943B56FBDA03E39C62C3_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:337>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:337>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_26 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_27 = ___0_inst;
 		DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0** L_28 = (DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0**)(&__this->___XrEnumeratePersistedAnchorNamesHTC);
 		bool L_29;
 		L_29 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0_mFAFDA4985993B949DDE150FA8FA04231F3D0D857(L_26, L_27, _stringLiteralEEFC3E4CEBB11EE360A21FA2B9CFA90E9DA86421, L_28, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0_mFAFDA4985993B949DDE150FA8FA04231F3D0D857_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:338>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:338>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_30 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_31 = ___0_inst;
 		DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD** L_32 = (DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD**)(&__this->___XrCreateSpatialAnchorFromPersistedAnchorAsyncHTC);
 		bool L_33;
 		L_33 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD_m51EE2D9D9C91A4099B529ACB53CED512702B0476(L_30, L_31, _stringLiteralD7444A6EED6355856C623CB1954C5E82F2A72A21, L_32, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD_m51EE2D9D9C91A4099B529ACB53CED512702B0476_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:339>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:339>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_34 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_35 = ___0_inst;
 		DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE** L_36 = (DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE**)(&__this->___XrCreateSpatialAnchorFromPersistedAnchorCompleteHTC);
 		bool L_37;
 		L_37 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE_m127406D9F7EC52A3631AB952AF0346301B996CFD(L_34, L_35, _stringLiteral0BCF80D61353EA2BFF14A376766EF2B114263F00, L_36, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE_m127406D9F7EC52A3631AB952AF0346301B996CFD_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:340>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:340>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_38 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_39 = ___0_inst;
 		DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC** L_40 = (DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC**)(&__this->___XrClearPersistedAnchorsHTC);
 		bool L_41;
 		L_41 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC_m17D47EC2E3D2367DC200E35EA5DBE7DC8D90227A(L_38, L_39, _stringLiteral77F23FD3E49736CCD37B3A960995130A2AF47858, L_40, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC_m17D47EC2E3D2367DC200E35EA5DBE7DC8D90227A_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:341>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:341>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_42 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_43 = ___0_inst;
 		DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D** L_44 = (DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D**)(&__this->___XrGetPersistedAnchorPropertiesHTC);
 		bool L_45;
 		L_45 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D_m1C8A9EF1F8F3A5E2883D294EE53091ABC5761DB2(L_42, L_43, _stringLiteralE4F588AAEB9E9877DD3A2C580D96448A73EDBBE1, L_44, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D_m1C8A9EF1F8F3A5E2883D294EE53091ABC5761DB2_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:342>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:342>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_46 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_47 = ___0_inst;
 		DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2** L_48 = (DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2**)(&__this->___XrExportPersistedAnchorHTC);
 		bool L_49;
 		L_49 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2_mE87156D6FE77DF448436A596E3625D393C5DFE75(L_46, L_47, _stringLiteralEB45D50C5D622C074E30790EF6E97BCA37C264B8, L_48, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2_mE87156D6FE77DF448436A596E3625D393C5DFE75_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:343>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:343>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_50 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_51 = ___0_inst;
 		DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0** L_52 = (DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0**)(&__this->___XrImportPersistedAnchorHTC);
 		bool L_53;
 		L_53 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0_mF2B18C48BCD624E6C021A75CE71474155CB51855(L_50, L_51, _stringLiteralC654A1BC67BE2B253EE751D3F11B392C18042360, L_52, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0_mF2B18C48BCD624E6C021A75CE71474155CB51855_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:344>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:344>
 		xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* L_54 = V_0;
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_55 = ___0_inst;
 		DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129** L_56 = (DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129**)(&__this->___XrGetPersistedAnchorNameFromBufferHTC);
 		bool L_57;
 		L_57 = OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129_m74D751466DA88E92AB1420E7E07691B8E02F4C1F(L_54, L_55, _stringLiteralDB910DF2E534417D1080F08C217AFCA0A98E393A, L_56, OpenXRHelper_GetXrFunctionDelegate_TisDelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129_m74D751466DA88E92AB1420E7E07691B8E02F4C1F_RuntimeMethod_var);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:346>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:346>
 		return (bool)((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(((int32_t)(1&(int32_t)L_5))&(int32_t)L_9))&(int32_t)L_13))&(int32_t)L_17))&(int32_t)L_21))&(int32_t)L_25))&(int32_t)L_29))&(int32_t)L_33))&(int32_t)L_37))&(int32_t)L_41))&(int32_t)L_45))&(int32_t)L_49))&(int32_t)L_53))&(int32_t)L_57));
 	}
 }
-// Method Definition Index: 94210
+// Method Definition Index: 94202
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetProperties_mE8B312C0998F03C7B90A47AF6FE28DDE2A647CA9 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, XrSystemAnchorPropertiesHTC_tAED7826236B843C6B1343AB45903946FA05EC64D* ___0_anchorProperties, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11480,13 +11480,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetProperties_mE8B312C0998
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:358>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:358>
 		XrSystemAnchorPropertiesHTC_tAED7826236B843C6B1343AB45903946FA05EC64D* L_0 = ___0_anchorProperties;
 		il2cpp_codegen_initobj(L_0, sizeof(XrSystemAnchorPropertiesHTC_tAED7826236B843C6B1343AB45903946FA05EC64D));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:359>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:359>
 		XrSystemAnchorPropertiesHTC_tAED7826236B843C6B1343AB45903946FA05EC64D* L_1 = ___0_anchorProperties;
 		L_1->___type = ((int32_t)1000319000);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:369>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:369>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t844DD667AE99BAD3487F1C163F61752390953F0C_il2cpp_TypeInfo_var);
 		CommonWrapper_tDF864D6F905B3590F6274D06548D321F06CD998E* L_2;
 		L_2 = ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8(ViveFeatureWrapperBase_1_get_Instance_m187B3C650CF60659468F67C81D3A2123A4CDD0A8_RuntimeMethod_var);
@@ -11499,14 +11499,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetProperties_mE8B312C0998
 		return L_6;
 	}
 }
-// Method Definition Index: 94211
+// Method Definition Index: 94203
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_CreateSpatialAnchor_m881533B5A521B90833599A8E7ED63819BB25C2B9 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, XrSpatialAnchorCreateInfoHTC_t98FBB36E30DE85AAD575D4E3BBBFDCE40517281D ___0_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___1_anchor, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:382>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:382>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_0 = ___1_anchor;
 		il2cpp_codegen_initobj(L_0, sizeof(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:383>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:383>
 		bool L_1 = __this->___IsInited;
 		if (L_1)
 		{
@@ -11514,13 +11514,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_CreateSpatialAnchor_m88153
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:384>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:384>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:385>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:385>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_2 = __this->___session;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_3;
 		L_3 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
@@ -11532,31 +11532,31 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:386>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:386>
 		return (int32_t)(((int32_t)-17));
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:388>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:388>
 		DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22* L_5 = __this->___XrCreateSpatialAnchorHTC;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_6 = __this->___session;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* L_7 = ___1_anchor;
 		NullCheck(L_5);
 		int32_t L_8;
 		L_8 = DelegateXrCreateSpatialAnchorHTC_Invoke_mA52B1A1FABE24960031FE43D0FDFD916DC9F87CD_inline(L_5, L_6, (&___0_createInfo), L_7, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:393>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:393>
 		return L_8;
 	}
 }
-// Method Definition Index: 94212
+// Method Definition Index: 94204
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetSpatialAnchorName_m4D71910976A6B2B244173FF400C852B86B7AEC0B (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_anchor, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:404>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:404>
 		XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* L_0 = ___1_name;
 		il2cpp_codegen_initobj(L_0, sizeof(XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:405>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:405>
 		bool L_1 = __this->___IsInited;
 		if (L_1)
 		{
@@ -11564,13 +11564,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetSpatialAnchorName_m4D71
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:406>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:406>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:407>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:407>
 		DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E* L_2 = __this->___XrGetSpatialAnchorNameHTC;
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_3 = ___0_anchor;
 		XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* L_4 = ___1_name;
@@ -11580,16 +11580,16 @@ IL_0012:
 		return L_5;
 	}
 }
-// Method Definition Index: 94213
+// Method Definition Index: 94205
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ViveAnchor_IsPersistedAnchorSupported_m5F8240B7BA43DF774EBA5065AAA65208AB5251C7 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:416>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:416>
 		bool L_0 = __this->___IsPAInited;
 		return L_0;
 	}
 }
-// Method Definition Index: 94214
+// Method Definition Index: 94206
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_AcquirePersistedAnchorCollectionAsync_mA3549BD4C238498CC3FC06A76293531E0BE3037B (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t* ___0_future, const RuntimeMethod* method) 
 {
 	XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48 V_0;
@@ -11597,10 +11597,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_AcquirePersistedAnchorColl
 	XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:427>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:427>
 		intptr_t* L_0 = ___0_future;
 		*((intptr_t*)L_0) = (intptr_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:428>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:428>
 		bool L_1 = __this->___IsPAInited;
 		if (L_1)
 		{
@@ -11608,13 +11608,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_AcquirePersistedAnchorColl
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:429>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:429>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:430>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:430>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_2 = __this->___session;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_3;
 		L_3 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
@@ -11626,23 +11626,23 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:431>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:431>
 		return (int32_t)(((int32_t)-17));
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:433>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:434>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:435>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:436>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:437>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:433>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:434>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:435>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:436>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:437>
 		il2cpp_codegen_initobj((&V_1), sizeof(XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48));
 		(&V_1)->___type = ((int32_t)1000324000);
 		(&V_1)->___next = 0;
 		XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48 L_5 = V_1;
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:439>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:439>
 		DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C* L_6 = __this->___XrAcquirePersistedAnchorCollectionAsyncHTC;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_7 = __this->___session;
 		intptr_t* L_8 = ___0_future;
@@ -11652,14 +11652,14 @@ IL_0029:
 		return L_9;
 	}
 }
-// Method Definition Index: 94215
+// Method Definition Index: 94207
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_AcquirePersistedAnchorCollectionComplete_mBA0B5866B91F94BB3A278E4D2A551C1D84DDC3A3 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_future, XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F* ___1_completion, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:444>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:444>
 		XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F* L_0 = ___1_completion;
 		il2cpp_codegen_initobj(L_0, sizeof(XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:445>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:445>
 		bool L_1 = __this->___IsPAInited;
 		if (L_1)
 		{
@@ -11667,13 +11667,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_AcquirePersistedAnchorColl
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:446>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:446>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:448>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:448>
 		DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A* L_2 = __this->___XrAcquirePersistedAnchorCollectionCompleteHTC;
 		intptr_t L_3 = ___0_future;
 		XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F* L_4 = ___1_completion;
@@ -11683,11 +11683,11 @@ IL_0012:
 		return L_5;
 	}
 }
-// Method Definition Index: 94216
+// Method Definition Index: 94208
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ReleasePersistedAnchorCollection_m9C952BFAB0E2061A0DB3452EAA04CB103FC6794D (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:460>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:460>
 		bool L_0 = __this->___IsPAInited;
 		if (L_0)
 		{
@@ -11695,13 +11695,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ReleasePersistedAnchorColl
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:461>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:461>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:463>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:463>
 		DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D* L_1 = __this->___XrReleasePersistedAnchorCollectionHTC;
 		intptr_t L_2 = ___0_persistedAnchorCollection;
 		NullCheck(L_1);
@@ -11710,7 +11710,7 @@ IL_000b:
 		return L_3;
 	}
 }
-// Method Definition Index: 94217
+// Method Definition Index: 94209
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_PersistSpatialAnchorAsync_m0518D257679CBC1A60DF2667A49017E9088C5928 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_anchor, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57 ___2_name, intptr_t* ___3_future, const RuntimeMethod* method) 
 {
 	XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E V_0;
@@ -11718,10 +11718,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_PersistSpatialAnchorAsync_
 	XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:475>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:475>
 		intptr_t* L_0 = ___3_future;
 		*((intptr_t*)L_0) = (intptr_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:476>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:476>
 		bool L_1 = __this->___IsPAInited;
 		if (L_1)
 		{
@@ -11729,18 +11729,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_PersistSpatialAnchorAsync_
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:477>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:477>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:479>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:480>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:481>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:482>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:483>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:484>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:479>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:480>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:481>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:482>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:483>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:484>
 		il2cpp_codegen_initobj((&V_1), sizeof(XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E));
 		(&V_1)->___type = ((int32_t)1000324002);
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_2 = ___1_anchor;
@@ -11750,7 +11750,7 @@ IL_0013:
 		Il2CppCodeGenWriteBarrier((void**)&(((&(&V_1)->___persistedAnchorName))->___name), (void*)NULL);
 		XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E L_4 = V_1;
 		V_0 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:485>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:485>
 		DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC* L_5 = __this->___XrPersistSpatialAnchorAsyncHTC;
 		intptr_t L_6 = ___0_persistedAnchorCollection;
 		intptr_t* L_7 = ___3_future;
@@ -11760,17 +11760,17 @@ IL_0013:
 		return L_8;
 	}
 }
-// Method Definition Index: 94218
+// Method Definition Index: 94210
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_PersistSpatialAnchorComplete_m6F656B7D1E07E75514D66FD9B156A0C26C4A9793 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_future, XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB* ___1_completion, const RuntimeMethod* method) 
 {
 	XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:490>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:491>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:492>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:493>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:494>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:490>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:491>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:492>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:493>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:494>
 		XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB* L_0 = ___1_completion;
 		il2cpp_codegen_initobj((&V_0), sizeof(XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB));
 		(&V_0)->___type = ((int32_t)1000469002);
@@ -11778,7 +11778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_PersistSpatialAnchorComple
 		(&V_0)->___futureResult = 0;
 		XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB L_1 = V_0;
 		*(XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB*)L_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:495>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:495>
 		bool L_2 = __this->___IsPAInited;
 		if (L_2)
 		{
@@ -11786,13 +11786,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_PersistSpatialAnchorComple
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:496>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:496>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_003a:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:498>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:498>
 		DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483* L_3 = __this->___XrPersistSpatialAnchorCompleteHTC;
 		intptr_t L_4 = ___0_future;
 		XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB* L_5 = ___1_completion;
@@ -11802,11 +11802,11 @@ IL_003a:
 		return L_6;
 	}
 }
-// Method Definition Index: 94219
+// Method Definition Index: 94211
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_UnpersistSpatialAnchor_m710AD755C0749B4A88EE543AC0AAFDA9C55930E6 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57 ___1_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:509>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:509>
 		bool L_0 = __this->___IsPAInited;
 		if (L_0)
 		{
@@ -11814,13 +11814,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_UnpersistSpatialAnchor_m71
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:510>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:510>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:512>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:512>
 		DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E* L_1 = __this->___XrUnpersistSpatialAnchorHTC;
 		intptr_t L_2 = ___0_persistedAnchorCollection;
 		NullCheck(L_1);
@@ -11829,11 +11829,11 @@ IL_000b:
 		return L_3;
 	}
 }
-// Method Definition Index: 94220
+// Method Definition Index: 94212
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_EnumeratePersistedAnchorNames_mBF4BFD30647438F685934A0AD578CB6C03F0C6C4 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_persistedAnchorNameCapacityInput, uint32_t* ___2_persistedAnchorNameCountOutput, XrSpatialAnchorNameHTCU5BU5D_t1A2F0F24993AEC90AE011124CE30EE4F1344A5E2** ___3_persistedAnchorNames, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:526>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:526>
 		bool L_0 = __this->___IsPAInited;
 		if (L_0)
 		{
@@ -11841,13 +11841,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_EnumeratePersistedAnchorNa
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:527>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:527>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:529>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:529>
 		DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0* L_1 = __this->___XrEnumeratePersistedAnchorNamesHTC;
 		intptr_t L_2 = ___0_persistedAnchorCollection;
 		uint32_t L_3 = ___1_persistedAnchorNameCapacityInput;
@@ -11860,14 +11860,14 @@ IL_000b:
 		return L_7;
 	}
 }
-// Method Definition Index: 94221
+// Method Definition Index: 94213
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_CreateSpatialAnchorFromPersistedAnchorAsync_m471F8E2B6E00FC27273A828CEDB21ADF1AB1C894 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, XrSpatialAnchorFromPersistedAnchorCreateInfoHTC_tA787DC0EB5E24DD12D84DFA41589B93BCF10F5EF ___0_spatialAnchorCreateInfo, intptr_t* ___1_future, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:540>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:540>
 		intptr_t* L_0 = ___1_future;
 		*((intptr_t*)L_0) = (intptr_t)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:541>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:541>
 		bool L_1 = __this->___IsPAInited;
 		if (L_1)
 		{
@@ -11875,13 +11875,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_CreateSpatialAnchorFromPer
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:542>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:542>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:543>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:543>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_2 = __this->___session;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_3;
 		L_3 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
@@ -11893,13 +11893,13 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:544>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:544>
 		return (int32_t)(((int32_t)-17));
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:545>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:545>
 		DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD* L_5 = __this->___XrCreateSpatialAnchorFromPersistedAnchorAsyncHTC;
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_6 = __this->___session;
 		intptr_t* L_7 = ___1_future;
@@ -11909,19 +11909,19 @@ IL_0029:
 		return L_8;
 	}
 }
-// Method Definition Index: 94222
+// Method Definition Index: 94214
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_CreateSpatialAnchorFromPersistedAnchorComplete_mAB6E72A72506D7BD3DA21D9E9ED0EE4BEE642031 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_future, XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240* ___1_completion, const RuntimeMethod* method) 
 {
 	XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:556>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:557>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:558>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:559>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:560>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:561>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:562>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:556>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:557>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:558>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:559>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:560>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:561>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:562>
 		XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240* L_0 = ___1_completion;
 		il2cpp_codegen_initobj((&V_0), sizeof(XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240));
 		(&V_0)->___type = ((int32_t)1000324004);
@@ -11932,7 +11932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_CreateSpatialAnchorFromPer
 		(&V_0)->___anchor = L_1;
 		XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240 L_2 = V_0;
 		*(XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240*)L_0 = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:564>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:564>
 		bool L_3 = __this->___IsPAInited;
 		if (L_3)
 		{
@@ -11940,13 +11940,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_CreateSpatialAnchorFromPer
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:565>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:565>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0048:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:566>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:566>
 		DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE* L_4 = __this->___XrCreateSpatialAnchorFromPersistedAnchorCompleteHTC;
 		intptr_t L_5 = ___0_future;
 		XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240* L_6 = ___1_completion;
@@ -11956,11 +11956,11 @@ IL_0048:
 		return L_7;
 	}
 }
-// Method Definition Index: 94223
+// Method Definition Index: 94215
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ClearPersistedAnchors_m70E1FA68F6B9CA007570F0208C6FE0D7F694CEF2 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:576>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:576>
 		bool L_0 = __this->___IsPAInited;
 		if (L_0)
 		{
@@ -11968,13 +11968,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ClearPersistedAnchors_m70E
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:577>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:577>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:578>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:578>
 		DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC* L_1 = __this->___XrClearPersistedAnchorsHTC;
 		intptr_t L_2 = ___0_persistedAnchorCollection;
 		NullCheck(L_1);
@@ -11983,22 +11983,22 @@ IL_000b:
 		return L_3;
 	}
 }
-// Method Definition Index: 94224
+// Method Definition Index: 94216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetPersistedAnchorProperties_m31DFF92C7E42F606B0B5653C08C9602160292B5E (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E* ___1_getInfo, const RuntimeMethod* method) 
 {
 	XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:589>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:590>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:591>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:592>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:589>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:590>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:591>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:592>
 		XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E* L_0 = ___1_getInfo;
 		il2cpp_codegen_initobj((&V_0), sizeof(XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E));
 		(&V_0)->___type = ((int32_t)1000324005);
 		XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E L_1 = V_0;
 		*(XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E*)L_0 = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:593>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:593>
 		bool L_2 = __this->___IsPAInited;
 		if (L_2)
 		{
@@ -12006,13 +12006,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetPersistedAnchorProperti
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:594>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:594>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0026:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:595>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:595>
 		DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D* L_3 = __this->___XrGetPersistedAnchorPropertiesHTC;
 		intptr_t L_4 = ___0_persistedAnchorCollection;
 		XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E* L_5 = ___1_getInfo;
@@ -12022,7 +12022,7 @@ IL_0026:
 		return L_6;
 	}
 }
-// Method Definition Index: 94225
+// Method Definition Index: 94217
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ExportPersistedAnchor_m076AE2CFA888324D387428192E58C25E7E2B96E8 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57 ___1_persistedAnchorName, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** ___2_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12038,11 +12038,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ExportPersistedAnchor_m076
 	uint32_t V_1 = 0;
 	int32_t V_2 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:607>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:607>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_0 = ___2_data;
 		*((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)L_0) = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)L_0, (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:608>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:608>
 		bool L_1 = __this->___IsPAInited;
 		if (L_1)
 		{
@@ -12050,17 +12050,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ExportPersistedAnchor_m076
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:609>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:609>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:610>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:610>
 		V_0 = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:611>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:611>
 		V_1 = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:612>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:612>
 		DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2* L_2 = __this->___XrExportPersistedAnchorHTC;
 		intptr_t L_3 = ___0_persistedAnchorCollection;
 		uint32_t L_4 = V_1;
@@ -12068,7 +12068,7 @@ IL_000e:
 		int32_t L_5;
 		L_5 = DelegateXrExportPersistedAnchorHTC_Invoke_m5FB8676D457B87C1C71F4C9E7E7E5E51425D1F40_inline(L_2, L_3, (&___1_persistedAnchorName), L_4, (&V_0), (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, NULL);
 		V_2 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:613>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:613>
 		int32_t L_6 = V_2;
 		if (!L_6)
 		{
@@ -12076,7 +12076,7 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:615>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:615>
 		Il2CppFakeBox<int32_t> L_7(XrResult_t27F69D0B19BE447E75B18EC66CEA6A020063797A_il2cpp_TypeInfo_var, (&V_2));
 		String_t* L_8;
 		L_8 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_7), NULL);
@@ -12084,27 +12084,27 @@ IL_000e:
 		L_9 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE6995350523B283F1D4F2DB97A52D44D618110DA, L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_9, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:616>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:616>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_10 = ___2_data;
 		*((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)L_10) = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)L_10, (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:617>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:617>
 		int32_t L_11 = V_2;
 		return L_11;
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:620>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:620>
 		uint32_t L_12 = V_0;
 		V_1 = L_12;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:621>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:621>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** L_13 = ___2_data;
 		uint32_t L_14 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_14);
 		*((ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)L_13) = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)L_15;
 		Il2CppCodeGenWriteBarrier((void**)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031**)L_13, (void*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)L_15);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:622>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:622>
 		DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2* L_16 = __this->___XrExportPersistedAnchorHTC;
 		intptr_t L_17 = ___0_persistedAnchorCollection;
 		uint32_t L_18 = V_1;
@@ -12114,16 +12114,16 @@ IL_0049:
 		int32_t L_21;
 		L_21 = DelegateXrExportPersistedAnchorHTC_Invoke_m5FB8676D457B87C1C71F4C9E7E7E5E51425D1F40_inline(L_16, L_17, (&___1_persistedAnchorName), L_18, (&V_0), L_20, NULL);
 		V_2 = L_21;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:623>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:623>
 		int32_t L_22 = V_2;
 		return L_22;
 	}
 }
-// Method Definition Index: 94226
+// Method Definition Index: 94218
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ImportPersistedAnchor_mF29C9DCC2C547D978A60E901011D205D179E3F95 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:634>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:634>
 		bool L_0 = __this->___IsPAInited;
 		if (L_0)
 		{
@@ -12131,13 +12131,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_ImportPersistedAnchor_mF29
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:635>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:635>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_000b:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:637>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:637>
 		DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0* L_1 = __this->___XrImportPersistedAnchorHTC;
 		intptr_t L_2 = ___0_persistedAnchorCollection;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = ___1_data;
@@ -12149,14 +12149,14 @@ IL_000b:
 		return L_5;
 	}
 }
-// Method Definition Index: 94227
+// Method Definition Index: 94219
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetPersistedAnchorNameFromBuffer_m44506C8DE8E6A1646CC8B4A45FD50810E6D2E452 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, intptr_t ___0_persistedAnchorCollection, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_buffer, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___2_name, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:649>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:649>
 		XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* L_0 = ___2_name;
 		il2cpp_codegen_initobj(L_0, sizeof(XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:650>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:650>
 		bool L_1 = __this->___IsPAInited;
 		if (L_1)
 		{
@@ -12164,13 +12164,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ViveAnchor_GetPersistedAnchorNameFrom
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:651>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:651>
 		return (int32_t)(((int32_t)-9));
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:653>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:653>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___1_buffer;
 		if (L_2)
 		{
@@ -12178,13 +12178,13 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:654>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:654>
 		return (int32_t)((-1));
 	}
 
 IL_0017:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:656>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:656>
 		DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129* L_3 = __this->___XrGetPersistedAnchorNameFromBufferHTC;
 		intptr_t L_4 = ___0_persistedAnchorCollection;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = ___1_buffer;
@@ -12197,34 +12197,34 @@ IL_0017:
 		return L_8;
 	}
 }
-// Method Definition Index: 94228
+// Method Definition Index: 94220
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveAnchor_GetTrackingSpace_m9AD2EF95DDBC9C1DE70E92DEDF7080D71D75DFA7 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:669>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:669>
 		uint64_t L_0;
 		L_0 = OpenXRFeature_GetCurrentAppSpace_m5675C9A791C8BADCF0C9152D1DE17A7B681AEF6B(NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:671>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:671>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_1;
 		L_1 = XrSpace_op_Implicit_mDB79C1F9E0980883B3A5163A166C259B9E138D66(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 94229
+// Method Definition Index: 94221
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveAnchor__ctor_mD413E1C237FF62B5A85070EDF8221BCCEE13CC82 (ViveAnchor_t94B76DD5B39CA57D743EB5A5C208D1104D8B6B15* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:46>
 		__this->___enablePersistedAnchor = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:47>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:47>
 		XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB L_0;
 		L_0 = XrInstance_op_Implicit_m83CF68BCD7AE8811F7873D84C4A5AB539ED71E2A(((int64_t)0), NULL);
 		__this->___m_XrInstance = L_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:48>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:48>
 		XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA L_1;
 		L_1 = XrSession_op_Implicit_mFF534AD8F5B1B8630B079CAF992FD828BC3720C7(((int64_t)0), NULL);
 		__this->___session = L_1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:49>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:49>
 		XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A L_2;
 		L_2 = XrSystemId_op_Implicit_mFF070B33C2C85CDC082B4194DA0C7F3BB193F284(((int64_t)0), NULL);
 		__this->___m_XrSystemId = L_2;
@@ -12314,7 +12314,7 @@ IL2CPP_EXTERN_C void XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD138
 IL2CPP_EXTERN_C void XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57_marshal_com_cleanup(XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57_marshaled_com& marshaled)
 {
 }
-// Method Definition Index: 94230
+// Method Definition Index: 94222
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrSpatialAnchorNameHTC__ctor_m68F6EEFF17F9C9AD9D753BF2575427AD571C7DD4 (XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* __this, String_t* ___0_anchorName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12326,11 +12326,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrSpatialAnchorNameHTC__ctor_m68F6EEFF17
 	}
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:81>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:81>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
 		__this->___name = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___name), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:82>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:82>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_1;
 		L_1 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		String_t* L_2 = ___0_anchorName;
@@ -12338,7 +12338,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrSpatialAnchorNameHTC__ctor_m68F6EEFF17
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3;
 		L_3 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(17, L_1, L_2);
 		V_0 = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:83>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:83>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = __this->___name;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = V_0;
@@ -12347,11 +12347,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrSpatialAnchorNameHTC__ctor_m68F6EEFF17
 		int32_t L_7;
 		L_7 = Math_Min_m53C488772A34D53917BCA2A491E79A0A5356ED52(((int32_t)(((RuntimeArray*)L_6)->max_length)), ((int32_t)255), NULL);
 		Array_Copy_m4233828B4E6288B6D815F539AAA38575DE627900((RuntimeArray*)L_4, (RuntimeArray*)L_5, L_7, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:84>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:84>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = __this->___name;
 		NullCheck(L_8);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)255)), (uint8_t)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:85>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:85>
 		return;
 	}
 }
@@ -12362,7 +12362,7 @@ IL2CPP_EXTERN_C  void XrSpatialAnchorNameHTC__ctor_m68F6EEFF17F9C9AD9D753BF25754
 	_thisAdjusted = reinterpret_cast<XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*>(__this + _offset);
 	XrSpatialAnchorNameHTC__ctor_m68F6EEFF17F9C9AD9D753BF2575427AD571C7DD4(_thisAdjusted, ___0_anchorName, method);
 }
-// Method Definition Index: 94231
+// Method Definition Index: 94223
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrSpatialAnchorNameHTC__ctor_mD6C6215B98DC1945568829B358936241E831B236 (XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* __this, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57 ___0_anchorName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12372,20 +12372,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrSpatialAnchorNameHTC__ctor_mD6C6215B98
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:89>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:89>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256));
 		__this->___name = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___name), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:90>
 		XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57 L_1 = ___0_anchorName;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = L_1.___name;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = __this->___name;
 		Array_Copy_m4233828B4E6288B6D815F539AAA38575DE627900((RuntimeArray*)L_2, (RuntimeArray*)L_3, ((int32_t)256), NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:91>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = __this->___name;
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)255)), (uint8_t)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:92>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:92>
 		return;
 	}
 }
@@ -12396,11 +12396,11 @@ IL2CPP_EXTERN_C  void XrSpatialAnchorNameHTC__ctor_mD6C6215B98DC1945568829B35893
 	_thisAdjusted = reinterpret_cast<XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*>(__this + _offset);
 	XrSpatialAnchorNameHTC__ctor_mD6C6215B98DC1945568829B358936241E831B236(_thisAdjusted, ___0_anchorName, method);
 }
-// Method Definition Index: 94232
+// Method Definition Index: 94224
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XrSpatialAnchorNameHTC_ToString_m0297954D1C0D900A3737FE34B180007D7907D078 (XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:95>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:95>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = __this->___name;
 		if (L_0)
 		{
@@ -12408,14 +12408,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XrSpatialAnchorNameHTC_ToString_m02
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:96>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:96>
 		String_t* L_1 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_1;
 	}
 
 IL_000e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/Anchor/Scripts/ViveAnchor.cs:97>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_2;
 		L_2 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = __this->___name;
@@ -12766,7 +12766,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrCreateSpatialAnchorHTC
 
 	return returnValue;
 }
-// Method Definition Index: 94233
+// Method Definition Index: 94225
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrCreateSpatialAnchorHTC__ctor_m483889D64087AD9F4C2DA8F7042F952FE73CB20A (DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12795,13 +12795,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrCreateSpatialAnchorHTC__ctor_m
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrCreateSpatialAnchorHTC_Invoke_mA52B1A1FABE24960031FE43D0FDFD916DC9F87CD_Multicast;
 }
-// Method Definition Index: 94234
+// Method Definition Index: 94226
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorHTC_Invoke_mA52B1A1FABE24960031FE43D0FDFD916DC9F87CD (DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSpatialAnchorCreateInfoHTC_t98FBB36E30DE85AAD575D4E3BBBFDCE40517281D* ___1_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___2_anchor, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrSpatialAnchorCreateInfoHTC_t98FBB36E30DE85AAD575D4E3BBBFDCE40517281D*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_createInfo, ___2_anchor, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94235
+// Method Definition Index: 94227
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrCreateSpatialAnchorHTC_BeginInvoke_mE4C560CE606E5B39E47BBE8EBC4EA110CA21047E (DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSpatialAnchorCreateInfoHTC_t98FBB36E30DE85AAD575D4E3BBBFDCE40517281D* ___1_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___2_anchor, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12818,7 +12818,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrCreateSpatialAnchorH
 	__d_args[2] = Box(XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9_il2cpp_TypeInfo_var, &*___2_anchor);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 94236
+// Method Definition Index: 94228
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorHTC_EndInvoke_m4E90FE3F0B72C904E69324C86E508017427B5A10 (DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22* __this, XrSpatialAnchorCreateInfoHTC_t98FBB36E30DE85AAD575D4E3BBBFDCE40517281D* ___0_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___1_anchor, RuntimeObject* ___2_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -12881,7 +12881,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrGetSpatialAnchorNameHT
 
 	return returnValue;
 }
-// Method Definition Index: 94237
+// Method Definition Index: 94229
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrGetSpatialAnchorNameHTC__ctor_mD228BC851887725D22696DF909502CCA57AC864F (DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12910,13 +12910,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrGetSpatialAnchorNameHTC__ctor_
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrGetSpatialAnchorNameHTC_Invoke_m3C0DAB582CF2C6F2806C5CCB9DA4011119114A2F_Multicast;
 }
-// Method Definition Index: 94238
+// Method Definition Index: 94230
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrGetSpatialAnchorNameHTC_Invoke_m3C0DAB582CF2C6F2806C5CCB9DA4011119114A2F (DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_anchor, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_anchor, ___1_name, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94239
+// Method Definition Index: 94231
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrGetSpatialAnchorNameHTC_BeginInvoke_mE07298B5C9DD58F246EA68B802AA2207673435EB (DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_anchor, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_name, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12931,7 +12931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrGetSpatialAnchorName
 	__d_args[1] = Box(XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57_il2cpp_TypeInfo_var, &*___1_name);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 94240
+// Method Definition Index: 94232
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrGetSpatialAnchorNameHTC_EndInvoke_m9EEE3DCD5806FF714E4079A6DFAE9B34CF4330A9 (DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E* __this, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___0_name, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -12979,7 +12979,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrAcquirePersistedAnchor
 
 	return returnValue;
 }
-// Method Definition Index: 94241
+// Method Definition Index: 94233
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrAcquirePersistedAnchorCollectionAsyncHTC__ctor_m597D0F5F21DD7FBF3DE4EA1587FE296523416554 (DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13008,13 +13008,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrAcquirePersistedAnchorCollecti
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_Invoke_m1A929A0AB67049355FB671DC5783A43056DA9866_Multicast;
 }
-// Method Definition Index: 94242
+// Method Definition Index: 94234
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_Invoke_m1A929A0AB67049355FB671DC5783A43056DA9866 (DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48* ___1_acquireInfo, intptr_t* ___2_future, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_acquireInfo, ___2_future, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94243
+// Method Definition Index: 94235
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_BeginInvoke_mB0DCCA86DA64ECFC071CBC2D4C87BA886F01AF4D (DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48* ___1_acquireInfo, intptr_t* ___2_future, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13030,7 +13030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrAcquirePersistedAnch
 	__d_args[2] = Box(il2cpp_defaults.int_class, &*___2_future);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 94244
+// Method Definition Index: 94236
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_EndInvoke_mCFEACE268B4856FA711F9F2B4EC7D956F1FC7201 (DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C* __this, XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48* ___0_acquireInfo, intptr_t* ___1_future, RuntimeObject* ___2_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13079,7 +13079,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrAcquirePersistedAnchor
 
 	return returnValue;
 }
-// Method Definition Index: 94245
+// Method Definition Index: 94237
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrAcquirePersistedAnchorCollectionCompleteHTC__ctor_mB99805F346509BD2128264285C392924179BD6CA (DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13108,13 +13108,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrAcquirePersistedAnchorCollecti
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_Invoke_m8662A1FAD5DE1A4ECA7823558A270454DCA29C8F_Multicast;
 }
-// Method Definition Index: 94246
+// Method Definition Index: 94238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_Invoke_m8662A1FAD5DE1A4ECA7823558A270454DCA29C8F (DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A* __this, intptr_t ___0_future, XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F* ___1_completion, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_future, ___1_completion, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94247
+// Method Definition Index: 94239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_BeginInvoke_mBF122DB8A4A49B28E4A1CB686CDCCB1B28963558 (DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A* __this, intptr_t ___0_future, XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F* ___1_completion, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13128,7 +13128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrAcquirePersistedAnch
 	__d_args[1] = Box(XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F_il2cpp_TypeInfo_var, &*___1_completion);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 94248
+// Method Definition Index: 94240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_EndInvoke_mCBB2B96B6CAFA71E53B041BEBF3274EC5896DF80 (DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A* __this, XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F* ___0_completion, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13176,7 +13176,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrReleasePersistedAnchor
 
 	return returnValue;
 }
-// Method Definition Index: 94249
+// Method Definition Index: 94241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrReleasePersistedAnchorCollectionHTC__ctor_m07B83BC22A8AD1BDA514C6F35BE39FBDA3A583CE (DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13205,20 +13205,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrReleasePersistedAnchorCollecti
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrReleasePersistedAnchorCollectionHTC_Invoke_mB4AFB94C0B6EBFC45E269C92775EC155D2879DEE_Multicast;
 }
-// Method Definition Index: 94250
+// Method Definition Index: 94242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrReleasePersistedAnchorCollectionHTC_Invoke_mB4AFB94C0B6EBFC45E269C92775EC155D2879DEE (DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D* __this, intptr_t ___0_persistedAnchorCollection, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94251
+// Method Definition Index: 94243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrReleasePersistedAnchorCollectionHTC_BeginInvoke_m87AD888A327B725E8C5D2073004A9A78A8A76E92 (DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D* __this, intptr_t ___0_persistedAnchorCollection, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_persistedAnchorCollection);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 94252
+// Method Definition Index: 94244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrReleasePersistedAnchorCollectionHTC_EndInvoke_m6FA64A174DF383AD212CF21BC0FBBE0727FEFD6A (DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -13277,7 +13277,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrPersistSpatialAnchorAs
 
 	return returnValue;
 }
-// Method Definition Index: 94253
+// Method Definition Index: 94245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrPersistSpatialAnchorAsyncHTC__ctor_m08B7BB75E659F0FFE57A59A165BAB80C6A32DA13 (DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13306,13 +13306,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrPersistSpatialAnchorAsyncHTC__
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrPersistSpatialAnchorAsyncHTC_Invoke_mD48FCADD4A5386398A12821600D377424B42FDB2_Multicast;
 }
-// Method Definition Index: 94254
+// Method Definition Index: 94246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrPersistSpatialAnchorAsyncHTC_Invoke_mD48FCADD4A5386398A12821600D377424B42FDB2 (DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E* ___1_persistInfo, intptr_t* ___2_future, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistInfo, ___2_future, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94255
+// Method Definition Index: 94247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrPersistSpatialAnchorAsyncHTC_BeginInvoke_m16EE9721914E724419DC4DAEC720963953E3B806 (DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E* ___1_persistInfo, intptr_t* ___2_future, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13327,7 +13327,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrPersistSpatialAnchor
 	__d_args[2] = Box(il2cpp_defaults.int_class, &*___2_future);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 94256
+// Method Definition Index: 94248
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrPersistSpatialAnchorAsyncHTC_EndInvoke_m8DC00ED14A3D04E95115E62C10943B621CF39C24 (DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC* __this, XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E* ___0_persistInfo, intptr_t* ___1_future, RuntimeObject* ___2_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13376,7 +13376,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrPersistSpatialAnchorCo
 
 	return returnValue;
 }
-// Method Definition Index: 94257
+// Method Definition Index: 94249
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrPersistSpatialAnchorCompleteHTC__ctor_m92E1A78AD1F733ACB72174FF96111E38B24BEC13 (DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13405,13 +13405,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrPersistSpatialAnchorCompleteHT
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrPersistSpatialAnchorCompleteHTC_Invoke_m533FD5DE0A871F3EA261817C47E0417C43F99620_Multicast;
 }
-// Method Definition Index: 94258
+// Method Definition Index: 94250
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrPersistSpatialAnchorCompleteHTC_Invoke_m533FD5DE0A871F3EA261817C47E0417C43F99620 (DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483* __this, intptr_t ___0_future, XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB* ___1_completion, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_future, ___1_completion, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94259
+// Method Definition Index: 94251
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrPersistSpatialAnchorCompleteHTC_BeginInvoke_m673095221B920A5872051C49E52D9B4A7C4D0ED1 (DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483* __this, intptr_t ___0_future, XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB* ___1_completion, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13425,7 +13425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrPersistSpatialAnchor
 	__d_args[1] = Box(XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB_il2cpp_TypeInfo_var, &*___1_completion);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 94260
+// Method Definition Index: 94252
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrPersistSpatialAnchorCompleteHTC_EndInvoke_mF29335B8921F33503C51A150245360CE4AACFD6D (DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483* __this, XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB* ___0_completion, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13487,7 +13487,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrUnpersistSpatialAnchor
 
 	return returnValue;
 }
-// Method Definition Index: 94261
+// Method Definition Index: 94253
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrUnpersistSpatialAnchorHTC__ctor_m7AD457677410DA03F65A8D6A7D2095C07C9306AB (DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13516,13 +13516,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrUnpersistSpatialAnchorHTC__cto
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrUnpersistSpatialAnchorHTC_Invoke_m46F658A902BBCDC77EE797B170CB4DC96A8FEB23_Multicast;
 }
-// Method Definition Index: 94262
+// Method Definition Index: 94254
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrUnpersistSpatialAnchorHTC_Invoke_m46F658A902BBCDC77EE797B170CB4DC96A8FEB23 (DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_persistedAnchorName, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistedAnchorName, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94263
+// Method Definition Index: 94255
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrUnpersistSpatialAnchorHTC_BeginInvoke_m3A060985C34DC74A89A7DDF80D169E1CF93622E2 (DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_persistedAnchorName, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13536,7 +13536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrUnpersistSpatialAnch
 	__d_args[1] = Box(XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57_il2cpp_TypeInfo_var, &*___1_persistedAnchorName);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 94264
+// Method Definition Index: 94256
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrUnpersistSpatialAnchorHTC_EndInvoke_m2193CB092C7E64403D0AE41B26CD540B60D0F38C (DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E* __this, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___0_persistedAnchorName, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13617,7 +13617,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrEnumeratePersistedAnch
 
 	return returnValue;
 }
-// Method Definition Index: 94265
+// Method Definition Index: 94257
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrEnumeratePersistedAnchorNamesHTC__ctor_mF39B7506E35DEF71AC505DD2B9324436E9E0F1C8 (DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13646,13 +13646,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrEnumeratePersistedAnchorNamesH
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrEnumeratePersistedAnchorNamesHTC_Invoke_m2C6F855BC373F6858EC3ED4288D105A803336ECF_Multicast;
 }
-// Method Definition Index: 94266
+// Method Definition Index: 94258
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrEnumeratePersistedAnchorNamesHTC_Invoke_m2C6F855BC373F6858EC3ED4288D105A803336ECF (DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_persistedAnchorNameCapacityInput, uint32_t* ___2_persistedAnchorNameCountOutput, XrSpatialAnchorNameHTCU5BU5D_t1A2F0F24993AEC90AE011124CE30EE4F1344A5E2* ___3_persistedAnchorNames, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, uint32_t*, XrSpatialAnchorNameHTCU5BU5D_t1A2F0F24993AEC90AE011124CE30EE4F1344A5E2*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistedAnchorNameCapacityInput, ___2_persistedAnchorNameCountOutput, ___3_persistedAnchorNames, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94267
+// Method Definition Index: 94259
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrEnumeratePersistedAnchorNamesHTC_BeginInvoke_m90CC6FC2A80773A3BF8B53DDEE39EFF5C46D6336 (DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_persistedAnchorNameCapacityInput, uint32_t* ___2_persistedAnchorNameCountOutput, XrSpatialAnchorNameHTCU5BU5D_t1A2F0F24993AEC90AE011124CE30EE4F1344A5E2* ___3_persistedAnchorNames, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	void *__d_args[5] = {0};
@@ -13662,7 +13662,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrEnumeratePersistedAn
 	__d_args[3] = ___3_persistedAnchorNames;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 94268
+// Method Definition Index: 94260
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrEnumeratePersistedAnchorNamesHTC_EndInvoke_mB92B498DF411D11FA46519CEAB6809C471688EE9 (DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0* __this, uint32_t* ___0_persistedAnchorNameCountOutput, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13727,7 +13727,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrCreateSpatialAnchorFro
 
 	return returnValue;
 }
-// Method Definition Index: 94269
+// Method Definition Index: 94261
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC__ctor_mE1740E278434FD8DFD0EB7199F7D159E71345A8D (DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13756,13 +13756,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrCreateSpatialAnchorFromPersist
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_Invoke_m8AD1C177EA7855E6F5322F294070856E3775B026_Multicast;
 }
-// Method Definition Index: 94270
+// Method Definition Index: 94262
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_Invoke_m8AD1C177EA7855E6F5322F294070856E3775B026 (DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSpatialAnchorFromPersistedAnchorCreateInfoHTC_tA787DC0EB5E24DD12D84DFA41589B93BCF10F5EF* ___1_spatialAnchorCreateInfo, intptr_t* ___2_future, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrSpatialAnchorFromPersistedAnchorCreateInfoHTC_tA787DC0EB5E24DD12D84DFA41589B93BCF10F5EF*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_spatialAnchorCreateInfo, ___2_future, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94271
+// Method Definition Index: 94263
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_BeginInvoke_m220FF59C9970BFB5157EE571A5CE8B3A0C2DBE99 (DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSpatialAnchorFromPersistedAnchorCreateInfoHTC_tA787DC0EB5E24DD12D84DFA41589B93BCF10F5EF* ___1_spatialAnchorCreateInfo, intptr_t* ___2_future, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13778,7 +13778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrCreateSpatialAnchorF
 	__d_args[2] = Box(il2cpp_defaults.int_class, &*___2_future);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 94272
+// Method Definition Index: 94264
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_EndInvoke_mB00471358D88B977970ACA9591E5D732471872BB (DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD* __this, XrSpatialAnchorFromPersistedAnchorCreateInfoHTC_tA787DC0EB5E24DD12D84DFA41589B93BCF10F5EF* ___0_spatialAnchorCreateInfo, intptr_t* ___1_future, RuntimeObject* ___2_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13827,7 +13827,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrCreateSpatialAnchorFro
 
 	return returnValue;
 }
-// Method Definition Index: 94273
+// Method Definition Index: 94265
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC__ctor_mB5221917569677B7237F0559C00688E915D41DA1 (DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13856,13 +13856,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrCreateSpatialAnchorFromPersist
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_Invoke_m179A92EDF91FFC3C3969FDA102F691AFDED237E9_Multicast;
 }
-// Method Definition Index: 94274
+// Method Definition Index: 94266
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_Invoke_m179A92EDF91FFC3C3969FDA102F691AFDED237E9 (DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE* __this, intptr_t ___0_future, XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240* ___1_completion, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_future, ___1_completion, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94275
+// Method Definition Index: 94267
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_BeginInvoke_m29BA6FFFC41009C4F684FD54CFB6094F1061C2A5 (DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE* __this, intptr_t ___0_future, XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240* ___1_completion, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13876,7 +13876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrCreateSpatialAnchorF
 	__d_args[1] = Box(XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240_il2cpp_TypeInfo_var, &*___1_completion);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 94276
+// Method Definition Index: 94268
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_EndInvoke_m625B4454F8140785526B0F61167B46BB097268A3 (DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE* __this, XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240* ___0_completion, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -13924,7 +13924,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrClearPersistedAnchorsH
 
 	return returnValue;
 }
-// Method Definition Index: 94277
+// Method Definition Index: 94269
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrClearPersistedAnchorsHTC__ctor_mEB83C8996AA5EF39B55D29C368BA74AB94EB09A9 (DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13953,20 +13953,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrClearPersistedAnchorsHTC__ctor
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrClearPersistedAnchorsHTC_Invoke_m3B215760FA4418A7F5D63F93E6CA3B96191ED968_Multicast;
 }
-// Method Definition Index: 94278
+// Method Definition Index: 94270
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrClearPersistedAnchorsHTC_Invoke_m3B215760FA4418A7F5D63F93E6CA3B96191ED968 (DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC* __this, intptr_t ___0_persistedAnchorCollection, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94279
+// Method Definition Index: 94271
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrClearPersistedAnchorsHTC_BeginInvoke_mB045494D7DDB76B63556AD68FD084746686066A2 (DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC* __this, intptr_t ___0_persistedAnchorCollection, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.int_class, &___0_persistedAnchorCollection);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 94280
+// Method Definition Index: 94272
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrClearPersistedAnchorsHTC_EndInvoke_m81C9B4DC443702F58BDCECAB157E2E4518D5F27D (DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14011,7 +14011,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrGetPersistedAnchorProp
 
 	return returnValue;
 }
-// Method Definition Index: 94281
+// Method Definition Index: 94273
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrGetPersistedAnchorPropertiesHTC__ctor_m8AA4E492AC71B33A835DDF1FB839EAD1331D55C0 (DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14040,13 +14040,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrGetPersistedAnchorPropertiesHT
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrGetPersistedAnchorPropertiesHTC_Invoke_mD50910ADB073C5DD4707B4A40608B1E5E5531D9C_Multicast;
 }
-// Method Definition Index: 94282
+// Method Definition Index: 94274
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrGetPersistedAnchorPropertiesHTC_Invoke_mD50910ADB073C5DD4707B4A40608B1E5E5531D9C (DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D* __this, intptr_t ___0_persistedAnchorCollection, XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E* ___1_getInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_getInfo, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94283
+// Method Definition Index: 94275
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrGetPersistedAnchorPropertiesHTC_BeginInvoke_m1EE9398BE0348AE1236C1F346C4E9D917FBA4658 (DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D* __this, intptr_t ___0_persistedAnchorCollection, XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E* ___1_getInfo, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14060,7 +14060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrGetPersistedAnchorPr
 	__d_args[1] = Box(XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E_il2cpp_TypeInfo_var, &*___1_getInfo);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
-// Method Definition Index: 94284
+// Method Definition Index: 94276
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrGetPersistedAnchorPropertiesHTC_EndInvoke_mECA036FF7F046C52D01E6433E3687F197B5773B4 (DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D* __this, XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E* ___0_getInfo, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -14142,7 +14142,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrExportPersistedAnchorH
 
 	return returnValue;
 }
-// Method Definition Index: 94285
+// Method Definition Index: 94277
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrExportPersistedAnchorHTC__ctor_mCF35FB79B02371C9C91C981887F2B1723FF56F21 (DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14171,13 +14171,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrExportPersistedAnchorHTC__ctor
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrExportPersistedAnchorHTC_Invoke_m5FB8676D457B87C1C71F4C9E7E7E5E51425D1F40_Multicast;
 }
-// Method Definition Index: 94286
+// Method Definition Index: 94278
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrExportPersistedAnchorHTC_Invoke_m5FB8676D457B87C1C71F4C9E7E7E5E51425D1F40 (DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_persistedAnchorName, uint32_t ___2_dataCapacityInput, uint32_t* ___3_dataCountOutput, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___4_data, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, uint32_t, uint32_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistedAnchorName, ___2_dataCapacityInput, ___3_dataCountOutput, ___4_data, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94287
+// Method Definition Index: 94279
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrExportPersistedAnchorHTC_BeginInvoke_m182E8CEE19FFAB8F510A83B1C76F31040342132F (DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_persistedAnchorName, uint32_t ___2_dataCapacityInput, uint32_t* ___3_dataCountOutput, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___4_data, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___5_callback, RuntimeObject* ___6_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14194,7 +14194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrExportPersistedAncho
 	__d_args[4] = ___4_data;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___5_callback, (RuntimeObject*)___6_object);
 }
-// Method Definition Index: 94288
+// Method Definition Index: 94280
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrExportPersistedAnchorHTC_EndInvoke_m895B99995FE9B8C815AC54798E1F5134CCC7EC36 (DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2* __this, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___0_persistedAnchorName, uint32_t* ___1_dataCountOutput, RuntimeObject* ___2_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -14249,7 +14249,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrImportPersistedAnchorH
 
 	return returnValue;
 }
-// Method Definition Index: 94289
+// Method Definition Index: 94281
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrImportPersistedAnchorHTC__ctor_m7B5116BBBE3D9F93660F60CA3C2517A0316235E0 (DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14278,13 +14278,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrImportPersistedAnchorHTC__ctor
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrImportPersistedAnchorHTC_Invoke_mD3510DF117138EACB26D710296944879C1081382_Multicast;
 }
-// Method Definition Index: 94290
+// Method Definition Index: 94282
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrImportPersistedAnchorHTC_Invoke_mD3510DF117138EACB26D710296944879C1081382 (DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_dataCount, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_data, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_dataCount, ___2_data, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94291
+// Method Definition Index: 94283
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrImportPersistedAnchorHTC_BeginInvoke_mC8982D63B13968A7949D1F54D4D5BDC4839B167B (DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_dataCount, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_data, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___3_callback, RuntimeObject* ___4_object, const RuntimeMethod* method) 
 {
 	void *__d_args[4] = {0};
@@ -14293,7 +14293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrImportPersistedAncho
 	__d_args[2] = ___2_data;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___3_callback, (RuntimeObject*)___4_object);
 }
-// Method Definition Index: 94292
+// Method Definition Index: 94284
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrImportPersistedAnchorHTC_EndInvoke_m19A980C7907D719372A7D424402B34439A77695F (DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -14358,7 +14358,7 @@ IL2CPP_EXTERN_C  int32_t DelegatePInvokeWrapper_DelegateXrGetPersistedAnchorName
 
 	return returnValue;
 }
-// Method Definition Index: 94293
+// Method Definition Index: 94285
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrGetPersistedAnchorNameFromBufferHTC__ctor_mDCF1FC305B55BC172FC222A7A5CBFC84ABC8CA31 (DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14387,13 +14387,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DelegateXrGetPersistedAnchorNameFromBuff
 	}
 	__this->___extra_arg = (intptr_t)&DelegateXrGetPersistedAnchorNameFromBufferHTC_Invoke_m8F38462BC8791D2E338D19A0379BF1C9805F348F_Multicast;
 }
-// Method Definition Index: 94294
+// Method Definition Index: 94286
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrGetPersistedAnchorNameFromBufferHTC_Invoke_m8F38462BC8791D2E338D19A0379BF1C9805F348F (DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_bufferCount, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_buffer, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___3_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_bufferCount, ___2_buffer, ___3_name, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94295
+// Method Definition Index: 94287
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrGetPersistedAnchorNameFromBufferHTC_BeginInvoke_m426CF12B59D56CE9D7DEE5438E8E4D9C07CA7098 (DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_bufferCount, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_buffer, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___3_name, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___4_callback, RuntimeObject* ___5_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14409,7 +14409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DelegateXrGetPersistedAnchorNa
 	__d_args[3] = Box(XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57_il2cpp_TypeInfo_var, &*___3_name);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___4_callback, (RuntimeObject*)___5_object);
 }
-// Method Definition Index: 94296
+// Method Definition Index: 94288
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrGetPersistedAnchorNameFromBufferHTC_EndInvoke_mC3CE7BE9F6072D42AA24396211027E87EDCB238F (DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129* __this, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___0_name, RuntimeObject* ___1_result, const RuntimeMethod* method) 
 {
 	void* ___out_args[] = {
@@ -14426,7 +14426,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DelegateXrGetPersistedAnchorNameFromB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 94297
+// Method Definition Index: 94289
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveMockRuntime_HookGetInstanceProcAddrFake_mE8D86510A7D0560C8E81544561A2EAE9658694A9 (intptr_t ___0_func, const RuntimeMethod* method) 
 {
 	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
@@ -14448,7 +14448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveMockRuntime_HookGetInstanceProcA
 
 	return returnValue;
 }
-// Method Definition Index: 94298
+// Method Definition Index: 94290
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveMockRuntime_AddRequiredFeature_mA8764598279B986E2ED1F03F3221F054D7445230 (String_t* ___0_featureName, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
@@ -14475,7 +14475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveMockRuntime_AddRequiredFeature_mA876
 	____0_featureName_marshaled = NULL;
 
 }
-// Method Definition Index: 94299
+// Method Definition Index: 94291
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveMockRuntime_HookGetInstanceProcAddr_m3831D3F0A20905DC226F17E59F91006296483E3A (ViveMockRuntime_t721BA71884E9DCFD3C139E8B1B97F604573A9364* __this, intptr_t ___0_func, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14495,10 +14495,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveMockRuntime_HookGetInstanceProcA
 	Exception_t* V_3 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:49>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:49>
 		intptr_t L_0 = ___0_func;
 		V_0 = L_0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:50>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:50>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
@@ -14508,22 +14508,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveMockRuntime_HookGetInstanceProcA
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:52>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralC2A797EC5D1D88B9B988BA7593C9A48D24C66C16, NULL);
 	}
 	try
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:55>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:55>
 		ViveMockRuntime_AddRequiredFeature_mA8764598279B986E2ED1F03F3221F054D7445230(_stringLiteral97B7712AA15FDFFB8022A8F09546D0317CD99183, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:56>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:56>
 		ViveMockRuntime_AddRequiredFeature_mA8764598279B986E2ED1F03F3221F054D7445230(_stringLiteral0E9B44A437DC030027608941FFBD7BF46BB75FDD, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:57>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:57>
 		intptr_t L_2 = V_0;
 		intptr_t L_3;
 		L_3 = ViveMockRuntime_HookGetInstanceProcAddrFake_mE8D86510A7D0560C8E81544561A2EAE9658694A9(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:58>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:58>
 		goto IL_0078;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -14549,9 +14549,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ViveMockRuntime_HookGetInstanceProcA
 CATCH_0030:
 	{
 		DllNotFoundException_t8CAE636A394C482C9FCF38FB7B7929506319D534* L_4 = ((DllNotFoundException_t8CAE636A394C482C9FCF38FB7B7929506319D534*)IL2CPP_GET_ACTIVE_EXCEPTION(DllNotFoundException_t8CAE636A394C482C9FCF38FB7B7929506319D534*));;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:59>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:59>
 		V_1 = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:61>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:61>
 		DllNotFoundException_t8CAE636A394C482C9FCF38FB7B7929506319D534* L_5 = V_1;
 		NullCheck(L_5);
 		String_t* L_6;
@@ -14560,7 +14560,7 @@ CATCH_0030:
 		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralEA348C6A4DF198781ADF561626635102B5CB8905)), L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_7, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:62>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0078;
 	}
@@ -14568,9 +14568,9 @@ CATCH_0030:
 CATCH_0048:
 	{
 		EntryPointNotFoundException_t15F4C4ABBCF00C39FC1C2C903F15DF41055C1743* L_8 = ((EntryPointNotFoundException_t15F4C4ABBCF00C39FC1C2C903F15DF41055C1743*)IL2CPP_GET_ACTIVE_EXCEPTION(EntryPointNotFoundException_t15F4C4ABBCF00C39FC1C2C903F15DF41055C1743*));;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:63>
 		V_2 = L_8;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:65>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:65>
 		EntryPointNotFoundException_t15F4C4ABBCF00C39FC1C2C903F15DF41055C1743* L_9 = V_2;
 		NullCheck(L_9);
 		String_t* L_10;
@@ -14579,7 +14579,7 @@ CATCH_0048:
 		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral728B66818A8DB8624F55751815CB02946BE57E16)), L_10, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_11, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:66>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:66>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0078;
 	}
@@ -14587,9 +14587,9 @@ CATCH_0048:
 CATCH_0060:
 	{
 		Exception_t* L_12 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:67>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:67>
 		V_3 = L_12;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:69>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:69>
 		Exception_t* L_13 = V_3;
 		NullCheck(L_13);
 		String_t* L_14;
@@ -14598,19 +14598,19 @@ CATCH_0060:
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralE1ACAD1EDD2F0039D8C1FF0D834FE5235A866226)), L_14, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_15, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:70>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:70>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0078;
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:72>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/MockRuntime/ViveMockRuntime.cs:72>
 		intptr_t L_16 = V_0;
 		return L_16;
 	}
 }
-// Method Definition Index: 94300
+// Method Definition Index: 94292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveMockRuntime__ctor_m26CDB7BDB6F5E51802E83A4F00343D460231E907 (ViveMockRuntime_t721BA71884E9DCFD3C139E8B1B97F604573A9364* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14677,7 +14677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ViveMockRuntime__ctor_m26CDB7BDB6F5E5180
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 71015
+// Method Definition Index: 71008
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -14709,7 +14709,7 @@ IL_0018:
 		return (0.0f);
 	}
 }
-// Method Definition Index: 91629
+// Method Definition Index: 91621
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* TrackingSpaceOrigin_get_Instance_mA2A2F68F433468EE3DD923747EF2CB7CD4CAD861_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14719,12 +14719,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TrackingSpaceOrigin_t1F26A98BE879
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/TrackingSpaceOrigin.cs:14>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/TrackingSpaceOrigin.cs:14>
 		TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29* L_0 = ((TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29_StaticFields*)il2cpp_codegen_static_fields_for(TrackingSpaceOrigin_t1F26A98BE87905BF8F3AC017B39D03E4FD4F3D29_il2cpp_TypeInfo_var))->___m_Instance;
 		return L_0;
 	}
 }
-// Method Definition Index: 70901
+// Method Definition Index: 70894
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14738,7 +14738,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 70805
+// Method Definition Index: 70798
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_TRS_mCC04FD47347234B451ACC6CCD2CE6D02E1E0E1E3_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_q, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_s, const RuntimeMethod* method) 
 {
 	{
@@ -14747,7 +14747,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59
 		return L_0;
 	}
 }
-// Method Definition Index: 70812
+// Method Definition Index: 70805
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_get_inverse_m4F4A881CD789281EA90EB68CFD39F36C8A81E6BD_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, const RuntimeMethod* method) 
 {
 	{
@@ -14756,7 +14756,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59
 		return L_0;
 	}
 }
-// Method Definition Index: 70830
+// Method Definition Index: 70823
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Matrix4x4_op_Multiply_m75E91775655DCA8DFC8EDE0AB787285BB3935162_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___0_lhs, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___1_rhs, const RuntimeMethod* method) 
 {
 	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 V_0;
@@ -15039,7 +15039,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59
 		return L_256;
 	}
 }
-// Method Definition Index: 70832
+// Method Definition Index: 70825
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_inline (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
@@ -15137,7 +15137,7 @@ IL_0113:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_21, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Matrix4x4_GetColumn_m5CE079D7A69DE70E3144BADD20A1651C73A8D118_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 71156
+// Method Definition Index: 71149
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector4_op_Implicit_m0217ADDC8CADDB93ACBABB17A50207698DAB0071_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_v, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
@@ -15157,7 +15157,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_6;
 	}
 }
-// Method Definition Index: 70940
+// Method Definition Index: 70933
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_LookRotation_mFB02EDC8F733774DFAC3BEA4B4BB265A228F8307_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_forward, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_upwards, const RuntimeMethod* method) 
 {
 	{
@@ -15166,7 +15166,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 70945
+// Method Definition Index: 70938
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15180,7 +15180,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 70900
+// Method Definition Index: 70893
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15194,37 +15194,37 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D
 		return L_0;
 	}
 }
-// Method Definition Index: 94077
+// Method Definition Index: 94069
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnPassthroughSessionDestroyDelegate_Invoke_m2E73F904AB7EEB4183E21200F30428E7B41C9504_inline (OnPassthroughSessionDestroyDelegate_t20A3B0E21ED1E19C89EC2386403E3E94F71C390B* __this, int32_t ___0_passthroughID, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, int32_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_passthroughID, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91409
+// Method Definition Index: 91401
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrGetSystemPropertiesDelegate_Invoke_m822F919B0A7D39860F8CB7AE9B1AED7A0F292891_inline (xrGetSystemPropertiesDelegate_t516529AAFFE437FBD6738FA1F8662E51B7DD39B5* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A ___1_systemId, XrSystemProperties_tEC6D09D9A8C0BF472F2A639BC0AD61CBB7A0B8DB* ___2_properties, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB, XrSystemId_tAE2FB85A07049657D0460BB4934CDA984BE9719A, XrSystemProperties_tEC6D09D9A8C0BF472F2A639BC0AD61CBB7A0B8DB*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_instance, ___1_systemId, ___2_properties, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91413
+// Method Definition Index: 91405
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrEnumerateReferenceSpacesDelegate_Invoke_mADB90C5819EAE27B6AF4C66056D72D457EB5B1D4_inline (xrEnumerateReferenceSpacesDelegate_tA3314A7128B24705941358D98256B5FC66E2C2AC* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, uint32_t ___1_spaceCapacityInput, uint32_t* ___2_spaceCountOutput, int32_t* ___3_spaces, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, uint32_t, uint32_t*, int32_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_spaceCapacityInput, ___2_spaceCountOutput, ___3_spaces, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91417
+// Method Definition Index: 91409
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrCreateReferenceSpaceDelegate_Invoke_mB5026C100391FF8CC074906396F183F5F064B836_inline (xrCreateReferenceSpaceDelegate_tEB07B91585BE4EA01D1AF047D296F51261F6BE7E* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616* ___1_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___2_space, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrReferenceSpaceCreateInfo_t9FA96B662CB29F1DE84C73F778E6B60BC26AE616*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_createInfo, ___2_space, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91421
+// Method Definition Index: 91413
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrDestroySpaceDelegate_Invoke_m3B4412BD9579F82D32C0CFB91385F56F3154B7D8_inline (xrDestroySpaceDelegate_t870B5AC8435876687D4BE421120CD582DFDE7BB0* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_space, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 3925
+// Method Definition Index: 3922
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -15233,61 +15233,61 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 91405
+// Method Definition Index: 91397
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrGetInstanceProcAddrDelegate_Invoke_m9AF8BE302F97A8AC739F58F9F9D229FB6CBE5890_inline (xrGetInstanceProcAddrDelegate_t50E55B90182F319713CE704A3D40C6D1D5F521BC* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, String_t* ___1_name, intptr_t* ___2_function, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB, String_t*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_instance, ___1_name, ___2_function, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94031
+// Method Definition Index: 94023
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ViveCompositionLayerPassthrough_get_HTCPassthroughExtensionEnabled_m6A558C965532EA6ED31968783173E8DDA7B6647B_inline (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:63>
 		bool L_0 = __this->___m_HTCPassthroughExtensionEnabled;
 		return L_0;
 	}
 }
-// Method Definition Index: 94041
+// Method Definition Index: 94033
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveCompositionLayerPassthrough_get_HeadLockSpace_m800E6FA2F1A1FB807D4FB356A2C402F1E00EBC99_inline (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:250>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = __this->___m_HeadLockSpace;
 		return L_0;
 	}
 }
-// Method Definition Index: 94040
+// Method Definition Index: 94032
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveCompositionLayerPassthrough_get_WorldLockSpaceOriginOnFloor_m7744AD6AE010C22B77240FFD82DC4CB799EF9CD9_inline (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:246>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:246>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = __this->___m_WorldLockSpaceOriginOnFloor;
 		return L_0;
 	}
 }
-// Method Definition Index: 94039
+// Method Definition Index: 94031
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ViveCompositionLayerPassthrough_get_WorldLockSpaceOriginOnHead_m41715F9F81A84D21E02AAE86D8914E67485E42CC_inline (ViveCompositionLayerPassthrough_tE39997C9A01AC6EF283BE8B139112CF4C4D48AA1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:242>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Features/CompositionLayer/Scripts/ViveCompositionLayerPassthrough.cs:242>
 		XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 L_0 = __this->___m_WorldLockSpaceOriginOnHead;
 		return L_0;
 	}
 }
-// Method Definition Index: 94106
+// Method Definition Index: 94098
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Receiver_Invoke_m25C94B7F62B0DECD34A2759AA67C895EED04B431_inline (Receiver_tC9D04B58DABFD7915752048B56DD6117D54655F9* __this, PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F* ___0_dataQueue, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, PreAllocatedQueue_tBF266F830935F98531DF509706F8273E2CE6535F*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_dataQueue, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94129
+// Method Definition Index: 94121
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrEnterpriseCommandHTCDelegate_Invoke_m752A02CD49A6DBEE5322FD041F2B53840E4280BC_inline (xrEnterpriseCommandHTCDelegate_tC8A12BC6528A45B872B7AD991C5D4E04F3E3661D* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33 ___1_request, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33* ___2_result, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33, XrEnterpriseCommandBufferHTC_t019AE144B7F326245DCD5174188A245A8BFDDE33*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_request, ___2_result, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 701
+// Method Definition Index: 700
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15295,175 +15295,175 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-// Method Definition Index: 91425
+// Method Definition Index: 91417
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrCreateSwapchainDelegate_Invoke_m7379D40E02ABC62D73558C21E0670E3AFAE8AD6A_inline (xrCreateSwapchainDelegate_t44732623C3D3F8941BF23F68EB6EBF115CF22562* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSwapchainCreateInfo_t72A76168E95E5C7C0B3C6432776A10A80A11F926* ___1_info, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52* ___2_swapchain, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrSwapchainCreateInfo_t72A76168E95E5C7C0B3C6432776A10A80A11F926*, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_info, ___2_swapchain, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91429
+// Method Definition Index: 91421
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrDestroySwapchainDelegate_Invoke_m2B39F00FC49B7FF1AB526EA76D29AE5D91736E1C_inline (xrDestroySwapchainDelegate_t025704C3992DC114C8F3141C4D3E96C8318BB38D* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_swapchain, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91433
+// Method Definition Index: 91425
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrEnumerateSwapchainFormatsDelegate_Invoke_m9A146BC730E6D2B61BF348C126DDF670EC358D8E_inline (xrEnumerateSwapchainFormatsDelegate_t7BD0B0194300BEE486990D237BA3E419675777A2* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, uint32_t ___1_capacityInput, uint32_t* ___2_countOutput, intptr_t ___3_swapchainsArray, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, uint32_t, uint32_t*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_capacityInput, ___2_countOutput, ___3_swapchainsArray, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91437
+// Method Definition Index: 91429
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrEnumerateSwapchainImagesDelegate_Invoke_m64FB988CA5C16F33CD784FE3D7CA5A673FDAAEB4_inline (xrEnumerateSwapchainImagesDelegate_tAC9230D91BF6BEABF106A9D3A7F4A12A1EBF51AB* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, uint32_t ___1_capacityInput, uint32_t* ___2_countOutput, intptr_t ___3_imagesArray, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, uint32_t, uint32_t*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_swapchain, ___1_capacityInput, ___2_countOutput, ___3_imagesArray, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91445
+// Method Definition Index: 91437
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrAcquireSwapchainImageDelegate_Invoke_mCFE9E393706E1EB9BBBB2F6FE6E5E9E529EA639D_inline (xrAcquireSwapchainImageDelegate_t301098D2D2D22FC40D413B80D9C838B6D7123EE2* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageAcquireInfo_t1511B9EF75760574A7A5C4887D6FD01A8ACBB5E6* ___1_acquireInfo, uint32_t* ___2_index, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, XrSwapchainImageAcquireInfo_t1511B9EF75760574A7A5C4887D6FD01A8ACBB5E6*, uint32_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_swapchain, ___1_acquireInfo, ___2_index, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91441
+// Method Definition Index: 91433
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrWaitSwapchainImageDelegate_Invoke_mD561AA340ED3995C12AFCC807BE8ACB5FCD32DD5_inline (xrWaitSwapchainImageDelegate_tBF668361E5D04261ECF8A87AC722E5B1E97A2553* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageWaitInfo_t8E5107BDB65595474634F53B31F7352BB67D6AA4* ___1_waitInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, XrSwapchainImageWaitInfo_t8E5107BDB65595474634F53B31F7352BB67D6AA4*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_swapchain, ___1_waitInfo, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91449
+// Method Definition Index: 91441
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t xrReleaseSwapchainImageDelegate_Invoke_m66119F15D99EE9CE5A68A3A7840D51023F72E983_inline (xrReleaseSwapchainImageDelegate_t5DD3247FD6B326EBEF71E6E642A36EA087EAE171* __this, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52 ___0_swapchain, XrSwapchainImageReleaseInfo_t12BD425DB16DF069BA54CA4208598B4E9F40BD1B* ___1_releaseInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSwapchain_tDEF06B6775737C91CF1B81C84C313CDDAF2A7D52, XrSwapchainImageReleaseInfo_t12BD425DB16DF069BA54CA4208598B4E9F40BD1B*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_swapchain, ___1_releaseInfo, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94169
+// Method Definition Index: 94161
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XrPollFutureEXTDelegate_Invoke_m9C675FFD6A463C673CBD262AFC54BCBC1AD4C051_inline (XrPollFutureEXTDelegate_t5A508BCE31CD176665E0A3BD35D79BE40871190E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745* ___1_pollInfo, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1* ___2_pollResult, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB, XrFuturePollInfoEXT_t6FA469D2BF589A69D6FC7FFCD57C68A5F0349745*, XrFuturePollResultEXT_tF1DC2EC8F46118ED04F1092D7EEEA3F2F26758B1*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_instance, ___1_pollInfo, ___2_pollResult, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94173
+// Method Definition Index: 94165
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t XrCancelFutureEXTDelegate_Invoke_mA9E8790499A770EF9C0B7FBCF980BB1771FFFAD8_inline (XrCancelFutureEXTDelegate_tFA26067060C28628DC0EE9365B6A54FF7D2A7B1E* __this, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB ___0_instance, XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215* ___1_cancelInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrInstance_t3425762FABDB0D220A3304614FC0AA94A1F105BB, XrFutureCancelInfoEXT_t2789B6F47D4E380003C3FAC30758556E480E5215*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_instance, ___1_cancelInfo, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94185
+// Method Definition Index: 94177
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrEnumerateReferenceSpaces_Invoke_mAFCF24A2DB6644849CB98949EE3625F8D23ADD32_inline (DelegateXrEnumerateReferenceSpaces_t33DD1B66BDD745AE0CC71E40272DB70C3F87D32A* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, uint32_t ___1_spaceCapacityInput, uint32_t* ___2_spaceCountOutput, XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73* ___3_spaces, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, uint32_t, uint32_t*, XrReferenceSpaceTypeU5BU5D_t5964EB29C0B8A815749DEB26D648DC637193FC73*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_spaceCapacityInput, ___2_spaceCountOutput, ___3_spaces, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94189
+// Method Definition Index: 94181
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrLocateSpace_Invoke_m6E665106859455A360B069CA44CAC59C82947B1A_inline (DelegateXrLocateSpace_t8D56494D04B5CCF6B970E5570D49D191169A5BB7* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___1_baseSpace, XrTime_tAA4642192BA7C50D52CCF171F78B128D7FE096E2 ___2_time, XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3* ___3_location, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, XrTime_tAA4642192BA7C50D52CCF171F78B128D7FE096E2, XrSpaceLocation_tCA54FFAAD9316B064534FD530798FDA61B23F6F3*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_space, ___1_baseSpace, ___2_time, ___3_location, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94193
+// Method Definition Index: 94185
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrDestroySpace_Invoke_m28476A335EE0B54FC22D66B9589AB13225C5DB22_inline (DelegateXrDestroySpace_tD5D527F01077CE1E703CC76C753B6BC105037F23* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_space, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_space, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94234
+// Method Definition Index: 94226
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorHTC_Invoke_mA52B1A1FABE24960031FE43D0FDFD916DC9F87CD_inline (DelegateXrCreateSpatialAnchorHTC_t1E594DFFC54B0FD2E8FBE0A06DB3C5ADDA230A22* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSpatialAnchorCreateInfoHTC_t98FBB36E30DE85AAD575D4E3BBBFDCE40517281D* ___1_createInfo, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9* ___2_anchor, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrSpatialAnchorCreateInfoHTC_t98FBB36E30DE85AAD575D4E3BBBFDCE40517281D*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_createInfo, ___2_anchor, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94238
+// Method Definition Index: 94230
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrGetSpatialAnchorNameHTC_Invoke_m3C0DAB582CF2C6F2806C5CCB9DA4011119114A2F_inline (DelegateXrGetSpatialAnchorNameHTC_t7645EF74FC7928061C315CCDE0FB1937F059029E* __this, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9 ___0_anchor, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSpace_t19DFB5D2525D8CE6A1C384A6A6A8149743231DB9, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_anchor, ___1_name, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94242
+// Method Definition Index: 94234
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_Invoke_m1A929A0AB67049355FB671DC5783A43056DA9866_inline (DelegateXrAcquirePersistedAnchorCollectionAsyncHTC_t2239338A3A400CFF0CBC57F1A23C9B075A1D026C* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48* ___1_acquireInfo, intptr_t* ___2_future, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrPersistedAnchorCollectionAcquireInfoHTC_t52FC7669D1A64CE466C31F8DFFCC047A7CA38E48*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_acquireInfo, ___2_future, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94246
+// Method Definition Index: 94238
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_Invoke_m8662A1FAD5DE1A4ECA7823558A270454DCA29C8F_inline (DelegateXrAcquirePersistedAnchorCollectionCompleteHTC_t70617A7D154939C6F370971308599B778489167A* __this, intptr_t ___0_future, XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F* ___1_completion, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrPersistedAnchorCollectionAcquireCompletionHTC_t6305122A8F1D70F19256E5CC84478FB31C17AA9F*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_future, ___1_completion, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94250
+// Method Definition Index: 94242
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrReleasePersistedAnchorCollectionHTC_Invoke_mB4AFB94C0B6EBFC45E269C92775EC155D2879DEE_inline (DelegateXrReleasePersistedAnchorCollectionHTC_t7CBE8F78FE5439751C0DAF02B0F392A65E000D1D* __this, intptr_t ___0_persistedAnchorCollection, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94254
+// Method Definition Index: 94246
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrPersistSpatialAnchorAsyncHTC_Invoke_mD48FCADD4A5386398A12821600D377424B42FDB2_inline (DelegateXrPersistSpatialAnchorAsyncHTC_tFB559030054631E0716379C61B217D420D63ADFC* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E* ___1_persistInfo, intptr_t* ___2_future, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorPersistInfoHTC_t02EC204EEB4AF71682D01BE42C6EF643E82DA51E*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistInfo, ___2_future, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94258
+// Method Definition Index: 94250
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrPersistSpatialAnchorCompleteHTC_Invoke_m533FD5DE0A871F3EA261817C47E0417C43F99620_inline (DelegateXrPersistSpatialAnchorCompleteHTC_t3D66A902EAC4104A2CEB9F975FEBD444D920C483* __this, intptr_t ___0_future, XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB* ___1_completion, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrFutureCompletionEXT_t40A77451FDE1771C45AF3ED54753F46DF034B2CB*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_future, ___1_completion, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94262
+// Method Definition Index: 94254
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrUnpersistSpatialAnchorHTC_Invoke_m46F658A902BBCDC77EE797B170CB4DC96A8FEB23_inline (DelegateXrUnpersistSpatialAnchorHTC_t6A17BAB6E0B63079B24C51313B0B9F58F161199E* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_persistedAnchorName, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistedAnchorName, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94266
+// Method Definition Index: 94258
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrEnumeratePersistedAnchorNamesHTC_Invoke_m2C6F855BC373F6858EC3ED4288D105A803336ECF_inline (DelegateXrEnumeratePersistedAnchorNamesHTC_t2507E06E63AECB642894E2E035F6CDB3AFD138A0* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_persistedAnchorNameCapacityInput, uint32_t* ___2_persistedAnchorNameCountOutput, XrSpatialAnchorNameHTCU5BU5D_t1A2F0F24993AEC90AE011124CE30EE4F1344A5E2* ___3_persistedAnchorNames, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, uint32_t*, XrSpatialAnchorNameHTCU5BU5D_t1A2F0F24993AEC90AE011124CE30EE4F1344A5E2*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistedAnchorNameCapacityInput, ___2_persistedAnchorNameCountOutput, ___3_persistedAnchorNames, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94270
+// Method Definition Index: 94262
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_Invoke_m8AD1C177EA7855E6F5322F294070856E3775B026_inline (DelegateXrCreateSpatialAnchorFromPersistedAnchorAsyncHTC_tBC1379FC0D7E84A4AE7F0E90B9C38824707BE7AD* __this, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA ___0_session, XrSpatialAnchorFromPersistedAnchorCreateInfoHTC_tA787DC0EB5E24DD12D84DFA41589B93BCF10F5EF* ___1_spatialAnchorCreateInfo, intptr_t* ___2_future, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, XrSession_t7D5AE19574C4F39C028E5420FF452288D14684CA, XrSpatialAnchorFromPersistedAnchorCreateInfoHTC_tA787DC0EB5E24DD12D84DFA41589B93BCF10F5EF*, intptr_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_session, ___1_spatialAnchorCreateInfo, ___2_future, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94274
+// Method Definition Index: 94266
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_Invoke_m179A92EDF91FFC3C3969FDA102F691AFDED237E9_inline (DelegateXrCreateSpatialAnchorFromPersistedAnchorCompleteHTC_t28A1D18C384EBD220F8D7988F691B36918CA8CDE* __this, intptr_t ___0_future, XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240* ___1_completion, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorFromPersistedAnchorCreateCompletionHTC_t6E9484F4CA526C9A7757CF0B92B363720621C240*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_future, ___1_completion, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94278
+// Method Definition Index: 94270
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrClearPersistedAnchorsHTC_Invoke_m3B215760FA4418A7F5D63F93E6CA3B96191ED968_inline (DelegateXrClearPersistedAnchorsHTC_tD925E1DD393C74F73242F2721C4E0157E9D716FC* __this, intptr_t ___0_persistedAnchorCollection, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94282
+// Method Definition Index: 94274
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrGetPersistedAnchorPropertiesHTC_Invoke_mD50910ADB073C5DD4707B4A40608B1E5E5531D9C_inline (DelegateXrGetPersistedAnchorPropertiesHTC_tE5A0589C5285D43A5CB4DB9F9181FD9ED1FCE43D* __this, intptr_t ___0_persistedAnchorCollection, XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E* ___1_getInfo, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrPersistedAnchorPropertiesGetInfoHTC_t68E83915C7C8D9E18CE459CA00DF979E802AC39E*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_getInfo, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94286
+// Method Definition Index: 94278
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrExportPersistedAnchorHTC_Invoke_m5FB8676D457B87C1C71F4C9E7E7E5E51425D1F40_inline (DelegateXrExportPersistedAnchorHTC_t773B95A7052C98897E95AAE996C03EC66ABF50B2* __this, intptr_t ___0_persistedAnchorCollection, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___1_persistedAnchorName, uint32_t ___2_dataCapacityInput, uint32_t* ___3_dataCountOutput, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___4_data, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, uint32_t, uint32_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_persistedAnchorName, ___2_dataCapacityInput, ___3_dataCountOutput, ___4_data, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94290
+// Method Definition Index: 94282
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrImportPersistedAnchorHTC_Invoke_mD3510DF117138EACB26D710296944879C1081382_inline (DelegateXrImportPersistedAnchorHTC_tC37746A22A5C3E8A5CA14FB89C54E598D67DF6F0* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_dataCount, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_data, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_dataCount, ___2_data, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 94294
+// Method Definition Index: 94286
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t DelegateXrGetPersistedAnchorNameFromBufferHTC_Invoke_m8F38462BC8791D2E338D19A0379BF1C9805F348F_inline (DelegateXrGetPersistedAnchorNameFromBufferHTC_tBEB25150F06AD83278F018AA8B83580EF2F08129* __this, intptr_t ___0_persistedAnchorCollection, uint32_t ___1_bufferCount, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_buffer, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57* ___3_name, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, uint32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, XrSpatialAnchorNameHTC_tFEFD0DD76AD208B10E5442BE037E97CD1384BA57*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_persistedAnchorCollection, ___1_bufferCount, ___2_buffer, ___3_name, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 11456
+// Method Definition Index: 11453
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mB49912FF111A954F2C326BF4FA29A53C1027187B_gshared_inline (Enumerator_t9DBCD072C72E44AB8959D9884EF7F528028F20EC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15471,7 +15471,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Enumerator_get_Current_mB
 		return L_0;
 	}
 }
-// Method Definition Index: 11406
+// Method Definition Index: 11403
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) 
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
@@ -15509,7 +15509,7 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 11395
+// Method Definition Index: 11392
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -15517,7 +15517,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-// Method Definition Index: 11406
+// Method Definition Index: 11403
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
@@ -15555,39 +15555,39 @@ IL_0034:
 		return;
 	}
 }
-// Method Definition Index: 94135
+// Method Definition Index: 94127
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ViveFeatureWrapperBase_1_get_IsInited_mC7AE272DF791F14AAC521881CF026557515D7DC4_gshared_inline (ViveFeatureWrapperBase_1_tA59993FC73D03258C344B1F9EF88A49BFF58D7FC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:31>
 		bool L_0 = __this->___U3CIsInitedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 94137
+// Method Definition Index: 94129
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ViveFeatureWrapperBase_1_get_TryInited_m7ABB0D9948D37556B2F5699585BBFE4C927642AB_gshared_inline (ViveFeatureWrapperBase_1_tA59993FC73D03258C344B1F9EF88A49BFF58D7FC* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:36>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:36>
 		bool L_0 = __this->___U3CTryInitedU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 94138
+// Method Definition Index: 94130
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveFeatureWrapperBase_1_set_TryInited_m3D2B2717C48B4FBD3C833F75BA4BA0761F517784_gshared_inline (ViveFeatureWrapperBase_1_tA59993FC73D03258C344B1F9EF88A49BFF58D7FC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:36>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:36>
 		bool L_0 = ___0_value;
 		__this->___U3CTryInitedU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 94136
+// Method Definition Index: 94128
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ViveFeatureWrapperBase_1_set_IsInited_m56A5B35F2B3DC026E6DEF93323E1423B0CD0C1D7_gshared_inline (ViveFeatureWrapperBase_1_tA59993FC73D03258C344B1F9EF88A49BFF58D7FC* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Common/IViveFeatureWrapper.cs:31>
 		bool L_0 = ___0_value;
 		__this->___U3CIsInitedU3Ek__BackingField = L_0;
 		return;

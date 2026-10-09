@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.htc.upm.vive.openxr": {
-      "version": "file:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr",
+      "version": "file:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr",
       "depth": 0,
       "source": "local",
       "dependencies": {

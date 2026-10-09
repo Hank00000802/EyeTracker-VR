@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e8a742a23cab4431b1b97ef249cb87e9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 304841
+  packageName: Creative Characters FREE - Animated Pack
+  packageVersion: 2.3
+  assetPath: Assets/ithappy/Creative_Characters_FREE/Scripts/Editor/FaceEditor/FacePickerEditor.cs
+  uploadId: 927690

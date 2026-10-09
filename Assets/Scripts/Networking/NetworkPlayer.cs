@@ -95,6 +95,7 @@ public class NetworkVRPlayer : NetworkBehaviour
         DisableRemoteLocalDrivers();
         HideProxyRenderers();
         EnsureRemotePoseDriver();
+        EnsureRemoteWaistClip();
         ApplyRoleOuterwear();
 
         if (IsOwner)
@@ -308,6 +309,17 @@ public class NetworkVRPlayer : NetworkBehaviour
             remoteRightHandTarget
         );
         driver.enabled = true;
+    }
+
+    private void EnsureRemoteWaistClip()
+    {
+        if (remoteAvatarVisual == null)
+            return;
+
+        // Added right after spawn, before the Animator's first evaluation, so the waist line
+        // is captured from the authored bind pose (same as the local avatar).
+        if (remoteAvatarVisual.GetComponent<AvatarWaistClipDriver>() == null)
+            remoteAvatarVisual.AddComponent<AvatarWaistClipDriver>();
     }
 
     private void ApplyRoleOuterwear()

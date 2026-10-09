@@ -7051,7 +7051,7 @@ Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Func_2_Invoke_m5F375A73F786B177B
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m851A616484C4EE142B945D4B08A222778A25F038_gshared (Func_2_tB58BCE382BE21A0ECA2C8642716DD941FB670EDA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7104,7 +7104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m851A616484C4EE142B945D4B08
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m5F375A73F786B177B1288692AC12847025E7A38B_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Func_2_Invoke_m5F375A73F786B177B1288692AC12847025E7A38B_gshared (Func_2_tB58BCE382BE21A0ECA2C8642716DD941FB670EDA* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Color_tD001788D726C3A7F1379BEED0260B9591F440C1F (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7162,7 +7162,7 @@ int32_t Func_2_Invoke_m5216F6C7BCECCCED81384876C2968E0D4358618B_OpenGenericInter
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< int32_t >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mEB7603EDE6D79A62E5BD74A896F030D2C9F2A821_gshared (Func_2_t9A0D493A82DCC47C9C819A3B045E02D9B5DDCE1B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7215,7 +7215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mEB7603EDE6D79A62E5BD74A896
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m5216F6C7BCECCCED81384876C2968E0D4358618B_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m5216F6C7BCECCCED81384876C2968E0D4358618B_gshared (Func_2_t9A0D493A82DCC47C9C819A3B045E02D9B5DDCE1B* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7273,7 +7273,7 @@ int32_t Func_2_Invoke_m1FDB82A936AD6A68F455DE792FD9454CE1A4FC9F_OpenGenericInter
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< int32_t >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mEFB19C6918BFCF7702199988CE08C7B1608A8343_gshared (Func_2_t213311159653563BDCC21CC060B449705C96791F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7326,7 +7326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mEFB19C6918BFCF7702199988CE
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m1FDB82A936AD6A68F455DE792FD9454CE1A4FC9F_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m1FDB82A936AD6A68F455DE792FD9454CE1A4FC9F_gshared (Func_2_t213311159653563BDCC21CC060B449705C96791F* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7385,7 +7385,7 @@ InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_m8EC669DC
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m92E872488A5D1351FE7695A0328E8D468BEE1884_gshared (Func_2_t92904CE6AE729E23667675B2858ABE16106A0837* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7438,7 +7438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m92E872488A5D1351FE7695A032
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m8EC669DC5A67A9D04779DDF464082ED708D41F27_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_m8EC669DC5A67A9D04779DDF464082ED708D41F27_gshared (Func_2_t92904CE6AE729E23667675B2858ABE16106A0837* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7496,7 +7496,7 @@ RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_OpenGener
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< RuntimeObject* >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E817F7A48562A398_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7549,7 +7549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F8A01C0B02BC1D4063F4EB1E8
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mDBA25DA5DA5B7E056FB9B026AF041F1385FB58A9_gshared (Func_2_tACBF5A1656250800CE861707354491F0611F6624* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7608,7 +7608,7 @@ PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 Func_2_Invoke_m5A38BE32C
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m706AF1F61EC261D17A5A227A49D5B13100056576_gshared (Func_2_t40295494B8261EDE8574BB155E2C5CAED667EE27* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7661,7 +7661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m706AF1F61EC261D17A5A227A49
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m5A38BE32C21FA697C28072AE0162212E33B9F9AD_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 Func_2_Invoke_m5A38BE32C21FA697C28072AE0162212E33B9F9AD_gshared (Func_2_t40295494B8261EDE8574BB155E2C5CAED667EE27* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7720,7 +7720,7 @@ Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Func_2_Invoke_mC8C2AAD545A0
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mD8552D6390B3EC85469DBC405A43A3BE7C1F939A_gshared (Func_2_tF9A1676D5CC48AA93FA04FCF9B2FB5E3D6D8332E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7773,7 +7773,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mD8552D6390B3EC85469DBC405A
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mC8C2AAD545A077FFBC63DFDF071F631751808D6C_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Func_2_Invoke_mC8C2AAD545A077FFBC63DFDF071F631751808D6C_gshared (Func_2_tF9A1676D5CC48AA93FA04FCF9B2FB5E3D6D8332E* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7832,7 +7832,7 @@ Scene_tA1DC762B79745EB5140F054C884855B922318356 Func_2_Invoke_m0DFF5D8539461F1DC
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< Scene_tA1DC762B79745EB5140F054C884855B922318356 >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m454975145878C735F717D495222D4AFD07F942F4_gshared (Func_2_t47DA4C422652F227DE4FCB1AFF370B40368791D6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7885,7 +7885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m454975145878C735F717D49522
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m0DFF5D8539461F1DCD292FD7E0B8329DE6352E9B_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 Func_2_Invoke_m0DFF5D8539461F1DCD292FD7E0B8329DE6352E9B_gshared (Func_2_t47DA4C422652F227DE4FCB1AFF370B40368791D6* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Scene_tA1DC762B79745EB5140F054C884855B922318356 (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -7944,7 +7944,7 @@ SerializableProjectConfiguration_tBAE4D3A66EC38C1869E294396DB79F127B8F58EE Func_
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< SerializableProjectConfiguration_tBAE4D3A66EC38C1869E294396DB79F127B8F58EE >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mDED4CE088A26A36495E5B6321043B82A5DB5ADE2_gshared (Func_2_t3208C54C8C9302F71C20D225064205594F6F9520* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -7997,7 +7997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mDED4CE088A26A36495E5B63210
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mB49A3B35E4AC98F4D8304615FE5BB8EDA776CD3E_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SerializableProjectConfiguration_tBAE4D3A66EC38C1869E294396DB79F127B8F58EE Func_2_Invoke_mB49A3B35E4AC98F4D8304615FE5BB8EDA776CD3E_gshared (Func_2_t3208C54C8C9302F71C20D225064205594F6F9520* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef SerializableProjectConfiguration_tBAE4D3A66EC38C1869E294396DB79F127B8F58EE (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8055,7 +8055,7 @@ float Func_2_Invoke_mBE16A5FDA5E80CCBA51D69334EF21C0F03D353AF_OpenGenericInterfa
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< float >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m04EB988C3F849C1BE164FC6656C2281DF47EEAA7_gshared (Func_2_tB5C40A90702B6A6A2E315FD927EEFC9FB69F2B12* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8108,7 +8108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m04EB988C3F849C1BE164FC6656
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mBE16A5FDA5E80CCBA51D69334EF21C0F03D353AF_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_2_Invoke_mBE16A5FDA5E80CCBA51D69334EF21C0F03D353AF_gshared (Func_2_tB5C40A90702B6A6A2E315FD927EEFC9FB69F2B12* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8167,7 +8167,7 @@ StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A Func_2_Invoke_mE3B76B76D9E
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m02217A5035291EE1059F05B352D1B285B9CC2D91_gshared (Func_2_tDBD0E306D8C095961120C1B2350FD4A493D0D6C7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8220,7 +8220,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m02217A5035291EE1059F05B352
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mE3B76B76D9E4D6EC40F4F7C0A65EA8621DB26EAA_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A Func_2_Invoke_mE3B76B76D9E4D6EC40F4F7C0A65EA8621DB26EAA_gshared (Func_2_tDBD0E306D8C095961120C1B2350FD4A493D0D6C7* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8278,7 +8278,7 @@ uint32_t Func_2_Invoke_m53DE1E6A26EA001146C8702234431FF355DDA834_OpenGenericInte
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< uint32_t >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m2F35D9DF8C659B83CA70029ACBA44930CD42E90D_gshared (Func_2_tB86D019F1289E2D123C00796B373933613385952* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8331,7 +8331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m2F35D9DF8C659B83CA70029ACB
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m53DE1E6A26EA001146C8702234431FF355DDA834_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Func_2_Invoke_m53DE1E6A26EA001146C8702234431FF355DDA834_gshared (Func_2_tB86D019F1289E2D123C00796B373933613385952* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef uint32_t (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8390,7 +8390,7 @@ UdpReceiveResult_t9B04AABD71B2DAE00002C0063D6532227A9E243E Func_2_Invoke_mA026FD
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< UdpReceiveResult_t9B04AABD71B2DAE00002C0063D6532227A9E243E >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m53F944526455351AC228D89F4BDFC17A3405A400_gshared (Func_2_t35E7DC22A5D8B5463B67B386424388FCBEE4B6B0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8443,7 +8443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m53F944526455351AC228D89F4B
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mA026FDD3FE43CF40A7BA4F22DAE4B3B1C7C31A6D_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UdpReceiveResult_t9B04AABD71B2DAE00002C0063D6532227A9E243E Func_2_Invoke_mA026FDD3FE43CF40A7BA4F22DAE4B3B1C7C31A6D_gshared (Func_2_t35E7DC22A5D8B5463B67B386424388FCBEE4B6B0* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef UdpReceiveResult_t9B04AABD71B2DAE00002C0063D6532227A9E243E (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8502,7 +8502,7 @@ VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC Func_2_Invoke_mEBF7808C
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m72EB5E5253E0CD53D511ECB24AA775A36BDFD8B5_gshared (Func_2_t71FA99F7C6CDD51A4C237B5165867D485B0735EA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8555,7 +8555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m72EB5E5253E0CD53D511ECB24A
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mEBF7808CA295B981EAE4B058D26404E3F3D63235_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC Func_2_Invoke_mEBF7808CA295B981EAE4B058D26404E3F3D63235_gshared (Func_2_t71FA99F7C6CDD51A4C237B5165867D485B0735EA* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8614,7 +8614,7 @@ float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA Func_2_Invoke_m3118FE1536634B35
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m69B4EA7B768908533537454F78B77B7C1375CD88_gshared (Func_2_t107BCC358E8532DFB8388F4AE0ED2DE3CD944E16* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8667,7 +8667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m69B4EA7B768908533537454F78
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m3118FE1536634B358E5D4F5C2F2B23B4552951D6_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA Func_2_Invoke_m3118FE1536634B358E5D4F5C2F2B23B4552951D6_gshared (Func_2_t107BCC358E8532DFB8388F4AE0ED2DE3CD944E16* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8726,7 +8726,7 @@ float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Func_2_Invoke_m12ED1F682C6B91CA
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mF84DDC70AEEEAE023240D95F09FB1E39A9B3D29E_gshared (Func_2_t0588D75687AA4E400E147BCA1FD0D39123106643* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8779,7 +8779,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mF84DDC70AEEEAE023240D95F09
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m12ED1F682C6B91CA8899642001E21B5903A4A9CC_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Func_2_Invoke_m12ED1F682C6B91CA8899642001E21B5903A4A9CC_gshared (Func_2_t0588D75687AA4E400E147BCA1FD0D39123106643* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8838,7 +8838,7 @@ float4_t89D9A294E7A79BD81BFBDD18654508532958555E Func_2_Invoke_m2FF7165A413DA700
 	NullCheck(___0_arg);
 	return GenericInterfaceFuncInvoker0< float4_t89D9A294E7A79BD81BFBDD18654508532958555E >::Invoke(method, ___0_arg);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m52A4FF56A585EDC01B0BFD6AAACF36BA5FF14A65_gshared (Func_2_t98D8EEB0E74BC88FFF6A7EA1F28741C5C5E369C9* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8891,7 +8891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m52A4FF56A585EDC01B0BFD6AAA
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m2FF7165A413DA700EBF47227FAACC20BD8B04ADB_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E Func_2_Invoke_m2FF7165A413DA700EBF47227FAACC20BD8B04ADB_gshared (Func_2_t98D8EEB0E74BC88FFF6A7EA1F28741C5C5E369C9* __this, RuntimeObject* ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float4_t89D9A294E7A79BD81BFBDD18654508532958555E (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -8928,7 +8928,7 @@ bool Func_2_Invoke_m1136F9DA91CA7E51B50FCEA1AD7BCFE49277996A_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m08752166C9E58776CDD53408232089326983998D_gshared (Func_2_tAEF4AD873190AD9B5F7741B7B2C9D12E92A1742A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -8957,7 +8957,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m08752166C9E58776CDD5340823
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m1136F9DA91CA7E51B50FCEA1AD7BCFE49277996A_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m1136F9DA91CA7E51B50FCEA1AD7BCFE49277996A_gshared (Func_2_tAEF4AD873190AD9B5F7741B7B2C9D12E92A1742A* __this, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032, const RuntimeMethod*);
@@ -8994,7 +8994,7 @@ bool Func_2_Invoke_m6C9F5D0B965407650A921FA93E94A399886021AA_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m777C7847157F91BD8F9BDFEAEEFCB16CFAB25D5B_gshared (Func_2_tA6088F7AC2E30545BBD68DC21607C76F31E8BA82* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9023,7 +9023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m777C7847157F91BD8F9BDFEAEE
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m6C9F5D0B965407650A921FA93E94A399886021AA_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m6C9F5D0B965407650A921FA93E94A399886021AA_gshared (Func_2_tA6088F7AC2E30545BBD68DC21607C76F31E8BA82* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*);
@@ -9061,7 +9061,7 @@ Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Func_2_Invoke_mD4BB413F603BDBC7A8
 	typedef Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D (*FunctionPointerType) (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m9CF253F8083F8A59131BE96F3C20151F6522ACC0_gshared (Func_2_tB7886AF500F23F9AE78D86E5EBADFE0BBD37A1DA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9090,7 +9090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m9CF253F8083F8A59131BE96F3C
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mD4BB413F603BDBC7A8F2DECA4CB194409D98CA27_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Func_2_Invoke_mD4BB413F603BDBC7A8F2DECA4CB194409D98CA27_gshared (Func_2_tB7886AF500F23F9AE78D86E5EBADFE0BBD37A1DA* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D (*FunctionPointerType) (RuntimeObject*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D, const RuntimeMethod*);
@@ -9127,7 +9127,7 @@ float Func_2_Invoke_mBC8916A90264A26DF750ABE5811E6F8E39D89D9F_OpenStatic(Func_2_
 	typedef float (*FunctionPointerType) (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mF113DF9F805305E921BD0458AE613DD15FCB5331_gshared (Func_2_t8A65018A43098590B8FE77A424204D524E1CDFAE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9156,7 +9156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mF113DF9F805305E921BD0458AE
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mBC8916A90264A26DF750ABE5811E6F8E39D89D9F_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_2_Invoke_mBC8916A90264A26DF750ABE5811E6F8E39D89D9F_gshared (Func_2_t8A65018A43098590B8FE77A424204D524E1CDFAE* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D, const RuntimeMethod*);
@@ -9193,7 +9193,7 @@ int32_t Func_2_Invoke_m34642A6B860F5177BD476EE0E53DC2A16927183F_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6A22DDC81D15102472646590E2D5040C79BC7DCD_gshared (Func_2_t2894A0E655128DCA085A62AC7E91AA50E34051FE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9222,7 +9222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6A22DDC81D15102472646590E2
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m34642A6B860F5177BD476EE0E53DC2A16927183F_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m34642A6B860F5177BD476EE0E53DC2A16927183F_gshared (Func_2_t2894A0E655128DCA085A62AC7E91AA50E34051FE* __this, RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8, const RuntimeMethod*);
@@ -9260,7 +9260,7 @@ RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 Func_2_Invoke_mD090DBE53FDEF9B
 	typedef RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 (*FunctionPointerType) (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7D4D03AFE95134CF843C7D501AE16ED92FE39852_gshared (Func_2_t44F0BC956892FDA3EB80198FA179AD4CE456E0AA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9289,7 +9289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7D4D03AFE95134CF843C7D501A
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mD090DBE53FDEF9BE13E1F1BE9FC5E259D23DA227_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 Func_2_Invoke_mD090DBE53FDEF9BE13E1F1BE9FC5E259D23DA227_gshared (Func_2_t44F0BC956892FDA3EB80198FA179AD4CE456E0AA* __this, RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 (*FunctionPointerType) (RuntimeObject*, RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8, const RuntimeMethod*);
@@ -9326,7 +9326,7 @@ bool Func_2_Invoke_m90EBC7EC23E24B94DDF284EA844FDD0697D43221_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (Scene_tA1DC762B79745EB5140F054C884855B922318356, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m980CDB5F4B65399DE8C8E50B52F4DAA319808DA4_gshared (Func_2_t4F73610D0CA47FF1BD0C63B7FB85AC3BD87DC7B1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9355,7 +9355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m980CDB5F4B65399DE8C8E50B52
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m90EBC7EC23E24B94DDF284EA844FDD0697D43221_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m90EBC7EC23E24B94DDF284EA844FDD0697D43221_gshared (Func_2_t4F73610D0CA47FF1BD0C63B7FB85AC3BD87DC7B1* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Scene_tA1DC762B79745EB5140F054C884855B922318356, const RuntimeMethod*);
@@ -9393,7 +9393,7 @@ StartDragArgs_tF1E3C0A058F6E7B936541CFCCFB42965A2B452C9 Func_2_Invoke_m305751743
 	typedef StartDragArgs_tF1E3C0A058F6E7B936541CFCCFB42965A2B452C9 (*FunctionPointerType) (SetupDragAndDropArgs_t3D6B6745EDF8BA073395EFEFA50B007FE94190F2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mDD3AC7D3A8CEE395911049202BD35E729FF75E85_gshared (Func_2_tAA84235D71BA06591784319703175CFB5E386A7F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9422,7 +9422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mDD3AC7D3A8CEE395911049202B
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m30575174383CB6B4DB9C485997CC59EB67867005_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StartDragArgs_tF1E3C0A058F6E7B936541CFCCFB42965A2B452C9 Func_2_Invoke_m30575174383CB6B4DB9C485997CC59EB67867005_gshared (Func_2_tAA84235D71BA06591784319703175CFB5E386A7F* __this, SetupDragAndDropArgs_t3D6B6745EDF8BA073395EFEFA50B007FE94190F2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef StartDragArgs_tF1E3C0A058F6E7B936541CFCCFB42965A2B452C9 (*FunctionPointerType) (RuntimeObject*, SetupDragAndDropArgs_t3D6B6745EDF8BA073395EFEFA50B007FE94190F2, const RuntimeMethod*);
@@ -9459,7 +9459,7 @@ bool Func_2_Invoke_m1FE6F2A4EC23CC595897C55AE7B0BDA8969044D7_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (float, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m03E06C4CC75B5D767310B9AAF6151183593E7A02_gshared (Func_2_t49E998685259ADE759F9329BF66F20DE8667006E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9488,7 +9488,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m03E06C4CC75B5D767310B9AAF6
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m1FE6F2A4EC23CC595897C55AE7B0BDA8969044D7_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m1FE6F2A4EC23CC595897C55AE7B0BDA8969044D7_gshared (Func_2_t49E998685259ADE759F9329BF66F20DE8667006E* __this, float ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float, const RuntimeMethod*);
@@ -9525,7 +9525,7 @@ float Func_2_Invoke_m5728ECFB038CFC6FEF889DC2D566EEF49D0E24B9_OpenStatic(Func_2_
 	typedef float (*FunctionPointerType) (float, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mD64CD30418B670CBB35821EC2D8C91B7A1FAA959_gshared (Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9554,7 +9554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mD64CD30418B670CBB35821EC2D
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m5728ECFB038CFC6FEF889DC2D566EEF49D0E24B9_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_2_Invoke_m5728ECFB038CFC6FEF889DC2D566EEF49D0E24B9_gshared (Func_2_t2A7432CC4F64D0DF6D8629208B154CF139B39AF2* __this, float ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, float, const RuntimeMethod*);
@@ -9591,7 +9591,7 @@ bool Func_2_Invoke_m7C54973F594216484A4F81A59CDF821AF554339D_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mC3138ED0EE91509FE7524FCD123E23D1B36D3F51_gshared (Func_2_t7E7216694EE7A991563EC30D68D86C597BF2A56A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9620,7 +9620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mC3138ED0EE91509FE7524FCD12
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m7C54973F594216484A4F81A59CDF821AF554339D_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m7C54973F594216484A4F81A59CDF821AF554339D_gshared (Func_2_t7E7216694EE7A991563EC30D68D86C597BF2A56A* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
@@ -9657,7 +9657,7 @@ int32_t Func_2_Invoke_m57961B138A397ADAB0DC71E56519ADBD63327D27_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m1C765807CA1B14819E1E75F17AA26995601892C6_gshared (Func_2_t12F902B64E731F36B1BC057F3AF13BF1D833E1DF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9686,7 +9686,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m1C765807CA1B14819E1E75F17A
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m57961B138A397ADAB0DC71E56519ADBD63327D27_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m57961B138A397ADAB0DC71E56519ADBD63327D27_gshared (Func_2_t12F902B64E731F36B1BC057F3AF13BF1D833E1DF* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
@@ -9724,7 +9724,7 @@ InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_mDDAE5E08
 	typedef InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 (*FunctionPointerType) (StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m2C6D825006512E59719A13245A3956049053AFC2_gshared (Func_2_t34787AB6BB8F2217CFED1101834AAAEFFEC13115* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9753,7 +9753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m2C6D825006512E59719A13245A
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mDDAE5E08C41E5668036677ED209B850CC6547292_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_mDDAE5E08C41E5668036677ED209B850CC6547292_gshared (Func_2_t34787AB6BB8F2217CFED1101834AAAEFFEC13115* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 (*FunctionPointerType) (RuntimeObject*, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
@@ -9790,7 +9790,7 @@ RuntimeObject* Func_2_Invoke_m1F78C6C79382EA6E74D62E31DD00A9378266A518_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mB07F7BB5EA5FDCA2B92DF1C75BD847A5B03FA937_gshared (Func_2_tFD36EA818BBCBD1EDE1E1540FC3EF156A6ADCCAD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9819,7 +9819,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mB07F7BB5EA5FDCA2B92DF1C75B
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m1F78C6C79382EA6E74D62E31DD00A9378266A518_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_m1F78C6C79382EA6E74D62E31DD00A9378266A518_gshared (Func_2_tFD36EA818BBCBD1EDE1E1540FC3EF156A6ADCCAD* __this, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, StyleSelectorPart_tEE5B8ADC7D114C7486CC8301FF96C114FF3C9470, const RuntimeMethod*);
@@ -9856,7 +9856,7 @@ bool Func_2_Invoke_m77C320974BB0E8AFA1A7C39B514DDD8C06942AC5_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F74BA0D6DE79F503A156D676A476391732628AC_gshared (Func_2_t1786BA7CF27B123F6CFAA174EE698F743702757F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9885,7 +9885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F74BA0D6DE79F503A156D676A
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m77C320974BB0E8AFA1A7C39B514DDD8C06942AC5_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m77C320974BB0E8AFA1A7C39B514DDD8C06942AC5_gshared (Func_2_t1786BA7CF27B123F6CFAA174EE698F743702757F* __this, Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
@@ -9922,7 +9922,7 @@ int32_t Func_2_Invoke_mF4550AAF07822B89D9CEDD14EA0A726DC11B8487_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m729127AD54D72A0DF3C0E1CC84F9B0E79DE54727_gshared (Func_2_t9CEA3E31C171BF402F9810DDA61E3269D41CC6BD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -9951,7 +9951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m729127AD54D72A0DF3C0E1CC84
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mF4550AAF07822B89D9CEDD14EA0A726DC11B8487_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_mF4550AAF07822B89D9CEDD14EA0A726DC11B8487_gshared (Func_2_t9CEA3E31C171BF402F9810DDA61E3269D41CC6BD* __this, Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
@@ -9989,7 +9989,7 @@ InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_mA098B599
 	typedef InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 (*FunctionPointerType) (Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mB6B5D5F6D293D18833F1883B01861E4D22ED829B_gshared (Func_2_t6E897C5FF3BC8DDD4F3C18D3DFB83BDB8E4F9D2B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10018,7 +10018,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mB6B5D5F6D293D18833F1883B01
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mA098B5996B6AE11EADA0A2F2DE377135468CEBAC_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_mA098B5996B6AE11EADA0A2F2DE377135468CEBAC_gshared (Func_2_t6E897C5FF3BC8DDD4F3C18D3DFB83BDB8E4F9D2B* __this, Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 (*FunctionPointerType) (RuntimeObject*, Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
@@ -10055,7 +10055,7 @@ RuntimeObject* Func_2_Invoke_m3C9BCAF1F1F54BB85749F5001D1DFDBEAB600AC8_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m041A28A2AD32E4C1F10301D7A7D8E6C6FA841BBF_gshared (Func_2_tB87969817D1EDC637904CC3302B8C93B14ACF9FB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10084,7 +10084,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m041A28A2AD32E4C1F10301D7A7
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m3C9BCAF1F1F54BB85749F5001D1DFDBEAB600AC8_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_m3C9BCAF1F1F54BB85749F5001D1DFDBEAB600AC8_gshared (Func_2_tB87969817D1EDC637904CC3302B8C93B14ACF9FB* __this, Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Substring_t2E16755269E6716C22074D6BC0A9099915E67849, const RuntimeMethod*);
@@ -10122,7 +10122,7 @@ ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2 Func_2_Invoke_m
 	typedef ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2 (*FunctionPointerType) (ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m35ABFDD127B938CB675602DBCFE51075469E0D72_gshared (Func_2_t34F9DC96048C040D6199FDD5E61638690A63AA75* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10151,7 +10151,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m35ABFDD127B938CB675602DBCF
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m64C73B2DA4F5E7CAD8A7D6F79855F934D1B88A56_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2 Func_2_Invoke_m64C73B2DA4F5E7CAD8A7D6F79855F934D1B88A56_gshared (Func_2_t34F9DC96048C040D6199FDD5E61638690A63AA75* __this, ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2 (*FunctionPointerType) (RuntimeObject*, ToggleButtonGroupState_tB95F0A0DB8DAC1DC57EE02C7610744AB9FC268C2, const RuntimeMethod*);
@@ -10188,7 +10188,7 @@ uint32_t Func_2_Invoke_m08CB39BA37ACF072E1284B4A86E36A37EE01FC68_OpenStatic(Func
 	typedef uint32_t (*FunctionPointerType) (uint32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m5891EAC05DA6556BCA927D03717418C0D1E994F2_gshared (Func_2_t9A0EC31CF651400F36A816B75727B7A125B71A19* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10217,7 +10217,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m5891EAC05DA6556BCA927D0371
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m08CB39BA37ACF072E1284B4A86E36A37EE01FC68_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Func_2_Invoke_m08CB39BA37ACF072E1284B4A86E36A37EE01FC68_gshared (Func_2_t9A0EC31CF651400F36A816B75727B7A125B71A19* __this, uint32_t ___0_arg, const RuntimeMethod* method) 
 {
 	typedef uint32_t (*FunctionPointerType) (RuntimeObject*, uint32_t, const RuntimeMethod*);
@@ -10254,7 +10254,7 @@ bool Func_2_Invoke_mA21C3F70234DB09A7EE1C0C10B4290C0C7D7E675_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (uint64_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7692C711F2666EAFAFE35FD3492093473388C515_gshared (Func_2_tCC2A29050F36A7F78CF277882751E9AAA1C6802B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10283,7 +10283,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7692C711F2666EAFAFE35FD349
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mA21C3F70234DB09A7EE1C0C10B4290C0C7D7E675_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_mA21C3F70234DB09A7EE1C0C10B4290C0C7D7E675_gshared (Func_2_tCC2A29050F36A7F78CF277882751E9AAA1C6802B* __this, uint64_t ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, uint64_t, const RuntimeMethod*);
@@ -10320,7 +10320,7 @@ uint64_t Func_2_Invoke_m3EFDAAC7A860CE328138B698F7ED31700D734884_OpenStatic(Func
 	typedef uint64_t (*FunctionPointerType) (uint64_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m1985AED964EC2DEC43984DB522265D0F4256B76C_gshared (Func_2_tCCF02F7A2CB745300B9C766290B7B59C2CE4CEE7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10349,7 +10349,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m1985AED964EC2DEC43984DB522
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m3EFDAAC7A860CE328138B698F7ED31700D734884_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Func_2_Invoke_m3EFDAAC7A860CE328138B698F7ED31700D734884_gshared (Func_2_tCCF02F7A2CB745300B9C766290B7B59C2CE4CEE7* __this, uint64_t ___0_arg, const RuntimeMethod* method) 
 {
 	typedef uint64_t (*FunctionPointerType) (RuntimeObject*, uint64_t, const RuntimeMethod*);
@@ -10386,7 +10386,7 @@ float Func_2_Invoke_mC1393F9E3826C0470F4E592881F9919BF6153E1B_OpenStatic(Func_2_
 	typedef float (*FunctionPointerType) (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m9A4E08F01EC0E37D18013BF94C8B3B5518D6C405_gshared (Func_2_t768E45AC224B8B0A2FF0AF51561075C9EA671111* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10415,7 +10415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m9A4E08F01EC0E37D18013BF94C
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mC1393F9E3826C0470F4E592881F9919BF6153E1B_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_2_Invoke_mC1393F9E3826C0470F4E592881F9919BF6153E1B_gshared (Func_2_t768E45AC224B8B0A2FF0AF51561075C9EA671111* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*);
@@ -10453,7 +10453,7 @@ Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m2FC19F37228B0F7
 	typedef Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*FunctionPointerType) (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mAB215938138B4DAC89DA24CC6B00066F2942477C_gshared (Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10482,7 +10482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mAB215938138B4DAC89DA24CC6B
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m2FC19F37228B0F78CF62828FF7E998E55F6F9B24_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Func_2_Invoke_m2FC19F37228B0F78CF62828FF7E998E55F6F9B24_gshared (Func_2_t33ED521BE3A7E943FA8D764514952EDF1AF1C0FA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*FunctionPointerType) (RuntimeObject*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*);
@@ -10520,7 +10520,7 @@ Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Func_2_Invoke_m04D992EEE06D4A4
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*FunctionPointerType) (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m5E7087CFE7EE090E6F0CA2843146A70D4CAAA49E_gshared (Func_2_tECC97CAACCC7CB873184FEF49E8343711EEF4768* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10549,7 +10549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m5E7087CFE7EE090E6F0CA28431
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m04D992EEE06D4A427875C0C195B03D9E8A8859A8_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Func_2_Invoke_m04D992EEE06D4A427875C0C195B03D9E8A8859A8_gshared (Func_2_tECC97CAACCC7CB873184FEF49E8343711EEF4768* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*FunctionPointerType) (RuntimeObject*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*);
@@ -10586,7 +10586,7 @@ int32_t Func_2_Invoke_m9EEF631E329C50A5114E1B0F663ABF6C219C2399_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mCEE74764BD568CD415050C15F2D417E1BF925720_gshared (Func_2_tD4AE8636BC57AF9B1896888EB2D0CC7EA4CB9D4D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10615,7 +10615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mCEE74764BD568CD415050C15F2
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m9EEF631E329C50A5114E1B0F663ABF6C219C2399_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m9EEF631E329C50A5114E1B0F663ABF6C219C2399_gshared (Func_2_tD4AE8636BC57AF9B1896888EB2D0CC7EA4CB9D4D* __this, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A, const RuntimeMethod*);
@@ -10653,7 +10653,7 @@ Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A Func_2_Invoke_m6A08A1768854
 	typedef Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A (*FunctionPointerType) (Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m56B1558B86CB131E2A6ADE484EFB17641549178B_gshared (Func_2_t4F7E38E7BB35050CFC131CE0DA82E7D1E681BE1E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10682,7 +10682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m56B1558B86CB131E2A6ADE484E
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m6A08A1768854CF8D9CD392A847F5EFED9BFADDD1_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A Func_2_Invoke_m6A08A1768854CF8D9CD392A847F5EFED9BFADDD1_gshared (Func_2_t4F7E38E7BB35050CFC131CE0DA82E7D1E681BE1E* __this, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A (*FunctionPointerType) (RuntimeObject*, Vector2Int_t69B2886EBAB732D9B880565E18E7568F3DE0CE6A, const RuntimeMethod*);
@@ -10719,7 +10719,7 @@ float Func_2_Invoke_m1512A344733CFB3C2D59C468C852A374239D3B52_OpenStatic(Func_2_
 	typedef float (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m8BACCCB996FEF1B06E74F85966B4231A9A24DAF0_gshared (Func_2_tDC72553AEF8707070A5FFB9D46F144F9BE06A9EC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10748,7 +10748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m8BACCCB996FEF1B06E74F85966
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m1512A344733CFB3C2D59C468C852A374239D3B52_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_2_Invoke_m1512A344733CFB3C2D59C468C852A374239D3B52_gshared (Func_2_tDC72553AEF8707070A5FFB9D46F144F9BE06A9EC* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*);
@@ -10786,7 +10786,7 @@ Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Func_2_Invoke_m2D1F99C61586D62
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m3B1BCBC0885F3E93CDC21C75185F09A25FE0CC17_gshared (Func_2_t5FAD225BE5BF75673982C9FE55604AC36DBC1DB4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10815,7 +10815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m3B1BCBC0885F3E93CDC21C7518
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m2D1F99C61586D62550BD7692C2ABF56E033B96AD_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Func_2_Invoke_m2D1F99C61586D62550BD7692C2ABF56E033B96AD_gshared (Func_2_t5FAD225BE5BF75673982C9FE55604AC36DBC1DB4* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*);
@@ -10852,7 +10852,7 @@ int32_t Func_2_Invoke_m6DF2C039A156545F28C1C4E66E79DA10B7FB3899_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mB5E36F728AAEF0FBEA688C298C5DB56E74F85A20_gshared (Func_2_tCF2EB71968412F781C874AB88FAFB49525BC76FA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10881,7 +10881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mB5E36F728AAEF0FBEA688C298C
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m6DF2C039A156545F28C1C4E66E79DA10B7FB3899_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m6DF2C039A156545F28C1C4E66E79DA10B7FB3899_gshared (Func_2_tCF2EB71968412F781C874AB88FAFB49525BC76FA* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376, const RuntimeMethod*);
@@ -10919,7 +10919,7 @@ Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 Func_2_Invoke_mBBCFDBC36F6A
 	typedef Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 (*FunctionPointerType) (Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m72C25EC1CA18E2E17167A0D293A128BB2455A131_gshared (Func_2_tC506A7A7A720786F7480B1EA49A031D24F0ECFCA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -10948,7 +10948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m72C25EC1CA18E2E17167A0D293
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mBBCFDBC36F6A90B54D1526E9CF41AA6CFB8A7ED1_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 Func_2_Invoke_mBBCFDBC36F6A90B54D1526E9CF41AA6CFB8A7ED1_gshared (Func_2_tC506A7A7A720786F7480B1EA49A031D24F0ECFCA* __this, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376 (*FunctionPointerType) (RuntimeObject*, Vector3Int_t65CB06F557251D18A37BD71F3655BA836A357376, const RuntimeMethod*);
@@ -10985,7 +10985,7 @@ float Func_2_Invoke_m1BCA610509ED875019EFADE79E9F53DF56F46F9D_OpenStatic(Func_2_
 	typedef float (*FunctionPointerType) (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mF7E4B2E508696BE1ABADAB0CE064EB7435C4B403_gshared (Func_2_t74E67EF682F267BFC373E1C713DA5D46A68F08E4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11014,7 +11014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mF7E4B2E508696BE1ABADAB0CE0
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m1BCA610509ED875019EFADE79E9F53DF56F46F9D_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_2_Invoke_m1BCA610509ED875019EFADE79E9F53DF56F46F9D_gshared (Func_2_t74E67EF682F267BFC373E1C713DA5D46A68F08E4* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, const RuntimeMethod*);
@@ -11052,7 +11052,7 @@ Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Func_2_Invoke_m3C0163E92454C9C
 	typedef Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 (*FunctionPointerType) (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m4274011C80C214B7CE96B1ED2D9A3D0805799DED_gshared (Func_2_t45386234ABB726FFBC7310E0192AE01A58728C52* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11081,7 +11081,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m4274011C80C214B7CE96B1ED2D
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m3C0163E92454C9C43E99D32472CC7271261C3235_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Func_2_Invoke_m3C0163E92454C9C43E99D32472CC7271261C3235_gshared (Func_2_t45386234ABB726FFBC7310E0192AE01A58728C52* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 (*FunctionPointerType) (RuntimeObject*, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, const RuntimeMethod*);
@@ -11118,7 +11118,7 @@ RuntimeObject* Func_2_Invoke_m090C919B6E59A0C6904BB9271AD7C383913D78C4_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (XRPassCreateInfo_tBB279E651A4D9CBEB6A76FCBB138D7AB7A05DCA1, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m0C1EAB13821A67848C24AEAF224E3F0B253B691F_gshared (Func_2_t8F27B2665786B94E51DF2F44BD915B93E379B6CB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11147,7 +11147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m0C1EAB13821A67848C24AEAF22
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m090C919B6E59A0C6904BB9271AD7C383913D78C4_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_m090C919B6E59A0C6904BB9271AD7C383913D78C4_gshared (Func_2_t8F27B2665786B94E51DF2F44BD915B93E379B6CB* __this, XRPassCreateInfo_tBB279E651A4D9CBEB6A76FCBB138D7AB7A05DCA1 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, XRPassCreateInfo_tBB279E651A4D9CBEB6A76FCBB138D7AB7A05DCA1, const RuntimeMethod*);
@@ -11209,7 +11209,7 @@ void Func_2_Invoke_m31CAC166FDC80DC5AE52A5AEFFEE2D9B27A1CA3F_OpenGenericInterfac
 	NullCheck(___0_arg);
 	GenericInterfaceActionInvoker1Invoker< Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg, il2cppRetVal);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F5DD19B4170C027D5367001F7BC95A0658A2169_gshared (Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11258,7 +11258,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m7F5DD19B4170C027D5367001F7
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m31CAC166FDC80DC5AE52A5AEFFEE2D9B27A1CA3F_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2_Invoke_m31CAC166FDC80DC5AE52A5AEFFEE2D9B27A1CA3F_gshared (Func_2_t7F5F5324CE2DDB7001B68FFE29A5D9F907139FB0* __this, Il2CppFullySharedGenericAny ___0_arg, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -11295,7 +11295,7 @@ bool Func_2_Invoke_m55C25590BFA37067284477D56AD4F9E58D725EC7_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6A65979B8CFCC60327C777429D6910B2FAA4F41F_gshared (Func_2_tC7141CC33C5EA52B4DD7099BEA02BBCF155FAC60* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11324,7 +11324,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6A65979B8CFCC60327C777429D
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m55C25590BFA37067284477D56AD4F9E58D725EC7_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m55C25590BFA37067284477D56AD4F9E58D725EC7_gshared (Func_2_tC7141CC33C5EA52B4DD7099BEA02BBCF155FAC60* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, const RuntimeMethod*);
@@ -11361,7 +11361,7 @@ bool Func_2_Invoke_m6B707A752AD1276C6839783332C61F3B9EDC8770_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m8EE82A9FCAD81435F973443DE7CFFC257C0DE245_gshared (Func_2_t1E91964237DFD88FDE4A3005DB4201A38E279E6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11390,7 +11390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m8EE82A9FCAD81435F973443DE7
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m6B707A752AD1276C6839783332C61F3B9EDC8770_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m6B707A752AD1276C6839783332C61F3B9EDC8770_gshared (Func_2_t1E91964237DFD88FDE4A3005DB4201A38E279E6C* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, const RuntimeMethod*);
@@ -11427,7 +11427,7 @@ bool Func_2_Invoke_m13769014D906C7D53F16FA2DFA52D64D83823063_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (float4_t89D9A294E7A79BD81BFBDD18654508532958555E, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m195817263A1E3B7DEB0D8E079C65D965F4F38254_gshared (Func_2_t6943DC52A244368D1569019E3F61455FFB758AC2* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11456,7 +11456,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m195817263A1E3B7DEB0D8E079C
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m13769014D906C7D53F16FA2DFA52D64D83823063_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m13769014D906C7D53F16FA2DFA52D64D83823063_gshared (Func_2_t6943DC52A244368D1569019E3F61455FFB758AC2* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float4_t89D9A294E7A79BD81BFBDD18654508532958555E, const RuntimeMethod*);
@@ -11494,7 +11494,7 @@ RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED Func_2_Invoke_m945BF4C951CE
 	typedef RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED (*FunctionPointerType) (RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6169ABBDDF24F9ABF09CA76A7928393370EE80F9_gshared (Func_2_t14813866989AEB8271C7816E0C8F26FF4A7B2F1C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11523,7 +11523,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6169ABBDDF24F9ABF09CA76A79
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m945BF4C951CEBFFC96C7E0EEF2F3D506082E0FBF_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED Func_2_Invoke_m945BF4C951CEBFFC96C7E0EEF2F3D506082E0FBF_gshared (Func_2_t14813866989AEB8271C7816E0C8F26FF4A7B2F1C* __this, RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED (*FunctionPointerType) (RuntimeObject*, RTInstance_t82A289FDC8E8112219057734D0AE172A4E822AED, const RuntimeMethod*);
@@ -11560,7 +11560,7 @@ bool Func_2_Invoke_m7A854E6D9D4EC168C4E21B19E4EC450FE72FC7EE_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m298B011497B6E0C393B5E14B29687750963EC5E4_gshared (Func_2_tE8C03B34A75321160F6D3EFCB01F9346EC7F21C7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11589,7 +11589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m298B011497B6E0C393B5E14B29
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m7A854E6D9D4EC168C4E21B19E4EC450FE72FC7EE_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m7A854E6D9D4EC168C4E21B19E4EC450FE72FC7EE_gshared (Func_2_tE8C03B34A75321160F6D3EFCB01F9346EC7F21C7* __this, ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD, const RuntimeMethod*);
@@ -11626,7 +11626,7 @@ RuntimeObject* Func_2_Invoke_m8D3C43018E81832F584974E5E48B485B8AF578A8_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m3ED4C3D72797076A4FF2366C946AA69CAA1C9837_gshared (Func_2_t4F25C02E50E642C236F937892EEEF50CE0A356A7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11655,7 +11655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m3ED4C3D72797076A4FF2366C94
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m8D3C43018E81832F584974E5E48B485B8AF578A8_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_m8D3C43018E81832F584974E5E48B485B8AF578A8_gshared (Func_2_t4F25C02E50E642C236F937892EEEF50CE0A356A7* __this, ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, ControlItem_t25B2C46F52E78ADC5F54903F9E769364B02CD4AD, const RuntimeMethod*);
@@ -11692,7 +11692,7 @@ bool Func_2_Invoke_m60AC8696E0B36FEA3C3F1A9818798A3D18953D63_OpenStatic(Func_2_t
 	typedef bool (*FunctionPointerType) (JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mD02EABF5ACF49CEE571B8BAB01FCFD26D4722F2E_gshared (Func_2_t93FE63D487003DC89C264F70099E05071B9C1169* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11721,7 +11721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_mD02EABF5ACF49CEE571B8BAB01
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m60AC8696E0B36FEA3C3F1A9818798A3D18953D63_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_2_Invoke_m60AC8696E0B36FEA3C3F1A9818798A3D18953D63_gshared (Func_2_t93FE63D487003DC89C264F70099E05071B9C1169* __this, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
@@ -11758,7 +11758,7 @@ int32_t Func_2_Invoke_m321B177CDE142D1D55BBD1D63153186A54FEE249_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m05A6A4BD4653883197BB95AA918294B74332BA57_gshared (Func_2_t09E9CA48857BB30A132C819A0BF95101D519B80C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11787,7 +11787,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m05A6A4BD4653883197BB95AA91
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m321B177CDE142D1D55BBD1D63153186A54FEE249_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m321B177CDE142D1D55BBD1D63153186A54FEE249_gshared (Func_2_t09E9CA48857BB30A132C819A0BF95101D519B80C* __this, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
@@ -11825,7 +11825,7 @@ InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_m7C8D770B
 	typedef InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 (*FunctionPointerType) (JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m90B8D3E8EB7C34B54B9BEA2A4C866502B15A1921_gshared (Func_2_t6FD5B0E57F9B999DF2B1B1566A80ECD9AF78E595* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11854,7 +11854,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m90B8D3E8EB7C34B54B9BEA2A4C
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_m7C8D770BA29067A536942979753FAB53ED84A348_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 Func_2_Invoke_m7C8D770BA29067A536942979753FAB53ED84A348_gshared (Func_2_t6FD5B0E57F9B999DF2B1B1566A80ECD9AF78E595* __this, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 (*FunctionPointerType) (RuntimeObject*, JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
@@ -11891,7 +11891,7 @@ RuntimeObject* Func_2_Invoke_mCF21D6903C1C9AB285FB0E244CDE0E9ACAC429ED_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg, method);
 }
-// Method Definition Index: 896
+// Method Definition Index: 895
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6809FD95122AFFED987CFCAEE81B5F2515D48066_gshared (Func_2_t9D6D0636D7EE282D3C55AA455C0B6CAC61A117F0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11920,7 +11920,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m6809FD95122AFFED987CFCAEE8
 	}
 	__this->___extra_arg = (intptr_t)&Func_2_Invoke_mCF21D6903C1C9AB285FB0E244CDE0E9ACAC429ED_Multicast;
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_2_Invoke_mCF21D6903C1C9AB285FB0E244CDE0E9ACAC429ED_gshared (Func_2_t9D6D0636D7EE282D3C55AA455C0B6CAC61A117F0* __this, JsonValue_t01DB320267C848E729A400EF2345979978F851D2 ___0_arg, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, JsonValue_t01DB320267C848E729A400EF2345979978F851D2, const RuntimeMethod*);
@@ -11957,7 +11957,7 @@ RuntimeObject* Func_3_Invoke_m2FA414DD22DF6C4C9A65D402F0C3244C1816F110_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mEC6F734E07B1056CA4533D588B2BF9E7B51B718B_gshared (Func_3_t28A31F59A1D95EE5FE112B61A22F1E0ECCFA50E3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -11986,7 +11986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mEC6F734E07B1056CA4533D588B
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m2FA414DD22DF6C4C9A65D402F0C3244C1816F110_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m2FA414DD22DF6C4C9A65D402F0C3244C1816F110_gshared (Func_3_t28A31F59A1D95EE5FE112B61A22F1E0ECCFA50E3* __this, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5, RuntimeObject*, const RuntimeMethod*);
@@ -12023,7 +12023,7 @@ bool Func_3_Invoke_mA29B334C525A28B1119455CB142846109E2DF52C_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69, AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m058A4A49DDC1BAD03B5AA225EAC30C6477491487_gshared (Func_3_tC149F26320436BADDA7AA0CDB3C968E516876E90* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12052,7 +12052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m058A4A49DDC1BAD03B5AA225EA
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mA29B334C525A28B1119455CB142846109E2DF52C_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mA29B334C525A28B1119455CB142846109E2DF52C_gshared (Func_3_tC149F26320436BADDA7AA0CDB3C968E516876E90* __this, AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69 ___0_arg1, AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69, AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69, const RuntimeMethod*);
@@ -12089,7 +12089,7 @@ bool Func_3_Invoke_mC1048005AFB1EAD1CD8585E7C4D2F69D3A8BCB81_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m06B3E7EE62198A97F5C039542AD6D1F3D6E03E80_gshared (Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12118,7 +12118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m06B3E7EE62198A97F5C039542A
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mC1048005AFB1EAD1CD8585E7C4D2F69D3A8BCB81_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mC1048005AFB1EAD1CD8585E7C4D2F69D3A8BCB81_gshared (Func_3_tE3C94684D6DF31A003FECCCBC631507046C81ECE* __this, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___0_arg1, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8, Background_t3C720DED4FAF016332D29FB86C9BE8D5D0D8F0C8, const RuntimeMethod*);
@@ -12155,7 +12155,7 @@ bool Func_3_Invoke_m43B572C9F46968409435DAF1ADBB3BC05AD708F9_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56, BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mA95672BEEE978B26C550BB039C3CBBE5EE02537F_gshared (Func_3_tE1AD91FE372D9C6B31ABAC66ACBD90666BBFC8FE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12184,7 +12184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mA95672BEEE978B26C550BB039C
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m43B572C9F46968409435DAF1ADBB3BC05AD708F9_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m43B572C9F46968409435DAF1ADBB3BC05AD708F9_gshared (Func_3_tE1AD91FE372D9C6B31ABAC66ACBD90666BBFC8FE* __this, BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56 ___0_arg1, BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56, BackgroundPosition_tF0822B29FC27A67205A9893EBE03D03B799B8B56, const RuntimeMethod*);
@@ -12221,7 +12221,7 @@ bool Func_3_Invoke_mC57F36A048E7E1881FAE0E04798311C5AF8C9338_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F, BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m984E94D9AB155C8C62DA9522E29B6B5BF2BCEEFF_gshared (Func_3_tF91F11C8EF5A5C8DD5A27F8E9F7CDBDBE1568E5D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12250,7 +12250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m984E94D9AB155C8C62DA9522E2
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mC57F36A048E7E1881FAE0E04798311C5AF8C9338_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mC57F36A048E7E1881FAE0E04798311C5AF8C9338_gshared (Func_3_tF91F11C8EF5A5C8DD5A27F8E9F7CDBDBE1568E5D* __this, BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F ___0_arg1, BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F, BackgroundRepeat_t446EC7315DED2C6822F1047B7587C3018BFB277F, const RuntimeMethod*);
@@ -12287,7 +12287,7 @@ bool Func_3_Invoke_m0241C89E97BFEF6A387EA6CD4E653A169CDC2D8E_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7, BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m036B160D91EDE214AFDBB58EACAAEFC0BBE96B54_gshared (Func_3_tDFA64C82C9094B93C30789ACB1E9C930394BBBC8* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12316,7 +12316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m036B160D91EDE214AFDBB58EAC
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m0241C89E97BFEF6A387EA6CD4E653A169CDC2D8E_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m0241C89E97BFEF6A387EA6CD4E653A169CDC2D8E_gshared (Func_3_tDFA64C82C9094B93C30789ACB1E9C930394BBBC8* __this, BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7 ___0_arg1, BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7, BackgroundSize_t809883E2D7BB1D8D85B4C3E1DBE189F187DB25E7, const RuntimeMethod*);
@@ -12353,7 +12353,7 @@ bool Func_3_Invoke_m1BCE0C5D5941216AFBE54597F89C3F6147777279_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (bool, bool, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m0A69145EE0078204A0114B3D5A31EE0366AC6F31_gshared (Func_3_t8405246FA4174D01D5F07F8A51737739EE5376F3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12382,7 +12382,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m0A69145EE0078204A0114B3D5A
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m1BCE0C5D5941216AFBE54597F89C3F6147777279_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m1BCE0C5D5941216AFBE54597F89C3F6147777279_gshared (Func_3_t8405246FA4174D01D5F07F8A51737739EE5376F3* __this, bool ___0_arg1, bool ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, bool, bool, const RuntimeMethod*);
@@ -12419,7 +12419,7 @@ bool Func_3_Invoke_mADE33A1FFE4689FBBDBA6E78FD51E567146706AC_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mBECF17AD38818C4339F30DB97A29EFAAFC28010A_gshared (Func_3_t694ADFBBF2CEA4DEF1F1F1F9B00D5DCAE200F97E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12448,7 +12448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mBECF17AD38818C4339F30DB97A
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mADE33A1FFE4689FBBDBA6E78FD51E567146706AC_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mADE33A1FFE4689FBBDBA6E78FD51E567146706AC_gshared (Func_3_t694ADFBBF2CEA4DEF1F1F1F9B00D5DCAE200F97E* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_arg1, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, const RuntimeMethod*);
@@ -12485,7 +12485,7 @@ bool Func_3_Invoke_m4AAE4DA4E921D68EC71F84D9D8E82ADCA7BB8847_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFEE793403CDBE7048B8177293EFFBEADEF6CA64A_gshared (Func_3_tFAAE39D1A9E8FD62E76E739DF224313A7D9EEDAF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12514,7 +12514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFEE793403CDBE7048B8177293E
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m4AAE4DA4E921D68EC71F84D9D8E82ADCA7BB8847_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m4AAE4DA4E921D68EC71F84D9D8E82ADCA7BB8847_gshared (Func_3_tFAAE39D1A9E8FD62E76E739DF224313A7D9EEDAF* __this, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___0_arg1, intptr_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8, intptr_t, const RuntimeMethod*);
@@ -12551,7 +12551,7 @@ bool Func_3_Invoke_m8D8235B18199B80C6ABF60B1423C632AEF43B33F_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7781D0F3A31D20881364E169115D8C02EC78267D_gshared (Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12580,7 +12580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7781D0F3A31D20881364E16911
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m8D8235B18199B80C6ABF60B1423C632AEF43B33F_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m8D8235B18199B80C6ABF60B1423C632AEF43B33F_gshared (Func_3_tAD7EE8FC165028B732FB7B83E71870F0B8E791E0* __this, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___0_arg1, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, FontDefinition_t65281B0E106365C28AD3F2525DE148719AEEA30C, const RuntimeMethod*);
@@ -12617,7 +12617,7 @@ bool Func_3_Invoke_m0F49563C5B847FD0AA5D523797CC38C4C1476D8F_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m4A19DB3FDCED764C792602A538AD28A2A7B420FE_gshared (Func_3_t0072F82DFBE56A425CAA051639D6DF09CB126719* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12646,7 +12646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m4A19DB3FDCED764C792602A538
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m0F49563C5B847FD0AA5D523797CC38C4C1476D8F_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m0F49563C5B847FD0AA5D523797CC38C4C1476D8F_gshared (Func_3_t0072F82DFBE56A425CAA051639D6DF09CB126719* __this, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0, RuntimeObject*, const RuntimeMethod*);
@@ -12683,7 +12683,7 @@ bool Func_3_Invoke_m5C4CCADFF1AE4540F252182089A9BF3CBE7BAFE6_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (int32_t, int32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m5C0B07EE1619560A43C23CFB2723E33008414AC3_gshared (Func_3_tE8F85DA3CAC4998201E5C56356280AFAB7185B69* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12712,7 +12712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m5C0B07EE1619560A43C23CFB27
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m5C4CCADFF1AE4540F252182089A9BF3CBE7BAFE6_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m5C4CCADFF1AE4540F252182089A9BF3CBE7BAFE6_gshared (Func_3_tE8F85DA3CAC4998201E5C56356280AFAB7185B69* __this, int32_t ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, const RuntimeMethod*);
@@ -12749,7 +12749,7 @@ RuntimeObject* Func_3_Invoke_mDBE7BF61E26769EA19ED04DF5E652E424B50486E_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (int32_t, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7932A0CED6E64658FDC497EFD21C711FA93DB77B_gshared (Func_3_tD48690FA870BA310D4390AE6025ACAC699C152D6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12778,7 +12778,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7932A0CED6E64658FDC497EFD2
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mDBE7BF61E26769EA19ED04DF5E652E424B50486E_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_mDBE7BF61E26769EA19ED04DF5E652E424B50486E_gshared (Func_3_tD48690FA870BA310D4390AE6025ACAC699C152D6* __this, int32_t ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, int32_t, RuntimeObject*, const RuntimeMethod*);
@@ -12815,7 +12815,7 @@ uint8_t Func_3_Invoke_m057FE26CBD00FD58CB68B2BDC7634F39A1EFA6C6_OpenStatic(Func_
 	typedef uint8_t (*FunctionPointerType) (int32_t, uint8_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7553EC4EAE920DE1F2D0AD21325E628B7C71D374_gshared (Func_3_tBA363758F60AEC152B589FFE261CADF8DF0A0392* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12844,7 +12844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7553EC4EAE920DE1F2D0AD2132
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m057FE26CBD00FD58CB68B2BDC7634F39A1EFA6C6_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t Func_3_Invoke_m057FE26CBD00FD58CB68B2BDC7634F39A1EFA6C6_gshared (Func_3_tBA363758F60AEC152B589FFE261CADF8DF0A0392* __this, int32_t ___0_arg1, uint8_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef uint8_t (*FunctionPointerType) (RuntimeObject*, int32_t, uint8_t, const RuntimeMethod*);
@@ -12881,7 +12881,7 @@ bool Func_3_Invoke_m54DB2F2CD7B336438896A986EE5A031F8825BB04_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (int32_t, int32_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m67F1086897F443FD810A5CA9CBD850E717D97C6B_gshared (Func_3_tE48B8474EE65D1530A10889B067677A4DDAB1DC5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12910,7 +12910,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m67F1086897F443FD810A5CA9CB
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m54DB2F2CD7B336438896A986EE5A031F8825BB04_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m54DB2F2CD7B336438896A986EE5A031F8825BB04_gshared (Func_3_tE48B8474EE65D1530A10889B067677A4DDAB1DC5* __this, int32_t ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, int32_t, int32_t, const RuntimeMethod*);
@@ -12947,7 +12947,7 @@ bool Func_3_Invoke_m9EF7275FBFCE83AA9F0D049DD129D7713B6C49A4_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256, Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mA1BB586CA38162C3C120F9F49A2C9907C19B854C_gshared (Func_3_tE7691622B78513E3899362D85121DB6D27F6DB10* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -12976,7 +12976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mA1BB586CA38162C3C120F9F49A
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m9EF7275FBFCE83AA9F0D049DD129D7713B6C49A4_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m9EF7275FBFCE83AA9F0D049DD129D7713B6C49A4_gshared (Func_3_tE7691622B78513E3899362D85121DB6D27F6DB10* __this, Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___0_arg1, Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256, Length_t90BB06D47DD6DB461ED21BD3E3241FAB6C824256, const RuntimeMethod*);
@@ -13013,7 +13013,7 @@ bool Func_3_Invoke_m995B06F65F3DC2ACE5374B65989CC9D4199A1336_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD, MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m65A741651E05A7C6C94DF204107D8BBE17DF637F_gshared (Func_3_t5095B21B19DB12D0CE65EF86D13DAC1AED56AE13* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13042,7 +13042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m65A741651E05A7C6C94DF20410
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m995B06F65F3DC2ACE5374B65989CC9D4199A1336_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m995B06F65F3DC2ACE5374B65989CC9D4199A1336_gshared (Func_3_t5095B21B19DB12D0CE65EF86D13DAC1AED56AE13* __this, MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD ___0_arg1, MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD, MaterialDefinition_t25B84AF58B1F4D1990933E5EBCD2DE6989ECB8CD, const RuntimeMethod*);
@@ -13100,7 +13100,7 @@ bool Func_3_Invoke_mC7BC2691FA7C09939F8E9F7F959131E4544393C3_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< bool, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mF1AE90AC3ACE7DE21010BA3AAEA8EA66A57D6202_gshared (Func_3_tE5202F60102DEAE55865DFA23D53CB334AF6DA3F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13153,7 +13153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mF1AE90AC3ACE7DE21010BA3AAE
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mC7BC2691FA7C09939F8E9F7F959131E4544393C3_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mC7BC2691FA7C09939F8E9F7F959131E4544393C3_gshared (Func_3_tE5202F60102DEAE55865DFA23D53CB334AF6DA3F* __this, RuntimeObject* ___0_arg1, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0, const RuntimeMethod*);
@@ -13211,7 +13211,7 @@ float Func_3_Invoke_mAC5EDDB4D2B0E0F6D1B2EADF505817A2596C2D5E_OpenGenericInterfa
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< float, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mCA2F4B882741EAAFE7BCE3CD42A1EFFEC1715163_gshared (Func_3_t2B401BCD35B0B99F92A4DFE6D49848E9CA19DB66* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13264,7 +13264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mCA2F4B882741EAAFE7BCE3CD42
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mAC5EDDB4D2B0E0F6D1B2EADF505817A2596C2D5E_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_3_Invoke_mAC5EDDB4D2B0E0F6D1B2EADF505817A2596C2D5E_gshared (Func_3_t2B401BCD35B0B99F92A4DFE6D49848E9CA19DB66* __this, RuntimeObject* ___0_arg1, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0, const RuntimeMethod*);
@@ -13322,7 +13322,7 @@ RuntimeObject* Func_3_Invoke_m821C647B817AF6922B7A699E997D0728BC21E8F9_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< RuntimeObject*, int32_t >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m8411CFF2BC76BE5C0B5F4237F89BCB1F18EE2F01_gshared (Func_3_tA23F5D62E264071C33C09639DD065B0B691A804D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13375,7 +13375,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m8411CFF2BC76BE5C0B5F4237F8
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m821C647B817AF6922B7A699E997D0728BC21E8F9_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m821C647B817AF6922B7A699E997D0728BC21E8F9_gshared (Func_3_tA23F5D62E264071C33C09639DD065B0B691A804D* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, const RuntimeMethod*);
@@ -13434,7 +13434,7 @@ Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 Func_3_Invoke_mC8E3181B95E1
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mEE033B5927F3C48005F0377444C94B1E9ED8194A_gshared (Func_3_t38806CDE2B8FBE2C46D0183F71E027E08C5FA249* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13487,7 +13487,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mEE033B5927F3C48005F0377444
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mC8E3181B95E1536F05606B557AC4CD80AA7CD658_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 Func_3_Invoke_mC8E3181B95E1536F05606B557AC4CD80AA7CD658_gshared (Func_3_t38806CDE2B8FBE2C46D0183F71E027E08C5FA249* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -13545,7 +13545,7 @@ bool Func_3_Invoke_mC786FD8356E25F147BEF4CF07A587720613A2C12_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< bool, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m00571BE1A999D918DAD5FA2E9BD5F28DDEF2F365_gshared (Func_3_tFCEB9D8CEAECBF6D0AD5440F96C6F9010270CE79* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13598,7 +13598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m00571BE1A999D918DAD5FA2E9B
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mC786FD8356E25F147BEF4CF07A587720613A2C12_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mC786FD8356E25F147BEF4CF07A587720613A2C12_gshared (Func_3_tFCEB9D8CEAECBF6D0AD5440F96C6F9010270CE79* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -13656,7 +13656,7 @@ int32_t Func_3_Invoke_mFC6011BA71ECF66C0443D4075110D6020AA7FA1C_OpenGenericInter
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< int32_t, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m57004430B9B83D812BAE92870C7B7D46A3F46D4C_gshared (Func_3_t8F3E514F3F44D98D0029402DBF664E587850807D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13709,7 +13709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m57004430B9B83D812BAE92870C
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mFC6011BA71ECF66C0443D4075110D6020AA7FA1C_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_3_Invoke_mFC6011BA71ECF66C0443D4075110D6020AA7FA1C_gshared (Func_3_t8F3E514F3F44D98D0029402DBF664E587850807D* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -13767,7 +13767,7 @@ RuntimeObject* Func_3_Invoke_m31D9E56C7CAE538FD8564F34CABA2C2A537ED393_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7A3CDF8CC909FAEEA005D42C71F113B505F766DD_gshared (Func_3_tAB0692B406AF1455ADB5F518BF283E084B5E8566* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13820,7 +13820,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7A3CDF8CC909FAEEA005D42C71
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m31D9E56C7CAE538FD8564F34CABA2C2A537ED393_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m31D9E56C7CAE538FD8564F34CABA2C2A537ED393_gshared (Func_3_tAB0692B406AF1455ADB5F518BF283E084B5E8566* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -13879,7 +13879,7 @@ VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC Func_3_Invoke_mBAE7E5DB
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m163CA201B28AFEF25D52BDB9342EB17A84E9BDBD_gshared (Func_3_t978E495A2CFACF4BCDA24F740600DD6A8BEB2435* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -13932,7 +13932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m163CA201B28AFEF25D52BDB934
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mBAE7E5DB9E0DDF359BAD7AD6BB719BF7751A1A74_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC Func_3_Invoke_mBAE7E5DB9E0DDF359BAD7AD6BB719BF7751A1A74_gshared (Func_3_t978E495A2CFACF4BCDA24F740600DD6A8BEB2435* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef VoidTaskResult_t73B628B764C6668DAAAE2D37BD6FC07BCA27A5AC (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -13991,7 +13991,7 @@ DistanceInfo_tEF201AD6A4E2360A829C2B498D97A131694EB1EF Func_3_Invoke_m81508D3CBC
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker1< DistanceInfo_tEF201AD6A4E2360A829C2B498D97A131694EB1EF, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 >::Invoke(method, ___0_arg1, ___1_arg2);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m9EC22A77AE96406DBD381F4D9BDF125B6FE20CFE_gshared (Func_3_tA20740D99A9C2BB60AA20A122F85EB05C35F6B33* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14044,7 +14044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m9EC22A77AE96406DBD381F4D9B
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m81508D3CBC876063AB0ABEF85DDC822BF9C1EDA4_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DistanceInfo_tEF201AD6A4E2360A829C2B498D97A131694EB1EF Func_3_Invoke_m81508D3CBC876063AB0ABEF85DDC822BF9C1EDA4_gshared (Func_3_tA20740D99A9C2BB60AA20A122F85EB05C35F6B33* __this, RuntimeObject* ___0_arg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef DistanceInfo_tEF201AD6A4E2360A829C2B498D97A131694EB1EF (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*);
@@ -14081,7 +14081,7 @@ bool Func_3_Invoke_m5BF4048F6B8EA425AAC6F905631D283C0B4217FA_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m6D42535D9548EE5618B65D5B4CE50858FD32DB60_gshared (Func_3_tB12620E4B2D1D7D986E9E2FFC7C871C8AA2FA07D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14110,7 +14110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m6D42535D9548EE5618B65D5B4C
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m5BF4048F6B8EA425AAC6F905631D283C0B4217FA_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m5BF4048F6B8EA425AAC6F905631D283C0B4217FA_gshared (Func_3_tB12620E4B2D1D7D986E9E2FFC7C871C8AA2FA07D* __this, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 ___0_arg1, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032, PokeStateData_t87D34716C1C477FC04D9344710D09399FE6F5032, const RuntimeMethod*);
@@ -14147,7 +14147,7 @@ bool Func_3_Invoke_m0BDFA9B4D6CC449D23C517FD0B337B06EF7D2FC9_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mC0BA3FD4EDD3158691B7584B7B3CF10C2CF5B5D1_gshared (Func_3_tE82E2E9CB095585276C858A2EA8860ACC9745B0C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14176,7 +14176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mC0BA3FD4EDD3158691B7584B7B
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m0BDFA9B4D6CC449D23C517FD0B337B06EF7D2FC9_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m0BDFA9B4D6CC449D23C517FD0B337B06EF7D2FC9_gshared (Func_3_tE82E2E9CB095585276C858A2EA8860ACC9745B0C* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_arg1, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*);
@@ -14213,7 +14213,7 @@ bool Func_3_Invoke_m84F9E48CAC64FABA3539DE415C0B2B7DE7E3F5EA_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3, Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mA2AD4FE196C29A2DB619D4AD08A7E8D821371160_gshared (Func_3_t7B18E5D3A705924306C672586CE7BFA43651A660* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14242,7 +14242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mA2AD4FE196C29A2DB619D4AD08
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m84F9E48CAC64FABA3539DE415C0B2B7DE7E3F5EA_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m84F9E48CAC64FABA3539DE415C0B2B7DE7E3F5EA_gshared (Func_3_t7B18E5D3A705924306C672586CE7BFA43651A660* __this, Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3 ___0_arg1, Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3, Ratio_t66C366BD5A2636748B25C00FD6A63F40A09712B3, const RuntimeMethod*);
@@ -14279,7 +14279,7 @@ bool Func_3_Invoke_mCB12E612F7CD74D92CD6E05A7E332138AB1E21DF_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7, Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mAD7AD1AC8461C375DEEB8E29A6AF11A1205F3718_gshared (Func_3_t91DB6FD7FB36205E9CF7A442EB7A337299776A3D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14308,7 +14308,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mAD7AD1AC8461C375DEEB8E29A6
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mCB12E612F7CD74D92CD6E05A7E332138AB1E21DF_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mCB12E612F7CD74D92CD6E05A7E332138AB1E21DF_gshared (Func_3_t91DB6FD7FB36205E9CF7A442EB7A337299776A3D* __this, Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7 ___0_arg1, Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7, Rotate_tE965CA0281A547AB38B881A3416FF97756D3F4D7, const RuntimeMethod*);
@@ -14345,7 +14345,7 @@ bool Func_3_Invoke_m789C73FF32C51D201FB04842704726C6B677D05D_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7, Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m6AF5E013428BF0FCF444506AA0ABFC642FEBF399_gshared (Func_3_t21FE404F1FF5BB9658AD8FC7A60BC71347B096BC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14374,7 +14374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m6AF5E013428BF0FCF444506AA0
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m789C73FF32C51D201FB04842704726C6B677D05D_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m789C73FF32C51D201FB04842704726C6B677D05D_gshared (Func_3_t21FE404F1FF5BB9658AD8FC7A60BC71347B096BC* __this, Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7 ___0_arg1, Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7, Scale_t5594C69C1AC9398B57ABF6C4FA0D4E791B7A4DC7, const RuntimeMethod*);
@@ -14411,7 +14411,7 @@ bool Func_3_Invoke_mCC1FDB4D5C9B18027021CB0AA0957A57B49E7472_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (float, float, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mCB560C5C97586855BDB873C1D0EA1B393BAA6F29_gshared (Func_3_tA9AA477D8A5A68C7DC26AE4792295B80F920E61E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14440,7 +14440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mCB560C5C97586855BDB873C1D0
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mCC1FDB4D5C9B18027021CB0AA0957A57B49E7472_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mCC1FDB4D5C9B18027021CB0AA0957A57B49E7472_gshared (Func_3_tA9AA477D8A5A68C7DC26AE4792295B80F920E61E* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float, float, const RuntimeMethod*);
@@ -14477,7 +14477,7 @@ float Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_OpenStatic(Func_3_
 	typedef float (*FunctionPointerType) (float, float, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95D514DB82314D18_gshared (Func_3_t112E81BD9C60E0186076895800369606BCF590FB* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14506,7 +14506,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m5B9A75AB0F71A31F8F0F009E95
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_3_Invoke_mC8193F9BE436AD10B0F1279771862679CB5813AD_gshared (Func_3_t112E81BD9C60E0186076895800369606BCF590FB* __this, float ___0_arg1, float ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, float, float, const RuntimeMethod*);
@@ -14543,7 +14543,7 @@ bool Func_3_Invoke_mBA63B56A49CE20F1462843778A97CAED3D5A0A58_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m1E4B2F1F5895BCD897ED20F06995E856566152FD_gshared (Func_3_t6745994E8BE66E70CABFC83E108BB6BB52414502* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14572,7 +14572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m1E4B2F1F5895BCD897ED20F069
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mBA63B56A49CE20F1462843778A97CAED3D5A0A58_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mBA63B56A49CE20F1462843778A97CAED3D5A0A58_gshared (Func_3_t6745994E8BE66E70CABFC83E108BB6BB52414502* __this, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 ___0_arg1, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05, TextShadow_t6BADF37AB90ABCB63859A225B58AC5A580950A05, const RuntimeMethod*);
@@ -14609,7 +14609,7 @@ bool Func_3_Invoke_m0739A3F859F311518468915E2929EA67B9744EB3_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m2F359B22A6AE9B07F6A1B28BA8E0B93638366352_gshared (Func_3_tB92C805F866D2EB9A48A2CC06AAF77E333340E9F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14638,7 +14638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m2F359B22A6AE9B07F6A1B28BA8
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m0739A3F859F311518468915E2929EA67B9744EB3_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m0739A3F859F311518468915E2929EA67B9744EB3_gshared (Func_3_tB92C805F866D2EB9A48A2CC06AAF77E333340E9F* __this, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 ___0_arg1, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502, TransformOrigin_tD11A368A96C0771398EBB4E6D435318AC0EF8502, const RuntimeMethod*);
@@ -14675,7 +14675,7 @@ bool Func_3_Invoke_m484887F5E90ADF2A8AA68A11FEACE98BA806D474_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m6F7F6F1DD17AA5951817C143CD9CC73B3813398D_gshared (Func_3_t5853662BEAC371606CF3B0A970C0C364071786A6* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14704,7 +14704,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m6F7F6F1DD17AA5951817C143CD
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m484887F5E90ADF2A8AA68A11FEACE98BA806D474_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m484887F5E90ADF2A8AA68A11FEACE98BA806D474_gshared (Func_3_t5853662BEAC371606CF3B0A970C0C364071786A6* __this, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___0_arg1, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E, Translate_t494F6E802F8A640D67819C9D26BE62DED1218A8E, const RuntimeMethod*);
@@ -14741,7 +14741,7 @@ RuntimeObject* Func_3_Invoke_m36A4590C67B181D92E947D2ACB6735DCB0CD6674_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t0830D9C281DA2A9A8B1564AB60C647F6DA504260, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7168CEEADEFC06CB66A741873881028695533EA2_gshared (Func_3_t799252D9458F2AB207641E15DE8B7454B75CEA8F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14770,7 +14770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m7168CEEADEFC06CB66A7418738
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m36A4590C67B181D92E947D2ACB6735DCB0CD6674_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m36A4590C67B181D92E947D2ACB6735DCB0CD6674_gshared (Func_3_t799252D9458F2AB207641E15DE8B7454B75CEA8F* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, ValueTuple_3_t0830D9C281DA2A9A8B1564AB60C647F6DA504260 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t0830D9C281DA2A9A8B1564AB60C647F6DA504260, const RuntimeMethod*);
@@ -14807,7 +14807,7 @@ RuntimeObject* Func_3_Invoke_mD09FD3F0808212D95417C357CC46040755C85E57_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t5955F42FF36506750DBDF6E15B988AC705ACCEC6, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m87559564AF2D998C77B3A32071401EB5F61609C7_gshared (Func_3_tE46795E42BBCE12AACFA5423D869FC080617614A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14836,7 +14836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m87559564AF2D998C77B3A32071
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mD09FD3F0808212D95417C357CC46040755C85E57_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_mD09FD3F0808212D95417C357CC46040755C85E57_gshared (Func_3_tE46795E42BBCE12AACFA5423D869FC080617614A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, ValueTuple_3_t5955F42FF36506750DBDF6E15B988AC705ACCEC6 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t5955F42FF36506750DBDF6E15B988AC705ACCEC6, const RuntimeMethod*);
@@ -14873,7 +14873,7 @@ RuntimeObject* Func_3_Invoke_m2BF5DCF45D3EF48839CD557A9FF7D650F1071E07_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_tAF08A8B8A8BDFE5BD5BB3273D7077FC68E7DE439, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFD55B04889D5B569F781B49E3EAA3A88093A0CCA_gshared (Func_3_t9926DBF6281A1654219C4F2EBA82ECA603217AB3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14902,7 +14902,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFD55B04889D5B569F781B49E3E
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m2BF5DCF45D3EF48839CD557A9FF7D650F1071E07_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m2BF5DCF45D3EF48839CD557A9FF7D650F1071E07_gshared (Func_3_t9926DBF6281A1654219C4F2EBA82ECA603217AB3* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, ValueTuple_3_tAF08A8B8A8BDFE5BD5BB3273D7077FC68E7DE439 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_tAF08A8B8A8BDFE5BD5BB3273D7077FC68E7DE439, const RuntimeMethod*);
@@ -14939,7 +14939,7 @@ RuntimeObject* Func_3_Invoke_m271D202F8C2B215CAFA07750D2DF9D16122C7CF7_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_tC8BBB30E9E4977D3D5D3D770C29BC7D26F8D7340, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m30D3E76B0CC7E4B41D705F28CCFB16E15084E302_gshared (Func_3_tA9B5A88DCB3DB2DE61C94876A083D9588C92C1F4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -14968,7 +14968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m30D3E76B0CC7E4B41D705F28CC
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m271D202F8C2B215CAFA07750D2DF9D16122C7CF7_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m271D202F8C2B215CAFA07750D2DF9D16122C7CF7_gshared (Func_3_tA9B5A88DCB3DB2DE61C94876A083D9588C92C1F4* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, ValueTuple_3_tC8BBB30E9E4977D3D5D3D770C29BC7D26F8D7340 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_tC8BBB30E9E4977D3D5D3D770C29BC7D26F8D7340, const RuntimeMethod*);
@@ -15005,7 +15005,7 @@ RuntimeObject* Func_3_Invoke_mA041125511038BB3284216ADC8F3E4893EB259AF_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_tD815A2B59927FD0A0A8BC994BDDF93E1997053C4, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m3EC2124B4A61A166D655923301E1638C9A1DB850_gshared (Func_3_tAFE936B287B527454DD2220949C128C7BDA3400E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15034,7 +15034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m3EC2124B4A61A166D655923301
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mA041125511038BB3284216ADC8F3E4893EB259AF_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_mA041125511038BB3284216ADC8F3E4893EB259AF_gshared (Func_3_tAFE936B287B527454DD2220949C128C7BDA3400E* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, ValueTuple_3_tD815A2B59927FD0A0A8BC994BDDF93E1997053C4 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_tD815A2B59927FD0A0A8BC994BDDF93E1997053C4, const RuntimeMethod*);
@@ -15071,7 +15071,7 @@ RuntimeObject* Func_3_Invoke_m722F564B38C81B33BC14F03C32E693EBBE2457C4_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t2C125774ADD00599458B6333E72F7533D3866597, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m1E21C7FFC2063F9FECB94E843EC45A2D0FF4FD4E_gshared (Func_3_tA93E7480FC9A114D507BE035FA9F69D9BB56F914* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15100,7 +15100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m1E21C7FFC2063F9FECB94E843E
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m722F564B38C81B33BC14F03C32E693EBBE2457C4_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_m722F564B38C81B33BC14F03C32E693EBBE2457C4_gshared (Func_3_tA93E7480FC9A114D507BE035FA9F69D9BB56F914* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, ValueTuple_3_t2C125774ADD00599458B6333E72F7533D3866597 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t2C125774ADD00599458B6333E72F7533D3866597, const RuntimeMethod*);
@@ -15137,7 +15137,7 @@ RuntimeObject* Func_3_Invoke_mF89F78BAB778FDA16A1DD3C8DF8C35343E0ACB96_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t7710F86A623C8F578E76B4EAC47B05AA6EFE7B64, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m8B1F1B5F2B9E24EAD9BAA7554DE4D8032B516544_gshared (Func_3_t8BC9FC348AB48122C5017A7102263AE1045C5819* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15166,7 +15166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m8B1F1B5F2B9E24EAD9BAA7554D
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mF89F78BAB778FDA16A1DD3C8DF8C35343E0ACB96_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_3_Invoke_mF89F78BAB778FDA16A1DD3C8DF8C35343E0ACB96_gshared (Func_3_t8BC9FC348AB48122C5017A7102263AE1045C5819* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, ValueTuple_3_t7710F86A623C8F578E76B4EAC47B05AA6EFE7B64 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t7710F86A623C8F578E76B4EAC47B05AA6EFE7B64, const RuntimeMethod*);
@@ -15203,7 +15203,7 @@ int32_t Func_3_Invoke_mE6CD106F59B0ADD2DF9C211DC4CF4088F5A1A4BB_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFCDF8A2A2E2B84664210AD8419DC1DA2D9A52EAB_gshared (Func_3_tD46831209E6E19204CD8F9EAFC74DBFCA3C36C5F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15232,7 +15232,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFCDF8A2A2E2B84664210AD8419
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mE6CD106F59B0ADD2DF9C211DC4CF4088F5A1A4BB_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_3_Invoke_mE6CD106F59B0ADD2DF9C211DC4CF4088F5A1A4BB_gshared (Func_3_tD46831209E6E19204CD8F9EAFC74DBFCA3C36C5F* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___0_arg1, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3, const RuntimeMethod*);
@@ -15294,7 +15294,7 @@ void Func_3_Invoke_mFEC7D2DE808B65D9CFE03D0A140F1271C94E972C_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	GenericInterfaceActionInvoker2Invoker< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg1, ___1_arg2, il2cppRetVal);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m3D53118DAA71CFFC80A4B21073B54F3C4EFA1C68_gshared (Func_3_t009E60D2B88B8B844FB90881977A21CC70E688A4* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15343,7 +15343,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m3D53118DAA71CFFC80A4B21073
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mFEC7D2DE808B65D9CFE03D0A140F1271C94E972C_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3_Invoke_mFEC7D2DE808B65D9CFE03D0A140F1271C94E972C_gshared (Func_3_t009E60D2B88B8B844FB90881977A21CC70E688A4* __this, Il2CppFullySharedGenericAny ___0_arg1, Il2CppFullySharedGenericAny ___1_arg2, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -15380,7 +15380,7 @@ bool Func_3_Invoke_mDD23BBA23B1A4974BF70DD7586E20F3EB3977932_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mE397ADDCBD7280F3EF92D28895F4745B4F3D58B0_gshared (Func_3_t8086548CD5FB540AD8F90D0F66CD22B5BDD97206* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15409,7 +15409,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mE397ADDCBD7280F3EF92D28895
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mDD23BBA23B1A4974BF70DD7586E20F3EB3977932_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_mDD23BBA23B1A4974BF70DD7586E20F3EB3977932_gshared (Func_3_t8086548CD5FB540AD8F90D0F66CD22B5BDD97206* __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_arg1, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, const RuntimeMethod*);
@@ -15446,7 +15446,7 @@ bool Func_3_Invoke_m97AEDC01FA83969A3FD509BDF44D6CBB9AB90127_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m83C3897B52A73272BEC98CB1369F2D0AEDEDD7B0_gshared (Func_3_tE454B2F07459EA885F6D39FCB5E70BF80B11F175* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15475,7 +15475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m83C3897B52A73272BEC98CB136
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m97AEDC01FA83969A3FD509BDF44D6CBB9AB90127_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m97AEDC01FA83969A3FD509BDF44D6CBB9AB90127_gshared (Func_3_tE454B2F07459EA885F6D39FCB5E70BF80B11F175* __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_arg1, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, const RuntimeMethod*);
@@ -15512,7 +15512,7 @@ bool Func_3_Invoke_m8E54F1F8B145C53F92CDF78B61D90310334E8E22_OpenStatic(Func_3_t
 	typedef bool (*FunctionPointerType) (float4_t89D9A294E7A79BD81BFBDD18654508532958555E, float4_t89D9A294E7A79BD81BFBDD18654508532958555E, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFD375862A6D4B13621550257FCE9643C32E2DE12_gshared (Func_3_t0F3960B571C7D586E85A53CA420CA324108BF354* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15541,7 +15541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mFD375862A6D4B13621550257FC
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m8E54F1F8B145C53F92CDF78B61D90310334E8E22_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_3_Invoke_m8E54F1F8B145C53F92CDF78B61D90310334E8E22_gshared (Func_3_t0F3960B571C7D586E85A53CA420CA324108BF354* __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_arg1, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, float4_t89D9A294E7A79BD81BFBDD18654508532958555E, float4_t89D9A294E7A79BD81BFBDD18654508532958555E, const RuntimeMethod*);
@@ -15578,7 +15578,7 @@ int32_t Func_3_Invoke_mC54B129569863427FAE97F7F774DD7E11DF5E456_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE, ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m11908F24D4C62F0382E9EB638D77906AA81FF598_gshared (Func_3_t04BCD613633CE8BB98EC046F90C4C9B0AA84F0BF* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15607,7 +15607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_m11908F24D4C62F0382E9EB638D
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_mC54B129569863427FAE97F7F774DD7E11DF5E456_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_3_Invoke_mC54B129569863427FAE97F7F774DD7E11DF5E456_gshared (Func_3_t04BCD613633CE8BB98EC046F90C4C9B0AA84F0BF* __this, ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE ___0_arg1, ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE, ShadowResolutionRequest_tC1B869ADCA139D8D7AD8A355373F84C7F5E0FCBE, const RuntimeMethod*);
@@ -15644,7 +15644,7 @@ int32_t Func_3_Invoke_m2AED59BE1B0645C0DB5DAE117842A1C0AD4BDEBB_OpenStatic(Func_
 	typedef int32_t (*FunctionPointerType) (LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2, LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, method);
 }
-// Method Definition Index: 898
+// Method Definition Index: 897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mB4DED0793BA121A9C2D10504856565664A9FE576_gshared (Func_3_t3E644C82345CE04737DA5CDE018481FE0A88F821* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15673,7 +15673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_3__ctor_mB4DED0793BA121A9C2D1050485
 	}
 	__this->___extra_arg = (intptr_t)&Func_3_Invoke_m2AED59BE1B0645C0DB5DAE117842A1C0AD4BDEBB_Multicast;
 }
-// Method Definition Index: 899
+// Method Definition Index: 898
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Func_3_Invoke_m2AED59BE1B0645C0DB5DAE117842A1C0AD4BDEBB_gshared (Func_3_t3E644C82345CE04737DA5CDE018481FE0A88F821* __this, LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2 ___0_arg1, LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2 ___1_arg2, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2, LightCookieMapping_t76B317D9FDE96056FA698B46B45D7F0937BD02D2, const RuntimeMethod*);
@@ -15710,7 +15710,7 @@ RuntimeObject* Func_4_Invoke_mA365D9633C4B7002934BB013A5D1FADCBE69BB96_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (int32_t, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m78FAC913DC18D54955735C0153B6BC30BCBAF6EA_gshared (Func_4_tA284D1BD47B11F75171D3404FEED50DEA0B12EC1* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15739,7 +15739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m78FAC913DC18D54955735C0153
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_mA365D9633C4B7002934BB013A5D1FADCBE69BB96_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_mA365D9633C4B7002934BB013A5D1FADCBE69BB96_gshared (Func_4_tA284D1BD47B11F75171D3404FEED50DEA0B12EC1* __this, int32_t ___0_arg1, RuntimeObject* ___1_arg2, RuntimeObject* ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, int32_t, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -15797,7 +15797,7 @@ bool Func_4_Invoke_mC7D21C922ACD57BEC4C04878D5BFFC1441C3779A_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker2< bool, double, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m2A54891CCBC7DDDF0FEC2524D81F59613A51DF93_gshared (Func_4_t71673974799A3C352F89909BA77E8B33929F2A32* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15850,7 +15850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m2A54891CCBC7DDDF0FEC2524D8
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_mC7D21C922ACD57BEC4C04878D5BFFC1441C3779A_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Func_4_Invoke_mC7D21C922ACD57BEC4C04878D5BFFC1441C3779A_gshared (Func_4_t71673974799A3C352F89909BA77E8B33929F2A32* __this, RuntimeObject* ___0_arg1, double ___1_arg2, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0 ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, double, InputEventPtr_tC2A58521C9AFB479CC88789D5E0797D817C721C0, const RuntimeMethod*);
@@ -15908,7 +15908,7 @@ RuntimeObject* Func_4_Invoke_m11C46A95BF0E4E6EA682B45E6DA7504AE2FE8756_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker2< RuntimeObject*, RuntimeObject*, bool >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mD6B044FB1E2D26C36949D1B9914B247E8227383A_gshared (Func_4_t7868C163F386DC1EE76E0249D7EBB3A64555B0E7* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -15961,7 +15961,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mD6B044FB1E2D26C36949D1B991
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m11C46A95BF0E4E6EA682B45E6DA7504AE2FE8756_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_m11C46A95BF0E4E6EA682B45E6DA7504AE2FE8756_gshared (Func_4_t7868C163F386DC1EE76E0249D7EBB3A64555B0E7* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, bool ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, bool, const RuntimeMethod*);
@@ -16019,7 +16019,7 @@ RuntimeObject* Func_4_Invoke_m9BAD5BBD30933FE9049B012CD3316FB2F24F3B8A_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker2< RuntimeObject*, RuntimeObject*, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m2AC898402989985F0D1F4DF8A0B69054F4861155_gshared (Func_4_t5BEC908E1F7894319A22CA9728A897FA95522DAD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16072,7 +16072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m2AC898402989985F0D1F4DF8A0
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m9BAD5BBD30933FE9049B012CD3316FB2F24F3B8A_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_m9BAD5BBD30933FE9049B012CD3316FB2F24F3B8A_gshared (Func_4_t5BEC908E1F7894319A22CA9728A897FA95522DAD* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, RuntimeObject* ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -16130,7 +16130,7 @@ float Func_4_Invoke_m8043B9EFB064AEA562EA3A9872F9F2F45AF86ED4_OpenGenericInterfa
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker2< float, RuntimeObject*, float >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m13BB6507E0AE9D7C700F150E1565C67BF5FFD392_gshared (Func_4_t82EB366B82245DE304DCD70020E0DAB27531863F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16183,7 +16183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m13BB6507E0AE9D7C700F150E15
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m8043B9EFB064AEA562EA3A9872F9F2F45AF86ED4_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_4_Invoke_m8043B9EFB064AEA562EA3A9872F9F2F45AF86ED4_gshared (Func_4_t82EB366B82245DE304DCD70020E0DAB27531863F* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, float ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, float, const RuntimeMethod*);
@@ -16241,7 +16241,7 @@ float Func_4_Invoke_m8C6C5DFC2ABE0AAFE82727FDFFB391FFA72DC7D4_OpenGenericInterfa
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker2< float, RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m6F2B4733AC89D456287CE6FCC617F05B75EB7429_gshared (Func_4_t332C0058075A9D0A2F5170831803531EC540225C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16294,7 +16294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m6F2B4733AC89D456287CE6FCC6
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m8C6C5DFC2ABE0AAFE82727FDFFB391FFA72DC7D4_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Func_4_Invoke_m8C6C5DFC2ABE0AAFE82727FDFFB391FFA72DC7D4_gshared (Func_4_t332C0058075A9D0A2F5170831803531EC540225C* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef float (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*);
@@ -16332,7 +16332,7 @@ StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A Func_4_Invoke_m398C71E1B94
 	typedef StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A (*FunctionPointerType) (StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A, float, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mE814094F90526E8E6774198DD69E39DF18CF4DCF_gshared (Func_4_t93A2D1B3300415C1167923C629725F6A8758E6B5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16361,7 +16361,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mE814094F90526E8E6774198DD6
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m398C71E1B9448B92C9BD93ECEEAB08B378CDEAD5_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A Func_4_Invoke_m398C71E1B9448B92C9BD93ECEEAB08B378CDEAD5_gshared (Func_4_t93A2D1B3300415C1167923C629725F6A8758E6B5* __this, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A ___0_arg1, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A ___1_arg2, float ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A (*FunctionPointerType) (RuntimeObject*, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A, float, const RuntimeMethod*);
@@ -16398,7 +16398,7 @@ RuntimeObject* Func_4_Invoke_mBF599DE94F3940493C83A4EBBAE359747651542D_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mDCE86EA2ADC5656D6BF0FE997C4D2F6C328EC5D2_gshared (Func_4_tB8210FBBBE8EBAD8353B5E330C593E0F3FDB95DA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16427,7 +16427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mDCE86EA2ADC5656D6BF0FE997C
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_mBF599DE94F3940493C83A4EBBAE359747651542D_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_mBF599DE94F3940493C83A4EBBAE359747651542D_gshared (Func_4_tB8210FBBBE8EBAD8353B5E330C593E0F3FDB95DA* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_arg2, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC, const RuntimeMethod*);
@@ -16464,7 +16464,7 @@ RuntimeObject* Func_4_Invoke_m28D4CBD9F1C0CF5EE3274C6BF5DC13BB82D5B426_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_2_t85FD60472857DFEA88086C45948C596619D3CA21, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m17B0E421BB334D08D6970835BE9C577F898EC369_gshared (Func_4_t53BC9824E245C589904FB71A786C6549FF0EB159* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16493,7 +16493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m17B0E421BB334D08D6970835BE
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m28D4CBD9F1C0CF5EE3274C6BF5DC13BB82D5B426_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_m28D4CBD9F1C0CF5EE3274C6BF5DC13BB82D5B426_gshared (Func_4_t53BC9824E245C589904FB71A786C6549FF0EB159* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_arg2, ValueTuple_2_t85FD60472857DFEA88086C45948C596619D3CA21 ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_2_t85FD60472857DFEA88086C45948C596619D3CA21, const RuntimeMethod*);
@@ -16530,7 +16530,7 @@ RuntimeObject* Func_4_Invoke_mFBAF5F0D6B814CC10C46EC1FFE08567BB9A557F0_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t083FB9C32ED0C25542A5131205E7A8A0B87F1D15, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mC894911411AB7DD95B3A7A1BC5C77F9CDA6849F5_gshared (Func_4_t904CC3746F3569F786A0A6AF7C2105DE8503FF16* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16559,7 +16559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mC894911411AB7DD95B3A7A1BC5
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_mFBAF5F0D6B814CC10C46EC1FFE08567BB9A557F0_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_mFBAF5F0D6B814CC10C46EC1FFE08567BB9A557F0_gshared (Func_4_t904CC3746F3569F786A0A6AF7C2105DE8503FF16* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_arg2, ValueTuple_3_t083FB9C32ED0C25542A5131205E7A8A0B87F1D15 ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_3_t083FB9C32ED0C25542A5131205E7A8A0B87F1D15, const RuntimeMethod*);
@@ -16596,7 +16596,7 @@ RuntimeObject* Func_4_Invoke_mE93AB8A1D3F3EB205B55380D5FE3947DFDE51547_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_4_tEC98A0C80E3AD3740A1A365E6A6F25E9CC2FAAE7, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m899DF0C91D19943FA35DD6F9C45A9ACD3AC81B84_gshared (Func_4_tA538C2D9F57DFA4CF8FD0842A90A45F2A061B0DE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16625,7 +16625,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m899DF0C91D19943FA35DD6F9C4
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_mE93AB8A1D3F3EB205B55380D5FE3947DFDE51547_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_mE93AB8A1D3F3EB205B55380D5FE3947DFDE51547_gshared (Func_4_tA538C2D9F57DFA4CF8FD0842A90A45F2A061B0DE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_arg2, ValueTuple_4_tEC98A0C80E3AD3740A1A365E6A6F25E9CC2FAAE7 ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, ValueTuple_4_tEC98A0C80E3AD3740A1A365E6A6F25E9CC2FAAE7, const RuntimeMethod*);
@@ -16662,7 +16662,7 @@ RuntimeObject* Func_4_Invoke_m51B25A1AD19B228EDE86FB659E5DF549BA1917E9_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, RuntimeObject*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m3B977815FB7EA8CC2F6BEE3062A081FBE92C99B7_gshared (Func_4_t08BAB91515459FF545B4A7D8524D9C59D8CFB281* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16691,7 +16691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m3B977815FB7EA8CC2F6BEE3062
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m51B25A1AD19B228EDE86FB659E5DF549BA1917E9_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_m51B25A1AD19B228EDE86FB659E5DF549BA1917E9_gshared (Func_4_t08BAB91515459FF545B4A7D8524D9C59D8CFB281* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_arg2, RuntimeObject* ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, RuntimeObject*, const RuntimeMethod*);
@@ -16728,7 +16728,7 @@ RuntimeObject* Func_4_Invoke_m6EFFCDC05C0A821864CD1FC3E5B0A17AC9F560B9_OpenStati
 	typedef RuntimeObject* (*FunctionPointerType) (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, PenData_t2345B5FBD18D851528C5C18F8A667D4EF4690945, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr)(___0_arg1, ___1_arg2, ___2_arg3, method);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m58FD350A24AF9374BF5DC75CA31BAD24FF0AF007_gshared (Func_4_tB3B4E2402979B32E6B16F0C0B238734341A8549D* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16757,7 +16757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_m58FD350A24AF9374BF5DC75CA3
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m6EFFCDC05C0A821864CD1FC3E5B0A17AC9F560B9_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_4_Invoke_m6EFFCDC05C0A821864CD1FC3E5B0A17AC9F560B9_gshared (Func_4_tB3B4E2402979B32E6B16F0C0B238734341A8549D* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_arg1, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_arg2, PenData_t2345B5FBD18D851528C5C18F8A667D4EF4690945 ___2_arg3, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, PenData_t2345B5FBD18D851528C5C18F8A667D4EF4690945, const RuntimeMethod*);
@@ -16819,7 +16819,7 @@ void Func_4_Invoke_m60FA7E1FAE630870F8DDC50F1E5D55AFA99FD249_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	GenericInterfaceActionInvoker3Invoker< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg1, ___1_arg2, ___2_arg3, il2cppRetVal);
 }
-// Method Definition Index: 900
+// Method Definition Index: 899
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mBBC8F424C8EFF3F35CA9B3557CC2E8C06CAAA249_gshared (Func_4_t572D62CCA845BDAD9BC3ABCD839C1AE78144D079* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16868,7 +16868,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4__ctor_mBBC8F424C8EFF3F35CA9B3557C
 	}
 	__this->___extra_arg = (intptr_t)&Func_4_Invoke_m60FA7E1FAE630870F8DDC50F1E5D55AFA99FD249_Multicast;
 }
-// Method Definition Index: 901
+// Method Definition Index: 900
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_4_Invoke_m60FA7E1FAE630870F8DDC50F1E5D55AFA99FD249_gshared (Func_4_t572D62CCA845BDAD9BC3ABCD839C1AE78144D079* __this, Il2CppFullySharedGenericAny ___0_arg1, Il2CppFullySharedGenericAny ___1_arg2, Il2CppFullySharedGenericAny ___2_arg3, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -16926,7 +16926,7 @@ RuntimeObject* Func_5_Invoke_mEC1D034D1CAD44D4E743B3A0E36213B12B2ECFAA_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker3< RuntimeObject*, int32_t, RuntimeObject*, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4);
 }
-// Method Definition Index: 902
+// Method Definition Index: 901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_m9D2CC015419A9C8DA2FCE687A56D04B455180559_gshared (Func_5_tD02E129BCD67EF3C2C268C78FD4614374A3597CA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -16979,7 +16979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_m9D2CC015419A9C8DA2FCE687A5
 	}
 	__this->___extra_arg = (intptr_t)&Func_5_Invoke_mEC1D034D1CAD44D4E743B3A0E36213B12B2ECFAA_Multicast;
 }
-// Method Definition Index: 903
+// Method Definition Index: 902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_5_Invoke_mEC1D034D1CAD44D4E743B3A0E36213B12B2ECFAA_gshared (Func_5_tD02E129BCD67EF3C2C268C78FD4614374A3597CA* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, RuntimeObject* ___2_arg3, RuntimeObject* ___3_arg4, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -17037,7 +17037,7 @@ RuntimeObject* Func_5_Invoke_m27FF655F66B70A0C16CF82E3217180B608756B82_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker3< RuntimeObject*, RuntimeObject*, bool, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4);
 }
-// Method Definition Index: 902
+// Method Definition Index: 901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_m44C82C680AD25F56DDA00F685A042878F11BBA48_gshared (Func_5_t2AD4D014E4EC747F33DE42BA24E3B6F41B77E841* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17090,7 +17090,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_m44C82C680AD25F56DDA00F685A
 	}
 	__this->___extra_arg = (intptr_t)&Func_5_Invoke_m27FF655F66B70A0C16CF82E3217180B608756B82_Multicast;
 }
-// Method Definition Index: 903
+// Method Definition Index: 902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_5_Invoke_m27FF655F66B70A0C16CF82E3217180B608756B82_gshared (Func_5_t2AD4D014E4EC747F33DE42BA24E3B6F41B77E841* __this, RuntimeObject* ___0_arg1, RuntimeObject* ___1_arg2, bool ___2_arg3, RuntimeObject* ___3_arg4, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, RuntimeObject*, bool, RuntimeObject*, const RuntimeMethod*);
@@ -17148,7 +17148,7 @@ RuntimeObject* Func_5_Invoke_m392D0C4E7D4413D3636EE05EC3A70F8D58CC74A1_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker3< RuntimeObject*, ReadWriteParameters_t14911E85F7252B5A39D9A53466C7EDE243327033, RuntimeObject*, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4);
 }
-// Method Definition Index: 902
+// Method Definition Index: 901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_mD42AC181AD82FADC7125A55C026F79BDD30AFD74_gshared (Func_5_tBD83535470C7532DCD8D3FEC6FAAEABA156B6E6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17201,7 +17201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_mD42AC181AD82FADC7125A55C02
 	}
 	__this->___extra_arg = (intptr_t)&Func_5_Invoke_m392D0C4E7D4413D3636EE05EC3A70F8D58CC74A1_Multicast;
 }
-// Method Definition Index: 903
+// Method Definition Index: 902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_5_Invoke_m392D0C4E7D4413D3636EE05EC3A70F8D58CC74A1_gshared (Func_5_tBD83535470C7532DCD8D3FEC6FAAEABA156B6E6C* __this, RuntimeObject* ___0_arg1, ReadWriteParameters_t14911E85F7252B5A39D9A53466C7EDE243327033 ___1_arg2, RuntimeObject* ___2_arg3, RuntimeObject* ___3_arg4, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, ReadWriteParameters_t14911E85F7252B5A39D9A53466C7EDE243327033, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -17263,7 +17263,7 @@ void Func_5_Invoke_mC05570EABD976522EEE513938C4FC94F0B8FB1B2_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	GenericInterfaceActionInvoker4Invoker< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, il2cppRetVal);
 }
-// Method Definition Index: 902
+// Method Definition Index: 901
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_m75692E25A17895B4B3B9CA180C9A1DDE53F5FC22_gshared (Func_5_tB069B44093DF1EBDA5245A604B7AD60C4B638397* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17312,7 +17312,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5__ctor_m75692E25A17895B4B3B9CA180C
 	}
 	__this->___extra_arg = (intptr_t)&Func_5_Invoke_mC05570EABD976522EEE513938C4FC94F0B8FB1B2_Multicast;
 }
-// Method Definition Index: 903
+// Method Definition Index: 902
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_5_Invoke_mC05570EABD976522EEE513938C4FC94F0B8FB1B2_gshared (Func_5_tB069B44093DF1EBDA5245A604B7AD60C4B638397* __this, Il2CppFullySharedGenericAny ___0_arg1, Il2CppFullySharedGenericAny ___1_arg2, Il2CppFullySharedGenericAny ___2_arg3, Il2CppFullySharedGenericAny ___3_arg4, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -17370,7 +17370,7 @@ RuntimeObject* Func_6_Invoke_m93D803209C905C1E25D58222A659B4DE3B826F17_OpenGener
 	NullCheck(___0_arg1);
 	return GenericInterfaceFuncInvoker4< RuntimeObject*, int32_t, RuntimeObject*, RuntimeObject*, RuntimeObject* >::Invoke(method, ___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5);
 }
-// Method Definition Index: 904
+// Method Definition Index: 903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_6__ctor_m43D77DED581B52F24D6C529A027DBAA0450C2064_gshared (Func_6_tAF6F54C970F14D7AE7D5B4D545ADE04C4B2E7B8F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17423,7 +17423,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_6__ctor_m43D77DED581B52F24D6C529A02
 	}
 	__this->___extra_arg = (intptr_t)&Func_6_Invoke_m93D803209C905C1E25D58222A659B4DE3B826F17_Multicast;
 }
-// Method Definition Index: 905
+// Method Definition Index: 904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Func_6_Invoke_m93D803209C905C1E25D58222A659B4DE3B826F17_gshared (Func_6_tAF6F54C970F14D7AE7D5B4D545ADE04C4B2E7B8F* __this, RuntimeObject* ___0_arg1, int32_t ___1_arg2, RuntimeObject* ___2_arg3, RuntimeObject* ___3_arg4, RuntimeObject* ___4_arg5, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, RuntimeObject*, int32_t, RuntimeObject*, RuntimeObject*, RuntimeObject*, const RuntimeMethod*);
@@ -17485,7 +17485,7 @@ void Func_6_Invoke_m65E176783831465A0BF56196A4AC00E1437C41B3_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	GenericInterfaceActionInvoker5Invoker< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5, il2cppRetVal);
 }
-// Method Definition Index: 904
+// Method Definition Index: 903
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_6__ctor_m734165901425BCBC8155BB185630540AB6DA12F8_gshared (Func_6_tF0A0CA0D64145FD856F53441697B240796CBF320* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17534,7 +17534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_6__ctor_m734165901425BCBC8155BB1856
 	}
 	__this->___extra_arg = (intptr_t)&Func_6_Invoke_m65E176783831465A0BF56196A4AC00E1437C41B3_Multicast;
 }
-// Method Definition Index: 905
+// Method Definition Index: 904
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_6_Invoke_m65E176783831465A0BF56196A4AC00E1437C41B3_gshared (Func_6_tF0A0CA0D64145FD856F53441697B240796CBF320* __this, Il2CppFullySharedGenericAny ___0_arg1, Il2CppFullySharedGenericAny ___1_arg2, Il2CppFullySharedGenericAny ___2_arg3, Il2CppFullySharedGenericAny ___3_arg4, Il2CppFullySharedGenericAny ___4_arg5, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -17596,7 +17596,7 @@ void Func_7_Invoke_m08465AADA3D15F91D2CD77D60BD0E5D0805B6B6C_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	GenericInterfaceActionInvoker6Invoker< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5, ___5_arg6, il2cppRetVal);
 }
-// Method Definition Index: 906
+// Method Definition Index: 905
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_7__ctor_m1F14D13DDB60D9B74ED6FFFC2B9E2331C055623C_gshared (Func_7_tE5BE67F6F06DB3CA05521637000BD00C4D993F80* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17645,7 +17645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_7__ctor_m1F14D13DDB60D9B74ED6FFFC2B
 	}
 	__this->___extra_arg = (intptr_t)&Func_7_Invoke_m08465AADA3D15F91D2CD77D60BD0E5D0805B6B6C_Multicast;
 }
-// Method Definition Index: 907
+// Method Definition Index: 906
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_7_Invoke_m08465AADA3D15F91D2CD77D60BD0E5D0805B6B6C_gshared (Func_7_tE5BE67F6F06DB3CA05521637000BD00C4D993F80* __this, Il2CppFullySharedGenericAny ___0_arg1, Il2CppFullySharedGenericAny ___1_arg2, Il2CppFullySharedGenericAny ___2_arg3, Il2CppFullySharedGenericAny ___3_arg4, Il2CppFullySharedGenericAny ___4_arg5, Il2CppFullySharedGenericAny ___5_arg6, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -17707,7 +17707,7 @@ void Func_8_Invoke_mA73BCD2F4A8D61F36C2F2A117F9574EFBD4A2696_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	GenericInterfaceActionInvoker7Invoker< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5, ___5_arg6, ___6_arg7, il2cppRetVal);
 }
-// Method Definition Index: 908
+// Method Definition Index: 907
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_8__ctor_m85488FD9B4DF889CE7595C437A1620A43FB3FFCE_gshared (Func_8_t605F8719FA2521B5FF48B1D8047E17F3F082B32E* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17756,7 +17756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_8__ctor_m85488FD9B4DF889CE7595C437A
 	}
 	__this->___extra_arg = (intptr_t)&Func_8_Invoke_mA73BCD2F4A8D61F36C2F2A117F9574EFBD4A2696_Multicast;
 }
-// Method Definition Index: 909
+// Method Definition Index: 908
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_8_Invoke_mA73BCD2F4A8D61F36C2F2A117F9574EFBD4A2696_gshared (Func_8_t605F8719FA2521B5FF48B1D8047E17F3F082B32E* __this, Il2CppFullySharedGenericAny ___0_arg1, Il2CppFullySharedGenericAny ___1_arg2, Il2CppFullySharedGenericAny ___2_arg3, Il2CppFullySharedGenericAny ___3_arg4, Il2CppFullySharedGenericAny ___4_arg5, Il2CppFullySharedGenericAny ___5_arg6, Il2CppFullySharedGenericAny ___6_arg7, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -17818,7 +17818,7 @@ void Func_9_Invoke_mA56A1FA60B622495125CAE44FBFE31A807D5473E_OpenGenericInterfac
 	NullCheck(___0_arg1);
 	GenericInterfaceActionInvoker8Invoker< Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny* >::Invoke(method, (RuntimeObject*)___0_arg1, ___1_arg2, ___2_arg3, ___3_arg4, ___4_arg5, ___5_arg6, ___6_arg7, ___7_arg8, il2cppRetVal);
 }
-// Method Definition Index: 910
+// Method Definition Index: 909
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_9__ctor_m9EB19875E265964CF431861B6E8862A68AC2D3FE_gshared (Func_9_tCA208DB676270504B9EA383199B74083CECB6375* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -17867,7 +17867,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_9__ctor_m9EB19875E265964CF431861B6E
 	}
 	__this->___extra_arg = (intptr_t)&Func_9_Invoke_mA56A1FA60B622495125CAE44FBFE31A807D5473E_Multicast;
 }
-// Method Definition Index: 911
+// Method Definition Index: 910
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_9_Invoke_mA56A1FA60B622495125CAE44FBFE31A807D5473E_gshared (Func_9_tCA208DB676270504B9EA383199B74083CECB6375* __this, Il2CppFullySharedGenericAny ___0_arg1, Il2CppFullySharedGenericAny ___1_arg2, Il2CppFullySharedGenericAny ___2_arg3, Il2CppFullySharedGenericAny ___3_arg4, Il2CppFullySharedGenericAny ___4_arg5, Il2CppFullySharedGenericAny ___5_arg6, Il2CppFullySharedGenericAny ___6_arg7, Il2CppFullySharedGenericAny ___7_arg8, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*);
@@ -17881,7 +17881,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_9_Invoke_mA56A1FA60B622495125CAE44F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109929
+// Method Definition Index: 109921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FunctionPointer_1__ctor_mE2BD136AA4DB860E4183D3293D3AE1A04B978DA3_gshared (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -17899,7 +17899,7 @@ IL2CPP_EXTERN_C  void FunctionPointer_1__ctor_mE2BD136AA4DB860E4183D3293D3AE1A04
 	_thisAdjusted = reinterpret_cast<FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2*>(__this + _offset);
 	FunctionPointer_1__ctor_mE2BD136AA4DB860E4183D3293D3AE1A04B978DA3_inline(_thisAdjusted, ___0_ptr, method);
 }
-// Method Definition Index: 109930
+// Method Definition Index: 109922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17917,7 +17917,7 @@ IL2CPP_EXTERN_C  intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362D
 	_returnValue = FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 109931
+// Method Definition Index: 109923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FunctionPointer_1_CheckIsCreated_m7CF1F6558C372A25BA5CB40F6B8C78ABE2483B09_gshared (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17949,7 +17949,7 @@ IL2CPP_EXTERN_C  void FunctionPointer_1_CheckIsCreated_m7CF1F6558C372A25BA5CB40F
 	_thisAdjusted = reinterpret_cast<FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2*>(__this + _offset);
 	FunctionPointer_1_CheckIsCreated_m7CF1F6558C372A25BA5CB40F6B8C78ABE2483B09(_thisAdjusted, method);
 }
-// Method Definition Index: 109932
+// Method Definition Index: 109924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FunctionPointer_1_get_Invoke_m3E7098A72E4D4E432490A6F99AF8749B862ACF93_gshared (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -17976,7 +17976,7 @@ IL2CPP_EXTERN_C  RuntimeObject* FunctionPointer_1_get_Invoke_m3E7098A72E4D4E4324
 	_returnValue = FunctionPointer_1_get_Invoke_m3E7098A72E4D4E432490A6F99AF8749B862ACF93(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 109933
+// Method Definition Index: 109925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FunctionPointer_1_get_IsCreated_m8AF702C769120359D2E3139EC7CC73C3849CFC95_gshared (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -17996,7 +17996,7 @@ IL2CPP_EXTERN_C  bool FunctionPointer_1_get_IsCreated_m8AF702C769120359D2E3139EC
 	_returnValue = FunctionPointer_1_get_IsCreated_m8AF702C769120359D2E3139EC7CC73C3849CFC95(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 109934
+// Method Definition Index: 109926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FunctionPointer_1_Unity_Burst_IFunctionPointer_FromIntPtr_mD0E96F0B0B1CC1F1A9686CB1901DFDABBA6E2CDF_gshared (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -18027,7 +18027,7 @@ IL2CPP_EXTERN_C  RuntimeObject* FunctionPointer_1_Unity_Burst_IFunctionPointer_F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 109929
+// Method Definition Index: 109921
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FunctionPointer_1__ctor_mC619E78A7A6A909670DFFE07825842FDA7D178F7_gshared (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -18045,7 +18045,7 @@ IL2CPP_EXTERN_C  void FunctionPointer_1__ctor_mC619E78A7A6A909670DFFE07825842FDA
 	_thisAdjusted = reinterpret_cast<FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA*>(__this + _offset);
 	FunctionPointer_1__ctor_mC619E78A7A6A909670DFFE07825842FDA7D178F7_inline(_thisAdjusted, ___0_ptr, method);
 }
-// Method Definition Index: 109930
+// Method Definition Index: 109922
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBEF55560DEB03FDD5_gshared (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18063,7 +18063,7 @@ IL2CPP_EXTERN_C  intptr_t FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBE
 	_returnValue = FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBEF55560DEB03FDD5_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 109931
+// Method Definition Index: 109923
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FunctionPointer_1_CheckIsCreated_m5EF23B4472072E8D10170BEBDBCB2A0D870841F4_gshared (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18095,7 +18095,7 @@ IL2CPP_EXTERN_C  void FunctionPointer_1_CheckIsCreated_m5EF23B4472072E8D10170BEB
 	_thisAdjusted = reinterpret_cast<FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA*>(__this + _offset);
 	FunctionPointer_1_CheckIsCreated_m5EF23B4472072E8D10170BEBDBCB2A0D870841F4(_thisAdjusted, method);
 }
-// Method Definition Index: 109932
+// Method Definition Index: 109924
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FunctionPointer_1_get_Invoke_m552FD5AD590BE1F22C35842835DBC3FB96BACA44_gshared (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18123,7 +18123,7 @@ IL2CPP_EXTERN_C  void FunctionPointer_1_get_Invoke_m552FD5AD590BE1F22C35842835DB
 	FunctionPointer_1_get_Invoke_m552FD5AD590BE1F22C35842835DBC3FB96BACA44(_thisAdjusted, il2cppRetVal, method);
 	return;
 }
-// Method Definition Index: 109933
+// Method Definition Index: 109925
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FunctionPointer_1_get_IsCreated_mE896F8993D96765E8D0CE084A5FF954ADB82717C_gshared (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -18143,7 +18143,7 @@ IL2CPP_EXTERN_C  bool FunctionPointer_1_get_IsCreated_mE896F8993D96765E8D0CE084A
 	_returnValue = FunctionPointer_1_get_IsCreated_mE896F8993D96765E8D0CE084A5FF954ADB82717C(_thisAdjusted, method);
 	return _returnValue;
 }
-// Method Definition Index: 109934
+// Method Definition Index: 109926
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FunctionPointer_1_Unity_Burst_IFunctionPointer_FromIntPtr_m83AC3B2AD9CD3551118A13B4D28B96ED0B293725_gshared (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -18174,22 +18174,22 @@ IL2CPP_EXTERN_C  RuntimeObject* FunctionPointer_1_Unity_Burst_IFunctionPointer_F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 92005
+// Method Definition Index: 91997
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2__ctor_m9985CA950624E2718853C61287F6E3148E383756_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:281>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:281>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_0 = (List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 0));
 		((  void (*) (List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 		__this->___tasks = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___tasks), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:284>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:284>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:284>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:284>
 		return;
 	}
 }
-// Method Definition Index: 92006
+// Method Definition Index: 91998
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* FutureTaskManager_2_GetTask_m6C92339C02B5E3D593D206503E28F4AF9E79939F_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, Il2CppFullySharedGenericAny ___0_identity, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
@@ -18205,7 +18205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t08F7ECE56332873924CE5F0362E61A6
 		il2cpp_codegen_memcpy(L_2, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5)) ? ___0_identity : &___0_identity), SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2);
 		NullCheck(L_1);
 		il2cpp_codegen_write_instance_field_data(L_1, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 3),0), L_2, SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:288>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:288>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_3 = __this->___tasks;
 		U3CU3Ec__DisplayClass3_0_t33E4FE3FD68059F8FCC22CF7A99F8E58E1748ECE* L_4 = V_0;
 		Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA* L_5 = (Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
@@ -18215,7 +18215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t08F7ECE56332873924CE5F0362E61A6
 		return L_7;
 	}
 }
-// Method Definition Index: 92007
+// Method Definition Index: 91999
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_AddTask_m5EF0C4507A6DE0362A61A6E321AAC88554E4532B_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, Il2CppFullySharedGenericAny ___0_identity, FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* ___1_task, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5));
@@ -18224,7 +18224,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_AddTask_m5EF0C4507A6
 	const Il2CppFullySharedGenericAny L_3 = alloca(SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2);
 	const ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37 L_4 = alloca(SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:298>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:298>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_0 = __this->___tasks;
 		il2cpp_codegen_memcpy(L_1, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5)) ? ___0_identity : &___0_identity), SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2);
 		FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_2 = ___1_task;
@@ -18232,11 +18232,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_AddTask_m5EF0C4507A6
 		ValueTuple_2__ctor_m3F842C330F2BBC8291FE21D709F6AB73E479BEB6((ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37*)L_4, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5)) ? il2cpp_codegen_memcpy(L_3, L_1, SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2): *(void**)L_1), L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
 		NullCheck(L_0);
 		InvokerActionInvoker1< ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 14)), il2cpp_rgctx_method(method->klass->rgctx_data, 14), L_0, L_4);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:299>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:299>
 		return;
 	}
 }
-// Method Definition Index: 92008
+// Method Definition Index: 92000
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m63E78ABAA1716F44934769E03EE69D23A9664B4F_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, Il2CppFullySharedGenericAny ___0_identity, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11));
@@ -18258,14 +18258,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m63E78ABA
 		il2cpp_codegen_memcpy(L_2, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 5)) ? ___0_identity : &___0_identity), SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2);
 		NullCheck(L_1);
 		il2cpp_codegen_write_instance_field_data(L_1, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 15),0), L_2, SizeOf_Identity_t35E371C7ACBE27B7A18181B881F7EB20C05203F2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:307>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:307>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_3 = __this->___tasks;
 		U3CU3Ec__DisplayClass5_0_tC735356ADFCA692D418857896995E63BE23E1E45* L_4 = V_0;
 		Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA* L_5 = (Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
 		((  void (*) (Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 17)), il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		InvokerActionInvoker3< RuntimeObject*, Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA*, ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)), il2cpp_rgctx_method(method->klass->rgctx_data, 9), NULL, (RuntimeObject*)L_3, L_5, (ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37*)L_6);
 		il2cpp_codegen_memcpy(V_1, L_6, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:308>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:308>
 		il2cpp_codegen_memcpy(L_7, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_8 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_7, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 		if (!L_8)
@@ -18274,12 +18274,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m63E78ABA
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:310>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:310>
 		il2cpp_codegen_memcpy(L_9, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_10 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_9, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 		NullCheck(L_10);
 		((  void (*) (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 18)))(L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:311>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:311>
 		il2cpp_codegen_memcpy(L_11, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_12 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_11, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 		NullCheck(L_12);
@@ -18288,17 +18288,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m63E78ABA
 
 IL_0043:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:313>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:313>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_13 = __this->___tasks;
 		il2cpp_codegen_memcpy(L_14, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InvokerFuncInvoker1< bool, ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 20)), il2cpp_rgctx_method(method->klass->rgctx_data, 20), L_13, L_14);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:314>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:314>
 		return;
 	}
 }
-// Method Definition Index: 92009
+// Method Definition Index: 92001
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m768BD369F4C66ECB740F87E12D2578518117AB3D_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* ___0_task, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11));
@@ -18319,14 +18319,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m768BD369
 		NullCheck(L_1);
 		L_1->___task = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___task), (void*)L_2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:322>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:322>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_3 = __this->___tasks;
 		U3CU3Ec__DisplayClass6_0_t96AA918C031CFA1B05394DE56F33410D1DE84DA1* L_4 = V_0;
 		Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA* L_5 = (Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 7));
 		((  void (*) (Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA*, RuntimeObject*, intptr_t, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)))(L_5, (RuntimeObject*)L_4, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 23)), il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		InvokerActionInvoker3< RuntimeObject*, Func_2_t28C1725ACA86AA0C02BC9C57DCC195D72013EECA*, ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 9)), il2cpp_rgctx_method(method->klass->rgctx_data, 9), NULL, (RuntimeObject*)L_3, L_5, (ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37*)L_6);
 		il2cpp_codegen_memcpy(V_1, L_6, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:323>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:323>
 		il2cpp_codegen_memcpy(L_7, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_8 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_7, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 		if (!L_8)
@@ -18335,12 +18335,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m768BD369
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:325>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:325>
 		il2cpp_codegen_memcpy(L_9, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_10 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_9, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 		NullCheck(L_10);
 		((  void (*) (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 18)))(L_10, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:326>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:326>
 		il2cpp_codegen_memcpy(L_11, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_12 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_11, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 		NullCheck(L_12);
@@ -18349,30 +18349,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_RemoveTask_m768BD369
 
 IL_0043:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:328>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:328>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_13 = __this->___tasks;
 		il2cpp_codegen_memcpy(L_14, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 		NullCheck(L_13);
 		bool L_15;
 		L_15 = InvokerFuncInvoker1< bool, ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37 >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 20)), il2cpp_rgctx_method(method->klass->rgctx_data, 20), L_13, L_14);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:329>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:329>
 		return;
 	}
 }
-// Method Definition Index: 92010
+// Method Definition Index: 92002
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* FutureTaskManager_2_GetTasks_m2EAC24296316E42F297E00149E0D4F0C0005FB03_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:337>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:337>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_0 = __this->___tasks;
 		return L_0;
 	}
 }
-// Method Definition Index: 92011
+// Method Definition Index: 92003
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTaskManager_2_IsEmpty_mF6E92BD1318232067481A063905CEAEC1D56FC9B_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:346>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:346>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_0 = __this->___tasks;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -18380,7 +18380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTaskManager_2_IsEmpty_mF6E92BD1318
 		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 92012
+// Method Definition Index: 92004
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Clear_m8744D806BE58A6BD699CF4E8FAE69F720EC77C02_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, bool ___0_cancelTask, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Enumerator_t7ABADB8F52CF93DECFCAF9839C89147F7791A8F1 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 26));
@@ -18396,7 +18396,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Clear_m8744D806BE58A
 	ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37 V_1 = alloca(SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 	memset(V_1, 0, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:356>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:356>
 		bool L_0 = ___0_cancelTask;
 		if (!L_0)
 		{
@@ -18404,7 +18404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Clear_m8744D806BE58A
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:358>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:358>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_1 = __this->___tasks;
 		NullCheck(L_1);
 		InvokerActionInvoker1< Enumerator_t2937FA3F5953F4B6960CE8B0DD4585392D1D63CD* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 25)), il2cpp_rgctx_method(method->klass->rgctx_data, 25), L_1, (Enumerator_t2937FA3F5953F4B6960CE8B0DD4585392D1D63CD*)L_2);
@@ -18428,10 +18428,10 @@ FINALLY_0042:
 
 IL_0011_1:
 			{
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:358>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:358>
 				InvokerActionInvoker1< ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 27)), il2cpp_rgctx_method(method->klass->rgctx_data, 27), (Enumerator_t2937FA3F5953F4B6960CE8B0DD4585392D1D63CD*)V_0, (ValueTuple_2_t0418C1F9C6F0471B9B95DDDCDBF00217C9EACD37*)L_4);
 				il2cpp_codegen_memcpy(V_1, L_4, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:360>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:360>
 				il2cpp_codegen_memcpy(L_5, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 				FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_6 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_5, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 				if (!L_6)
@@ -18440,12 +18440,12 @@ IL_0011_1:
 				}
 			}
 			{
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:362>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:362>
 				il2cpp_codegen_memcpy(L_7, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 				FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_8 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_7, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 				NullCheck(L_8);
 				((  void (*) (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 18)))(L_8, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:363>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:363>
 				il2cpp_codegen_memcpy(L_9, V_1, SizeOf_ValueTuple_2_tC9531A843F10FC8D8CB6E4933538AB5E98F58694);
 				FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* L_10 = *(FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235**)il2cpp_codegen_get_instance_field_data_pointer(L_9, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 11),1));
 				NullCheck(L_10);
@@ -18454,7 +18454,7 @@ IL_0011_1:
 
 IL_0037_1:
 			{
-				//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:358>
+				//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:358>
 				bool L_11;
 				L_11 = ((  bool (*) (Enumerator_t2937FA3F5953F4B6960CE8B0DD4585392D1D63CD*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 29)))((Enumerator_t2937FA3F5953F4B6960CE8B0DD4585392D1D63CD*)V_0, il2cpp_rgctx_method(method->klass->rgctx_data, 29));
 				if (L_11)
@@ -18474,19 +18474,19 @@ IL_0037_1:
 
 IL_0050:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:367>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:367>
 		List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB* L_12 = __this->___tasks;
 		NullCheck(L_12);
 		((  void (*) (List_1_tCF0525802B256C8FD4D8A2D6FC8E2AFBDC1BC3CB*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 31)))(L_12, il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:368>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:368>
 		return;
 	}
 }
-// Method Definition Index: 92013
+// Method Definition Index: 92005
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Dispose_m7D18838882AE5751A7B383DC559999F4D18C0901_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, bool ___0_disposing, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:372>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:372>
 		bool L_0 = __this->___disposedValue;
 		if (L_0)
 		{
@@ -18494,7 +18494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Dispose_m7D18838882A
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:374>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:374>
 		bool L_1 = ___0_disposing;
 		if (!L_1)
 		{
@@ -18502,23 +18502,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Dispose_m7D18838882A
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:376>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:376>
 		((  void (*) (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104*, bool, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 32)))(__this, (bool)1, il2cpp_rgctx_method(method->klass->rgctx_data, 32));
 	}
 
 IL_0012:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:379>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:379>
 		__this->___disposedValue = (bool)1;
 	}
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:381>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:381>
 		return;
 	}
 }
-// Method Definition Index: 92014
+// Method Definition Index: 92006
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Dispose_m97842B74F14F6E7A0E7DFEB48D1452B38B2703E9_gshared (FutureTaskManager_2_t9C3CAF855BAA8F818A4274413E847F5758F3C104* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18528,12 +18528,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Dispose_m97842B74F14
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:386>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:386>
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:387>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:387>
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:388>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:388>
 		return;
 	}
 }
@@ -18545,16 +18545,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTaskManager_2_Dispose_m97842B74F14
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91978
+// Method Definition Index: 91970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollIntervalMS_m84C61A137DBA2EFFF039D5E22AFEA84D5C8B798D_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
 		int32_t L_0 = __this->___pollIntervalMS;
 		return L_0;
 	}
 }
-// Method Definition Index: 91979
+// Method Definition Index: 91971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_m30967AAFABC7E10F0729D728BEBAD6803CD91150_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18564,7 +18564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_m30967AA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -18573,44 +18573,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_m30967AA
 		return;
 	}
 }
-// Method Definition Index: 91980
+// Method Definition Index: 91972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsAutoComplete_mB593DC9C5D9CDDE2D4E94AD981728D1F5D6532DD_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
 		bool L_0 = __this->___autoComplete;
 		return L_0;
 	}
 }
-// Method Definition Index: 91981
+// Method Definition Index: 91973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsCompleted_mA140AC4C3195DCF39EA92423ECC7E92153FE7B0C_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
 		bool L_0 = __this->___isCompleted;
 		return L_0;
 	}
 }
-// Method Definition Index: 91982
+// Method Definition Index: 91974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_Debug_mBF56E461C1C92C4629F8E009C44F87E79333A583_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = __this->___U3CDebugU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 91983
+// Method Definition Index: 91975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_Debug_mB2F32C3D4FCDD917C84C58A7D28CC30D2B57F297_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = ___0_value;
 		__this->___U3CDebugU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 91984
+// Method Definition Index: 91976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m871E85D0CE644560DD0E3FC264D5642B28115665_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, intptr_t ___0_future, Func_2_t966F5D900458F6B28D90AB20C3524AB5C4164755* ___1_completeFunc, int32_t ___2_pollIntervalMS, bool ___3_autoComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18621,29 +18621,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m871E85D0CE644560DD0E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		__this->___pollIntervalMS = ((int32_t)10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_0 = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)il2cpp_codegen_object_new(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var);
 		CancellationTokenSource__ctor_m2ADB5D13368A9D364C20BB6039EC6DE858735E2C(L_0, NULL);
 		__this->___cts = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cts), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
 		Func_2_t966F5D900458F6B28D90AB20C3524AB5C4164755* L_1 = ___1_completeFunc;
 		__this->___completeFunc = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___completeFunc), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
 		intptr_t L_2 = ___0_future;
 		__this->___future = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
 		int32_t L_3 = ___2_pollIntervalMS;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = Math_Clamp_mAB687477D3AAC0E7243D724F45626026980CE2FF_inline(L_3, 1, ((int32_t)2000), NULL);
 		__this->___pollIntervalMS = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_5 = __this->___cts;
 		NullCheck(L_5);
 		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_6;
@@ -18652,9 +18652,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m871E85D0CE644560DD0E
 		L_7 = FutureTask_1_MakePollTask_m1BAB04149BF67B7DDF33AB49C97CE1D8D80B17BA(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		__this->___pollTask = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)L_7);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
 		__this->___autoComplete = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
 		bool L_8 = ___3_autoComplete;
 		if (!L_8)
 		{
@@ -18662,17 +18662,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m871E85D0CE644560DD0E
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
 		FutureTask_1_AutoComplete_m8A1A6DA75613264FE90C384D7EE7CA90E1A82A50(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 91985
+// Method Definition Index: 91977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m8A1A6DA75613264FE90C384D7EE7CA90E1A82A50_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18683,7 +18683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m8A1A6DA756132
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
 		bool L_0 = __this->___autoComplete;
 		if (!L_0)
 		{
@@ -18691,35 +18691,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m8A1A6DA756132
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
 		__this->___autoComplete = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_1 = __this->___pollTask;
 		Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770* L_2 = (Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770*)il2cpp_codegen_object_new(Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770_il2cpp_TypeInfo_var);
 		Action_1__ctor_mF808B17DB0C691933C066FDB3311E67243C29096(L_2, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 5)), NULL);
@@ -18728,55 +18728,55 @@ IL_0009:
 		L_3 = Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0(L_1, L_2, Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0_RuntimeMethod_var);
 		__this->___autoCompleteTask = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___autoCompleteTask), (void*)L_3);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 91986
+// Method Definition Index: 91978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m1FA927BA7194C00D595F424ACB713DD93A0E7621_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_pollTask, Func_2_t966F5D900458F6B28D90AB20C3524AB5C4164755* ___1_completeFunc, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		__this->___pollIntervalMS = ((int32_t)10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_pollTask;
 		__this->___pollTask = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
 		Func_2_t966F5D900458F6B28D90AB20C3524AB5C4164755* L_1 = ___1_completeFunc;
 		__this->___completeFunc = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___completeFunc), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 91987
+// Method Definition Index: 91979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_get_PollTask_m6E34013E975D0A1B464941627924AAF2F2410EC4_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		return L_0;
 	}
 }
-// Method Definition Index: 91988
+// Method Definition Index: 91980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* FutureTask_1_get_AutoCompleteTask_m4D5C7D45E1AB83494D7E2822AFD284C7899BFD6A_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = __this->___autoCompleteTask;
 		return L_0;
 	}
 }
-// Method Definition Index: 91989
+// Method Definition Index: 91981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_mC6C5D33A038EF75006CBBE4B3A67AB2F6BFC57E8_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -18784,7 +18784,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_mC6C5D3
 		return L_1;
 	}
 }
-// Method Definition Index: 91990
+// Method Definition Index: 91982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_m11E61AECB4B204DB748401E42845AE35D0F7BDD4_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18794,7 +18794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_m11E61AEC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck(L_0);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_1;
@@ -18803,16 +18803,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_m11E61AEC
 		return L_2;
 	}
 }
-// Method Definition Index: 91991
+// Method Definition Index: 91983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t FutureTask_1_get_Future_m6C7AF0F1B6B47ACBF64A17FC52A19FCD16B74E3A_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
 		intptr_t L_0 = __this->___future;
 		return L_0;
 	}
 }
-// Method Definition Index: 91992
+// Method Definition Index: 91984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_m53D792858F848C32FC3D20D9D75616D5A93192E3_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18827,7 +18827,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_m53D792858F848C32FC3
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B6_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B5_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
 		bool L_0 = __this->___isCompleted;
 		if (L_0)
 		{
@@ -18835,7 +18835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_m53D792858F848C32FC3
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_1 = __this->___cts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_2 = L_1;
 		if (L_2)
@@ -18857,7 +18857,7 @@ IL_0014:
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_3;
 		L_3 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -18883,13 +18883,13 @@ IL_0024:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 91993
+// Method Definition Index: 91985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 FutureTask_1_Complete_m7222C248BFE67269CE206C21FEABA4E5FF2B8EBF_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -18904,7 +18904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA
 	ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
 		bool L_0 = __this->___isCompleted;
 		if (!L_0)
 		{
@@ -18912,14 +18912,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
 		ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 L_1 = __this->___result;
 		return L_1;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_2);
 		bool L_3;
@@ -18930,7 +18930,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
 		bool L_4;
 		L_4 = FutureTask_1_get_Debug_mBF56E461C1C92C4629F8E009C44F87E79333A583_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_4)
@@ -18939,16 +18939,16 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteral15FBF0976F40DECC89210BC6E1DE9FAD58B2E3F7, NULL);
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_5 = __this->___pollTask;
 		NullCheck(L_5);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6;
@@ -18960,23 +18960,23 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
 		Func_2_t966F5D900458F6B28D90AB20C3524AB5C4164755* L_8 = __this->___completeFunc;
 		intptr_t L_9 = __this->___future;
 		NullCheck(L_8);
 		ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 L_10;
 		L_10 = Func_2_Invoke_mC772F5644F5A7CBF344002CB51E114CA6BB305AE_inline(L_8, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		__this->___result = L_10;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
 		ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 L_11 = __this->___result;
 		return L_11;
 	}
 
 IL_006c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
 		bool L_12;
 		L_12 = FutureTask_1_get_Debug_mBF56E461C1C92C4629F8E009C44F87E79333A583_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_12)
@@ -18985,14 +18985,14 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteralDD2AD3F676F2A49864852EEABA6B36AABAD9A4BA, NULL);
 	}
 
 IL_007e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
 		il2cpp_codegen_initobj((&V_0), sizeof(ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3));
 		ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 L_13 = V_0;
 		return L_13;
@@ -19000,21 +19000,21 @@ IL_007e:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
 		Exception_t* L_14 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_14, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6E3600210B316EF7124467B9F6B6100753044CAC)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, method);
 	}
 }
-// Method Definition Index: 91994
+// Method Definition Index: 91986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_mAE6FFB2AAFEE5474DEE63C14F92E58BBBEE56368_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
 		bool L_1 = __this->___autoComplete;
 		if (!L_1)
 		{
@@ -19022,7 +19022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_mAE6FFB2AAFEE5474DEE63
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2 = __this->___autoCompleteTask;
 		NullCheck(L_2);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E(L_2, NULL);
@@ -19030,20 +19030,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_mAE6FFB2AAFEE5474DEE63
 
 IL_001e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 91995
+// Method Definition Index: 91987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 FutureTask_1_get_Result_mB1D8A54C5A9210E3FB783088DE473104B9789A07_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
 		ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 L_0 = __this->___result;
 		return L_0;
 	}
 }
-// Method Definition Index: 91996
+// Method Definition Index: 91988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* FutureTask_1_FromResult_mBAE75BA2D91674C1BD4224E7FA4D957941B2929C_gshared (ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19063,7 +19063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C
 		ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 L_2 = ___0_result;
 		NullCheck(L_1);
 		L_1->___result = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC((&L_3), (int32_t)0, (int32_t)2, ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC_RuntimeMethod_var);
@@ -19078,7 +19078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C
 		return L_7;
 	}
 }
-// Method Definition Index: 91997
+// Method Definition Index: 91989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_MakePollTask_m1BAB04149BF67B7DDF33AB49C97CE1D8D80B17BA_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* ___0_futureTask, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19118,7 +19118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803E
 		return L_5;
 	}
 }
-// Method Definition Index: 91998
+// Method Definition Index: 91990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mC7CE75051F67065BCD4CF28DA59D5DF8BD265109_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, bool ___0_disposing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19137,7 +19137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mC7CE75051F67065BCD
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B16_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B15_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
 		bool L_0 = __this->___disposedValue;
 		if (L_0)
 		{
@@ -19145,7 +19145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mC7CE75051F67065BCD
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
 		bool L_1 = ___0_disposing;
 		if (!L_1)
 		{
@@ -19153,7 +19153,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mC7CE75051F67065BCD
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = __this->___pollTask;
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_3 = L_2;
 		if (L_3)
@@ -19175,10 +19175,10 @@ IL_001a:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
 		__this->___pollTask = (Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4 = __this->___autoCompleteTask;
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5 = L_4;
 		if (L_5)
@@ -19200,10 +19200,10 @@ IL_0032:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
 		__this->___autoCompleteTask = (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___autoCompleteTask), (void*)(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_6 = __this->___cts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_7 = L_6;
 		if (L_7)
@@ -19225,14 +19225,14 @@ IL_004a:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
 		__this->___cts = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cts), (void*)(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL);
 	}
 
 IL_0056:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
 		intptr_t L_8 = __this->___future;
 		bool L_9;
 		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
@@ -19249,7 +19249,7 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_11;
 		L_11 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -19275,19 +19275,19 @@ IL_007b:
 
 IL_0087:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
 		__this->___disposedValue = (bool)1;
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 91999
+// Method Definition Index: 91991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mE5EC83B3E1DD546DC9EB40CCBDED8909F87EB407_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19297,16 +19297,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mE5EC83B3E1DD546DC9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
 		return;
 	}
 }
-// Method Definition Index: 92000
+// Method Definition Index: 91992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m8C049CA8BAA0971188416542639403CFD82EF20A_gshared (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_task, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19318,7 +19318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 	ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_task;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -19341,21 +19341,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_4 = ___0_task;
 		NullCheck(L_4);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_5;
 		L_5 = Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D(L_4, Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6 = V_0;
 		int32_t L_7 = L_6.___Item1;
 		if (L_7)
@@ -19364,7 +19364,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_8 = V_0;
 		int32_t L_9 = L_8.___Item2;
 		if ((!(((uint32_t)L_9) == ((uint32_t)2))))
@@ -19373,16 +19373,16 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
 		ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 L_10;
 		L_10 = FutureTask_1_Complete_m7222C248BFE67269CE206C21FEABA4E5FF2B8EBF(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		return;
 	}
 }
@@ -19394,16 +19394,16 @@ IL_0037:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91978
+// Method Definition Index: 91970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollIntervalMS_m11329FAF171A4106D5290AFF20D3610685BFB185_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
 		int32_t L_0 = __this->___pollIntervalMS;
 		return L_0;
 	}
 }
-// Method Definition Index: 91979
+// Method Definition Index: 91971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_mC0935473C53FF17061E395FAB772E1037D9091D8_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19413,7 +19413,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_mC093547
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -19422,44 +19422,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_mC093547
 		return;
 	}
 }
-// Method Definition Index: 91980
+// Method Definition Index: 91972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsAutoComplete_m3A4169834697082D12CECA21714E8A69E7EF5569_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
 		bool L_0 = __this->___autoComplete;
 		return L_0;
 	}
 }
-// Method Definition Index: 91981
+// Method Definition Index: 91973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsCompleted_m93B1831B6B5F8E2EED531ED7CEDB4D638F46CC13_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
 		bool L_0 = __this->___isCompleted;
 		return L_0;
 	}
 }
-// Method Definition Index: 91982
+// Method Definition Index: 91974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_Debug_m526156130EC79735FCBB3356F1C475F0ED350573_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = __this->___U3CDebugU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 91983
+// Method Definition Index: 91975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_Debug_m0F40E209C68DD7F2C2FE4480583B35AF682A91DC_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = ___0_value;
 		__this->___U3CDebugU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 91984
+// Method Definition Index: 91976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m9DE3823B8A587D0F5605F0EC279CC76931EA4CE7_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, intptr_t ___0_future, Func_2_t7711C485CBEC1EA6AB82B9E6A20F1C995A14BB08* ___1_completeFunc, int32_t ___2_pollIntervalMS, bool ___3_autoComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19470,29 +19470,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m9DE3823B8A587D0F5605
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		__this->___pollIntervalMS = ((int32_t)10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_0 = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)il2cpp_codegen_object_new(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var);
 		CancellationTokenSource__ctor_m2ADB5D13368A9D364C20BB6039EC6DE858735E2C(L_0, NULL);
 		__this->___cts = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cts), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
 		Func_2_t7711C485CBEC1EA6AB82B9E6A20F1C995A14BB08* L_1 = ___1_completeFunc;
 		__this->___completeFunc = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___completeFunc), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
 		intptr_t L_2 = ___0_future;
 		__this->___future = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
 		int32_t L_3 = ___2_pollIntervalMS;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = Math_Clamp_mAB687477D3AAC0E7243D724F45626026980CE2FF_inline(L_3, 1, ((int32_t)2000), NULL);
 		__this->___pollIntervalMS = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_5 = __this->___cts;
 		NullCheck(L_5);
 		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_6;
@@ -19501,9 +19501,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m9DE3823B8A587D0F5605
 		L_7 = FutureTask_1_MakePollTask_mEB6F706F399250807924481038A56A7D592502CC(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		__this->___pollTask = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)L_7);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
 		__this->___autoComplete = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
 		bool L_8 = ___3_autoComplete;
 		if (!L_8)
 		{
@@ -19511,17 +19511,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m9DE3823B8A587D0F5605
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
 		FutureTask_1_AutoComplete_mBF2C47794FFA1CB303FB1E6C62C69EBA4945A825(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 91985
+// Method Definition Index: 91977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_mBF2C47794FFA1CB303FB1E6C62C69EBA4945A825_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19532,7 +19532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_mBF2C47794FFA1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
 		bool L_0 = __this->___autoComplete;
 		if (!L_0)
 		{
@@ -19540,35 +19540,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_mBF2C47794FFA1
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
 		__this->___autoComplete = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_1 = __this->___pollTask;
 		Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770* L_2 = (Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770*)il2cpp_codegen_object_new(Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770_il2cpp_TypeInfo_var);
 		Action_1__ctor_mF808B17DB0C691933C066FDB3311E67243C29096(L_2, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 5)), NULL);
@@ -19577,55 +19577,55 @@ IL_0009:
 		L_3 = Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0(L_1, L_2, Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0_RuntimeMethod_var);
 		__this->___autoCompleteTask = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___autoCompleteTask), (void*)L_3);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 91986
+// Method Definition Index: 91978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_mAA0039184DA0EAD178C7827BB68C517C92964850_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_pollTask, Func_2_t7711C485CBEC1EA6AB82B9E6A20F1C995A14BB08* ___1_completeFunc, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		__this->___pollIntervalMS = ((int32_t)10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_pollTask;
 		__this->___pollTask = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
 		Func_2_t7711C485CBEC1EA6AB82B9E6A20F1C995A14BB08* L_1 = ___1_completeFunc;
 		__this->___completeFunc = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___completeFunc), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 91987
+// Method Definition Index: 91979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_get_PollTask_m2E885FBF1352A40A17C4EA19E326B1F509A79645_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		return L_0;
 	}
 }
-// Method Definition Index: 91988
+// Method Definition Index: 91980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* FutureTask_1_get_AutoCompleteTask_m338C98CCF1985F48B216A3135286CCAC4C8FC712_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = __this->___autoCompleteTask;
 		return L_0;
 	}
 }
-// Method Definition Index: 91989
+// Method Definition Index: 91981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_mED3875139E14252B4F0917330D690D0C79F0E65A_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -19633,7 +19633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_mED3875
 		return L_1;
 	}
 }
-// Method Definition Index: 91990
+// Method Definition Index: 91982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_mE1672805216D5187ADD71C7702BFF693790B8547_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19643,7 +19643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_mE1672805
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck(L_0);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_1;
@@ -19652,16 +19652,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_mE1672805
 		return L_2;
 	}
 }
-// Method Definition Index: 91991
+// Method Definition Index: 91983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t FutureTask_1_get_Future_mCF7ED0CBFCFBE4A93212C0F46F799B312A098CB9_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
 		intptr_t L_0 = __this->___future;
 		return L_0;
 	}
 }
-// Method Definition Index: 91992
+// Method Definition Index: 91984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_mD8F5193F976B1746D267F025B947F69C2783099D_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19676,7 +19676,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_mD8F5193F976B1746D26
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B6_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B5_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
 		bool L_0 = __this->___isCompleted;
 		if (L_0)
 		{
@@ -19684,7 +19684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_mD8F5193F976B1746D26
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_1 = __this->___cts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_2 = L_1;
 		if (L_2)
@@ -19706,7 +19706,7 @@ IL_0014:
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_3;
 		L_3 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -19732,13 +19732,13 @@ IL_0024:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 91993
+// Method Definition Index: 91985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 FutureTask_1_Complete_mD18B2EC1CABBC3BB349763775B790995CB414509_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19753,7 +19753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tBC19AE73793D615D180F320AB46A541
 	ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
 		bool L_0 = __this->___isCompleted;
 		if (!L_0)
 		{
@@ -19761,14 +19761,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tBC19AE73793D615D180F320AB46A541
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
 		ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 L_1 = __this->___result;
 		return L_1;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_2);
 		bool L_3;
@@ -19779,7 +19779,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
 		bool L_4;
 		L_4 = FutureTask_1_get_Debug_m526156130EC79735FCBB3356F1C475F0ED350573_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_4)
@@ -19788,16 +19788,16 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteral15FBF0976F40DECC89210BC6E1DE9FAD58B2E3F7, NULL);
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_5 = __this->___pollTask;
 		NullCheck(L_5);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6;
@@ -19809,7 +19809,7 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
 		Func_2_t7711C485CBEC1EA6AB82B9E6A20F1C995A14BB08* L_8 = __this->___completeFunc;
 		intptr_t L_9 = __this->___future;
 		NullCheck(L_8);
@@ -19817,16 +19817,16 @@ IL_002e:
 		L_10 = Func_2_Invoke_m461DA173E585A5B78B6395C1F606A83DC5EFA8F0_inline(L_8, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		__this->___result = L_10;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___result))->___Item2), (void*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
 		ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 L_11 = __this->___result;
 		return L_11;
 	}
 
 IL_006c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
 		bool L_12;
 		L_12 = FutureTask_1_get_Debug_m526156130EC79735FCBB3356F1C475F0ED350573_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_12)
@@ -19835,14 +19835,14 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteralDD2AD3F676F2A49864852EEABA6B36AABAD9A4BA, NULL);
 	}
 
 IL_007e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
 		il2cpp_codegen_initobj((&V_0), sizeof(ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9));
 		ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 L_13 = V_0;
 		return L_13;
@@ -19850,21 +19850,21 @@ IL_007e:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
 		Exception_t* L_14 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_14, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6E3600210B316EF7124467B9F6B6100753044CAC)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, method);
 	}
 }
-// Method Definition Index: 91994
+// Method Definition Index: 91986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_m2771435A970D63229B0DE90240B2B87B59E696C4_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
 		bool L_1 = __this->___autoComplete;
 		if (!L_1)
 		{
@@ -19872,7 +19872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_m2771435A970D63229B0DE
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2 = __this->___autoCompleteTask;
 		NullCheck(L_2);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E(L_2, NULL);
@@ -19880,20 +19880,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_m2771435A970D63229B0DE
 
 IL_001e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 91995
+// Method Definition Index: 91987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 FutureTask_1_get_Result_m99ED7B79715451E84DAA0BE40A72073B5C38CC4E_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
 		ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 L_0 = __this->___result;
 		return L_0;
 	}
 }
-// Method Definition Index: 91996
+// Method Definition Index: 91988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* FutureTask_1_FromResult_m5D9105362183B1C4F0348CA6DC923993536F633E_gshared (ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19914,7 +19914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12
 		NullCheck(L_1);
 		L_1->___result = L_2;
 		Il2CppCodeGenWriteBarrier((void**)&(((&L_1->___result))->___Item2), (void*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC((&L_3), (int32_t)0, (int32_t)2, ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC_RuntimeMethod_var);
@@ -19929,7 +19929,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12
 		return L_7;
 	}
 }
-// Method Definition Index: 91997
+// Method Definition Index: 91989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_MakePollTask_mEB6F706F399250807924481038A56A7D592502CC_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* ___0_futureTask, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19969,7 +19969,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803E
 		return L_5;
 	}
 }
-// Method Definition Index: 91998
+// Method Definition Index: 91990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m793621E4FDD11BDCEAD128E2CB47AEBE70830D60_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, bool ___0_disposing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -19988,7 +19988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m793621E4FDD11BDCEA
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B16_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B15_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
 		bool L_0 = __this->___disposedValue;
 		if (L_0)
 		{
@@ -19996,7 +19996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m793621E4FDD11BDCEA
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
 		bool L_1 = ___0_disposing;
 		if (!L_1)
 		{
@@ -20004,7 +20004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m793621E4FDD11BDCEA
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = __this->___pollTask;
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_3 = L_2;
 		if (L_3)
@@ -20026,10 +20026,10 @@ IL_001a:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
 		__this->___pollTask = (Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4 = __this->___autoCompleteTask;
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5 = L_4;
 		if (L_5)
@@ -20051,10 +20051,10 @@ IL_0032:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
 		__this->___autoCompleteTask = (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___autoCompleteTask), (void*)(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_6 = __this->___cts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_7 = L_6;
 		if (L_7)
@@ -20076,14 +20076,14 @@ IL_004a:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
 		__this->___cts = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cts), (void*)(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL);
 	}
 
 IL_0056:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
 		intptr_t L_8 = __this->___future;
 		bool L_9;
 		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
@@ -20100,7 +20100,7 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_11;
 		L_11 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -20126,19 +20126,19 @@ IL_007b:
 
 IL_0087:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
 		__this->___disposedValue = (bool)1;
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 91999
+// Method Definition Index: 91991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mEAEBDD7332AB6C37791C3754C9AA69DD06326832_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20148,16 +20148,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mEAEBDD7332AB6C3779
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
 		return;
 	}
 }
-// Method Definition Index: 92000
+// Method Definition Index: 91992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m8736B288BC7A9C6E14CCF222B14EB3992565BED0_gshared (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_task, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20169,7 +20169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 	ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_task;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -20192,21 +20192,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_4 = ___0_task;
 		NullCheck(L_4);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_5;
 		L_5 = Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D(L_4, Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6 = V_0;
 		int32_t L_7 = L_6.___Item1;
 		if (L_7)
@@ -20215,7 +20215,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_8 = V_0;
 		int32_t L_9 = L_8.___Item2;
 		if ((!(((uint32_t)L_9) == ((uint32_t)2))))
@@ -20224,16 +20224,16 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
 		ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 L_10;
 		L_10 = FutureTask_1_Complete_mD18B2EC1CABBC3BB349763775B790995CB414509(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		return;
 	}
 }
@@ -20245,16 +20245,16 @@ IL_0037:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91978
+// Method Definition Index: 91970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollIntervalMS_mB602C70EE785064861C65686684A00FF43CF7A19_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
 		int32_t L_0 = __this->___pollIntervalMS;
 		return L_0;
 	}
 }
-// Method Definition Index: 91979
+// Method Definition Index: 91971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_mD7B7B8216C37831C495FC609C645179456630C15_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20264,7 +20264,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_mD7B7B82
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -20273,44 +20273,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_mD7B7B82
 		return;
 	}
 }
-// Method Definition Index: 91980
+// Method Definition Index: 91972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsAutoComplete_m684D8BEC5A839A980B06D4EC72B23FBD68CFD0DB_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
 		bool L_0 = __this->___autoComplete;
 		return L_0;
 	}
 }
-// Method Definition Index: 91981
+// Method Definition Index: 91973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsCompleted_mDD4B040813315F327E916BCF58EE76FD5979BCCE_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
 		bool L_0 = __this->___isCompleted;
 		return L_0;
 	}
 }
-// Method Definition Index: 91982
+// Method Definition Index: 91974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_Debug_mCAE2B4632035B543D7C92D9BA8DA723BF8527232_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = __this->___U3CDebugU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 91983
+// Method Definition Index: 91975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_Debug_mD4D5011AD2C0E46479C1E1F6FC67D02D779061CC_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = ___0_value;
 		__this->___U3CDebugU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 91984
+// Method Definition Index: 91976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_mA776494FFDE8F8DB046034DBE96A31DCAE71154E_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, intptr_t ___0_future, Func_2_t392C762142ED6986BE48DE5F99AE4E6D2C8EFA23* ___1_completeFunc, int32_t ___2_pollIntervalMS, bool ___3_autoComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20321,29 +20321,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_mA776494FFDE8F8DB0460
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		__this->___pollIntervalMS = ((int32_t)10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_0 = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)il2cpp_codegen_object_new(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var);
 		CancellationTokenSource__ctor_m2ADB5D13368A9D364C20BB6039EC6DE858735E2C(L_0, NULL);
 		__this->___cts = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cts), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
 		Func_2_t392C762142ED6986BE48DE5F99AE4E6D2C8EFA23* L_1 = ___1_completeFunc;
 		__this->___completeFunc = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___completeFunc), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
 		intptr_t L_2 = ___0_future;
 		__this->___future = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
 		int32_t L_3 = ___2_pollIntervalMS;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = Math_Clamp_mAB687477D3AAC0E7243D724F45626026980CE2FF_inline(L_3, 1, ((int32_t)2000), NULL);
 		__this->___pollIntervalMS = L_4;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_5 = __this->___cts;
 		NullCheck(L_5);
 		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_6;
@@ -20352,9 +20352,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_mA776494FFDE8F8DB0460
 		L_7 = FutureTask_1_MakePollTask_m384723BE10CC95CAD4B0AAE77F52F8A1E1E6312A(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		__this->___pollTask = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)L_7);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
 		__this->___autoComplete = (bool)0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
 		bool L_8 = ___3_autoComplete;
 		if (!L_8)
 		{
@@ -20362,17 +20362,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_mA776494FFDE8F8DB0460
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
 		FutureTask_1_AutoComplete_m1EAFA84306998D01F0C9336D1AE8C8D629BEAEB2(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 91985
+// Method Definition Index: 91977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m1EAFA84306998D01F0C9336D1AE8C8D629BEAEB2_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20383,7 +20383,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m1EAFA84306998
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
 		bool L_0 = __this->___autoComplete;
 		if (!L_0)
 		{
@@ -20391,35 +20391,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m1EAFA84306998
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
 		__this->___autoComplete = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_1 = __this->___pollTask;
 		Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770* L_2 = (Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770*)il2cpp_codegen_object_new(Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770_il2cpp_TypeInfo_var);
 		Action_1__ctor_mF808B17DB0C691933C066FDB3311E67243C29096(L_2, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 5)), NULL);
@@ -20428,55 +20428,55 @@ IL_0009:
 		L_3 = Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0(L_1, L_2, Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0_RuntimeMethod_var);
 		__this->___autoCompleteTask = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___autoCompleteTask), (void*)L_3);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 91986
+// Method Definition Index: 91978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m0EEB991D9DBC74FA74D866354D692EB9044EF715_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_pollTask, Func_2_t392C762142ED6986BE48DE5F99AE4E6D2C8EFA23* ___1_completeFunc, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		__this->___pollIntervalMS = ((int32_t)10);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_pollTask;
 		__this->___pollTask = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
 		Func_2_t392C762142ED6986BE48DE5F99AE4E6D2C8EFA23* L_1 = ___1_completeFunc;
 		__this->___completeFunc = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___completeFunc), (void*)L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 91987
+// Method Definition Index: 91979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_get_PollTask_mF9B50C8DB19D6534460487485DC9D3C811CFA56D_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		return L_0;
 	}
 }
-// Method Definition Index: 91988
+// Method Definition Index: 91980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* FutureTask_1_get_AutoCompleteTask_mF5EA6342B47B4C41E6586CA842055A2EFD56D957_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = __this->___autoCompleteTask;
 		return L_0;
 	}
 }
-// Method Definition Index: 91989
+// Method Definition Index: 91981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_mA84A2A8B19387ED6C7982179A8CDC066842F13FA_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -20484,7 +20484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_mA84A2A
 		return L_1;
 	}
 }
-// Method Definition Index: 91990
+// Method Definition Index: 91982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_m740FE2A6781EEF3734D20B3BDF75CADBCFAEFFEB_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20494,7 +20494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_m740FE2A6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck(L_0);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_1;
@@ -20503,16 +20503,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_m740FE2A6
 		return L_2;
 	}
 }
-// Method Definition Index: 91991
+// Method Definition Index: 91983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t FutureTask_1_get_Future_m6E3E4903CC9AC4AE3B57151E5139A3FDA2B2462D_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
 		intptr_t L_0 = __this->___future;
 		return L_0;
 	}
 }
-// Method Definition Index: 91992
+// Method Definition Index: 91984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_m7D8470474B27C0BEEF34229BC1AA1C45F2BFC461_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20527,7 +20527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_m7D8470474B27C0BEEF3
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B6_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B5_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
 		bool L_0 = __this->___isCompleted;
 		if (L_0)
 		{
@@ -20535,7 +20535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_m7D8470474B27C0BEEF3
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_1 = __this->___cts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_2 = L_1;
 		if (L_2)
@@ -20557,7 +20557,7 @@ IL_0014:
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_3;
 		L_3 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -20583,13 +20583,13 @@ IL_0024:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 91993
+// Method Definition Index: 91985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_Complete_mA03F311AA0266935607801C2DA282B674409E032_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20603,7 +20603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_Complete_mA03F311AA02669
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
 		bool L_0 = __this->___isCompleted;
 		if (!L_0)
 		{
@@ -20611,14 +20611,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_Complete_mA03F311AA02669
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
 		int32_t L_1 = __this->___result;
 		return L_1;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_2);
 		bool L_3;
@@ -20629,7 +20629,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
 		bool L_4;
 		L_4 = FutureTask_1_get_Debug_mCAE2B4632035B543D7C92D9BA8DA723BF8527232_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_4)
@@ -20638,16 +20638,16 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteral15FBF0976F40DECC89210BC6E1DE9FAD58B2E3F7, NULL);
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_5 = __this->___pollTask;
 		NullCheck(L_5);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6;
@@ -20659,23 +20659,23 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
 		Func_2_t392C762142ED6986BE48DE5F99AE4E6D2C8EFA23* L_8 = __this->___completeFunc;
 		intptr_t L_9 = __this->___future;
 		NullCheck(L_8);
 		int32_t L_10;
 		L_10 = Func_2_Invoke_m6F10A3A4C6189432B2AC866E46EF372E4197F570_inline(L_8, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 		__this->___result = L_10;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
 		int32_t L_11 = __this->___result;
 		return L_11;
 	}
 
 IL_006c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
 		bool L_12;
 		L_12 = FutureTask_1_get_Debug_mCAE2B4632035B543D7C92D9BA8DA723BF8527232_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_12)
@@ -20684,14 +20684,14 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteralDD2AD3F676F2A49864852EEABA6B36AABAD9A4BA, NULL);
 	}
 
 IL_007e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
 		il2cpp_codegen_initobj((&V_0), sizeof(int32_t));
 		int32_t L_13 = V_0;
 		return L_13;
@@ -20699,21 +20699,21 @@ IL_007e:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
 		Exception_t* L_14 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_14, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6E3600210B316EF7124467B9F6B6100753044CAC)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, method);
 	}
 }
-// Method Definition Index: 91994
+// Method Definition Index: 91986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_m7AA9E0563FC665642705CE15E4BDECB431FF03CF_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = __this->___pollTask;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
 		bool L_1 = __this->___autoComplete;
 		if (!L_1)
 		{
@@ -20721,7 +20721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_m7AA9E0563FC665642705C
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2 = __this->___autoCompleteTask;
 		NullCheck(L_2);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E(L_2, NULL);
@@ -20729,20 +20729,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_m7AA9E0563FC665642705C
 
 IL_001e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 91995
+// Method Definition Index: 91987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_Result_mF832EF9635C272156A3D90A65B47D61E9CB05207_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
 		int32_t L_0 = __this->___result;
 		return L_0;
 	}
 }
-// Method Definition Index: 91996
+// Method Definition Index: 91988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* FutureTask_1_FromResult_m323A6DFA6DF38692216DD91A785CDABBDE8722EE_gshared (int32_t ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20762,7 +20762,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B
 		int32_t L_2 = ___0_result;
 		NullCheck(L_1);
 		L_1->___result = L_2;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC((&L_3), (int32_t)0, (int32_t)2, ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC_RuntimeMethod_var);
@@ -20777,7 +20777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B
 		return L_7;
 	}
 }
-// Method Definition Index: 91997
+// Method Definition Index: 91989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_MakePollTask_m384723BE10CC95CAD4B0AAE77F52F8A1E1E6312A_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* ___0_futureTask, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20817,7 +20817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803E
 		return L_5;
 	}
 }
-// Method Definition Index: 91998
+// Method Definition Index: 91990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m37B84D887D8D0FC4F466EE017DE76DA48B564753_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, bool ___0_disposing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20836,7 +20836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m37B84D887D8D0FC4F4
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B16_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B15_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
 		bool L_0 = __this->___disposedValue;
 		if (L_0)
 		{
@@ -20844,7 +20844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m37B84D887D8D0FC4F4
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
 		bool L_1 = ___0_disposing;
 		if (!L_1)
 		{
@@ -20852,7 +20852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m37B84D887D8D0FC4F4
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = __this->___pollTask;
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_3 = L_2;
 		if (L_3)
@@ -20874,10 +20874,10 @@ IL_001a:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
 		__this->___pollTask = (Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___pollTask), (void*)(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4 = __this->___autoCompleteTask;
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5 = L_4;
 		if (L_5)
@@ -20899,10 +20899,10 @@ IL_0032:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
 		__this->___autoCompleteTask = (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___autoCompleteTask), (void*)(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_6 = __this->___cts;
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_7 = L_6;
 		if (L_7)
@@ -20924,14 +20924,14 @@ IL_004a:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
 		__this->___cts = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cts), (void*)(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL);
 	}
 
 IL_0056:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
 		intptr_t L_8 = __this->___future;
 		bool L_9;
 		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
@@ -20948,7 +20948,7 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_11;
 		L_11 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -20974,19 +20974,19 @@ IL_007b:
 
 IL_0087:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
 		__this->___future = 0;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
 		__this->___disposedValue = (bool)1;
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 91999
+// Method Definition Index: 91991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m697C524BBC95EC3412BC945F88D025943B7870E4_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -20996,16 +20996,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m697C524BBC95EC3412
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
 		return;
 	}
 }
-// Method Definition Index: 92000
+// Method Definition Index: 91992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m60CDB812DEAD43ADC2CC296761241B56068825E3_gshared (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_task, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21017,7 +21017,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 	ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_task;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -21040,21 +21040,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_4 = ___0_task;
 		NullCheck(L_4);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_5;
 		L_5 = Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D(L_4, Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6 = V_0;
 		int32_t L_7 = L_6.___Item1;
 		if (L_7)
@@ -21063,7 +21063,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_8 = V_0;
 		int32_t L_9 = L_8.___Item2;
 		if ((!(((uint32_t)L_9) == ((uint32_t)2))))
@@ -21072,16 +21072,16 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
 		int32_t L_10;
 		L_10 = FutureTask_1_Complete_mA03F311AA0266935607801C2DA282B674409E032(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 18));
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
 		__this->___isCompleted = (bool)1;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		return;
 	}
 }
@@ -21093,16 +21093,16 @@ IL_0037:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91978
+// Method Definition Index: 91970
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollIntervalMS_m011943B68DA1D4A7EA52C3F1737B8443717BD738_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:37>
 		int32_t L_0 = *(int32_t*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),6));
 		return L_0;
 	}
 }
-// Method Definition Index: 91979
+// Method Definition Index: 91971
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_m6F7BFD93429FAA006D1111AAC7CFDEBFDBAD34A0_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21112,7 +21112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_m6F7BFD9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:38>
 		int32_t L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_1;
@@ -21121,44 +21121,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_PollIntervalMS_m6F7BFD9
 		return;
 	}
 }
-// Method Definition Index: 91980
+// Method Definition Index: 91972
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsAutoComplete_m18C052CF2B75CAE4214794071BF6F7E60E519E2E_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:41>
 		bool L_0 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5));
 		return L_0;
 	}
 }
-// Method Definition Index: 91981
+// Method Definition Index: 91973
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsCompleted_m6496804722CD0E9DFF0FA9C5C2B5AEA2D20FF2D8_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:44>
 		bool L_0 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),7));
 		return L_0;
 	}
 }
-// Method Definition Index: 91982
+// Method Definition Index: 91974
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_Debug_mB257364AA995DBAF2E4E0FDE7E62B652F4652A29_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),8));
 		return L_0;
 	}
 }
-// Method Definition Index: 91983
+// Method Definition Index: 91975
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_set_Debug_m020A3821F281141DDE46D3A4462E980AACECBA06_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = ___0_value;
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),8), L_0);
 		return;
 	}
 }
-// Method Definition Index: 91984
+// Method Definition Index: 91976
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m0D364C63B2D7C9DE5488845DE21EF1A214E57F16_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, intptr_t ___0_future, Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041* ___1_completeFunc, int32_t ___2_pollIntervalMS, bool ___3_autoComplete, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21169,27 +21169,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m0D364C63B2D7C9DE5488
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		il2cpp_codegen_write_instance_field_data<int32_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),6), ((int32_t)10));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:60>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:62>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_0 = (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)il2cpp_codegen_object_new(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_il2cpp_TypeInfo_var);
 		CancellationTokenSource__ctor_m2ADB5D13368A9D364C20BB6039EC6DE858735E2C(L_0, NULL);
 		il2cpp_codegen_write_instance_field_data<CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3), L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:63>
 		Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041* L_1 = ___1_completeFunc;
 		il2cpp_codegen_write_instance_field_data<Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),2), L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:64>
 		intptr_t L_2 = ___0_future;
 		il2cpp_codegen_write_instance_field_data<intptr_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4), L_2);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:65>
 		int32_t L_3 = ___2_pollIntervalMS;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		int32_t L_4;
 		L_4 = Math_Clamp_mAB687477D3AAC0E7243D724F45626026980CE2FF_inline(L_3, 1, ((int32_t)2000), NULL);
 		il2cpp_codegen_write_instance_field_data<int32_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),6), L_4);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:68>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_5 = *(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		NullCheck(L_5);
 		CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_6;
@@ -21197,9 +21197,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m0D364C63B2D7C9DE5488
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_7;
 		L_7 = ((  Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* (*) (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 2)))(__this, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 2));
 		il2cpp_codegen_write_instance_field_data<Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_7);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:71>
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5), (bool)0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:72>
 		bool L_8 = ___3_autoComplete;
 		if (!L_8)
 		{
@@ -21207,17 +21207,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m0D364C63B2D7C9DE5488
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:73>
 		((  void (*) (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 91985
+// Method Definition Index: 91977
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m7E37879967BB5BEE013D96F12AA68086DADB19D9_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21228,7 +21228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m7E37879967BB5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:82>
 		bool L_0 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5));
 		if (!L_0)
 		{
@@ -21236,35 +21236,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_AutoComplete_m7E37879967BB5
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:83>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:84>
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5), (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:85>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:86>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:87>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:89>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:92>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:93>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:95>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:96>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:98>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:100>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:102>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:103>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_1 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770* L_2 = (Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770*)il2cpp_codegen_object_new(Action_1_tBA19890459A6A6F9D82F56D5D7E5A89A615D4770_il2cpp_TypeInfo_var);
 		Action_1__ctor_mF808B17DB0C691933C066FDB3311E67243C29096(L_2, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 5)), NULL);
@@ -21272,53 +21272,53 @@ IL_0009:
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_3;
 		L_3 = Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0(L_1, L_2, Task_1_ContinueWith_m95E0DF8B0938D7B12E3E0721C811E53725ED73F0_RuntimeMethod_var);
 		il2cpp_codegen_write_instance_field_data<Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1), L_3);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:106>
 		return;
 	}
 }
-// Method Definition Index: 91986
+// Method Definition Index: 91978
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1__ctor_m6E2DB7B0F548D1DF23184960CBD51F71D0950423_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_pollTask, Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041* ___1_completeFunc, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:31>
 		il2cpp_codegen_write_instance_field_data<int32_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),6), ((int32_t)10));
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:113>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:115>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_pollTask;
 		il2cpp_codegen_write_instance_field_data<Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), L_0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:116>
 		Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041* L_1 = ___1_completeFunc;
 		il2cpp_codegen_write_instance_field_data<Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),2), L_1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:117>
 		il2cpp_codegen_write_instance_field_data<intptr_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4), 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:118>
 		return;
 	}
 }
-// Method Definition Index: 91987
+// Method Definition Index: 91979
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_get_PollTask_mAF5D1048FF71DE770E161BFB03796D7967B13032_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:120>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		return L_0;
 	}
 }
-// Method Definition Index: 91988
+// Method Definition Index: 91980
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* FutureTask_1_get_AutoCompleteTask_mCAA98D376C03A89CEEDA314640ABE2E21343CA6B_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:125>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_0 = *(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1));
 		return L_0;
 	}
 }
-// Method Definition Index: 91989
+// Method Definition Index: 91981
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_m6844C90B697AD294758E3ED7AD7FC41FC35134BA_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:127>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -21326,7 +21326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FutureTask_1_get_IsPollCompleted_m6844C9
 		return L_1;
 	}
 }
-// Method Definition Index: 91990
+// Method Definition Index: 91982
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_mF04D7942CD12B3D0F0FA77EE3799E2995EEC2C50_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21336,7 +21336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_mF04D7942
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:129>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck(L_0);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_1;
@@ -21345,16 +21345,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FutureTask_1_get_PollResult_mF04D7942
 		return L_2;
 	}
 }
-// Method Definition Index: 91991
+// Method Definition Index: 91983
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t FutureTask_1_get_Future_m556CCEC8D00098E148B8B2852DA911AAFA2A12C1_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:131>
 		intptr_t L_0 = *(intptr_t*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4));
 		return L_0;
 	}
 }
-// Method Definition Index: 91992
+// Method Definition Index: 91984
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_mFA7CD13989B9DC01A60C72C9697727BEFE1B31BA_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21369,7 +21369,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_mFA7CD13989B9DC01A60
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B6_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B5_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:138>
 		bool L_0 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),7));
 		if (L_0)
 		{
@@ -21377,7 +21377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Cancel_mFA7CD13989B9DC01A60
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:140>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_1 = *(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_2 = L_1;
 		if (L_2)
@@ -21399,7 +21399,7 @@ IL_0014:
 
 IL_0019:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:141>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_3;
 		L_3 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -21425,13 +21425,13 @@ IL_0024:
 
 IL_0030:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:143>
 		il2cpp_codegen_write_instance_field_data<intptr_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4), 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:144>
 		return;
 	}
 }
-// Method Definition Index: 91993
+// Method Definition Index: 91985
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Complete_m1D2465BB2435D76681ABC8B5051A1DE7F56AAB11_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21451,7 +21451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Complete_m1D2465BB2435D7668
 	Il2CppFullySharedGenericAny V_0 = alloca(SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 	memset(V_0, 0, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:153>
 		bool L_0 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),7));
 		if (!L_0)
 		{
@@ -21459,7 +21459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Complete_m1D2465BB2435D7668
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:154>
 		il2cpp_codegen_memcpy(L_1, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),9)), SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_1, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		return;
@@ -21467,7 +21467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Complete_m1D2465BB2435D7668
 
 IL_000f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:155>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_2);
 		bool L_3;
@@ -21478,7 +21478,7 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:157>
 		bool L_4;
 		L_4 = ((  bool (*) (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_4)
@@ -21487,16 +21487,16 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:158>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteral15FBF0976F40DECC89210BC6E1DE9FAD58B2E3F7, NULL);
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:159>
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),7), (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:160>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_5 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck(L_5);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6;
@@ -21508,15 +21508,15 @@ IL_002e:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:162>
 		Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041* L_8 = *(Func_2_t3CFF2ACDF634C5F0FED062C30C8AB0C2F8A5D041**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),2));
 		intptr_t L_9 = *(intptr_t*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4));
 		NullCheck(L_8);
 		InvokerActionInvoker2< intptr_t, Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 8)), il2cpp_rgctx_method(method->klass->rgctx_data, 8), L_8, L_9, (Il2CppFullySharedGenericAny*)L_10);
 		il2cpp_codegen_write_instance_field_data(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),9), L_10, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:163>
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),7), (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:164>
 		il2cpp_codegen_memcpy(L_11, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),9)), SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_11, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		return;
@@ -21524,7 +21524,7 @@ IL_002e:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:166>
 		bool L_12;
 		L_12 = ((  bool (*) (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235*, const RuntimeMethod*))il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 7)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 		if (!L_12)
@@ -21533,14 +21533,14 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:167>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB((RuntimeObject*)_stringLiteralDD2AD3F676F2A49864852EEABA6B36AABAD9A4BA, NULL);
 	}
 
 IL_007e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:168>
 		il2cpp_codegen_initobj((Il2CppFullySharedGenericAny*)V_0, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		il2cpp_codegen_memcpy(L_13, V_0, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_13, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
@@ -21549,21 +21549,21 @@ IL_007e:
 
 IL_0088:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:172>
 		Exception_t* L_14 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
 		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_14, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6E3600210B316EF7124467B9F6B6100753044CAC)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_14, method);
 	}
 }
-// Method Definition Index: 91994
+// Method Definition Index: 91986
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_mACBF4D80C5878B5B9D70E0A5103C79085C796CB9_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:182>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:183>
 		bool L_1 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),5));
 		if (!L_1)
 		{
@@ -21571,7 +21571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_mACBF4D80C5878B5B9D70E
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:184>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2 = *(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1));
 		NullCheck(L_2);
 		Task_Wait_m33955515E36BF6598FCEDA841C8C75F716DE5A4E(L_2, NULL);
@@ -21579,23 +21579,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Wait_mACBF4D80C5878B5B9D70E
 
 IL_001e:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:185>
 		return;
 	}
 }
-// Method Definition Index: 91995
+// Method Definition Index: 91987
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_get_Result_m7CD1E88AD9E24C21BE3B88420F01A604C39E5BE8_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 6));
 	const Il2CppFullySharedGenericAny L_0 = alloca(SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:193>
 		il2cpp_codegen_memcpy(L_0, il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),9)), SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		il2cpp_codegen_memcpy(il2cppRetVal, L_0, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		return;
 	}
 }
-// Method Definition Index: 91996
+// Method Definition Index: 91988
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* FutureTask_1_FromResult_m4611939A9DD70288E9E04429FA2097DA8357ED1C_gshared (Il2CppFullySharedGenericAny ___0_result, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21617,7 +21617,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t08F7ECE56332873924CE5F0362E61A6
 		il2cpp_codegen_memcpy(L_2, (il2cpp_codegen_class_is_value_type(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 6)) ? ___0_result : &___0_result), SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
 		NullCheck(L_1);
 		il2cpp_codegen_write_instance_field_data(L_1, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 9),0), L_2, SizeOf_TResult_tCE866893C1C2315995F80D3BD6C3A8BE7AD1BBEE);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:197>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_3;
 		memset((&L_3), 0, sizeof(L_3));
 		ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC((&L_3), (int32_t)0, (int32_t)2, ValueTuple_2__ctor_m6034A098D7649A8C27C061BE96C4D52DE81514AC_RuntimeMethod_var);
@@ -21632,7 +21632,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FutureTask_1_t08F7ECE56332873924CE5F0362E61A6
 		return L_7;
 	}
 }
-// Method Definition Index: 91997
+// Method Definition Index: 91989
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* FutureTask_1_MakePollTask_m1DBBD4B446D5A77A15216EC6A9F62D7FAD1CA330_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* ___0_futureTask, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___1_ct, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21672,7 +21672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t4122D2391A2C4A32BA1D038819C8CA034803E
 		return L_5;
 	}
 }
-// Method Definition Index: 91998
+// Method Definition Index: 91990
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m72A734C7A2AB2CBF25B874EAB408A1C4A02B5B72_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, bool ___0_disposing, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21691,7 +21691,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m72A734C7A2AB2CBF25
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B16_0 = NULL;
 	FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* G_B15_0 = NULL;
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:245>
 		bool L_0 = *(bool*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),10));
 		if (L_0)
 		{
@@ -21699,7 +21699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m72A734C7A2AB2CBF25
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:247>
 		bool L_1 = ___0_disposing;
 		if (!L_1)
 		{
@@ -21707,7 +21707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_m72A734C7A2AB2CBF25
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:249>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_2 = *(Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0));
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_3 = L_2;
 		if (L_3)
@@ -21729,9 +21729,9 @@ IL_001a:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:250>
 		il2cpp_codegen_write_instance_field_data<Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),0), (Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:251>
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_4 = *(Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1));
 		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_5 = L_4;
 		if (L_5)
@@ -21753,9 +21753,9 @@ IL_0032:
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:252>
 		il2cpp_codegen_write_instance_field_data<Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),1), (Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:253>
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_6 = *(CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B**)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3));
 		CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* L_7 = L_6;
 		if (L_7)
@@ -21777,13 +21777,13 @@ IL_004a:
 
 IL_004f:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:254>
 		il2cpp_codegen_write_instance_field_data<CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),3), (CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B*)NULL);
 	}
 
 IL_0056:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:257>
 		intptr_t L_8 = *(intptr_t*)il2cpp_codegen_get_instance_field_data_pointer(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4));
 		bool L_9;
 		L_9 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_8, 0, NULL);
@@ -21800,7 +21800,7 @@ IL_0056:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:258>
 		il2cpp_codegen_runtime_class_init_inline(ViveFeatureWrapperBase_1_t6300805CF1570BC0D087B61BB98E9647AAA91BE4_il2cpp_TypeInfo_var);
 		FutureWrapper_t37D17D24F7621EC25FBAA6D52AF6A8D1D885165F* L_11;
 		L_11 = ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3(ViveFeatureWrapperBase_1_get_Instance_mBE48E2A8AC0D76F64AD3094D637F9642CB9E5CA3_RuntimeMethod_var);
@@ -21826,19 +21826,19 @@ IL_007b:
 
 IL_0087:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:259>
 		il2cpp_codegen_write_instance_field_data<intptr_t>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),4), 0);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:260>
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),10), (bool)1);
 	}
 
 IL_0099:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:262>
 		return;
 	}
 }
-// Method Definition Index: 91999
+// Method Definition Index: 91991
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mE2FA8B0088EB5F3BEA1D08E1EE6A3AF60679AB5D_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21848,16 +21848,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_Dispose_mE2FA8B0088EB5F3BEA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:267>
 		VirtualActionInvoker1< bool >::Invoke(5, __this, (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:268>
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65((RuntimeObject*)__this, NULL);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:269>
 		return;
 	}
 }
-// Method Definition Index: 92000
+// Method Definition Index: 91992
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_mACF0BC774854EC281F8944637ACCAC3A4BB09B2D_gshared (FutureTask_1_t08F7ECE56332873924CE5F0362E61A6FFC89B235* __this, Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* ___0_task, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21871,7 +21871,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 	ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:88>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_0 = ___0_task;
 		NullCheck((Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*)L_0);
 		bool L_1;
@@ -21894,21 +21894,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FutureTask_1_U3CAutoCompleteU3Eb__20_0_m
 
 IL_0010:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:90>
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),7), (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:91>
 		return;
 	}
 
 IL_0018:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:94>
 		Task_1_t4122D2391A2C4A32BA1D038819C8CA034803EF16* L_4 = ___0_task;
 		NullCheck(L_4);
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_5;
 		L_5 = Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D(L_4, Task_1_get_Result_mEA8C58370400452174648AD0D7686C720C2C465D_RuntimeMethod_var);
 		V_0 = L_5;
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:97>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_6 = V_0;
 		int32_t L_7 = L_6.___Item1;
 		if (L_7)
@@ -21917,7 +21917,7 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:99>
 		ValueTuple_2_t867B8B781143714E8AD59B3E50B1DA9F74ECBA6C L_8 = V_0;
 		int32_t L_9 = L_8.___Item2;
 		if ((!(((uint32_t)L_9) == ((uint32_t)2))))
@@ -21926,15 +21926,15 @@ IL_0018:
 		}
 	}
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:101>
 		InvokerActionInvoker1< Il2CppFullySharedGenericAny* >::Invoke(il2cpp_codegen_get_direct_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 18)), il2cpp_rgctx_method(method->klass->rgctx_data, 18), __this, (Il2CppFullySharedGenericAny*)L_10);
 	}
 
 IL_0037:
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:104>
 		il2cpp_codegen_write_instance_field_data<bool>(__this, il2cpp_rgctx_field(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0),7), (bool)1);
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:105>
 		return;
 	}
 }
@@ -21946,7 +21946,7 @@ IL_0037:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22839
+// Method Definition Index: 22836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m887A7C2A1E63120AF0BBC893FA15DBF5BF10A5A5_gshared (GPUBuffer_1_tB27A42EE52EA38FD7117C4EC0B1E42703FFE4C36* __this, int32_t ___0_elementCount, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21972,7 +21972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m887A7C2A1E63120AF0BBC
 		return;
 	}
 }
-// Method Definition Index: 22840
+// Method Definition Index: 22837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_mA35B93CBE6373AAD9513AAE3F3DEAD09AED17624_gshared (GPUBuffer_1_tB27A42EE52EA38FD7117C4EC0B1E42703FFE4C36* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -21988,7 +21988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_mA35B93CBE6373AAD951
 		return;
 	}
 }
-// Method Definition Index: 22841
+// Method Definition Index: 22838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m803C38D03A139CAAB5056161B62A3E96C48BF55E_gshared (GPUBuffer_1_tB27A42EE52EA38FD7117C4EC0B1E42703FFE4C36* __this, NativeSlice_1_t2584A7E323E2DAA0F082C26AD9D0DE0FC661F85F ___0_ranges, int32_t ___1_rangesMin, int32_t ___2_rangesMax, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22016,7 +22016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m803C38D03A139C
 		return;
 	}
 }
-// Method Definition Index: 22842
+// Method Definition Index: 22839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GPUBuffer_1_get_ElementStride_m4817CE74F792E8E82E60F8E09341E01B1A7AA9B8_gshared (GPUBuffer_1_tB27A42EE52EA38FD7117C4EC0B1E42703FFE4C36* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22024,7 +22024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GPUBuffer_1_get_ElementStride_m4817CE
 		return L_0;
 	}
 }
-// Method Definition Index: 22843
+// Method Definition Index: 22840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GPUBuffer_1_get_BufferPointer_m80E207F1FE1ECA712BAD4BBBB052891F9A54BDE2_gshared (GPUBuffer_1_tB27A42EE52EA38FD7117C4EC0B1E42703FFE4C36* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22040,7 +22040,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GPUBuffer_1_get_BufferPointer_m80E20
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22839
+// Method Definition Index: 22836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m7FED8993FD0D99C3A1166596920E67A1F222FF3D_gshared (GPUBuffer_1_tA6A8BA754BA691383F7FA4302803FC11DA7373F3* __this, int32_t ___0_elementCount, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22066,7 +22066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m7FED8993FD0D99C3A1166
 		return;
 	}
 }
-// Method Definition Index: 22840
+// Method Definition Index: 22837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_m7FE1433944303E41F530D60E704C70CF10818DC0_gshared (GPUBuffer_1_tA6A8BA754BA691383F7FA4302803FC11DA7373F3* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22082,7 +22082,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_m7FE1433944303E41F53
 		return;
 	}
 }
-// Method Definition Index: 22841
+// Method Definition Index: 22838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m3C82F04A4DBF59CADF1675AE1EEB5467303B118D_gshared (GPUBuffer_1_tA6A8BA754BA691383F7FA4302803FC11DA7373F3* __this, NativeSlice_1_t2584A7E323E2DAA0F082C26AD9D0DE0FC661F85F ___0_ranges, int32_t ___1_rangesMin, int32_t ___2_rangesMax, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22110,7 +22110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m3C82F04A4DBF59
 		return;
 	}
 }
-// Method Definition Index: 22842
+// Method Definition Index: 22839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GPUBuffer_1_get_ElementStride_mDCC5F4E2A919C976FB49727901EFDDDDCAC8A3E8_gshared (GPUBuffer_1_tA6A8BA754BA691383F7FA4302803FC11DA7373F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22118,7 +22118,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GPUBuffer_1_get_ElementStride_mDCC5F4
 		return L_0;
 	}
 }
-// Method Definition Index: 22843
+// Method Definition Index: 22840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GPUBuffer_1_get_BufferPointer_m89BF9A41FB0439A7EBDC05380AD6480F048EA4B3_gshared (GPUBuffer_1_tA6A8BA754BA691383F7FA4302803FC11DA7373F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22134,7 +22134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GPUBuffer_1_get_BufferPointer_m89BF9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 22839
+// Method Definition Index: 22836
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m18C44BDEB29504D55650671D75E0EDFC641F08EB_gshared (GPUBuffer_1_tB799E550DAF939E606A31722DEC8AD338C447E86* __this, int32_t ___0_elementCount, int32_t ___1_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22160,7 +22160,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1__ctor_m18C44BDEB29504D556506
 		return;
 	}
 }
-// Method Definition Index: 22840
+// Method Definition Index: 22837
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_m33AADB9D07D8C26E0DDD7791C12D860A1022B8E1_gshared (GPUBuffer_1_tB799E550DAF939E606A31722DEC8AD338C447E86* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22176,7 +22176,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_Dispose_m33AADB9D07D8C26E0DD
 		return;
 	}
 }
-// Method Definition Index: 22841
+// Method Definition Index: 22838
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m42F6C36F4318229A15ADA026B37AD4CF2198C0C8_gshared (GPUBuffer_1_tB799E550DAF939E606A31722DEC8AD338C447E86* __this, NativeSlice_1_t2584A7E323E2DAA0F082C26AD9D0DE0FC661F85F ___0_ranges, int32_t ___1_rangesMin, int32_t ___2_rangesMax, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -22204,7 +22204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GPUBuffer_1_UpdateRanges_m42F6C36F431822
 		return;
 	}
 }
-// Method Definition Index: 22842
+// Method Definition Index: 22839
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GPUBuffer_1_get_ElementStride_mDB41EF98DD2EC340A2A8004394521F520C2A1A5E_gshared (GPUBuffer_1_tB799E550DAF939E606A31722DEC8AD338C447E86* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22212,7 +22212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GPUBuffer_1_get_ElementStride_mDB41EF
 		return L_0;
 	}
 }
-// Method Definition Index: 22843
+// Method Definition Index: 22840
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GPUBuffer_1_get_BufferPointer_m200B2D5F569C0EB641F764FB090BD0E8798A3581_gshared (GPUBuffer_1_tB799E550DAF939E606A31722DEC8AD338C447E86* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22228,7 +22228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GPUBuffer_1_get_BufferPointer_m200B2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m7B73A76B5374EA8D2937813F00A50D3837DDE647_gshared (GenericComparer_1_t35A813D9D57340422F9B65A7EAA94FCB93E68FFE* __this, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___0_x, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22242,7 +22242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m7B73A76B53
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mEA8F1CE52AB1AB8EBABA8D94C42E10A943675E0F_gshared (GenericComparer_1_t35A813D9D57340422F9B65A7EAA94FCB93E68FFE* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22250,7 +22250,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mEA8F1CE52AB1AB
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t35A813D9D57340422F9B65A7EAA94FCB93E68FFE*)((GenericComparer_1_t35A813D9D57340422F9B65A7EAA94FCB93E68FFE*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE72C0F5123FBF7B1339B82DB65FFF9E88D3664A7_gshared (GenericComparer_1_t35A813D9D57340422F9B65A7EAA94FCB93E68FFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22266,7 +22266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE72C0F
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m1778FAD163E6CDA8122E3B7C06F8B0C6EAF4445C_gshared (GenericComparer_1_t35A813D9D57340422F9B65A7EAA94FCB93E68FFE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22282,7 +22282,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m1778FAD163E6CDA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE50BFA6566C0A9460C1F95A0D5B557871DCEA935_gshared (GenericComparer_1_tF77C1125282CCCBDA230CDE8EC2393590D30F801* __this, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___0_x, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22296,7 +22296,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE50BFA6566
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m6F8829FBE0103227303FC2A48FB63E48FAB29644_gshared (GenericComparer_1_tF77C1125282CCCBDA230CDE8EC2393590D30F801* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22304,7 +22304,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m6F8829FBE01032
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tF77C1125282CCCBDA230CDE8EC2393590D30F801*)((GenericComparer_1_tF77C1125282CCCBDA230CDE8EC2393590D30F801*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m30CA3DC1A241B90B944BA91AC6C4766AD3161733_gshared (GenericComparer_1_tF77C1125282CCCBDA230CDE8EC2393590D30F801* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22320,7 +22320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m30CA3D
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mA30A3B33D57E8D45EBA88475CAED82F6042E19D1_gshared (GenericComparer_1_tF77C1125282CCCBDA230CDE8EC2393590D30F801* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22336,7 +22336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mA30A3B33D57E8D4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mAFD477CC47968E75EC05E0345DF2C6165DCC1ED9_gshared (GenericComparer_1_t11F65EC467B95F3761DC277CCADB2D2A84C2507C* __this, ValueTuple_2_tD9DCD90C6490444503B936F72B6882564ED11825 ___0_x, ValueTuple_2_tD9DCD90C6490444503B936F72B6882564ED11825 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22350,7 +22350,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mAFD477CC47
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m9DC8F892F6B90767BB2891818B01797DB7EEDDF0_gshared (GenericComparer_1_t11F65EC467B95F3761DC277CCADB2D2A84C2507C* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22358,7 +22358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m9DC8F892F6B907
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t11F65EC467B95F3761DC277CCADB2D2A84C2507C*)((GenericComparer_1_t11F65EC467B95F3761DC277CCADB2D2A84C2507C*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m5326EAB9F790479745CEFB22E1D6D69F1BE195D5_gshared (GenericComparer_1_t11F65EC467B95F3761DC277CCADB2D2A84C2507C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22374,7 +22374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m5326EA
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m6E5D9F84A46E3EC097F1A257C14BEE328A70B809_gshared (GenericComparer_1_t11F65EC467B95F3761DC277CCADB2D2A84C2507C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22390,7 +22390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m6E5D9F84A46E3EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mB0C9624808D26594DF56D853D553F964350A9D42_gshared (GenericComparer_1_tDAD8B10E5415AF2F4FC7A1E63F19CDBA6BCAA907* __this, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___0_x, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22404,7 +22404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mB0C9624808
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m8810CCB908A168BBBDB0D4FB1D46AC1FFFCE9E81_gshared (GenericComparer_1_tDAD8B10E5415AF2F4FC7A1E63F19CDBA6BCAA907* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22412,7 +22412,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m8810CCB908A168
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tDAD8B10E5415AF2F4FC7A1E63F19CDBA6BCAA907*)((GenericComparer_1_tDAD8B10E5415AF2F4FC7A1E63F19CDBA6BCAA907*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m4CCD37DC9146A759D60E7C6682E93E9A3C2C2886_gshared (GenericComparer_1_tDAD8B10E5415AF2F4FC7A1E63F19CDBA6BCAA907* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22428,7 +22428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m4CCD37
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mC1FC1311282DB898CF98D8A578158F22942AFDBA_gshared (GenericComparer_1_tDAD8B10E5415AF2F4FC7A1E63F19CDBA6BCAA907* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22444,7 +22444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mC1FC1311282DB89
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m947F24A20B150A05CB8F9AB6B76CC356EDCEE5B1_gshared (GenericComparer_1_t46BBA2BD8BC9D87F83E68686AB8F9071663C6299* __this, ValueTuple_2_t85FD60472857DFEA88086C45948C596619D3CA21 ___0_x, ValueTuple_2_t85FD60472857DFEA88086C45948C596619D3CA21 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22458,7 +22458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m947F24A20B
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m560DC7F9D18BDBB992EE4574713A99A5BCF2DB62_gshared (GenericComparer_1_t46BBA2BD8BC9D87F83E68686AB8F9071663C6299* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22466,7 +22466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m560DC7F9D18BDB
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t46BBA2BD8BC9D87F83E68686AB8F9071663C6299*)((GenericComparer_1_t46BBA2BD8BC9D87F83E68686AB8F9071663C6299*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m325A8C116F5D65CE4E3284EF67463F6872FF6A1A_gshared (GenericComparer_1_t46BBA2BD8BC9D87F83E68686AB8F9071663C6299* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22482,7 +22482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m325A8C
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0BD0BB658055513CB21A904CABD7152689504254_gshared (GenericComparer_1_t46BBA2BD8BC9D87F83E68686AB8F9071663C6299* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22498,7 +22498,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0BD0BB658055513
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD3637D27017A39DD3FA3193026F5AC11F025BE10_gshared (GenericComparer_1_t137C9CC0129FE0F37A8BC7B3BD1CEB79D32DFD12* __this, ValueTuple_2_t077621516ED2B13EC3163AADCF38BC2B533C5D3C ___0_x, ValueTuple_2_t077621516ED2B13EC3163AADCF38BC2B533C5D3C ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22512,7 +22512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD3637D2701
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mBEB60767F57631C5C2958CA2582D92D2AA6E2021_gshared (GenericComparer_1_t137C9CC0129FE0F37A8BC7B3BD1CEB79D32DFD12* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22520,7 +22520,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mBEB60767F57631
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t137C9CC0129FE0F37A8BC7B3BD1CEB79D32DFD12*)((GenericComparer_1_t137C9CC0129FE0F37A8BC7B3BD1CEB79D32DFD12*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mBA0280C6BF03129B29EE89E7AFE543A30EF23560_gshared (GenericComparer_1_t137C9CC0129FE0F37A8BC7B3BD1CEB79D32DFD12* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22536,7 +22536,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mBA0280
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m41C290C3025FBEC6518FB50093E9581ABEE63762_gshared (GenericComparer_1_t137C9CC0129FE0F37A8BC7B3BD1CEB79D32DFD12* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22552,7 +22552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m41C290C3025FBEC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2B5E493E44703CDC45340E4C78E4B9BFCE90DEFA_gshared (GenericComparer_1_t6CEE0EA9396088CB242EF4DCFB97B7AF548233E1* __this, ValueTuple_2_tC57529B8C1EE84CA3D138FBE3836C013C6DC40AC ___0_x, ValueTuple_2_tC57529B8C1EE84CA3D138FBE3836C013C6DC40AC ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22566,7 +22566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2B5E493E44
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m4F1100DF308FE2DDA381D2EB91A21D24C1152302_gshared (GenericComparer_1_t6CEE0EA9396088CB242EF4DCFB97B7AF548233E1* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22574,7 +22574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m4F1100DF308FE2
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t6CEE0EA9396088CB242EF4DCFB97B7AF548233E1*)((GenericComparer_1_t6CEE0EA9396088CB242EF4DCFB97B7AF548233E1*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m5B7C71788DE1C1E7A261D8C9AD1E36C7B81C8046_gshared (GenericComparer_1_t6CEE0EA9396088CB242EF4DCFB97B7AF548233E1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22590,7 +22590,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m5B7C71
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mDCA37BFFEDA217161B16FE047F3D432F24875EC4_gshared (GenericComparer_1_t6CEE0EA9396088CB242EF4DCFB97B7AF548233E1* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22606,7 +22606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mDCA37BFFEDA2171
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mF533223EF83303C28F7602DF97AF93945E00D790_gshared (GenericComparer_1_tA8E19A4403FEB1FADD45F6B131D0404F94040E31* __this, ValueTuple_2_tDFEF5D5D0F51624CEA17371BAD6D70276931BC49 ___0_x, ValueTuple_2_tDFEF5D5D0F51624CEA17371BAD6D70276931BC49 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22620,7 +22620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mF533223EF8
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m5FE2109F76C28BF0C5318130E5D20D9312796A06_gshared (GenericComparer_1_tA8E19A4403FEB1FADD45F6B131D0404F94040E31* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22628,7 +22628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m5FE2109F76C28B
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tA8E19A4403FEB1FADD45F6B131D0404F94040E31*)((GenericComparer_1_tA8E19A4403FEB1FADD45F6B131D0404F94040E31*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m0FAD3BFBFABC3DF563CFAAABE0C02E16739DACCE_gshared (GenericComparer_1_tA8E19A4403FEB1FADD45F6B131D0404F94040E31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22644,7 +22644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m0FAD3B
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mE65037B3F4B672406959946CAC141210B3B79A9E_gshared (GenericComparer_1_tA8E19A4403FEB1FADD45F6B131D0404F94040E31* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22660,7 +22660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mE65037B3F4B6724
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mF878C0303C174143DE235CC6815F031E805CBCC0_gshared (GenericComparer_1_t462CF49CF79EA24D4CC97BDA5038E17DD14807ED* __this, ValueTuple_2_tC3717D4552EE1E5FC27BFBA3F5155741BC04557A ___0_x, ValueTuple_2_tC3717D4552EE1E5FC27BFBA3F5155741BC04557A ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22674,7 +22674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mF878C0303C
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m796EFD8FA873A0408AE5191DD3A6FAD9BDCC6B49_gshared (GenericComparer_1_t462CF49CF79EA24D4CC97BDA5038E17DD14807ED* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22682,7 +22682,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m796EFD8FA873A0
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t462CF49CF79EA24D4CC97BDA5038E17DD14807ED*)((GenericComparer_1_t462CF49CF79EA24D4CC97BDA5038E17DD14807ED*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m547C22C55978D9CA2C74009D02247C74A488C519_gshared (GenericComparer_1_t462CF49CF79EA24D4CC97BDA5038E17DD14807ED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22698,7 +22698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m547C22
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m2ADFD57F0ED7F1DB282D618E440E3C68F83DA89E_gshared (GenericComparer_1_t462CF49CF79EA24D4CC97BDA5038E17DD14807ED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22714,7 +22714,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m2ADFD57F0ED7F1D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE39003AE02AD0C10ABB51B6BAF8A086671DB732B_gshared (GenericComparer_1_tFF06012911FA7D6C1AD86A40EAD7FF3E369FE934* __this, ValueTuple_2_t9E1CBCEC084647867B410B3732DA4AF1A958BC33 ___0_x, ValueTuple_2_t9E1CBCEC084647867B410B3732DA4AF1A958BC33 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22728,7 +22728,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE39003AE02
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mD226F2935D4789C309DE23096756DE55B128183A_gshared (GenericComparer_1_tFF06012911FA7D6C1AD86A40EAD7FF3E369FE934* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22736,7 +22736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mD226F2935D4789
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tFF06012911FA7D6C1AD86A40EAD7FF3E369FE934*)((GenericComparer_1_tFF06012911FA7D6C1AD86A40EAD7FF3E369FE934*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m59825F1343E72E4D054B19FEE44E567E6E769AB6_gshared (GenericComparer_1_tFF06012911FA7D6C1AD86A40EAD7FF3E369FE934* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22752,7 +22752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m59825F
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mB83A6E9EF2159DED2F7D060F2398399ACC0718AC_gshared (GenericComparer_1_tFF06012911FA7D6C1AD86A40EAD7FF3E369FE934* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22768,7 +22768,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mB83A6E9EF2159DE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mEA137D2B1D9809BE0011AB7B1AF26C82B7C1C03E_gshared (GenericComparer_1_tCC4728A721EBABDF600BA1030FDD90484B591A51* __this, ValueTuple_2_t441643900DE75EDC780AF50BC751CFA37BAA7C67 ___0_x, ValueTuple_2_t441643900DE75EDC780AF50BC751CFA37BAA7C67 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22782,7 +22782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mEA137D2B1D
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mE5CC271C6CF5650FB0CE205D98AEBDA9934C0288_gshared (GenericComparer_1_tCC4728A721EBABDF600BA1030FDD90484B591A51* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22790,7 +22790,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mE5CC271C6CF565
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tCC4728A721EBABDF600BA1030FDD90484B591A51*)((GenericComparer_1_tCC4728A721EBABDF600BA1030FDD90484B591A51*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mF48308A06322E3BDE61C840440A4E7DADCA34E77_gshared (GenericComparer_1_tCC4728A721EBABDF600BA1030FDD90484B591A51* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22806,7 +22806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mF48308
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mD573B30D439E95181B5DB293D89988BA5ADBDF5A_gshared (GenericComparer_1_tCC4728A721EBABDF600BA1030FDD90484B591A51* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22822,7 +22822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mD573B30D439E951
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2C8E3A127A2A659132E136204B7C1DDA7F9138C1_gshared (GenericComparer_1_t07C777B8EF1A398B03E808BC80FC872251BE2A3C* __this, ValueTuple_2_t12A3A6001C5385C7CB0FE005E7050FD39B820B55 ___0_x, ValueTuple_2_t12A3A6001C5385C7CB0FE005E7050FD39B820B55 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22836,7 +22836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2C8E3A127A
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m7B4A65EA96FB382AE9F115DFE16D7B27886B3C85_gshared (GenericComparer_1_t07C777B8EF1A398B03E808BC80FC872251BE2A3C* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22844,7 +22844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m7B4A65EA96FB38
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t07C777B8EF1A398B03E808BC80FC872251BE2A3C*)((GenericComparer_1_t07C777B8EF1A398B03E808BC80FC872251BE2A3C*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m7E20EA7EE8A083ECCA2F972EE16020EB60393FC6_gshared (GenericComparer_1_t07C777B8EF1A398B03E808BC80FC872251BE2A3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22860,7 +22860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m7E20EA
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m8478B7FA3397C54C2EEF889F48AF0DAE2FD927A1_gshared (GenericComparer_1_t07C777B8EF1A398B03E808BC80FC872251BE2A3C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22876,7 +22876,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m8478B7FA3397C54
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2AE1ACE0CB02E3E2D6988910DB0876D0AC41D4DE_gshared (GenericComparer_1_t30A7BEF9840BEF00BD461871BA7628B474F24A63* __this, ValueTuple_2_t66C82960295DE11A5326D3FF7142662DC4C8C68A ___0_x, ValueTuple_2_t66C82960295DE11A5326D3FF7142662DC4C8C68A ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22890,7 +22890,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2AE1ACE0CB
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m8E9D151F52ED11BA6A7D3C0B610F3CCF8A354F11_gshared (GenericComparer_1_t30A7BEF9840BEF00BD461871BA7628B474F24A63* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22898,7 +22898,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m8E9D151F52ED11
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t30A7BEF9840BEF00BD461871BA7628B474F24A63*)((GenericComparer_1_t30A7BEF9840BEF00BD461871BA7628B474F24A63*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m4077BEA258B13DF0D3397695522DE0CE57F9AA2F_gshared (GenericComparer_1_t30A7BEF9840BEF00BD461871BA7628B474F24A63* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22914,7 +22914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m4077BE
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m2E15146D104F73A8F089F979B61D338675236EC8_gshared (GenericComparer_1_t30A7BEF9840BEF00BD461871BA7628B474F24A63* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22930,7 +22930,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m2E15146D104F73A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m3CB335B0CA14E10AC37A9CFE354857518F845724_gshared (GenericComparer_1_tC0D40911F373ED7100818F3EC176585EA4C4692D* __this, ValueTuple_3_t885833943FF9C42BA8D9F631EFD1BE33DF481F78 ___0_x, ValueTuple_3_t885833943FF9C42BA8D9F631EFD1BE33DF481F78 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22944,7 +22944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m3CB335B0CA
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m0EC30BFAE70E163F69BFBFA7D23655DA0547D43C_gshared (GenericComparer_1_tC0D40911F373ED7100818F3EC176585EA4C4692D* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -22952,7 +22952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m0EC30BFAE70E16
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tC0D40911F373ED7100818F3EC176585EA4C4692D*)((GenericComparer_1_tC0D40911F373ED7100818F3EC176585EA4C4692D*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mCA330E0F8E119B7082060336439E537AB28ED389_gshared (GenericComparer_1_tC0D40911F373ED7100818F3EC176585EA4C4692D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22968,7 +22968,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mCA330E
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m52CF201251010EEA67C55BF01A4BA088374C2820_gshared (GenericComparer_1_tC0D40911F373ED7100818F3EC176585EA4C4692D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -22984,7 +22984,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m52CF201251010EE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m536E4CA2D711235EE5D9A18AFD3AEC64744F14CC_gshared (GenericComparer_1_t8A4E4F10D47E3E21FFF7828282A03CA1A7FAE5AE* __this, ValueTuple_3_tF39EACD55947B1BE0D4E4A04AE00729C54C9F9A8 ___0_x, ValueTuple_3_tF39EACD55947B1BE0D4E4A04AE00729C54C9F9A8 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -22998,7 +22998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m536E4CA2D7
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m822C02222A8DDC5A56803CBED4578167B4B9C022_gshared (GenericComparer_1_t8A4E4F10D47E3E21FFF7828282A03CA1A7FAE5AE* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23006,7 +23006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m822C02222A8DDC
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t8A4E4F10D47E3E21FFF7828282A03CA1A7FAE5AE*)((GenericComparer_1_t8A4E4F10D47E3E21FFF7828282A03CA1A7FAE5AE*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m84ABF55CD8F9FE0F1B79A95EBB1C708368641AE0_gshared (GenericComparer_1_t8A4E4F10D47E3E21FFF7828282A03CA1A7FAE5AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23022,7 +23022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m84ABF5
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m66675BA4159A99A7D00678B72E98DD23E2DDCA3C_gshared (GenericComparer_1_t8A4E4F10D47E3E21FFF7828282A03CA1A7FAE5AE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23038,7 +23038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m66675BA4159A99A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mC6036DDF0C008FC49B47269572A8A0B9BB06A0D9_gshared (GenericComparer_1_t6DB0566BA0113E4A2913CA8CC628A0F0E4D21662* __this, ValueTuple_3_t083FB9C32ED0C25542A5131205E7A8A0B87F1D15 ___0_x, ValueTuple_3_t083FB9C32ED0C25542A5131205E7A8A0B87F1D15 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23052,7 +23052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mC6036DDF0C
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m5A68A9A88F75524CA2AD9EB1B7E72C803BAA9E7A_gshared (GenericComparer_1_t6DB0566BA0113E4A2913CA8CC628A0F0E4D21662* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23060,7 +23060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m5A68A9A88F7552
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t6DB0566BA0113E4A2913CA8CC628A0F0E4D21662*)((GenericComparer_1_t6DB0566BA0113E4A2913CA8CC628A0F0E4D21662*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE58E30D2638C4B140483751C2DCC1B6C86EEBC64_gshared (GenericComparer_1_t6DB0566BA0113E4A2913CA8CC628A0F0E4D21662* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23076,7 +23076,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE58E30
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m7AEF40610AA25EFBC39784D59FE312C13BCC5303_gshared (GenericComparer_1_t6DB0566BA0113E4A2913CA8CC628A0F0E4D21662* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23092,7 +23092,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m7AEF40610AA25EF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mFD097221E6782E03BDD1E0D6A4A4EEAA4F0C0DB4_gshared (GenericComparer_1_tDAED817EADAF68F191A4F968BAC137D3E0E4C99B* __this, ValueTuple_4_tEC98A0C80E3AD3740A1A365E6A6F25E9CC2FAAE7 ___0_x, ValueTuple_4_tEC98A0C80E3AD3740A1A365E6A6F25E9CC2FAAE7 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23106,7 +23106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mFD097221E6
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mB778CC8343540612C99EB474707408D0280F3B4E_gshared (GenericComparer_1_tDAED817EADAF68F191A4F968BAC137D3E0E4C99B* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23114,7 +23114,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mB778CC83435406
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tDAED817EADAF68F191A4F968BAC137D3E0E4C99B*)((GenericComparer_1_tDAED817EADAF68F191A4F968BAC137D3E0E4C99B*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m960B76145C02B0333F930B4EEF21214E87DCDD2E_gshared (GenericComparer_1_tDAED817EADAF68F191A4F968BAC137D3E0E4C99B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23130,7 +23130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m960B76
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mE9BFCA6B2EB9A922B86BE97BD8314AAF6F3082DD_gshared (GenericComparer_1_tDAED817EADAF68F191A4F968BAC137D3E0E4C99B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23146,7 +23146,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mE9BFCA6B2EB9A92
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mAE838E178D3B89419282B37894A8749DF651F6D0_gshared (GenericComparer_1_t6CE525CCFC6B72078AB84A6A4FC89515FDF16816* __this, bool ___0_x, bool ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23161,7 +23161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mAE838E178D
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mEB099E7F1461F8763C86DB424F29094EFFA537B2_gshared (GenericComparer_1_t6CE525CCFC6B72078AB84A6A4FC89515FDF16816* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23169,7 +23169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mEB099E7F1461F8
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t6CE525CCFC6B72078AB84A6A4FC89515FDF16816*)((GenericComparer_1_t6CE525CCFC6B72078AB84A6A4FC89515FDF16816*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mA3D345A0D7C29D08D7CFBA1D978A428556A67241_gshared (GenericComparer_1_t6CE525CCFC6B72078AB84A6A4FC89515FDF16816* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23185,7 +23185,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mA3D345
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mB51586CA0984E9DEE4E16271682029AE22E50D89_gshared (GenericComparer_1_t6CE525CCFC6B72078AB84A6A4FC89515FDF16816* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23201,7 +23201,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mB51586CA0984E9D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE50724929C128DC04ACFF061F954A02A6E308172_gshared (GenericComparer_1_tD6CF9974D1DBE37EBBB11D0215BA76FD142D916C* __this, uint8_t ___0_x, uint8_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23215,7 +23215,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE50724929C
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m66EA60529E2D9739E538D49B38496935FC052578_gshared (GenericComparer_1_tD6CF9974D1DBE37EBBB11D0215BA76FD142D916C* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23223,7 +23223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m66EA60529E2D97
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tD6CF9974D1DBE37EBBB11D0215BA76FD142D916C*)((GenericComparer_1_tD6CF9974D1DBE37EBBB11D0215BA76FD142D916C*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mEC903030697D62017AFA9426B44E7AF733FEEAE5_gshared (GenericComparer_1_tD6CF9974D1DBE37EBBB11D0215BA76FD142D916C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23239,7 +23239,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mEC9030
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0417F45EF370EBB9B03837DEF9881D2820835F39_gshared (GenericComparer_1_tD6CF9974D1DBE37EBBB11D0215BA76FD142D916C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23255,7 +23255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0417F45EF370EBB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mA77AC6619A0D7E16C8CC494E85B941B910C7FD6A_gshared (GenericComparer_1_tCC6A9D03765A48179BEBBDBE198FF58E3E4D0BB8* __this, Il2CppChar ___0_x, Il2CppChar ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23270,7 +23270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mA77AC6619A
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mCBA38844272E4D40407863F2A1ACCD1BE819F2D3_gshared (GenericComparer_1_tCC6A9D03765A48179BEBBDBE198FF58E3E4D0BB8* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23278,7 +23278,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mCBA38844272E4D
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tCC6A9D03765A48179BEBBDBE198FF58E3E4D0BB8*)((GenericComparer_1_tCC6A9D03765A48179BEBBDBE198FF58E3E4D0BB8*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m83D3C7964354AC50BC70E1EA4CC864901FEE7219_gshared (GenericComparer_1_tCC6A9D03765A48179BEBBDBE198FF58E3E4D0BB8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23294,7 +23294,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m83D3C7
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0EA09C709EB156EF7F9A604A62442D7D59A7B156_gshared (GenericComparer_1_tCC6A9D03765A48179BEBBDBE198FF58E3E4D0BB8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23310,7 +23310,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0EA09C709EB156E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE1643AD69CA1177AA9513DD77360DF3CF7BA6D2C_gshared (GenericComparer_1_tDCE05ABDE62DAA850E3106158504FCE82DF0F446* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_x, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23331,7 +23331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mE1643AD69C
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mD3557E22D4A46C96378EA4EB45994BDC4466E490_gshared (GenericComparer_1_tDCE05ABDE62DAA850E3106158504FCE82DF0F446* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23339,7 +23339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mD3557E22D4A46C
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tDCE05ABDE62DAA850E3106158504FCE82DF0F446*)((GenericComparer_1_tDCE05ABDE62DAA850E3106158504FCE82DF0F446*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mC732881DF92B0DA12D8BCDC95D3879C3C6F7E11F_gshared (GenericComparer_1_tDCE05ABDE62DAA850E3106158504FCE82DF0F446* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23355,7 +23355,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mC73288
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m9CFF460BA83A47361D975CBD2BD1A7B87F03C064_gshared (GenericComparer_1_tDCE05ABDE62DAA850E3106158504FCE82DF0F446* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23371,7 +23371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m9CFF460BA83A473
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m6162D851799C1833ABC38AD7CDB254CB4146BB3F_gshared (GenericComparer_1_t56C80D63A3D649E930075AD203FFA952034ACD95* __this, DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ___0_x, DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23392,7 +23392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m6162D85179
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mCF186C7E570874042CEC7F7A9C2F7940C3D65585_gshared (GenericComparer_1_t56C80D63A3D649E930075AD203FFA952034ACD95* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23400,7 +23400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mCF186C7E570874
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t56C80D63A3D649E930075AD203FFA952034ACD95*)((GenericComparer_1_t56C80D63A3D649E930075AD203FFA952034ACD95*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mDE7642D8A419767A2F9EA94CDFB16F3AA05EDA29_gshared (GenericComparer_1_t56C80D63A3D649E930075AD203FFA952034ACD95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23416,7 +23416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mDE7642
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m5F02B74CAC815E04B738D5DCD24339787A0DEA73_gshared (GenericComparer_1_t56C80D63A3D649E930075AD203FFA952034ACD95* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23432,7 +23432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m5F02B74CAC815E0
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD4126B09E328F58F4881222C34929176A2D868E1_gshared (GenericComparer_1_t9AF812E9F3506D87D556626C9B98940FF125D2E9* __this, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_x, Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -23453,7 +23453,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD4126B09E3
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m451DCFA6BC1BC179D29BEB0C5DC46862F211C58B_gshared (GenericComparer_1_t9AF812E9F3506D87D556626C9B98940FF125D2E9* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23461,7 +23461,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m451DCFA6BC1BC1
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t9AF812E9F3506D87D556626C9B98940FF125D2E9*)((GenericComparer_1_t9AF812E9F3506D87D556626C9B98940FF125D2E9*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mDCFC294F4C38709B0DEBCD955983B54897B5D925_gshared (GenericComparer_1_t9AF812E9F3506D87D556626C9B98940FF125D2E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23477,7 +23477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mDCFC29
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m1EBEDF5E500015C68BEE9C00492043A9715B4308_gshared (GenericComparer_1_t9AF812E9F3506D87D556626C9B98940FF125D2E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23493,7 +23493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m1EBEDF5E500015C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD9433D9B7DC4703FDD35F310E0DF7089A8F9ED0C_gshared (GenericComparer_1_t2FFC9D9DE719951F3B83331ACD42632081F7C800* __this, double ___0_x, double ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23507,7 +23507,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD9433D9B7D
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mDB3F2132E4233AEDE0E03E7BEB24CC716E66200F_gshared (GenericComparer_1_t2FFC9D9DE719951F3B83331ACD42632081F7C800* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23515,7 +23515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mDB3F2132E4233A
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t2FFC9D9DE719951F3B83331ACD42632081F7C800*)((GenericComparer_1_t2FFC9D9DE719951F3B83331ACD42632081F7C800*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m929E5DC96C5BF5F94461B4A1DA131908A9AC079F_gshared (GenericComparer_1_t2FFC9D9DE719951F3B83331ACD42632081F7C800* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23531,7 +23531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m929E5D
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mF72A262E39C2004B3350C36CD50CE47711D9E5C6_gshared (GenericComparer_1_t2FFC9D9DE719951F3B83331ACD42632081F7C800* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23547,7 +23547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mF72A262E39C2004
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2884ADE9C574ABD9FE91DE151F3ABC1A601C56CB_gshared (GenericComparer_1_tA62BB66203514065EF3B5E28256D2CF9E91AD534* __this, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___0_x, EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23561,7 +23561,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m2884ADE9C5
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m8CD57A8EA42454F93E954AF9AF2454EFB6F40DCD_gshared (GenericComparer_1_tA62BB66203514065EF3B5E28256D2CF9E91AD534* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23569,7 +23569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m8CD57A8EA42454
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tA62BB66203514065EF3B5E28256D2CF9E91AD534*)((GenericComparer_1_tA62BB66203514065EF3B5E28256D2CF9E91AD534*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m90D7857D115C67DFF2252F4B96FE9AA989AE9206_gshared (GenericComparer_1_tA62BB66203514065EF3B5E28256D2CF9E91AD534* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23585,7 +23585,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m90D785
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m20389824C459A1DA9AE27D94A204F5D55FB6072C_gshared (GenericComparer_1_tA62BB66203514065EF3B5E28256D2CF9E91AD534* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23601,7 +23601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m20389824C459A1D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mC5F7A44B683579B6B6B81425765B9031C3F8171B_gshared (GenericComparer_1_tEFC80F51D4DD09A8E49CBDC042E674770C71B3A5* __this, int16_t ___0_x, int16_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23615,7 +23615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mC5F7A44B68
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m823E2EDE4EC2F9724DDF7D7E309D2D0FF037AF14_gshared (GenericComparer_1_tEFC80F51D4DD09A8E49CBDC042E674770C71B3A5* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23623,7 +23623,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m823E2EDE4EC2F9
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tEFC80F51D4DD09A8E49CBDC042E674770C71B3A5*)((GenericComparer_1_tEFC80F51D4DD09A8E49CBDC042E674770C71B3A5*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m4E3D72304933AB4476AC5F47E302AB53C5263691_gshared (GenericComparer_1_tEFC80F51D4DD09A8E49CBDC042E674770C71B3A5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23639,7 +23639,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m4E3D72
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0AE97DCEFDB3806726C81441C2584188100CAF1D_gshared (GenericComparer_1_tEFC80F51D4DD09A8E49CBDC042E674770C71B3A5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23655,7 +23655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m0AE97DCEFDB3806
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m51256672719108FCBD3C24FBD2F66470E1381BE4_gshared (GenericComparer_1_t8E725A1E41D24EC0D6D41B50AB19533D34712658* __this, int32_t ___0_x, int32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23669,7 +23669,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m5125667271
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mE1B4E61F9856DA9CB4191FD0B4955CD34D9990AD_gshared (GenericComparer_1_t8E725A1E41D24EC0D6D41B50AB19533D34712658* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23677,7 +23677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mE1B4E61F9856DA
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t8E725A1E41D24EC0D6D41B50AB19533D34712658*)((GenericComparer_1_t8E725A1E41D24EC0D6D41B50AB19533D34712658*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE79D7AEEF5BBB4AB88BCC7A75D5945BBCB21D1A1_gshared (GenericComparer_1_t8E725A1E41D24EC0D6D41B50AB19533D34712658* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23693,7 +23693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE79D7A
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m6A88A357D8E534DFDBA1CACF24D2CF8EE469F026_gshared (GenericComparer_1_t8E725A1E41D24EC0D6D41B50AB19533D34712658* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23709,7 +23709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m6A88A357D8E534D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m6318E7E7EE0573B64B912AF3C44B7A68C8529719_gshared (GenericComparer_1_tC47FB7567496AE9CE220E713596BF36BDFC96241* __this, int64_t ___0_x, int64_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23723,7 +23723,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m6318E7E7EE
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m58566DBEE415DC513ED1B7119A40962DA3ECDC87_gshared (GenericComparer_1_tC47FB7567496AE9CE220E713596BF36BDFC96241* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23731,7 +23731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m58566DBEE415DC
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tC47FB7567496AE9CE220E713596BF36BDFC96241*)((GenericComparer_1_tC47FB7567496AE9CE220E713596BF36BDFC96241*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m6C63DCD30DC13D416DCD781CA21446ED4FB6FBCB_gshared (GenericComparer_1_tC47FB7567496AE9CE220E713596BF36BDFC96241* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23747,7 +23747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m6C63DC
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mA914C1EB74C8239ECF14D3763DB1D0C148606A70_gshared (GenericComparer_1_tC47FB7567496AE9CE220E713596BF36BDFC96241* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23763,7 +23763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mA914C1EB74C8239
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mCF7ACB9D14FF32896CD8D5D1E6874BBF81FF6692_gshared (GenericComparer_1_tA5AF468DAF33E60A488A677FB389702663D20050* __this, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___0_x, InternedString_t8D62A48CB7D85AAE9CFCCCFB0A77AC2844905735 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23777,7 +23777,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mCF7ACB9D14
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m5A867A6CC9F59C2DAA890F62A94F40E95FED31E5_gshared (GenericComparer_1_tA5AF468DAF33E60A488A677FB389702663D20050* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23785,7 +23785,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m5A867A6CC9F59C
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tA5AF468DAF33E60A488A677FB389702663D20050*)((GenericComparer_1_tA5AF468DAF33E60A488A677FB389702663D20050*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mBE2823F25A28A7B0BC48CA0511BF5C61FE4E93D1_gshared (GenericComparer_1_tA5AF468DAF33E60A488A677FB389702663D20050* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23801,7 +23801,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mBE2823
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mD125C5169D1030FFBCE6CD722CB7E6A81E247493_gshared (GenericComparer_1_tA5AF468DAF33E60A488A677FB389702663D20050* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23817,7 +23817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mD125C5169D1030F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mBC1B5108EE0062FA4138694917301CEAA8F8F9B6_gshared (GenericComparer_1_tF7645B1CB3AFE0D918577DB40B43E12667ACA25A* __this, RuntimeObject* ___0_x, RuntimeObject* ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23864,7 +23864,7 @@ IL_002b:
 		return 0;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mB99D3E521565B20F739A4C1988FEE8B6688FFC9F_gshared (GenericComparer_1_tF7645B1CB3AFE0D918577DB40B43E12667ACA25A* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23872,7 +23872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mB99D3E521565B2
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tF7645B1CB3AFE0D918577DB40B43E12667ACA25A*)((GenericComparer_1_tF7645B1CB3AFE0D918577DB40B43E12667ACA25A*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE32205E74A5BF918E45700D5D1DE09AD2BAD3781_gshared (GenericComparer_1_tF7645B1CB3AFE0D918577DB40B43E12667ACA25A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23888,7 +23888,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE32205
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mEA0123BFB631673A4309E6F7CBD403EEA03826D7_gshared (GenericComparer_1_tF7645B1CB3AFE0D918577DB40B43E12667ACA25A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23904,7 +23904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mEA0123BFB631673
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m9BB9E6FF689906913030CE6B721846F7C881AD4D_gshared (GenericComparer_1_t0BA92E16591709E18B54133BAE013D74B6325FDE* __this, int8_t ___0_x, int8_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23918,7 +23918,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m9BB9E6FF68
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mF80AA282D47790D979603DDD230FA1F17B176DE2_gshared (GenericComparer_1_t0BA92E16591709E18B54133BAE013D74B6325FDE* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23926,7 +23926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mF80AA282D47790
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t0BA92E16591709E18B54133BAE013D74B6325FDE*)((GenericComparer_1_t0BA92E16591709E18B54133BAE013D74B6325FDE*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mBFF6C44A544F6B684F207CBC5834EE1B4A4DEF84_gshared (GenericComparer_1_t0BA92E16591709E18B54133BAE013D74B6325FDE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23942,7 +23942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mBFF6C4
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mD44E4D1211FB787D6990A204C51D59C2C8B8DDED_gshared (GenericComparer_1_t0BA92E16591709E18B54133BAE013D74B6325FDE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23958,7 +23958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mD44E4D1211FB787
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m31A0B67F5D9D35F5AE2040C9DDDC18B7FFE615CD_gshared (GenericComparer_1_t19EC854B769625ACBE12A011CC23BBB323D4EEF2* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -23972,7 +23972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m31A0B67F5D
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mC69DD65FA716295CF3141BDD28B83462D272F345_gshared (GenericComparer_1_t19EC854B769625ACBE12A011CC23BBB323D4EEF2* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -23980,7 +23980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mC69DD65FA71629
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t19EC854B769625ACBE12A011CC23BBB323D4EEF2*)((GenericComparer_1_t19EC854B769625ACBE12A011CC23BBB323D4EEF2*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m25BEF9BD592B5E46E9D4F66E274DF9B7ED58E50A_gshared (GenericComparer_1_t19EC854B769625ACBE12A011CC23BBB323D4EEF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -23996,7 +23996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m25BEF9
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mCFA89A7E90565775700277A7E1B3B563CBBED9F6_gshared (GenericComparer_1_t19EC854B769625ACBE12A011CC23BBB323D4EEF2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24012,7 +24012,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mCFA89A7E9056577
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mF9C09B78E003D1A4C7BC1328A58A9F0B3B62F35B_gshared (GenericComparer_1_tB6C8B530E84F9BEB76ED98D8DF79E0CA76E1F376* __this, Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___0_x, Substring_t2E16755269E6716C22074D6BC0A9099915E67849 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24026,7 +24026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mF9C09B78E0
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m299C039717DCFA09BC50C642E3BF8C2CC864C4EF_gshared (GenericComparer_1_tB6C8B530E84F9BEB76ED98D8DF79E0CA76E1F376* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24034,7 +24034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m299C039717DCFA
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tB6C8B530E84F9BEB76ED98D8DF79E0CA76E1F376*)((GenericComparer_1_tB6C8B530E84F9BEB76ED98D8DF79E0CA76E1F376*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mB97F5A7219444D1940D58795574B0491F4908036_gshared (GenericComparer_1_tB6C8B530E84F9BEB76ED98D8DF79E0CA76E1F376* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24050,7 +24050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mB97F5A
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mCD94C15B32D5C116AB9F3ECC7B660E505854F49B_gshared (GenericComparer_1_tB6C8B530E84F9BEB76ED98D8DF79E0CA76E1F376* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24066,7 +24066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mCD94C15B32D5C11
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD5EBC17F80BCF2FC28232D1BC4924299EED7F68B_gshared (GenericComparer_1_tCC5A9D4F9B24BF95C933E5E34E0762F94816E332* __this, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___0_x, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___1_y, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -24087,7 +24087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mD5EBC17F80
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m7B93FB89464460482AB9ECF23F778FFBE391968D_gshared (GenericComparer_1_tCC5A9D4F9B24BF95C933E5E34E0762F94816E332* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24095,7 +24095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_m7B93FB89464460
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tCC5A9D4F9B24BF95C933E5E34E0762F94816E332*)((GenericComparer_1_tCC5A9D4F9B24BF95C933E5E34E0762F94816E332*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE7E727C26FDE725EB50C4211DD8479D1B3988A5E_gshared (GenericComparer_1_tCC5A9D4F9B24BF95C933E5E34E0762F94816E332* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24111,7 +24111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mE7E727
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m5ABF61D684065789AD60B276F3D96616CBCD724D_gshared (GenericComparer_1_tCC5A9D4F9B24BF95C933E5E34E0762F94816E332* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24127,7 +24127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m5ABF61D68406578
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m1BBE95470A1A09255225B7DF73B09623DD07DA90_gshared (GenericComparer_1_t5E4A8E105CE12996C1123095CF4D86E89C9BADF9* __this, uint16_t ___0_x, uint16_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24141,7 +24141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m1BBE95470A
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mA5E24DA2285E2CE01F7364B3058896B9ECAADA47_gshared (GenericComparer_1_t5E4A8E105CE12996C1123095CF4D86E89C9BADF9* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24149,7 +24149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mA5E24DA2285E2C
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t5E4A8E105CE12996C1123095CF4D86E89C9BADF9*)((GenericComparer_1_t5E4A8E105CE12996C1123095CF4D86E89C9BADF9*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m3FA77B785EEBA16B88E1D7FE2307385F41D6C2A0_gshared (GenericComparer_1_t5E4A8E105CE12996C1123095CF4D86E89C9BADF9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24165,7 +24165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m3FA77B
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m195629B3752B6EC3BD1C49C770F3766EF3E79738_gshared (GenericComparer_1_t5E4A8E105CE12996C1123095CF4D86E89C9BADF9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24181,7 +24181,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m195629B3752B6EC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mA6D5E3B8C52E10760B4F01F2D16597C029CAF460_gshared (GenericComparer_1_t2A6981FA6CEECE1FD3AB030B3EEBB1F0EA443649* __this, uint32_t ___0_x, uint32_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24195,7 +24195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_mA6D5E3B8C5
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mDF01ACA249CF35B7D3CA28F26610A5060F35F052_gshared (GenericComparer_1_t2A6981FA6CEECE1FD3AB030B3EEBB1F0EA443649* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24203,7 +24203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mDF01ACA249CF35
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t2A6981FA6CEECE1FD3AB030B3EEBB1F0EA443649*)((GenericComparer_1_t2A6981FA6CEECE1FD3AB030B3EEBB1F0EA443649*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mDF2B707C83F774AC1128240A0AAE6100764F36C8_gshared (GenericComparer_1_t2A6981FA6CEECE1FD3AB030B3EEBB1F0EA443649* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24219,7 +24219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mDF2B70
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m44E6BBD6D12FAA2DA5377DE822336004D893F7B7_gshared (GenericComparer_1_t2A6981FA6CEECE1FD3AB030B3EEBB1F0EA443649* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24235,7 +24235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m44E6BBD6D12FAA2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m21D2B02DD0928B6C5E230361CE949ABA1972ABC5_gshared (GenericComparer_1_t8B2549883288DE82230DAF1BBFC6C50D05F0F8BD* __this, uint64_t ___0_x, uint64_t ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24249,7 +24249,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m21D2B02DD0
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mF279E71450C15C6E971301B5BD77347F45C75D63_gshared (GenericComparer_1_t8B2549883288DE82230DAF1BBFC6C50D05F0F8BD* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24257,7 +24257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mF279E71450C15C
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_t8B2549883288DE82230DAF1BBFC6C50D05F0F8BD*)((GenericComparer_1_t8B2549883288DE82230DAF1BBFC6C50D05F0F8BD*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m6C041FDAE92A3996D26AF131D3C6A4CE1DE7F417_gshared (GenericComparer_1_t8B2549883288DE82230DAF1BBFC6C50D05F0F8BD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24273,7 +24273,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m6C041F
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m2C3108223AFEC6D37815AD2356620A046F6FA03B_gshared (GenericComparer_1_t8B2549883288DE82230DAF1BBFC6C50D05F0F8BD* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24289,7 +24289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_m2C3108223AFEC6D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m393DE4691B4D2FF3F0C4294951366C9407C906E5_gshared (GenericComparer_1_tA1FB6768366C07A87C3181B50FABC4AA0BE27C45* __this, Il2CppFullySharedGenericAny ___0_x, Il2CppFullySharedGenericAny ___1_y, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t206AC7254049416911476B50713D159D33505E77 = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 0));
@@ -24344,7 +24344,7 @@ IL_002b:
 		return 0;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mA0C1FE8461B22BD8B379BB0CA80C902F6AFBEEB2_gshared (GenericComparer_1_tA1FB6768366C07A87C3181B50FABC4AA0BE27C45* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24352,7 +24352,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mA0C1FE8461B22B
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tA1FB6768366C07A87C3181B50FABC4AA0BE27C45*)((GenericComparer_1_tA1FB6768366C07A87C3181B50FABC4AA0BE27C45*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m14EC8AF8F5929879F5CF406C7A3004B6B5E02D1E_gshared (GenericComparer_1_tA1FB6768366C07A87C3181B50FABC4AA0BE27C45* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24368,7 +24368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_m14EC8A
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mDDD50F323B2A94CCEC4F3BDF7AAC738DF7C3CB26_gshared (GenericComparer_1_tA1FB6768366C07A87C3181B50FABC4AA0BE27C45* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24384,7 +24384,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mDDD50F323B2A94C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11616
+// Method Definition Index: 11613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m30E8BFF2C841EF074AE2BB90EA7E2F1E1C57273E_gshared (GenericComparer_1_tF3AFD01648154040AF1B746C6C4C2105B0434012* __this, SortNode_t6A06A977B925BF3F2ECC51B7C74B7A9AE8CE5C53 ___0_x, SortNode_t6A06A977B925BF3F2ECC51B7C74B7A9AE8CE5C53 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24398,7 +24398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_Compare_m30E8BFF2C8
 		return L_3;
 	}
 }
-// Method Definition Index: 11617
+// Method Definition Index: 11614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mE1CA8D8747F87DB17EEBC05F83DAA76365A59EB3_gshared (GenericComparer_1_tF3AFD01648154040AF1B746C6C4C2105B0434012* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24406,7 +24406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericComparer_1_Equals_mE1CA8D8747F87D
 		return (bool)((!(((RuntimeObject*)(GenericComparer_1_tF3AFD01648154040AF1B746C6C4C2105B0434012*)((GenericComparer_1_tF3AFD01648154040AF1B746C6C4C2105B0434012*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11618
+// Method Definition Index: 11615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mCE6D71489D1A4641C7AC27599778371E966D2F0A_gshared (GenericComparer_1_tF3AFD01648154040AF1B746C6C4C2105B0434012* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24422,7 +24422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericComparer_1_GetHashCode_mCE6D71
 		return L_2;
 	}
 }
-// Method Definition Index: 11619
+// Method Definition Index: 11616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mADB5D91B94121BE71FCC919D7E495CC6D8BD450C_gshared (GenericComparer_1_tF3AFD01648154040AF1B746C6C4C2105B0434012* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24438,7 +24438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericComparer_1__ctor_mADB5D91B94121BE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mEA0AF2EA33569DCF1151DE0E694AADFE818B446E_gshared (GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA* __this, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___0_x, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24452,7 +24452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mEA0AF2
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mC4D212D920B0155F679310D304DABE2BDDD96230_gshared (GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA* __this, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24466,7 +24466,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mF51AF7629478FE9D2A8E099F1DD5FF5842A646D6_gshared (GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA* __this, NativeArray_1U5BU5D_t495E50C84E09FD9543D64DFF017C2FA53D91C475* ___0_array, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24532,7 +24532,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_mF0545F49A54317627B2D2293B6EE38F4B49F3F78_gshared (GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA* __this, NativeArray_1U5BU5D_t495E50C84E09FD9543D64DFF017C2FA53D91C475* ___0_array, NativeArray_1_t81F55263465517B73C455D3400CF67B4BADD85CF ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24598,7 +24598,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m39D1469BAD34E4344C6098A74154508BC7AB60D3_gshared (GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24606,7 +24606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m39D146
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA*)((GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m947E6AD3C9CD504A60CAA8099A39C5FDE5C3E10B_gshared (GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24622,7 +24622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m1A9CF4F4AAC76627103B333915A47407D22F2FCB_gshared (GenericEqualityComparer_1_t26551CB7607FD7349730D2878B11F0AC36C7DEBA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24638,7 +24638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m1A9CF4F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m5814BD481C577C3821904D975504B217B2FFA85C_gshared (GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137* __this, NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 ___0_x, NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24652,7 +24652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m5814BD
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m507E8DA04EC0C51AC3B51FC65EDCFAA1205C12D4_gshared (GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137* __this, NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24666,7 +24666,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m8907C127C2FD29B6E8CF8BB547450F72C84F78E8_gshared (GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137* __this, NativeArray_1U5BU5D_t75698E5C2142DD4A324DD38EE484D69C8FD2CFD3* ___0_array, NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24732,7 +24732,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m7CA685C399E313440AA29CDAF163FEEE4D5F4BBB_gshared (GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137* __this, NativeArray_1U5BU5D_t75698E5C2142DD4A324DD38EE484D69C8FD2CFD3* ___0_array, NativeArray_1_tF9AAF96E0048E8B93F277A9EAD3955253C6B34C3 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24798,7 +24798,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mD076621E5AF5BDEBA51E91859ED6EA07CC21AF87_gshared (GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24806,7 +24806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mD07662
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137*)((GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mB3F752A718C9158491E2C55560C8F4CBA0B81DE4_gshared (GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24822,7 +24822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m5A5604ECF470892A1091D4E9D70957FE9578B2AA_gshared (GenericEqualityComparer_1_t602E7ECDA5438BCCACF6AD0EEA740AA178A5F137* __this, const RuntimeMethod* method) 
 {
 	{
@@ -24838,7 +24838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m5A5604E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mB4A787CD64C96C1B6A07244D7CAE718831D39755_gshared (GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990* __this, NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD ___0_x, NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -24852,7 +24852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mB4A787
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mCDB375443D2D8D20755CCEC77F8D1F68E551778E_gshared (GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990* __this, NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -24866,7 +24866,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m465FAB769A79BFDD8DF6C41D5EF826ACA7388D7F_gshared (GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990* __this, NativeArray_1U5BU5D_t48F28BC4076C1A1608AA864367077AD64E04C11D* ___0_array, NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24932,7 +24932,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m7FD5DEE64B33F83851009A02A564851245ECB360_gshared (GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990* __this, NativeArray_1U5BU5D_t48F28BC4076C1A1608AA864367077AD64E04C11D* ___0_array, NativeArray_1_tDCB166A7D351D6EEDCDE6CB91075388DEEA5E3CD ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -24998,7 +24998,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mFB9DD2C3363DB9018B9073B08F0E6114B85B4DA8_gshared (GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25006,7 +25006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mFB9DD2
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990*)((GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m41F5B79F7644EBEC66BA4C02CD7A10B627EA2BA5_gshared (GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25022,7 +25022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m1DFF791FDC0887596D5C603EE43AA4D26783A651_gshared (GenericEqualityComparer_1_t4FFBC4E3EEE811467FF5FF378EF180CDFBF69990* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25038,7 +25038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m1DFF791
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m69D1F4DA16180C66709DD32C4943E20579DA4CDD_gshared (GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12* __this, NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 ___0_x, NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -25052,7 +25052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m69D1F4
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m58D1DA1E54E06F6958540CAB9A49986B133EB966_gshared (GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12* __this, NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25066,7 +25066,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mE86EB2B3F5BA64EC576C1CCD226E2B1F8BD01ECA_gshared (GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12* __this, NativeArray_1U5BU5D_t07FE0FFB798A14A16B56C709EBB100AA9D986CA4* ___0_array, NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25132,7 +25132,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_mC5727A18F0DB62578F5714B2303E3C62C1B6C0B8_gshared (GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12* __this, NativeArray_1U5BU5D_t07FE0FFB798A14A16B56C709EBB100AA9D986CA4* ___0_array, NativeArray_1_t61CE5FDEC6BB75218352153E78207800402C1149 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25198,7 +25198,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m6F8D60627D55550B5F9CE4E1B67FA47EA675C921_gshared (GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25206,7 +25206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m6F8D60
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12*)((GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mBC7EFF39FB43D322ECA4FE704916B36AB8B0C562_gshared (GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25222,7 +25222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m933B563AB99246FCA10614D58A1D1B3507007C2C_gshared (GenericEqualityComparer_1_t8A7003F05BF4D92E454EEE1D8BE16D53BF74DD12* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25238,7 +25238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m933B563
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m9CAF42D30984CAE0A87AD385E4D4DEFCE80EB4F5_gshared (GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638* __this, NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57 ___0_x, NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -25252,7 +25252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m9CAF42
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m328460A5D36794E1A6E4D1AD261313EE86CAC520_gshared (GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638* __this, NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25266,7 +25266,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m3065D0FE8099B381389BEE95C1EEF0341D5F5DAD_gshared (GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638* __this, NativeArray_1U5BU5D_tB9179B8E492F9CEBC40651BF1C66A50255128C61* ___0_array, NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25332,7 +25332,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m77A5A67C83E0DCF4F24FFB19AFA00DD7E70B3247_gshared (GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638* __this, NativeArray_1U5BU5D_tB9179B8E492F9CEBC40651BF1C66A50255128C61* ___0_array, NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25398,7 +25398,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mDD31F0E570F30298118AFD5AC55C588A79126242_gshared (GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25406,7 +25406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mDD31F0
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638*)((GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mC3A7D476A78606E0E734F3112BCBBFA766531C69_gshared (GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25422,7 +25422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m0A017B56B204B57FB4BBA0B8A12825154BBBB41A_gshared (GenericEqualityComparer_1_tB340D409F403E423F21C0B1A972EABBAE1F9E638* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25438,7 +25438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m0A017B5
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m1CBF1F600A25FE5FE2FB93E39B9E18332628B1F4_gshared (GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62* __this, NativeSlice_1_t1108006793B0D86DFCF2E4481CD5E5E32AFF591B ___0_x, NativeSlice_1_t1108006793B0D86DFCF2E4481CD5E5E32AFF591B ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -25452,7 +25452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m1CBF1F
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mA7C018D6A82794930AF96B38E903AADA493B7233_gshared (GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62* __this, NativeSlice_1_t1108006793B0D86DFCF2E4481CD5E5E32AFF591B ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25466,7 +25466,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m6B504EC460153B362CA6531574CF610687970116_gshared (GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62* __this, NativeSlice_1U5BU5D_t4AA4AF19AB9FDDBD4CC8C6F7E4A9C6AC063C09FD* ___0_array, NativeSlice_1_t1108006793B0D86DFCF2E4481CD5E5E32AFF591B ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25532,7 +25532,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m7DA5B90D2D9EB5322CF782FFE730EA8B8B7579A7_gshared (GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62* __this, NativeSlice_1U5BU5D_t4AA4AF19AB9FDDBD4CC8C6F7E4A9C6AC063C09FD* ___0_array, NativeSlice_1_t1108006793B0D86DFCF2E4481CD5E5E32AFF591B ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25598,7 +25598,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m2D0D0D2BA1D77E9C0D8DA1BA93D0F418F0FFCA0C_gshared (GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25606,7 +25606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m2D0D0D
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62*)((GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m8339645A3F0615E0A5400ABC56C739EBFC13F0F7_gshared (GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25622,7 +25622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m4633BCEE5B3A3C2B3C661127111B7316497023A4_gshared (GenericEqualityComparer_1_t114338E01D17957CBD55B19B31D9AA3A31396E62* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25638,7 +25638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m4633BCE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m95D3C911E6A792ED789674DEDD38D208C0F81B69_gshared (GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE* __this, NativeSlice_1_t84638F9F5F454538786C27E8F639E0B602DB00D0 ___0_x, NativeSlice_1_t84638F9F5F454538786C27E8F639E0B602DB00D0 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -25652,7 +25652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m95D3C9
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m774674C7B76ADE132A211AECE723CED2342BCF62_gshared (GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE* __this, NativeSlice_1_t84638F9F5F454538786C27E8F639E0B602DB00D0 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25666,7 +25666,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mA17A667A1FC9BD460355BECF35FAE46D66671A3E_gshared (GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE* __this, NativeSlice_1U5BU5D_tDC36ACB61BCAC1B7A036318D24BE1BCB309EC376* ___0_array, NativeSlice_1_t84638F9F5F454538786C27E8F639E0B602DB00D0 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25732,7 +25732,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m46D8F549B71F6DF163D8DB889C0E21AAA130DA0A_gshared (GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE* __this, NativeSlice_1U5BU5D_tDC36ACB61BCAC1B7A036318D24BE1BCB309EC376* ___0_array, NativeSlice_1_t84638F9F5F454538786C27E8F639E0B602DB00D0 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25798,7 +25798,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m446ACE0872CEF17F9DF654CA21B4874A8C75E0CC_gshared (GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25806,7 +25806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m446ACE
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE*)((GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m01A9D88D8FFED80803CD340CA05D8DC40FFA3FA7_gshared (GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25822,7 +25822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m42833405F644C10D2AE36447080107E34E18E5B6_gshared (GenericEqualityComparer_1_t544BB841A8EA2C3734CAD92EBE77294825CE5DAE* __this, const RuntimeMethod* method) 
 {
 	{
@@ -25838,7 +25838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m4283340
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mEF17CD9DC3A709A7E0CE5E0A9A5C521A61C19B50_gshared (GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B* __this, NativeSlice_1_t1B1546AEB20D09E65A620651F8A4C68DD5998882 ___0_x, NativeSlice_1_t1B1546AEB20D09E65A620651F8A4C68DD5998882 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -25852,7 +25852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mEF17CD
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mAC5501334C9092E6E036EAED900FEC19D149111F_gshared (GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B* __this, NativeSlice_1_t1B1546AEB20D09E65A620651F8A4C68DD5998882 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -25866,7 +25866,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mC4A8F2C2B46DD1E69BA7E8595429B218B872657B_gshared (GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B* __this, NativeSlice_1U5BU5D_tA62C4A6F288135B6706B31C147D9F8A7B589A990* ___0_array, NativeSlice_1_t1B1546AEB20D09E65A620651F8A4C68DD5998882 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25932,7 +25932,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m0B993D23D1F4593C132684225AEA15A24B9D84E7_gshared (GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B* __this, NativeSlice_1U5BU5D_tA62C4A6F288135B6706B31C147D9F8A7B589A990* ___0_array, NativeSlice_1_t1B1546AEB20D09E65A620651F8A4C68DD5998882 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -25998,7 +25998,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m01014CC80221BBCF4055F888B5F118E0EFAE020F_gshared (GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26006,7 +26006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m01014C
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B*)((GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mAB151E3B22B52E64B22A6E92274B258A9EE77C14_gshared (GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26022,7 +26022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mB475EAAA94AB0959BF38B9793D86F355099A2853_gshared (GenericEqualityComparer_1_tFE7C8B583AA8308523884F13DBFD774923C0101B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26038,7 +26038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mB475EAA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m1974F2CD3E04028B2E6B9B726B2BE906B3431561_gshared (GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56* __this, NativeSlice_1_t0D1A1AB7A9C4768B84EB7420D04A90920533C78A ___0_x, NativeSlice_1_t0D1A1AB7A9C4768B84EB7420D04A90920533C78A ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -26052,7 +26052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m1974F2
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m81221E6346D2B19FD6C9355F118D1909CABFBE53_gshared (GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56* __this, NativeSlice_1_t0D1A1AB7A9C4768B84EB7420D04A90920533C78A ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26066,7 +26066,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m78D9A239AA1356EAE746008531F92B19E64E1A75_gshared (GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56* __this, NativeSlice_1U5BU5D_t2F30D5283C1DFCDDB22E354B120151CB6D5E2320* ___0_array, NativeSlice_1_t0D1A1AB7A9C4768B84EB7420D04A90920533C78A ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26132,7 +26132,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_mA990991E3BB7C79942DA530DC13527D0BA6D2A07_gshared (GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56* __this, NativeSlice_1U5BU5D_t2F30D5283C1DFCDDB22E354B120151CB6D5E2320* ___0_array, NativeSlice_1_t0D1A1AB7A9C4768B84EB7420D04A90920533C78A ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26198,7 +26198,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m2F8E73D738B6F220776737E15E0C8E89352402E7_gshared (GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26206,7 +26206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m2F8E73
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56*)((GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m4461C1F3C5DAFA11DE7C3DD794E53479C54E289E_gshared (GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26222,7 +26222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m26AAC167D05CC9530173B07421D78BE95A95DD65_gshared (GenericEqualityComparer_1_t5AFA250C4A0355B5041EABD6821CDDDD1C9BBE56* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26238,7 +26238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m26AAC16
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m516E2192321952A67763F69FFF0701632239F42B_gshared (GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3* __this, NativeSlice_1_t66375568C4FF313931F4D2F646D64FE6A406BAD2 ___0_x, NativeSlice_1_t66375568C4FF313931F4D2F646D64FE6A406BAD2 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -26252,7 +26252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m516E21
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mACA609EA978D766F5AA894E6BE2529DA5747EDD2_gshared (GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3* __this, NativeSlice_1_t66375568C4FF313931F4D2F646D64FE6A406BAD2 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26266,7 +26266,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mB1A42991115147AE5B94FD3C81C1A15988B28F8C_gshared (GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3* __this, NativeSlice_1U5BU5D_t16C12F471D23F4C960D0CF0233390A24D85676C1* ___0_array, NativeSlice_1_t66375568C4FF313931F4D2F646D64FE6A406BAD2 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26332,7 +26332,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m132D4F943C7C227733E2D13C5CE25199664AD8B2_gshared (GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3* __this, NativeSlice_1U5BU5D_t16C12F471D23F4C960D0CF0233390A24D85676C1* ___0_array, NativeSlice_1_t66375568C4FF313931F4D2F646D64FE6A406BAD2 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26398,7 +26398,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m77180460CA219A9DFF67EFFA529A4FD8AE49215F_gshared (GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26406,7 +26406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m771804
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3*)((GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m759D324D80E10A0CF84BAD33D37006AA883665DC_gshared (GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26422,7 +26422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m112E32E406FFED3D3AD11E983C47117DACD57573_gshared (GenericEqualityComparer_1_tF4FBCB8AF5A0242D29B88240E7DEECA1645EC7C3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26438,7 +26438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m112E32E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mC85414E1F407EB03905092A3086B861557864719_gshared (GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454* __this, NativeSlice_1_t8E27FA1E73FC8A04E990C238360882D58A2DB2F9 ___0_x, NativeSlice_1_t8E27FA1E73FC8A04E990C238360882D58A2DB2F9 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -26452,7 +26452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mC85414
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m2DA82C306C207B4890298DC00AA87170936C3857_gshared (GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454* __this, NativeSlice_1_t8E27FA1E73FC8A04E990C238360882D58A2DB2F9 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26466,7 +26466,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mB0F11EE933B9471A63C9BA7E31773F1DD70B3283_gshared (GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454* __this, NativeSlice_1U5BU5D_t010FDB7575A78BB3EB09D1D008F9835266FF7623* ___0_array, NativeSlice_1_t8E27FA1E73FC8A04E990C238360882D58A2DB2F9 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26532,7 +26532,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_mADC428ED0BAB4FDB9DF1F08A1892E31D7196DAD6_gshared (GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454* __this, NativeSlice_1U5BU5D_t010FDB7575A78BB3EB09D1D008F9835266FF7623* ___0_array, NativeSlice_1_t8E27FA1E73FC8A04E990C238360882D58A2DB2F9 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26598,7 +26598,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mF3C38EE4E8F2264E01B2A00871AE1517CA9B00DA_gshared (GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26606,7 +26606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mF3C38E
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454*)((GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m64388921C2B9188E2D25039DFAB36C57FFA52F8C_gshared (GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26622,7 +26622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mE7E31BACF50E543440E100A289470CD9E4B1924D_gshared (GenericEqualityComparer_1_tDA56E05B04501A3A2F03932448AEA0992744C454* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26638,7 +26638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mE7E31BA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mD4859EBF5227BC3E710D613AD009D6A77363C6FE_gshared (GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3* __this, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 ___0_x, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -26652,7 +26652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mD4859E
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m6199536BA0FB65AF4262D330EEAFC3521B000EB6_gshared (GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3* __this, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26666,7 +26666,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mCF15AE554A2220A037D0B5D6020ACDFDAB113294_gshared (GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3* __this, StructMultiKey_2U5BU5D_t479B5DFCA62364D5370217B3F06CB45C19170E64* ___0_array, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26732,7 +26732,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m17D89885CA9333A8C362BC0A34A521917AE1C23B_gshared (GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3* __this, StructMultiKey_2U5BU5D_t479B5DFCA62364D5370217B3F06CB45C19170E64* ___0_array, StructMultiKey_2_tBE8AC1F77387A29245D48FBA8C8C8E1763344DD5 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26798,7 +26798,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m62FFE7BD85A19C2C1783DECC213CAC9D7BB48DD6_gshared (GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26806,7 +26806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m62FFE7
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3*)((GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mEF20962FE454921C8BCE652CD7CC778ADF4F0D31_gshared (GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26822,7 +26822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m59D20150CE93BFE1DEE481C2DA1767DE30B80265_gshared (GenericEqualityComparer_1_tB0B9D22225BE3E63598E9D0866DA7B919431B1F3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -26838,7 +26838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m59D2015
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m739ED0E842DE1B67C574B59B2FB0676B91A8DF2A_gshared (GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B* __this, StyleEnum_1_t3DD2EBD4E359AFE77C2974ECAA1DEE50E0FACEDC ___0_x, StyleEnum_1_t3DD2EBD4E359AFE77C2974ECAA1DEE50E0FACEDC ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -26852,7 +26852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m739ED0
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mCFF5FB526D5102985E7D65C060071BC1AFE8F6E9_gshared (GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B* __this, StyleEnum_1_t3DD2EBD4E359AFE77C2974ECAA1DEE50E0FACEDC ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -26866,7 +26866,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mB585907CDB95BEC0682DBE230FD139D8D9006F5A_gshared (GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B* __this, StyleEnum_1U5BU5D_tB84735CE7A1769C3CFC5E0F9C3EA39FD0FD7BFF0* ___0_array, StyleEnum_1_t3DD2EBD4E359AFE77C2974ECAA1DEE50E0FACEDC ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26932,7 +26932,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m7ABDDFCD888E453DFEDA39DC278BECC16312FCA1_gshared (GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B* __this, StyleEnum_1U5BU5D_tB84735CE7A1769C3CFC5E0F9C3EA39FD0FD7BFF0* ___0_array, StyleEnum_1_t3DD2EBD4E359AFE77C2974ECAA1DEE50E0FACEDC ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -26998,7 +26998,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m4110566369AF54BE97276494DE36E6FC12ACCA4B_gshared (GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27006,7 +27006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m411056
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B*)((GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m7A7F11CCB937AFF2EDFFAB8E5FA5AE5B56C88108_gshared (GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27022,7 +27022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mF56AC40A514540BA865C2A092F3501423A586018_gshared (GenericEqualityComparer_1_t74715B149D7105E596A4D7C388B9A9C6026CA21B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27038,7 +27038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mF56AC40
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m320E8AA807C88EE40F554B08727EC296F88126B3_gshared (GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9* __this, StyleList_1_t5D2FA4535A553635ADCE6E1E3758E1FA02160E6F ___0_x, StyleList_1_t5D2FA4535A553635ADCE6E1E3758E1FA02160E6F ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -27052,7 +27052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m320E8A
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mA898671BD3F0A07A8D2C6C9C3AB75AA18756AD03_gshared (GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9* __this, StyleList_1_t5D2FA4535A553635ADCE6E1E3758E1FA02160E6F ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27066,7 +27066,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m9558F666F3D959D4010B7E2C34BE94BA258FAF26_gshared (GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9* __this, StyleList_1U5BU5D_t885A4235E783610A9B95259B89EE1C542D1C9834* ___0_array, StyleList_1_t5D2FA4535A553635ADCE6E1E3758E1FA02160E6F ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27132,7 +27132,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m384BD9EEDDD48BA09D3C447C5A740912A50CBA7C_gshared (GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9* __this, StyleList_1U5BU5D_t885A4235E783610A9B95259B89EE1C542D1C9834* ___0_array, StyleList_1_t5D2FA4535A553635ADCE6E1E3758E1FA02160E6F ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27198,7 +27198,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mF89B43E1E35CCEA4FAC5F8BD863775A4BD824CF6_gshared (GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27206,7 +27206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mF89B43
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9*)((GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m8F5A861D530D812130EDA5853D1A7AA4BA84265C_gshared (GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27222,7 +27222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mCA17D6A99C61EA05640173710103896EA8FF50B0_gshared (GenericEqualityComparer_1_t06213B028ABF5EA9FED8739E0AEC277DF594C9E9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27238,7 +27238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mCA17D6A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mFBC1841BA5FBE989EA59C3C7D8905B0DAA903438_gshared (GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC* __this, StyleList_1_t8C83D4A5BF11A124E8127624CA6DC7ED436CA356 ___0_x, StyleList_1_t8C83D4A5BF11A124E8127624CA6DC7ED436CA356 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -27252,7 +27252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mFBC184
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mBED8CD30B24807777F70F5AC7E3BEAF57F494C6C_gshared (GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC* __this, StyleList_1_t8C83D4A5BF11A124E8127624CA6DC7ED436CA356 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27266,7 +27266,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mB746E6C0FD5E725D45BC307F7138E02A89558A08_gshared (GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC* __this, StyleList_1U5BU5D_t0BFE5A4F20AA791B3BAEC6438F7EBF8F80D7DE3A* ___0_array, StyleList_1_t8C83D4A5BF11A124E8127624CA6DC7ED436CA356 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27332,7 +27332,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m7429CC4C72114D833231B374C67BC060E1067F26_gshared (GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC* __this, StyleList_1U5BU5D_t0BFE5A4F20AA791B3BAEC6438F7EBF8F80D7DE3A* ___0_array, StyleList_1_t8C83D4A5BF11A124E8127624CA6DC7ED436CA356 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27398,7 +27398,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m79D4EBD4149AA2704AFFB77A2FD3300B267B35D3_gshared (GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27406,7 +27406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m79D4EB
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC*)((GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m3301F2E9722CB084FA72BE50853C7C13C850343D_gshared (GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27422,7 +27422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mE8EC9E4DF88795EBF2F221A4FC9FFACCA40049E2_gshared (GenericEqualityComparer_1_t570CE5ADE2E9356D6CF8D23C83F7D325ED8966DC* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27438,7 +27438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mE8EC9E4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m64102512C03A39DFDDD260E4C62CD3B665DCE1BE_gshared (GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817* __this, StyleList_1_tABF3DD9EB70CDF59829924CBA26ACDD1FBDD4C3C ___0_x, StyleList_1_tABF3DD9EB70CDF59829924CBA26ACDD1FBDD4C3C ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -27452,7 +27452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m641025
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m7265BC1B81790EA884438E3D1C281C6918507B7D_gshared (GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817* __this, StyleList_1_tABF3DD9EB70CDF59829924CBA26ACDD1FBDD4C3C ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27466,7 +27466,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m8F689E5838DB3035361C8E5A035C19560DFFE862_gshared (GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817* __this, StyleList_1U5BU5D_t041937B5A62C5FF3C1049EB5251817FAA0AD362B* ___0_array, StyleList_1_tABF3DD9EB70CDF59829924CBA26ACDD1FBDD4C3C ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27532,7 +27532,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m73F138FDCA06345DA6F6B40F6C26926A796C480C_gshared (GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817* __this, StyleList_1U5BU5D_t041937B5A62C5FF3C1049EB5251817FAA0AD362B* ___0_array, StyleList_1_tABF3DD9EB70CDF59829924CBA26ACDD1FBDD4C3C ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27598,7 +27598,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m5D6E523295E1E8AD4ED9667EA6454FE685023168_gshared (GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27606,7 +27606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m5D6E52
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817*)((GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mA50CFB09F98DEAE826EA2D69486D1727A95F1A7F_gshared (GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27622,7 +27622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m382F1AF87AC9D3E20BEE3B41E834CD7A7A238F69_gshared (GenericEqualityComparer_1_t077116000B83F25DA3C8ABDC90505C48119D0817* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27638,7 +27638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m382F1AF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m6C639DD6FE34AF8CCBCB20342FB6471A004245E4_gshared (GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25* __this, StyleList_1_t15E0FB58274532956EB643D58F1F7B95BED5B7C4 ___0_x, StyleList_1_t15E0FB58274532956EB643D58F1F7B95BED5B7C4 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -27652,7 +27652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m6C639D
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m5F859401CA7BB435C4BF0EC65AC3633A58EA7EED_gshared (GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25* __this, StyleList_1_t15E0FB58274532956EB643D58F1F7B95BED5B7C4 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27666,7 +27666,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mDC06AE0707394B9FE2C34D6862BACDF688EDE9FD_gshared (GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25* __this, StyleList_1U5BU5D_t38561DFC2834BEDF77C7E1B00D6E1471896758D5* ___0_array, StyleList_1_t15E0FB58274532956EB643D58F1F7B95BED5B7C4 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27732,7 +27732,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m1CE4AA27E293B1238BCF54790DC5DA86F0572D1B_gshared (GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25* __this, StyleList_1U5BU5D_t38561DFC2834BEDF77C7E1B00D6E1471896758D5* ___0_array, StyleList_1_t15E0FB58274532956EB643D58F1F7B95BED5B7C4 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27798,7 +27798,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m3FB2F8BAC6F4C7CC84B7029ED3E7B3FEB508341E_gshared (GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27806,7 +27806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m3FB2F8
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25*)((GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mFD69B17B69E63ECCD94FDD40898B0B7F37D6D5C3_gshared (GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27822,7 +27822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m60F05C9CB48D29589A150A2A879B95788B4D9794_gshared (GenericEqualityComparer_1_t3739EA3A68E71014990ED22A552805E62B964F25* __this, const RuntimeMethod* method) 
 {
 	{
@@ -27838,7 +27838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m60F05C9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m819D6D727C87257B1CF7E04D782D6945BEDCC6BC_gshared (GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF* __this, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___0_x, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -27852,7 +27852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m819D6D
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mF74CA6FB1B36CDD9C12ECC4297467ECA43B5DC07_gshared (GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF* __this, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -27866,7 +27866,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mE522BBC2D0EFB5BC6418B4B59CFD0A8A84EA7989_gshared (GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF* __this, ValueTuple_1U5BU5D_t9FB5BE00DFD52CBD30706C8E4D1B688743C97DBD* ___0_array, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27932,7 +27932,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m5210C725D95CA6FD9D6DBA920C11D317703DA2CD_gshared (GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF* __this, ValueTuple_1U5BU5D_t9FB5BE00DFD52CBD30706C8E4D1B688743C97DBD* ___0_array, ValueTuple_1_tBFF71B8F72F9D197DB09CFE88F0C8C7FE97CEF75 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -27998,7 +27998,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m304B7F21E82E864B421740B5DBDE9CDB4CA6B8E8_gshared (GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28006,7 +28006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m304B7F
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF*)((GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m135BEF62E238A28AF6CD533EA988437AC82B6EA7_gshared (GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28022,7 +28022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mCD3445309C090C92E56DE97AB5822F4E0C6F23CE_gshared (GenericEqualityComparer_1_t6BD8FA7C645A0E9E3D05FA45E179ABB5412457BF* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28038,7 +28038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mCD34453
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mE1214649EEBD0D4278885BBFBEF3BA214B6DEF47_gshared (GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778* __this, ValueTuple_2_t2213E297C2566AA4A7DCFBBE72C1DD9A274C79F7 ___0_x, ValueTuple_2_t2213E297C2566AA4A7DCFBBE72C1DD9A274C79F7 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -28052,7 +28052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mE12146
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m010E8C9A5BC624F0A76D102BE0FDB9E4238F7104_gshared (GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778* __this, ValueTuple_2_t2213E297C2566AA4A7DCFBBE72C1DD9A274C79F7 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28066,7 +28066,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m1BFAAF25FBE4EE5C4CEEE267EAA3D4E0881EB168_gshared (GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778* __this, ValueTuple_2U5BU5D_tDF72D915A7D87E646152784F08D18AB2CB4F5EEB* ___0_array, ValueTuple_2_t2213E297C2566AA4A7DCFBBE72C1DD9A274C79F7 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28132,7 +28132,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m118E11FD1269AC4DE56DDC68065776917801061C_gshared (GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778* __this, ValueTuple_2U5BU5D_tDF72D915A7D87E646152784F08D18AB2CB4F5EEB* ___0_array, ValueTuple_2_t2213E297C2566AA4A7DCFBBE72C1DD9A274C79F7 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28198,7 +28198,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mE6FFB82C2F5DEDD1526781BC2CEDDF790EFC7C34_gshared (GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28206,7 +28206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mE6FFB8
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778*)((GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mC59D07A9CBFD433F3095EB4B9B0014FE5B5A97C1_gshared (GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28222,7 +28222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mDC1F21EC88A6797A39588D41024CEF40E2167852_gshared (GenericEqualityComparer_1_t3E6CADFD233A79CA5D59ECB0E50EFDA908E3E778* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28238,7 +28238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mDC1F21E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m1FDB6F6EFD3B5D7E877E9FE811CBD8590E533E54_gshared (GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED* __this, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___0_x, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -28252,7 +28252,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m1FDB6F
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m88298891C26DB8E0A55E869B3179CC514C8E7FDE_gshared (GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED* __this, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28266,7 +28266,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m95316E22E9B74F4E24A0C7F764AA8D2589780C00_gshared (GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED* __this, ValueTuple_2U5BU5D_t421388B3AA488C3C898278B339E982A32C074263* ___0_array, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28332,7 +28332,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_mBFC4BA0B7C8D245D2DE0B235410FCF1BF15BE441_gshared (GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED* __this, ValueTuple_2U5BU5D_t421388B3AA488C3C898278B339E982A32C074263* ___0_array, ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28398,7 +28398,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m8F0DE97443F37643B9D7083BD780B1A19F5DFEF2_gshared (GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28406,7 +28406,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m8F0DE9
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED*)((GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mFEA6F970A7E23BA747F0BA87BF4C2E935D7D8277_gshared (GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28422,7 +28422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mCD9FE8812E0A04BC103BF955F03E7A063B73B3E3_gshared (GenericEqualityComparer_1_tC861CCE5440E9689C1A12A5232CCC1CD302F0AED* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28438,7 +28438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mCD9FE88
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m9D0AFF7E6F236BC587BB94F3A912DCEDEAC21AB1_gshared (GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D* __this, ValueTuple_2_tD9DCD90C6490444503B936F72B6882564ED11825 ___0_x, ValueTuple_2_tD9DCD90C6490444503B936F72B6882564ED11825 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -28452,7 +28452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m9D0AFF
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m8C7E75548DC8CEBC97BF0AEBDE5100F1E6EA37C0_gshared (GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D* __this, ValueTuple_2_tD9DCD90C6490444503B936F72B6882564ED11825 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28466,7 +28466,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mA941839A9FBBBAA7F12DFF85BBB9ED29BE669576_gshared (GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D* __this, ValueTuple_2U5BU5D_tED54EDCEE1089B223CCE6E9AE4EC797AEB71B322* ___0_array, ValueTuple_2_tD9DCD90C6490444503B936F72B6882564ED11825 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28532,7 +28532,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m897E87D8364EDDA82FBFA5D13AFFBA04B84EABA0_gshared (GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D* __this, ValueTuple_2U5BU5D_tED54EDCEE1089B223CCE6E9AE4EC797AEB71B322* ___0_array, ValueTuple_2_tD9DCD90C6490444503B936F72B6882564ED11825 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28598,7 +28598,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mCA39EF8A778909224731FA11B094BA5AC2924AC2_gshared (GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28606,7 +28606,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mCA39EF
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D*)((GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m986E60050E189D7502BA69ABF3DE5CD8D18C503C_gshared (GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28622,7 +28622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m85B918AEC3A53AD7149B20E170C8299F3D95D703_gshared (GenericEqualityComparer_1_t8E3A9019CE822EF354CC80242E3F3421C6DDB24D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28638,7 +28638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m85B918A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m56BC524B9E9ABBD479D22C6261CAD85F50A678C2_gshared (GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B* __this, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___0_x, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -28652,7 +28652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m56BC52
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m4E2E6E59C86E6F05DCADF0EC2BB431B67F865AD9_gshared (GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B* __this, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28666,7 +28666,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m0B214B31760944A611A1AA130EA22E5A5C272A7C_gshared (GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B* __this, ValueTuple_2U5BU5D_t6AEB07B2CD72DD40FC6F472603E8DDA77AC17CDF* ___0_array, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28732,7 +28732,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_mBF7C370CF490A937C8FC10F40DFF7F386E406F9F_gshared (GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B* __this, ValueTuple_2U5BU5D_t6AEB07B2CD72DD40FC6F472603E8DDA77AC17CDF* ___0_array, ValueTuple_2_t00940F333D00C8F1D5D9E7B80A81F8DCCE9908FC ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28798,7 +28798,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mB225B7B4F79D47E495FBB0EE8B6718A1B54C105D_gshared (GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28806,7 +28806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mB225B7
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B*)((GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_mCEC755BBD394E07F6C20B185A949CED2F8C07324_gshared (GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28822,7 +28822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m83BCA0AEE390320F246377ED9FF7FE11A12A3309_gshared (GenericEqualityComparer_1_t9B7ADAE705752FAD48C4CB5C3FB95A86998B021B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -28838,7 +28838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m83BCA0A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m67DB15B422D99AA747F4F92581BE313BAA938310_gshared (GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5* __this, ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 ___0_x, ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -28852,7 +28852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m67DB15
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m21EFFFC720D4360A6E02A5ECC61A9C6CD92B7227_gshared (GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5* __this, ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -28866,7 +28866,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_m56E67F0D10DB81FC6435E994C2A5F903BFD32DEA_gshared (GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5* __this, ValueTuple_2U5BU5D_tF97FB44F5BFA9E76F9051FA1546553EA53C39FA7* ___0_array, ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28932,7 +28932,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_mBF1BD8F2BF6EE4CDDE24141136EBE53A7E0AA94F_gshared (GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5* __this, ValueTuple_2U5BU5D_tF97FB44F5BFA9E76F9051FA1546553EA53C39FA7* ___0_array, ValueTuple_2_tC290D1473EEF2960484F075957B2A1F638CD9119 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -28998,7 +28998,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mA9220E2130C4BF2179AD623EBEDE8D58DE289AB4_gshared (GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -29006,7 +29006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mA9220E
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5*)((GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m94D9973C6E87AEC6596CD56D9DCEC8041F7AFB40_gshared (GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29022,7 +29022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mD5B5A9EA8C9353FFCBBE83FA88A6FD268E9878DA_gshared (GenericEqualityComparer_1_tCBED1373E83A4A76ABF2B9BD59558BEF970E6EE5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29038,7 +29038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_mD5B5A9E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 11639
+// Method Definition Index: 11636
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mA0BA061F64A02F83809F5BE69F6FB95B25CD2CB3_gshared (GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A* __this, ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 ___0_x, ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 ___1_y, const RuntimeMethod* method) 
 {
 	{
@@ -29052,7 +29052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_mA0BA06
 		return L_3;
 	}
 }
-// Method Definition Index: 11640
+// Method Definition Index: 11637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m0BD453EC476FDFCD00DE0C03C27EC5388CEF0AF3_gshared (GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A* __this, ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -29066,7 +29066,7 @@ IL_000a:
 		return L_1;
 	}
 }
-// Method Definition Index: 11641
+// Method Definition Index: 11638
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_IndexOf_mF20ED7C098D2299D6CFA82AC2837C383DFFE3399_gshared (GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A* __this, ValueTuple_2U5BU5D_t08F87240E4D056F50F8CE13935C5D5DF5B8BD025* ___0_array, ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29132,7 +29132,7 @@ IL_005e:
 		return (-1);
 	}
 }
-// Method Definition Index: 11642
+// Method Definition Index: 11639
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_LastIndexOf_m1D1460EABDADC6D769723F822FEC6A08D7B5FD7A_gshared (GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A* __this, ValueTuple_2U5BU5D_t08F87240E4D056F50F8CE13935C5D5DF5B8BD025* ___0_array, ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 ___1_value, int32_t ___2_startIndex, int32_t ___3_count, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -29198,7 +29198,7 @@ IL_0060:
 		return (-1);
 	}
 }
-// Method Definition Index: 11643
+// Method Definition Index: 11640
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m9B5C608BC3CF5C14C8D0ECF327B71ED97473BEFA_gshared (GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	{
@@ -29206,7 +29206,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GenericEqualityComparer_1_Equals_m9B5C60
 		return (bool)((!(((RuntimeObject*)(GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A*)((GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A*)IsInstClass((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 5)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
-// Method Definition Index: 11644
+// Method Definition Index: 11641
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode_m0874C77CE3A2F28B53572A7E8314F7F996C13C9E_gshared (GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29222,7 +29222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GenericEqualityComparer_1_GetHashCode
 		return L_2;
 	}
 }
-// Method Definition Index: 11645
+// Method Definition Index: 11642
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m1D0C8B78F5544594E7F1989EF16C2AC3CD035FB9_gshared (GenericEqualityComparer_1_t6CA5D1B55524AA743693EE7FBBD33D28FE1D135A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29233,7 +29233,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericEqualityComparer_1__ctor_m1D0C8B7
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 3925
+// Method Definition Index: 3922
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -29242,7 +29242,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 2075
+// Method Definition Index: 2074
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Math_Clamp_mAB687477D3AAC0E7243D724F45626026980CE2FF_inline (int32_t ___0_value, int32_t ___1_min, int32_t ___2_max, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -29301,7 +29301,7 @@ IL_0017:
 		return L_10;
 	}
 }
-// Method Definition Index: 3913
+// Method Definition Index: 3910
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IntPtr__ctor_m4F9A9B80F01996B610D5AE4797F20B98ECD0A3D9_inline (intptr_t* __this, void* ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -29310,7 +29310,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IntPtr__ctor_m4F9A9B80F01996
 		return;
 	}
 }
-// Method Definition Index: 109929
+// Method Definition Index: 109921
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FunctionPointer_1__ctor_mE2BD136AA4DB860E4183D3293D3AE1A04B978DA3_gshared_inline (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -29321,7 +29321,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FunctionPointer_1__ctor_mE2B
 		return;
 	}
 }
-// Method Definition Index: 109930
+// Method Definition Index: 109922
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_m71D7FF781C694A7C4EE28362DFC78D8DDFE9A105_gshared_inline (FunctionPointer_1_tE1DC1EC606FB2242FB50357BBA39BB4AEDECFCB2* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29330,7 +29330,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Va
 		return L_0;
 	}
 }
-// Method Definition Index: 109929
+// Method Definition Index: 109921
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FunctionPointer_1__ctor_mC619E78A7A6A909670DFFE07825842FDA7D178F7_gshared_inline (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	{
@@ -29341,7 +29341,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FunctionPointer_1__ctor_mC61
 		return;
 	}
 }
-// Method Definition Index: 109930
+// Method Definition Index: 109922
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Value_mA1F1CB8C8E8B4B8030D49BFBEF55560DEB03FDD5_gshared_inline (FunctionPointer_1_t45E67205E6D22523A4FEF46DC7A859C5C14566BA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29350,52 +29350,52 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t FunctionPointer_1_get_Va
 		return L_0;
 	}
 }
-// Method Definition Index: 91982
+// Method Definition Index: 91974
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FutureTask_1_get_Debug_mBF56E461C1C92C4629F8E009C44F87E79333A583_gshared_inline (FutureTask_1_t3750AA89270AC5F91EBFD3937FBA27C60073CF08* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = __this->___U3CDebugU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 Func_2_Invoke_mC772F5644F5A7CBF344002CB51E114CA6BB305AE_gshared_inline (Func_2_t966F5D900458F6B28D90AB20C3524AB5C4164755* __this, intptr_t ___0_arg, const RuntimeMethod* method) 
 {
 	typedef ValueTuple_2_tE7E4B7EE05E7D0ED4F00086F47ABADA0D070BEA3 (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91982
+// Method Definition Index: 91974
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FutureTask_1_get_Debug_m526156130EC79735FCBB3356F1C475F0ED350573_gshared_inline (FutureTask_1_tC48AB1B2D11B04E6E163A15C9BEDB12FBD7187F9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = __this->___U3CDebugU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 Func_2_Invoke_m461DA173E585A5B78B6395C1F606A83DC5EFA8F0_gshared_inline (Func_2_t7711C485CBEC1EA6AB82B9E6A20F1C995A14BB08* __this, intptr_t ___0_arg, const RuntimeMethod* method) 
 {
 	typedef ValueTuple_2_tBC19AE73793D615D180F320AB46A541EF61AFBF9 (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 91982
+// Method Definition Index: 91974
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FutureTask_1_get_Debug_mCAE2B4632035B543D7C92D9BA8DA723BF8527232_gshared_inline (FutureTask_1_t156CBDB4E4CAC87A7CA0A650064103B4BDE11C8F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/cutyl/Desktop/EyeTracker-VR-main/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
+		//<source_info:C:/Users/ccusp_obtmuuz/Downloads/VIVE-OpenXR-Unity-master/VIVE-OpenXR-Unity-master/com.htc.upm.vive.openxr/Runtime/Toolkits/Future/FutureTask.cs:46>
 		bool L_0 = __this->___U3CDebugU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 897
+// Method Definition Index: 896
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Func_2_Invoke_m6F10A3A4C6189432B2AC866E46EF372E4197F570_gshared_inline (Func_2_t392C762142ED6986BE48DE5F99AE4E6D2C8EFA23* __this, intptr_t ___0_arg, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_arg, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 68776
+// Method Definition Index: 68773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mEC9469DBD91362D6135B8F5A81E90486BF328075_gshared_inline (const RuntimeMethod* method) 
 {
 	{
@@ -29403,7 +29403,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisU
 		return (int32_t)L_0;
 	}
 }
-// Method Definition Index: 68736
+// Method Definition Index: 68733
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* NativeSliceUnsafeUtility_GetUnsafePtr_TisGfxUpdateBufferRange_t2991435FD0E056C19D7E3D4E524C13493F244B4C_m96BF1DA7D07BBC9CBB70382DC0B3582F3E927D38_gshared_inline (NativeSlice_1_t2584A7E323E2DAA0F082C26AD9D0DE0FC661F85F ___0_nativeSlice, const RuntimeMethod* method) 
 {
 	{
@@ -29412,7 +29412,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* NativeSliceUnsafeUtility_Ge
 		return (void*)(L_1);
 	}
 }
-// Method Definition Index: 68699
+// Method Definition Index: 68696
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NativeSlice_1_get_Length_m9C484E0369ADC54B05A3EE2B955EF908A81AB4D3_gshared_inline (NativeSlice_1_t2584A7E323E2DAA0F082C26AD9D0DE0FC661F85F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -29420,7 +29420,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NativeSlice_1_get_Length_
 		return L_0;
 	}
 }
-// Method Definition Index: 68776
+// Method Definition Index: 68773
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisVertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_m9B300E87B5D26CCDE3FBB8E6CBF94E4C0B9FB5C5_gshared_inline (const RuntimeMethod* method) 
 {
 	{
