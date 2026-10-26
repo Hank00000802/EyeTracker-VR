@@ -1,3 +1,5 @@
+# 目前最新版在lan-multiplayer分支中
+
 # VIVE Focus Vision 眼動資料擷取系統（Unity）
 
 本專案是一個以 **HTC VIVE Focus Vision** 為目標裝置的 Unity 眼動追蹤研究原型，使用 **VIVE OpenXR Plugin** 取得眼動資料，並將資料記錄為 CSV，供 HCI、VR 使用者研究與後續 AOI／fixation 分析使用。
